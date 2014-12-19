@@ -49,6 +49,16 @@
     <string name="system_app_remover">System app remover</string>
     <string name="dialer_title">Dialer</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Hardware keys</string>
      <!-- Buttons backlight timeout -->
