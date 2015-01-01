@@ -314,4 +314,8 @@
     <string name="battery_percent_outside">Снаружи</string>
     <string name="battery_percent_inside">Внутри</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вибрация при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при касании плиток</string>
+
 </resources>
