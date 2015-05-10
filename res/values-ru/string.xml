@@ -240,4 +240,8 @@
     <string name="allow_incall_home_title">Кнопка «Домой» при звонке</string>
     <string name="allow_incall_home_summary">Разрешить использование кнопки «Домой» при входящем звонке</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Скрыть на экране блокировки</string>
+    <string name="power_menu_hide_on_secure_summary">Скрывать меню действий кнопки питание на заблокированном экране</string>
+
 </resources>

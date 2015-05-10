@@ -290,4 +290,8 @@
     <string name="allow_incall_home_title">Home button when ringing</string>
     <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lockscreen</string>
+    <string name="power_menu_hide_on_secure_summary">Hides the global actions menu on secure lockscreen</string>
+
 </resources>
