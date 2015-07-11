@@ -25,4 +25,10 @@
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
 
+    <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.syberia.settings.fragments.VolumeStepsFragment" />
+
 </PreferenceScreen>
