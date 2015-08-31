@@ -18,4 +18,9 @@
 <resources>
     <attr name="customPreferenceStyle" format="reference" />
 
+    <!-- Value to pass to callback when restore button is pressed -->
+    <declare-styleable name="ColorPreference">
+        <attr name="defaultColorValue" format="integer" />
+    </declare-styleable>
+
 </resources>
