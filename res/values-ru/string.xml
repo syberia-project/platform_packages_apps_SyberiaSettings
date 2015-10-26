@@ -473,4 +473,10 @@
     <string name="one_hand_mode_title">Включить режим одной руки</string>
     <string name="one_hand_mode_summary">Для активации сделать свайп влево или вправо на панели навигации</string>
 
+    <!-- Volume rocker cursor control -->
+    <string name="volume_key_cursor_control_title">Кнопки громкости управляют курсором</string>
+    <string name="volume_key_cursor_control_off">Откл.</string>
+    <string name="volume_key_cursor_control_on">Громкость вверх/вниз двигает курсор влево/вправо</string>
+    <string name="volume_key_cursor_control_on_reverse">Громкость вверх/вниз двигает курсор вправо/влево</string>
+
 </resources>

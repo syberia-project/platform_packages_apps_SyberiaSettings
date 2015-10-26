@@ -487,4 +487,9 @@
     <string name="one_hand_mode_title">Enable using one-hand mode</string>
     <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
 
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 </resources>
