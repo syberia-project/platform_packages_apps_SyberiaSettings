@@ -56,6 +56,11 @@
             android:value="com.android.settings.Settings$NotificationAppListActivity" />
     </Preference>
 
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="status_bar_locked_on_secure_keyguard"
+        android:title="@string/block_on_secure_keyguard_title"
+        android:summary="@string/block_on_secure_keyguard_summary"
+        android:defaultValue="false"/>
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"

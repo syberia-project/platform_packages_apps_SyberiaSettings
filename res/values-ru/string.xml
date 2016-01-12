@@ -629,4 +629,8 @@
     <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
     <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
 
+    <!-- Disable OS on lockscreen -->
+    <string name="block_on_secure_keyguard_title">Отключить быстрые настройки</string>
+    <string name="block_on_secure_keyguard_summary">Отключить быстрые настройки на заблокированном экране</string>
+
 </resources>
