@@ -256,4 +256,8 @@
     <string name="lockscreen_show_status_bar_title">Строка состояния</string>
     <string name="lockscreen_show_status_bar_summary">Показывать строку состояния на экране блокировки</string>
 
+    <!-- Show QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
+    <string name="show_qs_on_secure_keyguard_summary">Показывать быстрые настройки на защищенном экране блокировки</string>
+
 </resources>
