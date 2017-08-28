@@ -92,4 +92,24 @@
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
 
+    <string name="power_button_category_title">Кнопка питания</string>
+
+    <string name="global_actions_title">Меню кнопки питания</string>
+    <string name="global_actions_summary">Настройка элементов в меню кнопки питания</string>
+    <string name="global_actions_power">Выключение</string>
+    <string name="global_actions_restart">Перезагрузка</string>
+    <string name="global_actions_airplane">Режим полёта</string>
+    <string name="global_actions_settings">Настройки</string>
+    <string name="global_actions_lockdown">Блокировка</string>
+    <string name="global_actions_soundpanel">Панель громкости</string>
+    <string name="global_actions_users">Пользователи</string>
+    <string name="global_actions_screenshot">Снимок экрана</string>
+    <string name="global_actions_screenrecord">Запись экрана</string>
+    <string name="global_actions_flashlight">Фонарик</string>
+    <string name="global_actions_emergency">Чрезвычайная ситуация</string>
+    <string name="global_actions_advanced_reboot_title">Расширенная перезагрузка</string>
+    <string name="global_actions_advanced_reboot_summary">Включить опции расширенной перезагрузки в меню кнопки питания</string>
+    <string name="global_actions_max_columns_title">Максимальное количество элементов</string>
+    <string name="global_actions_max_columns_summary">Установить максимальное количество элементов до перемещения в расширенное меню</string>
+
 </resources>
