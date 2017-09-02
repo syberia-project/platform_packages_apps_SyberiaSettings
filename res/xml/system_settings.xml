@@ -53,6 +53,11 @@
     </Preference>
 
     <Preference
+        android:key="wakelock_blocker"
+        android:fragment="com.syberia.settings.fragments.WakeLockBlocker"
+        android:title="@string/wakelock_blocker_title" />
+
+    <Preference
         android:key="inactive_apps"
         android:title="@string/inactive_apps_title"
         android:icon="@drawable/ic_inactive_apps"

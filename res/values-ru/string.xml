@@ -606,4 +606,13 @@
     <string name="qs_edit_title">Иконка редактирования</string>
     <string name="qs_edit_summary">Показывать иконку редактирования плиток в панели быстрых настроек</string>
 
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
+    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные *wakelocks*</string>
+    <string name="wakelock_blocker_reload">Сбросить</string>
+    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
+
 </resources>
