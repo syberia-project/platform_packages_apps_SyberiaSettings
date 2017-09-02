@@ -656,4 +656,13 @@
 
     <string name="ambient_display_custom_title">Активный дисплей</string>
 
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блокировка вэйклоков</string>
+    <string name="wakelock_blocker_summary">Блокировка системных вэйклоков</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные вэйклоки</string>
+    <string name="wakelock_blocker_reload">Перезагрузить</string>
+    <string name="wakelock_blocker_warning_title">Действовать с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка вэйклоков может вызвать нестабильность, сбои или потерю данных</string>
+
 </resources>
