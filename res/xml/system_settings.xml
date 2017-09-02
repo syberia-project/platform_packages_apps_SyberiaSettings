@@ -58,6 +58,11 @@
         android:title="@string/wakelock_blocker_title" />
 
     <Preference
+        android:id="@+id/alarm_blocker"
+        android:fragment="com.syberia.settings.fragments.AlarmBlocker"
+        android:title="@string/alarm_blocker" />
+
+    <Preference
         android:key="inactive_apps"
         android:title="@string/inactive_apps_title"
         android:icon="@drawable/ic_inactive_apps"
