@@ -828,4 +828,10 @@
     <string name="volume_panel_p404_val" translatable="false">co.potatoproject.plugin.volume.p404</string>
     <string name="volume_panel_ssos_val" translatable="false">co.potatoproject.plugin.volume.ssos</string>
 
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+
 </resources>
