@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Настройки Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
@@ -748,5 +748,11 @@
     <string name="volume_panel_oos">Стиль Oxygen OS</string>
     <string name="volume_panel_p404">Стиль P404</string>
     <string name="volume_panel_ssos">Стиль ShapeShift</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
 
 </resources>
