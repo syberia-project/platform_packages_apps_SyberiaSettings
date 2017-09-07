@@ -146,6 +146,8 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         mTitle = (TextView) view.findViewById(android.R.id.title);
 
         mSeekBar.setEnabled(isEnabled());
+        view.setDividerAllowedAbove(false);
+        //view.setDividerAllowedBelow(false);
     }
 
     public void setMax(int max) {
