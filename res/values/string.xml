@@ -30,6 +30,10 @@
     <string name="lockscreen_category_title">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
 
+    <string name="systemui_tuner_title">Statusbar items</string>
+    <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
+    <string name="navbar_title">Navigation Bar</string>
+
     <string name="general_tweaks_title">General Tweaks</string>
     <string name="general_tweaks_summary">Basic system settings of your device</string>
     <string name="buttons_title">Buttons</string>
@@ -53,5 +57,9 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-</resources>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
 
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar buttons</string>
+</resources>

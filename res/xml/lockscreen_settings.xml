@@ -19,5 +19,4 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/lockscreen_category_title">
 
-
 </PreferenceScreen>

@@ -34,4 +34,9 @@
     <string name="longpress_info">Удерживайте, чтобы сохранить цвет</string>
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Редактирование иконок</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
 </resources>
