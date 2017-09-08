@@ -21,40 +21,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/statusbar_category_title">
 
-    <Preference
-        android:icon="@drawable/ic_systemui_tuner_statusbaritems"
-        android:key="systemui_tuner_statusbar"
-        android:summary="@string/systemui_tuner_summary"
-        android:title="@string/systemui_tuner_title">
-
-        <!-- intent
-            android:action="android.intent.action.MAIN"
-            android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity"
-            android:targetPackage="com.android.systemui" / -->
+     <Preference
+            android:title="@string/statusbar_items_title" 
+    	    android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
-
-    <Preference
-        android:icon="@drawable/ic_statusbar_clock"
-        android:key="statusbar_clock_options"
-        android:summary="@string/statusbar_clock_summary"
-        android:title="@string/statusbar_clock_title" />
-
-    <Preference
-        android:icon="@drawable/ic_battery_settings"
-        android:key="battery_options"
-        android:summary="@string/battery_style_summary"
-        android:title="@string/battery_style_title" />
-
-    <Preference
-        android:icon="@drawable/ic_traffic"
-        android:key="traffic_options"
-        android:summary="@string/traffic_options_summary"
-        android:title="@string/traffic_options_title" />
-
-    <Preference
-        android:icon="@drawable/ic_misc_extensions"
-        android:key="misc_extensions"
-        android:summary="@string/misc_extensions_summary"
-        android:title="@string/misc_extensions_title" />
 
 </PreferenceScreen>

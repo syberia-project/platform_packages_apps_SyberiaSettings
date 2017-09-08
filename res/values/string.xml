@@ -40,6 +40,7 @@
     <string name="traffic_options_summary">Display Traffic information</string>
     <string name="misc_extensions_title">Misc extensions</string>
     <string name="misc_extensions_summary"></string>
+    <string name="navbar_title">Navigation Bar</string>
 
     <string name="general_tweaks_title">General Tweaks</string>
     <string name="animations_title">Animations</string>
@@ -147,4 +148,13 @@
     <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar buttons</string>
 </resources>

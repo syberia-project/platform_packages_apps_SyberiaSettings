@@ -21,4 +21,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/panels_category_title">
 
+    <Preference
+        android:fragment="com.syberia.settings.fragments.NavBarSettings"
+        android:icon="@drawable/ic_systemui_tuner_statusbaritems"
+        android:key="navbar"
+        android:title="@string/navbar_title" />
+
 </PreferenceScreen>

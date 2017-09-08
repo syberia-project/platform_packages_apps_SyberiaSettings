@@ -63,4 +63,13 @@
     <string name="screen_off_animation_default">По умолчанию</string>
     <string name="screen_off_animation_crt">ЭЛТ</string>
     <string name="screen_off_animation_scale">Масштаб</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Редактирование иконок</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
 </resources>
