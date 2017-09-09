@@ -93,4 +93,7 @@
     <string name="haptic_on_action_title">Вибрация по действию</string>
     <string name="haptic_on_action_summary">Вибрация по действию, а не нажатию</string>
 
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Управление плеером</string>
+    <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
 </resources>
