@@ -62,4 +62,8 @@
      <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Управление плеером</string>
+    <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
 </resources>

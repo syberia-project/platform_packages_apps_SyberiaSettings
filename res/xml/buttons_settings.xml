@@ -22,4 +22,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
 
+    <PreferenceCategory
+            android:key="hardware_keys"
+            android:title="@string/hardware_keys_category" >
+
+     <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="volume_button_music_control"
+            android:summary="@string/volume_rocker_music_controls_summary"
+            android:title="@string/volume_rocker_music_controls_title"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
