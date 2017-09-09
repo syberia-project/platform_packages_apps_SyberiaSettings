@@ -121,4 +121,8 @@
 
     <string name="haptic_on_action_title">Haptic on action</string>
     <string name="haptic_on_action_summary">Haptic feedback on action instead on press</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 </resources>
