@@ -236,4 +236,8 @@
     <string name="status_bar_battery_text_charging_title">Проценты батареи на зарядке</string>
     <string name="status_bar_battery_text_charging_summary">Всегда отображать проценты во время зарядки</string>
 
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка «Домой» при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки «Домой» при входящем звонке</string>
+
 </resources>
