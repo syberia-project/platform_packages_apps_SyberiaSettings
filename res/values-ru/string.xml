@@ -111,4 +111,7 @@
     <string name="dialer_title">Телефон</string>
     <string name="dialer_summary">Дополнительные настройки входящих вызовов</string>
 
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Пробуждение при зарядке</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
 </resources>

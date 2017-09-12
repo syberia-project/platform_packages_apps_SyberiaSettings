@@ -140,4 +140,7 @@
     <string name="dialer_title">Dialer</string>
     <string name="dialer_summary">Advanced incoming call settings</string>
 
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
 </resources>
