@@ -82,4 +82,7 @@
     <string name="fprint_error_vib_title">Вибрация при ошибке авторизации</string>
     <string name="fprint_error_vib_summary">Вибрировать при ошибке авторизации отпечатком пальца</string>
 
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Пробуждение при зарядке</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
 </resources>
