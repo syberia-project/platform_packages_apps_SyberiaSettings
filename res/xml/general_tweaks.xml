@@ -28,6 +28,11 @@
         android:defaultValue="0" />
 
     <Preference
+        android:key="charging_light"
+        android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
+        android:title="@string/battery_light_settings" />
+
+    <Preference
         android:key="vol_steps"
         android:title="@string/volume_steps_fragment_title"
         android:summary="@string/volume_steps_summary"
