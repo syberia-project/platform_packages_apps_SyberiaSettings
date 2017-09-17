@@ -332,8 +332,8 @@
     <string name="lockscreen_weather_omni_style_title">Omni style</string>
     <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
 
-    <!-- Statusbar net monitor -->
     <string name="traffic_title">Traffic indicators</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
     <string name="network_traffic_state_title">Network traffic</string>
     <string name="network_traffic">Network traffic</string>
     <string name="network_traffic_location">Traffic indicator placement</string>

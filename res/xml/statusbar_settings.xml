@@ -27,6 +27,11 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
+    <Preference
+        android:key="traffic"
+        android:fragment="com.syberia.settings.fragments.Traffic"
+        android:title="@string/traffic_title" />
+
      <Preference
         android:fragment="com.syberia.settings.fragments.ClockOptions"
         android:icon="@drawable/ic_status_bar_clock"
