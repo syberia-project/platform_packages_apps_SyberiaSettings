@@ -17,6 +17,8 @@
     <string name="general_tweaks_title">Основные настройки</string>
     <string name="general_tweaks_summary">Основные системные настройки вашего устройства</string>
 
+    <string name="notifications_title">Уведомления</string>
+
     <string name="panel_notifications_title">Панель уведомлений</string>
     <string name="notifications_category_summary">Настроить функционал панели уведомлений</string>
 
@@ -352,5 +354,16 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Индикация батареи</string>
+    <string name="battery_light_enable">Включена</string>
+    <string name="battery_light_allow_on_dnd_title">Включить светодиод в режиме «Не беспокоить»</string>
+    <string name="battery_light_low_blinking_title">Мигать светодиодом при низком уровне заряда</string>
+    <string name="battery_light_cat">Цвет светодиода во время зарядки</string>
+    <string name="battery_light_low_color">Батарея разряжена</string>
+    <string name="battery_light_medium_color">Заряжается</string>
+    <string name="battery_light_full_color">Заряжена (90%)</string>
+    <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
 
 </resources>
