@@ -175,8 +175,21 @@
     <string name="fprint_sucess_vib_summary">Вибрировать при успешной авторизации отпечатком пальца</string>
     <string name="fprint_error_vib_title">Вибрация при ошибке авторизации</string>
     <string name="fprint_error_vib_summary">Вибрировать при ошибке авторизации отпечатком пальца</string>
-    
+
     <!-- Notifications panel -->
     <string name="notifications_footer_message">Скоро здесь будет кое-что итересное.</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_title">Меню кнопки питания</string>
+    <string name="powermenu_summary">Настройка элементов меню кнопки питания</string>
+    <string name="powermenu_screenshot">Снимок экрана</string>
+    <string name="powermenu_power">Выключение</string>
+    <string name="powermenu_restart">Перезагрузка</string>
+    <string name="powermenu_airplane">Режим полета</string>
+    <string name="powermenu_settings">Ярлык настроек</string>
+    <string name="powermenu_lockdown">Блокировка устройства</string>
+    <string name="powermenu_soundpanel">Звуковая панель</string>
+    <string name="powermenu_users">Пользователь</string>
+    <string name="powermenu_logout">Выход из системы</string>
 
 </resources>
