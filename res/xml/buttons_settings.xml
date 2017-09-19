@@ -22,6 +22,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
 
+
     <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category">
@@ -39,5 +40,12 @@
             android:key="backlight_timeout"
             android:persistent="false"
             android:title="@string/backlight_timeout_title" />
+
+   <Preference
+	     android:key="power_menu"
+             android:title="@string/power_menu_title"
+             android:summary="@string/power_menu_title_summary"
+	     android:fragment="com.syberia.settings.fragments.PowerMenuSettings" />
+
     </PreferenceCategory>
 </PreferenceScreen>
