@@ -159,4 +159,10 @@
     <string name="lockscreen_weather_omni_style_title">Стиль Omni</string>
     <string name="lockscreen_weather_pixel_style_title">Стиль Pixel</string>
 
+    <!-- fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Вибрация при авторизации</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешной авторизации отпечатком пальца</string>
+    <string name="fprint_error_vib_title">Вибрация при ошибке авторизации</string>
+    <string name="fprint_error_vib_summary">Вибрировать при ошибке авторизации отпечатком пальца</string>
+
 </resources>
