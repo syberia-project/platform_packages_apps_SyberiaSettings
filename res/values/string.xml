@@ -318,4 +318,10 @@
     <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
     <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
 
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
+    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+
 </resources>
