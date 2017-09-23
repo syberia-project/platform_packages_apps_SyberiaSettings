@@ -75,4 +75,11 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
     <string name="volume_rocker_wake_summary">Вывести устройство из спящего режима нажатием кнопок громкости</string>
+
+    <!-- fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Вибрация при авторизации</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешной авторизации отпечатком пальца</string>
+    <string name="fprint_error_vib_title">Вибрация при ошибке авторизации</string>
+    <string name="fprint_error_vib_summary">Вибрировать при ошибке авторизации отпечатком пальца</string>
+
 </resources>
