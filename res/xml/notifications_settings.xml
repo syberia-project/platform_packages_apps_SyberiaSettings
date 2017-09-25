@@ -42,4 +42,10 @@
         android:summary="@string/qs_show_auto_brightness_summary"
         android:defaultValue="true" />
 
+    <!-- Heads up -->
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
+
 </PreferenceScreen>
