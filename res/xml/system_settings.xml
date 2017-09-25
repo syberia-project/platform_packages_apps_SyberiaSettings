@@ -44,8 +44,12 @@
 
     <Preference
         android:icon="@drawable/ic_settings_appops"
-        android:key="privacy_guard_manager"
-        android:title="@string/app_ops_category" />
+        android:key="app_ops_settings"
+        android:title="@string/app_ops_category" >
+	<intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.applications.appops.AppOpsSummary" />
+    </Preference>
 
     <Preference
         android:icon="@drawable/ic_system_app_remover"
