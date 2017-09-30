@@ -287,6 +287,10 @@ public class ColorPickerPreference extends Preference implements
         onColorChanged(color);
     }
 
+    public void setDefaultColor(int color) {
+        mDefValue = color;
+    }
+
     /**
      * For custom purposes. Not used by ColorPickerPreferrence
      *
