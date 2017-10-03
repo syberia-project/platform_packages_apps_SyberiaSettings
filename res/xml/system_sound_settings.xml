@@ -29,12 +29,14 @@
         android:summary="@string/volume_steps_summary" />
         
     <!-- Headset -->
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
+    <com.syberia.settings.preference.SystemSettingListPreference
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
-        android:summary="@string/headset_connect_player_summary"
-        android:defaultValue="false"
-        android:order="-129"/>
+	android:dialogTitle="@string/gaming_mode_ringer_title"
+        android:entries="@array/headset_connect_player_entries"
+        android:entryValues="@array/headset_connect_player_values"
+	android:defaultValue="0"
+	android:summary="%s" />
 
     <!-- Increasing ring -->
     <com.syberia.settings.preference.SystemSettingSwitchPreference
