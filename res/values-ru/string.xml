@@ -280,7 +280,12 @@
 
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Запустить музыкальное приложение</string>
-    <string name="headset_connect_player_summary">Запустить музыкальное приложение когда подключены наушники</string>
+    <string name="headset_connect_player_disabled">Отключено</string>
+    <string name="headset_connect_player_wired">Когда подключена проводная гарнитура</string>
+    <string name="headset_connect_player_bt_no_carkit">Когда подключена bluetooth (не Car Kit) гарнитура</string>
+    <string name="headset_connect_player_bt">Когда подключена bluetooth гарнитура</string>
+    <string name="headset_connect_player_both_no_carkit">Когда подключена проводная или bluetooth (не Car Kit) гарнитура</string>
+    <string name="headset_connect_player_both">Когда подключена проводная или bluetooth гарнитура</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Постепенное увеличение громкости звонка</string>
