@@ -57,6 +57,12 @@
     </Preference>
 
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
+
     <com.syberia.settings.preference.CustomSeekBarPreference
         android:key="qs_panel_bg_alpha"
         android:title="@string/qs_panel_alpha_title"

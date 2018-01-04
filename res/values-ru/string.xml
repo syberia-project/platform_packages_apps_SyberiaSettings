@@ -464,5 +464,9 @@
     <string name="lockscreen_weather_show_city_summary">Показывать название города слева от изображения</string>
     <string name="lockscreen_weather_show_temp_title">Отображать температуру</string>
     <string name="lockscreen_weather_show_temp_summary">Показывать текущую температуру справа от изображения</string>
-    
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
+
 </resources>
