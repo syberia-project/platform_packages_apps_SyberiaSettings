@@ -349,4 +349,8 @@
     <string name="clock_date_left">Слева от часов</string>
     <string name="clock_date_position">Размещение даты</string>
 
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
+
 </resources>
