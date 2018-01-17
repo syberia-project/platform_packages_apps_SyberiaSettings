@@ -633,4 +633,24 @@
     <string name="block_on_secure_keyguard_title">Отключить быстрые настройки</string>
     <string name="block_on_secure_keyguard_summary">Отключить быстрые настройки на заблокированном экране</string>
 
+    <string name="status_bar_custom_header_title">Пользовательский заголовок изображения</string>
+    <string name="status_bar_custom_header_summary">Показывать изображение в заголовке панели уведомления</string>
+    <string name="daylight_header_pack_title">Пакет изображений</string>
+    <string name="status_bar_custom_header_shadow_title">Тень изображения в заголовке</string>
+    <string name="status_bar_custom_header_shadow_summary">Затемнить изображение заголовка для лучшей видимости на ярких фонах</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">Статический</string>
+    <string name="daylight_header_provider_title">Динамический</string>
+    <string name="custom_header_provider_title">Изменение изображений</string>
+    <string name="custom_header_browse_title">Обзор установленных изображений</string>
+    <string name="custom_header_browse_summary">Используйте длительное нажатие на изображение для установки его в заголовок</string>
+    <string name="style_enabled_summary">Пользовательский заголовок изображения ВКЛЮЧЕН</string>
+    <string name="style_disabled_summary">Пользовательский заголовок изображения ОТКЛЮЧЕН</string>
+    <string name="header_provider_disabled">Отключён</string>
+    <string name="custom_header_title">Заголовок</string>
+    <string name="qs_appearance_category">Заголовки</string>
+    <string name="qs_misc_category">Разное</string>
+    <string name="file_header_select_title">Выбрать изображение из галереи</string>
+    <string name="file_header_select_summary">Выбрать изображение из хранилища</string>
+    <string name="file_header_provider_title">Статическое изображение</string>
 </resources>
