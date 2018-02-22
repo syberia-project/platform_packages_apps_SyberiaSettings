@@ -142,6 +142,8 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         }
         mSeekBar.setProgress(mCurrentValue - mMin);
         mTitle = (TextView) view.findViewById(android.R.id.title);
+
+        mSeekBar.setEnabled(isEnabled());
     }
 
     public void setMax(int max) {
