@@ -19,6 +19,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/panel_notifications_title">
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
@@ -45,5 +46,13 @@
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications_title"
         android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
+
+    <com.syberia.settings.preference.CustomSeekBarPreference
+        android:key="qs_panel_bg_alpha"
+        android:title="@string/qs_panel_alpha_title"
+        android:max="255"
+        settings:min="0"
+        settings:units=""
+        android:persistent="false" />
 
 </PreferenceScreen>

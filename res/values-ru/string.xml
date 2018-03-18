@@ -275,4 +275,8 @@
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Ответ кнопками громкости</string>
     <string name="volume_answer_call_summary">Ответить на звонок нажатием кнопок громкости</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Непрозрачность</string>
+
 </resources>

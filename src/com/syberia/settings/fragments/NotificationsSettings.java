@@ -36,14 +36,18 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
+import com.syberia.settings.preference.CustomSeekBarPreference;
+
 
 public class NotificationsSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener{
 
 	private static final String QUICK_PULLDOWN = "quick_pulldown";
 	private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+	private static final String OMNI_QS_PANEL_BG_ALPHA = "qs_panel_bg_alpha";
 
-    private ListPreference mSmartPulldown;
+	private ListPreference mSmartPulldown;
 	private ListPreference mQuickPulldown;
+	private CustomSeekBarPreference mQsPanelAlpha;
 
 	@Override
     public void onCreate(Bundle bundle) {
@@ -64,6 +68,12 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
         int smartPulldown = Settings.System.getInt(resolver, Settings.System.QS_SMART_PULLDOWN, 0);
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
+
+	mQsPanelAlpha = (CustomSeekBarPreference) findPreference(OMNI_QS_PANEL_BG_ALPHA);
+        int qsPanelAlpha = Settings.System.getIntForUser(resolver,
+                Settings.System.OMNI_QS_PANEL_BG_ALPHA, 255, UserHandle.USER_CURRENT);
+        mQsPanelAlpha.setValue(qsPanelAlpha);
+        mQsPanelAlpha.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -79,6 +89,12 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
             int smartPulldown = Integer.valueOf((String) newValue);
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
+            return true;
+        } else if (preference == mQsPanelAlpha) {
+            int bgAlpha = (Integer) newValue;
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.OMNI_QS_PANEL_BG_ALPHA, bgAlpha,
+                    UserHandle.USER_CURRENT);
             return true;
         }
         return false;
