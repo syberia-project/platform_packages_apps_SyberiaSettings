@@ -519,15 +519,27 @@
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
     
-    <!-- Tiles animation style  -->
+    <!-- Tiles animation/interpolator style  -->
+    <string name="qs_animation_options_title">Анимации</string>
     <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
     <string name="qs_tile_animation_duration_title">Продолжительность анимации</string>
-    <string name="qs_tile_animation_style_off">без анимации</string>
-    <string name="qs_tile_animation_style_flip">переворот</string>
-    <string name="qs_tile_animation_style_rotate">поворот</string>
-    <string name="qs_tile_animation_duration_low">медленно</string>
-    <string name="qs_tile_animation_duration_default">по умолчанию</string>
-    <string name="qs_tile_animation_duration_fast">быстро</string>
-    <string name="qs_set_animation_style">Анимация установлена на %1$s</string>
-    <string name="qs_set_animation_duration">Продолжительность анимации установлена на %1$s</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполятор анимации</string>
+    <string name="qs_tile_animation_style_off">Без анимации</string>
+    <string name="qs_tile_animation_style_flip">Переворот</string>
+    <string name="qs_tile_animation_style_rotate">Поворот</string>
+    <string name="qs_tile_animation_duration_low">Медленно</string>
+    <string name="qs_tile_animation_duration_default">По умолчанию</string>
+    <string name="qs_tile_animation_duration_fast">Быстро</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейный</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорять</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедлять</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорять и замедлять</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Подпрыгивать</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Преувеличить</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Опережать</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Опережать и преувеличить</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+
 </resources>
