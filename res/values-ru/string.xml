@@ -518,4 +518,16 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
+    
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
+    <string name="qs_tile_animation_duration_title">Продолжительность анимации</string>
+    <string name="qs_tile_animation_style_off">без анимации</string>
+    <string name="qs_tile_animation_style_flip">переворот</string>
+    <string name="qs_tile_animation_style_rotate">поворот</string>
+    <string name="qs_tile_animation_duration_low">медленно</string>
+    <string name="qs_tile_animation_duration_default">по умолчанию</string>
+    <string name="qs_tile_animation_duration_fast">быстро</string>
+    <string name="qs_set_animation_style">Анимация установлена на %1$s</string>
+    <string name="qs_set_animation_duration">Продолжительность анимации установлена на %1$s</string>
 </resources>
