@@ -44,7 +44,7 @@
     <string name="animations_title">Animations</string>
     <string name="buttons_title">Buttons</string>
     <string name="recents_ui_title">Recents UI</string>
-    <string name="app_ops_category">App Ops</string>
+    <string name="app_ops_category">Privacy Guard</string>
     <string name="system_app_remover">System app remover</string>
     <string name="dialer_title">Dialer</string>
 

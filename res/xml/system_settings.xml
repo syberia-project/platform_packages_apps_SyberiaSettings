@@ -44,13 +44,12 @@
         android:key="recents_ui"
         android:title="@string/recents_ui_title" />
 
+      <!-- Privacy Guard -->
     <Preference
         android:icon="@drawable/ic_settings_appops"
-        android:key="app_ops_settings"
+        android:key="privacy_guard_manager"
+        android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
         android:title="@string/app_ops_category" >
-	<intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.settings"
-                android:targetClass="com.android.settings.applications.appops.AppOpsSummary" />
     </Preference>
 
     <Preference
