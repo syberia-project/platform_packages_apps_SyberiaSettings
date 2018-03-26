@@ -294,4 +294,8 @@
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
 
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Statusbar</string>
+    <string name="lockscreen_show_status_bar_summary">Show statusbar on the lockscreen</string>
+
 </resources>
