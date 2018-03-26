@@ -69,5 +69,11 @@
         android:summary="@string/network_traffic_hidearrow_summary"
         android:dependency="network_traffic_state"
         android:defaultValue="false" />
+	
+     <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_show_status_bar"
+        android:title="@string/lockscreen_show_status_bar_title"
+        android:summary="@string/lockscreen_show_status_bar_summary"
+        android:defaultValue="true" />
 
 </PreferenceScreen>

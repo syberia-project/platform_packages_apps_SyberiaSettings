@@ -252,4 +252,8 @@
     <string name="status_bar_battery_text_charging_title">Проценты батареи на зарядке</string>
     <string name="status_bar_battery_text_charging_summary">Всегда отображать проценты во время зарядки</string>
 
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Строка состояния</string>
+    <string name="lockscreen_show_status_bar_summary">Показывать строку состояния на экране блокировки</string>
+
 </resources>
