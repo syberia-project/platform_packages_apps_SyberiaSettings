@@ -137,4 +137,8 @@
     <string name="flash_on_call_category">Пульсация фонариком</string>
     <string name="flash_on_call_title">Пульсация фонариком при входящем вызове</string>
     <string name="flash_on_call_delay_title">Частота пульсации фонарика</string>
+
+     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Скриншот жестом</string>
+    <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
 </resources>
