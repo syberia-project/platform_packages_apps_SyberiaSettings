@@ -551,4 +551,12 @@
     <string name="qs_vibrate_title">Вибрация при нажатии</string>
     <string name="qs_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
 
+    <!-- Screen Stabilization -->
+    <string name="screen_stabilization_title">Стабилизация экрана</string>
+    <string name="screen_stabilization_enable">Включить стабилизацию экрана</string>
+    <string name="screen_stabilization_enable_summary">Оставьте значения ниже, как есть, если вы не понимаете, что они означают.</string>
+    <string name="stabilization_velocity_friction_title">Фрикционная скорость</string>
+    <string name="stabilization_position_friction_title">Фрикционная позиция</string>
+    <string name="stabilization_velocity_amplitude_title">Амплитуда скорости</string>
+
 </resources>
