@@ -697,4 +697,13 @@
     <string name="edge_gestures_back_screen_percent_summary">Активная область выше % экрана</string>
     <string name="edge_gestures_back_show_ui_feedback_title">Анимация жеста \"Назад\"</string>
     <string name="edge_gestures_back_show_ui_feedback_summary">Показывать анимацию по краям при использовании жеста \"Назад\"</string>
+
+    <!-- Screen Stabilization -->
+    <string name="screen_stabilization_title">Стабилизация экрана</string>
+    <string name="screen_stabilization_enable">Включить стабилизацию экрана</string>
+    <string name="screen_stabilization_enable_summary">Оставьте значения ниже, как есть, если вы не понимаете, что они означают.</string>
+    <string name="stabilization_velocity_friction_title">Фрикционная скорость</string>
+    <string name="stabilization_position_friction_title">Фрикционная позиция</string>
+    <string name="stabilization_velocity_amplitude_title">Амплитуда скорости</string>
+
 </resources>

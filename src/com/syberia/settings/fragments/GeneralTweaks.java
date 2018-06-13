@@ -56,6 +56,9 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
 
     
     private ListPreference mScreenOffAnimation;
+    private ListPreference mVelocityFriction;
+    private ListPreference mPositionFriction;
+    private ListPreference mVelocityAmplitude;
     private static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
 
     @Override
@@ -109,6 +112,33 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         mRoundedFwvals = (SecureSettingSwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
         mRoundedFwvals.setOnPreferenceChangeListener(this);
 
+        float velFriction = Settings.System.getFloatForUser(resolver,
+                    Settings.System.STABILIZATION_VELOCITY_FRICTION,
+                    0.1f,
+                    UserHandle.USER_CURRENT);
+        mVelocityFriction = (ListPreference) findPreference("stabilization_velocity_friction");
+	mVelocityFriction.setValue(Float.toString(velFriction));
+	mVelocityFriction.setSummary(mVelocityFriction.getEntry());
+	mVelocityFriction.setOnPreferenceChangeListener(this);
+
+	float posFriction = Settings.System.getFloatForUser(resolver,
+                    Settings.System.STABILIZATION_POSITION_FRICTION,
+                    0.1f,
+                    UserHandle.USER_CURRENT);
+            mPositionFriction = (ListPreference) findPreference("stabilization_position_friction");
+	mPositionFriction.setValue(Float.toString(posFriction));
+	mPositionFriction.setSummary(mPositionFriction.getEntry());
+	mPositionFriction.setOnPreferenceChangeListener(this);
+
+	int velAmplitude = Settings.System.getIntForUser(resolver,
+                    Settings.System.STABILIZATION_VELOCITY_AMPLITUDE,
+                    8000,
+                    UserHandle.USER_CURRENT);
+            mVelocityAmplitude = (ListPreference) findPreference("stabilization_velocity_amplitude");
+	mVelocityAmplitude.setValue(Integer.toString(velAmplitude));
+	mVelocityAmplitude.setSummary(mVelocityAmplitude.getEntry());
+	mVelocityAmplitude.setOnPreferenceChangeListener(this);
+
     }
 
     private void restoreCorners() {
@@ -158,7 +188,25 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
                     ((int) newValue) * 1);
         } else if (preference == mRoundedFwvals) {
             restoreCorners();
-        }
+        } else if (preference == mVelocityFriction) {
+	    String value = (String) newValue;
+	    Settings.System.putFloatForUser(resolver,
+	             Settings.System.STABILIZATION_VELOCITY_FRICTION, Float.valueOf(value), UserHandle.USER_CURRENT);
+	    int valueIndex = mVelocityFriction.findIndexOfValue(value);
+	    mVelocityFriction.setSummary(mVelocityFriction.getEntries()[valueIndex]);
+        } else if (preference == mPositionFriction) {
+	    String value = (String) newValue;
+	    Settings.System.putFloatForUser(resolver,
+	             Settings.System.STABILIZATION_POSITION_FRICTION, Float.valueOf(value), UserHandle.USER_CURRENT);
+	    int valueIndex = mPositionFriction.findIndexOfValue(value);
+	    mPositionFriction.setSummary(mPositionFriction.getEntries()[valueIndex]);
+        } else if (preference == mVelocityAmplitude) {
+	    String value = (String) newValue;
+	    Settings.System.putFloatForUser(resolver,
+	             Settings.System.STABILIZATION_VELOCITY_AMPLITUDE, Float.valueOf(value), UserHandle.USER_CURRENT);
+	    int valueIndex = mVelocityAmplitude.findIndexOfValue(value);
+	    mVelocityAmplitude.setSummary(mVelocityAmplitude.getEntries()[valueIndex]);
+       }
     	return true;
     }
 
