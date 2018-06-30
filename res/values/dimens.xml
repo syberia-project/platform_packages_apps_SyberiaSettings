@@ -24,5 +24,9 @@
     <dimen name="fod_picker_item_margin">10dp</dimen>
     <dimen name="fod_picker_item_size">100dp</dimen>
     <dimen name="fod_picker_item_padding">20dp</dimen>
+
+    <dimen name="floating_widget_view_padding">10dp</dimen>
+    <dimen name="floating_widget_window_padding">10dp</dimen>
+
 </resources>
 
