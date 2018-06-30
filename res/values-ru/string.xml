@@ -584,4 +584,12 @@
     <string name="qs_blur_alpha_title">Размытие альфа</string>
     <string name="qs_blur_intensity_title">Интенсивность размытия</string>
 
+    <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">Включить масштабирование</string>
+    <string name="aspect_ratio_apps_enabled_summary">Разрешить устаревшим приложениям использовать полный экран</string>
+    <string name="aspect_ratio_apps_list_summary"></string>
+    <string name="aspect_ratio_apps_list_title">Приложения использующие масштабирование</string>
+    <string name="aspect_ratio_category_title">Масштабирование устаревших приложений</string>
+    <string name="aspect_ratio_apps_info">Приложения должны быть перезапущены после изменений</string>
+
 </resources>
