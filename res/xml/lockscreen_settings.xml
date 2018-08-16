@@ -26,6 +26,12 @@
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="lockscreen_weather"
         android:title="@string/lockscreen_weather_category" />
