@@ -509,4 +509,7 @@
     <string name="show_fourg_icon_title">4G иконка</string>
     <string name="show_fourg_icon_summary">Отображать 4G вместо LTE</string>   
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
 </resources>
