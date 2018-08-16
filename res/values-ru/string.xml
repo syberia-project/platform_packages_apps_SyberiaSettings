@@ -144,4 +144,7 @@
     <string name="vowifi_icon_simple2">Просто иконка 2</string>
     <string name="vowifi_icon_simple3">Просто иконка 3</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
 </resources>

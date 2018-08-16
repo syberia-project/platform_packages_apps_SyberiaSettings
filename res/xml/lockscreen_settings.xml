@@ -37,4 +37,10 @@
         android:summary="@string/transparent_lockscreen_notification_summary"
         android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
