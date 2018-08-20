@@ -31,4 +31,11 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.NavBarActivity" />
     </Preference>
+
+    <Preference
+        android:key="gesture_settings"
+        android:title="@string/gesture_settings_title"
+        android:summary="@string/gesture_settings_summary"
+        android:fragment="com.syberia.settings.fragments.OmniGestureSettings" />
+
 </PreferenceScreen>
