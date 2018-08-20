@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings.preferences;
+package com.syberia.settings.preference;
 
 import android.content.Context;
 import android.provider.Settings;
