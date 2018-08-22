@@ -19,6 +19,25 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/lockscreen_category_title">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/buttons_title">
 
+    <PreferenceCategory
+        android:key="hardware_keys"
+        android:title="@string/hardware_keys_category">
+        <com.syberia.settings.preference.CustomSeekBarPreference
+            settings:min="0"
+            settings:units=""
+            android:key="button_brightness"
+            android:max="255"
+            android:persistent="false"
+            android:title="@string/button_brightness_title" />
+        <ListPreference
+            android:dialogTitle="@string/backlight_timeout_title"
+            android:entries="@array/backlight_timeout_entries"
+            android:entryValues="@array/backlight_timeout_values"
+            android:key="backlight_timeout"
+            android:persistent="false"
+            android:title="@string/backlight_timeout_title" />
+    </PreferenceCategory>
 </PreferenceScreen>
