@@ -21,4 +21,31 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Syberia Settings</string>
     <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
+
+    <string name="system_category_title">System</string>
+    <string name="system_category_summary">Various system extensions</string>
+    <string name="statusbar_category_title">Statusbar</string>
+    <string name="statusbar_category_summary">Customize your statusbar</string>
+    <string name="panels_category_title">Panels</string>
+    <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
+    <string name="lockscreen_category_title">Lockscreen</string>
+    <string name="lockscreen_category_summary">Customize your lockscreen</string>
+    <string name="systemui_tuner_title">Statusbar items</string>
+    <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
+    <string name="statusbar_clock_title">Show clock &amp; date</string>
+    <string name="statusbar_clock_summary">Inside the statusbar</string>
+    <string name="battery_style_title">Battery Style</string>
+    <string name="battery_style_summary">Battery Icon Customization</string>
+    <string name="traffic_options_title">Traffic indicators</string>
+    <string name="traffic_options_summary">Display Traffic information</string>
+    <string name="misc_extensions_title">Misc extensions</string>
+    <string name="misc_extensions_summary"></string>
+
+    <string name="general_tweaks_title">General Tweaks</string>
+    <string name="animations_title">Animations</string>
+    <string name="buttons_title">Buttons</string>
+    <string name="recents_ui_title">Recents UI</string>
+    <string name="app_ops_category">Privacy Guard</string>
+    <string name="system_app_remover">System app remover</string>
+    <string name="dialer_title">Dialer</string>
 </resources>

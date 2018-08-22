@@ -18,9 +18,34 @@
     limitations under the License.
 -->
 
-<PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/syberia_settings_title" >
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.SystemSettings"
+        android:icon="@drawable/ic_system_category"
+        android:key="system_category"
+        android:summary="@string/system_category_summary"
+        android:title="@string/system_category_title" />
+
+    <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.StatusBarSettings"
+        android:icon="@drawable/ic_statusbar_category"
+        android:key="statusbar_category"
+        android:summary="@string/statusbar_category_summary"
+        android:title="@string/statusbar_category_title" />
+
+    <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.PanelsSettings"
+        android:icon="@drawable/ic_panels_category"
+        android:key="panels_category"
+        android:summary="@string/panels_category_summary"
+        android:title="@string/panels_category_title" />
+
+    <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.LockScreenSettings"
+        android:icon="@drawable/ic_lockscreen_category"
+        android:key="lockscreen_category"
+        android:summary="@string/lockscreen_category_summary"
+        android:title="@string/lockscreen_category_title" />
 
 </PreferenceScreen>

@@ -1,6 +1,6 @@
 /*
  * Copyright © 2018 Syberia Project
- * Date: 16.08.2018
+ * Date: 22.08.2018
  * Time: 21:21
  * Author: @alexxxdev <alexxxdev@ya.ru>
  *
@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-package com.syberia.settings;
+package com.syberia.settings.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -31,12 +31,12 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class SyberiaSettings extends SettingsPreferenceFragment {
+public class StatusBarSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.syberia_settings);
+        addPreferencesFromResource(R.xml.statusbar_settings);
     }
 
     @Override
