@@ -217,6 +217,16 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         }
     }
 
+    public void setDefaultValue(int value) {
+        mDefaultValue = value;
+        if (mDefaultValue > mMax) {
+            mDefaultValue = mMax;
+        }
+        if (mCurrentValue == mDefaultValue && mStatusText != null) {
+            mStatusText.setText(mDefaultText);
+        }
+    }
+
     @Override
     public void setEnabled(boolean enabled) {
         if (mSeekBar != null && mStatusText != null && mTitle != null) {
