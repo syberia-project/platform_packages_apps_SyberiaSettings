@@ -22,6 +22,7 @@ package com.syberia.settings.fragments;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.support.v7.preference.ListPreference;
@@ -55,10 +56,11 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
+    private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
-
+    private SwitchPreference mHwKeyDisable;
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -85,14 +87,12 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                 .findPreference(CATEGORY_HWKEY);
         int keysDisabled = 0;
         if (!needsNavbar) {
-//            mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
-//            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
-//                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
-//                    UserHandle.USER_CURRENT);
-//            mHwKeyDisable.setChecked(keysDisabled != 0);
-//            mHwKeyDisable.setOnPreferenceChangeListener(this);
-             final boolean variableBrightness = getResources().getBoolean(
-                    com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
+            mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
+            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
+                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
+                    UserHandle.USER_CURRENT);
+            mHwKeyDisable.setChecked(keysDisabled != 0);
+            mHwKeyDisable.setOnPreferenceChangeListener(this);
              mBacklightTimeout =
                     (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
              mButtonBrightness =
@@ -104,7 +104,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                     mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
                     mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
                 }
-                 if (variableBrightness) {
                     if (mButtonBrightness != null) {
                         int ButtonBrightness = Settings.System.getInt(getContentResolver(),
                                 Settings.System.BUTTON_BRIGHTNESS, 255);
@@ -112,10 +111,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                         mButtonBrightness.setOnPreferenceChangeListener(this);
                     }
                 }
-        } else {
-            prefScreen.removePreference(hwkeyCat);
-        }
-
 	// bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
@@ -189,6 +184,12 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
         } else if (preference == mButtonBrightness) {
             int value = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(), Settings.System.BUTTON_BRIGHTNESS, value * 1);
+            return true;
+        }  else if (preference == mHwKeyDisable) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
+                    value ? 1 : 0);
+            setActionPreferencesEnabled(!value);
             return true;
         }
         return false;
