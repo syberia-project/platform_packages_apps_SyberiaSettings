@@ -32,6 +32,12 @@
             android:key="hardware_keys"
             android:title="@string/hardware_keys_category" >
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="haptic_on_action_key"
+            android:title="@string/haptic_on_action_title"
+            android:summary="@string/haptic_on_action_summary"
+            android:defaultValue="false" />
+
     <com.syberia.settings.preference.CustomSeekBarPreference
             android:key="button_brightness"
             android:title="@string/button_brightness_title"
