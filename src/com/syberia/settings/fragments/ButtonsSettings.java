@@ -62,6 +62,8 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
+    private static final String HAPTIC_ON_ACTION = "haptic_on_action_key";
+
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_HOME = "home_key";
@@ -86,6 +88,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
     private SwitchPreference mHwKeyDisable;
+    private SwitchPreference mHapticOnAction;
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -170,6 +173,12 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
         final PreferenceCategory appSwitchCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
+
+        mHapticOnAction =
+                    (SwitchPreference) findPreference(HAPTIC_ON_ACTION);
+
+        if (!(hasBackKey || hasHomeKey || hasMenuKey || hasAssistKey || hasAppSwitchKey))
+               hwkeyCat.removePreference(mHapticOnAction);
 
         // back key
         if (!hasBackKey) {

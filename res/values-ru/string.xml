@@ -90,4 +90,7 @@
     <string name="hardware_keys_wake_title">Пробудить устройство</string>
     <string name="hardware_keys_disable_title">Отключить аппаратные кнопки</string>
 
+    <string name="haptic_on_action_title">Вибрация по действию</string>
+    <string name="haptic_on_action_summary">Вибрация по действию, а не нажатию</string>
+
 </resources>
