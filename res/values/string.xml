@@ -121,4 +121,15 @@
 
     <string name="haptic_on_action_title">Haptic on action</string>
     <string name="haptic_on_action_summary">Haptic feedback on action instead on press</string>
+
+    <!-- About phone screen, Syberia version -->
+    <string name="syberia_version">Syberia version</string>
+    <string name="syberia_version_default">Unknown</string>
+    <string name="keywords_syberia_version">syberia version</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default"></string>
+    <string name="keywords_build_date">build date, build info</string>
+
 </resources>
