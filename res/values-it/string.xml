@@ -16,7 +16,7 @@
     <string name="statusbar_clock_title">Mostra orologio &amp; data</string>
     <string name="statusbar_clock_summary">Nella statusbar</string>
     <string name="battery_style_title">Stile batteria</string>
-    <string name="battery_style_summary">Personalizzazione dell'icona della batteria</string>
+    <string name="battery_style_summary">Personalizzazione dell\'icona della batteria</string>
     <string name="traffic_options_title">Indicatori del traffico di rete</string>
     <string name="traffic_options_summary">Mostra le informazioni sul traffico di rete</string>
     <string name="misc_extensions_title">Altre estensioni</string>

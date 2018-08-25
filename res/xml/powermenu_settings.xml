@@ -23,7 +23,7 @@
             android:title="@string/powermenu_power"
             android:defaultValue="true" />
 
-         <com.sybera.settings.preferences.SystemSettingSwitchPreference
+         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="powermenu_restart"
             android:title="@string/powermenu_restart"
             android:defaultValue="true" />

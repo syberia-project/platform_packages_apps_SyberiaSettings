@@ -78,84 +78,79 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.buttons_settings);
-	final Resources res = getResources();
+        final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
-	final PreferenceScreen prefScreen = getPreferenceScreen();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
 
-	final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
-        final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
-                .findPreference(CATEGORY_HWKEY);
+        final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
+        final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
         int keysDisabled = 0;
         if (!needsNavbar) {
-            mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
-            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
-                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
-                    UserHandle.USER_CURRENT);
+            mHwKeyDisable = (SwitchPreference) hwkeyCat.findPreference(HWKEY_DISABLE);
+            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE, 0, UserHandle.USER_CURRENT);
             mHwKeyDisable.setChecked(keysDisabled != 0);
             mHwKeyDisable.setOnPreferenceChangeListener(this);
-             mBacklightTimeout =
-                    (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
-             mButtonBrightness =
-                    (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
-                 if (mBacklightTimeout != null) {
-                    mBacklightTimeout.setOnPreferenceChangeListener(this);
-                    int BacklightTimeout = Settings.System.getInt(getContentResolver(),
-                            Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
-                    mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
-                    mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
-                }
-                    if (mButtonBrightness != null) {
-                        int ButtonBrightness = Settings.System.getInt(getContentResolver(),
-                                Settings.System.BUTTON_BRIGHTNESS, 255);
-                        mButtonBrightness.setValue(ButtonBrightness / 1);
-                        mButtonBrightness.setOnPreferenceChangeListener(this);
-                    }
-                }
-	// bits for hardware keys present on device
+            mBacklightTimeout = (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
+            mButtonBrightness = (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+            if (mBacklightTimeout != null) {
+                mBacklightTimeout.setOnPreferenceChangeListener(this);
+                int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
+                mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+                mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+            }
+            if (mButtonBrightness != null) {
+                int ButtonBrightness = Settings.System.getInt(getContentResolver(),
+                Settings.System.BUTTON_BRIGHTNESS, 255);
+                mButtonBrightness.setValue(ButtonBrightness / 1);
+                mButtonBrightness.setOnPreferenceChangeListener(this);
+            }
+        }
+        // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
-         // read bits for present hardware keys
+        com.android.internal.R.integer.config_deviceHardwareKeys);
+        // read bits for present hardware keys
         final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
         final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
         final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
         final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
         final boolean hasAppSwitchKey = (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
-         // load categories and init/remove preferences based on device
+        // load categories and init/remove preferences based on device
         // configuration
         final PreferenceCategory backCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
+        (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
         final PreferenceCategory homeCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
+        (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
         final PreferenceCategory menuCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
+        (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
         final PreferenceCategory assistCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
+        (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
         final PreferenceCategory appSwitchCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
-         // back key
+        (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
+        // back key
         if (!hasBackKey) {
             prefScreen.removePreference(backCategory);
         }
 
-	// home key
+        // home key
         if (!hasHomeKey) {
             prefScreen.removePreference(homeCategory);
         }
-         // App switch key (recents)
+        // App switch key (recents)
         if (!hasAppSwitchKey) {
             prefScreen.removePreference(appSwitchCategory);
         }
-         // menu key
+        // menu key
         if (!hasMenuKey) {
             prefScreen.removePreference(menuCategory);
         }
-         // search/assist key
+        // search/assist key
         if (!hasAssistKey) {
             prefScreen.removePreference(assistCategory);
         }
-         // let super know we can load ActionPreferences
+        // let super know we can load ActionPreferences
         onPreferenceScreenLoaded(ActionConstants.getDefaults(ActionConstants.HWKEYS));
-         // load preferences first
+        // load preferences first
         setActionPreferencesEnabled(keysDisabled == 0);
 
     }
