@@ -120,5 +120,5 @@
     <string name="hardware_keys_disable_title">Disable keys</string>
 
     <string name="haptic_on_action_title">Haptic on action</string>
-    <string name="haptic_on_action_summary">Haptic feedbac on action instead on press</string>
+    <string name="haptic_on_action_summary">Haptic feedback on action instead on press</string>
 </resources>
