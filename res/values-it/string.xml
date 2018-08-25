@@ -102,4 +102,14 @@
 
     <string name="haptic_on_action_title">Feedback aptico</string>
     <string name="haptic_on_action_summary">Feedback aptico al tocco</string>
+
+    <!-- About phone screen, Syberia version -->
+    <string name="syberia_version">Versione Syberia</string>
+    <string name="syberia_version_default">Sconosciuta</string>
+    <string name="keywords_syberia_version">versione syberia</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Data di build</string>
+    <string name="build_date_default"></string>
+    <string name="keywords_build_date">data di build, informazioni build</string>
 </resources>
