@@ -33,10 +33,19 @@ import com.android.internal.logging.nano.MetricsProto;
 
 public class SyberiaSettings extends SettingsPreferenceFragment {
 
+	private static final String CATEGORY_STATUSBAR = "statusbar_category";
+	private static final String CATEGORY_PANELS = "panels_category";
+	private static final String CATEGORY_LOCKSCREEN = "lockscreen_category";
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.syberia_settings);
+
+        PreferenceScreen preferenceScreen = getPreferenceScreen();
+		preferenceScreen.removePreference(findPreference(CATEGORY_STATUSBAR));
+		preferenceScreen.removePreference(findPreference(CATEGORY_PANELS));
+		preferenceScreen.removePreference(findPreference(CATEGORY_LOCKSCREEN));
     }
 
     @Override

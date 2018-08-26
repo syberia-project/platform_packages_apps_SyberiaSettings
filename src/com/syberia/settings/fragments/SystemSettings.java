@@ -33,10 +33,23 @@ import com.android.internal.logging.nano.MetricsProto;
 
 public class SystemSettings extends SettingsPreferenceFragment {
 
+	private static final String CATEGORY_TWEAKS = "general_tweaks";
+	private static final String CATEGORY_ANIMATIONS = "animations";
+	private static final String CATEGORY_RESENT = "recents_ui";
+	private static final String CATEGORY_SYS_APP_REMOVER = "system_app_remover";
+	private static final String CATEGORY_DIALER = "dialer";
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.system_settings);
+
+        PreferenceScreen preferenceScreen = getPreferenceScreen();
+		preferenceScreen.removePreference(findPreference(CATEGORY_TWEAKS));
+		preferenceScreen.removePreference(findPreference(CATEGORY_ANIMATIONS));
+		preferenceScreen.removePreference(findPreference(CATEGORY_RESENT));
+		preferenceScreen.removePreference(findPreference(CATEGORY_SYS_APP_REMOVER));
+		preferenceScreen.removePreference(findPreference(CATEGORY_DIALER));
     }
 
     @Override
