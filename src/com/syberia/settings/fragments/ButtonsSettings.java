@@ -49,6 +49,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
 
     private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_HOME = "home_key";
@@ -59,6 +60,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     private ListPreference mBacklightTimeout;
+    private ListPreference mTorchPowerButton;
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mHwKeyDisable;
 
@@ -106,6 +108,14 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                 mButtonBrightness.setOnPreferenceChangeListener(this);
             }
         }
+
+	mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        int mTorchPowerButtonValue = Settings.System.getInt(resolver,
+                    Settings.System.TORCH_POWER_BUTTON_GESTURE, 0);
+        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton.setOnPreferenceChangeListener(this);
+	
         // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
         com.android.internal.R.integer.config_deviceHardwareKeys);
@@ -155,6 +165,14 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
 
     }
 
+    private ListPreference initActionList(String key, int value) {
+        ListPreference list = (ListPreference) getPreferenceScreen().findPreference(key);
+        list.setValue(Integer.toString(value));
+        list.setSummary(list.getEntry());
+        list.setOnPreferenceChangeListener(this);
+        return list;
+    }
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
@@ -186,7 +204,18 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
             return true;
-        }
+        } else  if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.System.putInt(getActivity().getContentResolver(), Settings.System.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            if (mTorchPowerButtonValue == 1) {
+                //if doubletap for torch is enabled, switch off double tap for camera
+                Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,1);
+	    }
+           }
         return false;
     }
 }

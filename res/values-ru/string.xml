@@ -51,4 +51,11 @@
 
     <string name="haptic_on_action_title">Вибрация по действию</string>
     <string name="haptic_on_action_summary">Вибрация по действию, а не нажатию</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Выключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие при выключенном экране(добавляет задержку одного нажатия)</string>
+    <string name="torch_power_button_gesture_lp">Удержание при выключенном экране</string>
+
 </resources>
