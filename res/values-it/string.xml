@@ -26,7 +26,7 @@
     <string name="animations_title">Animazioni</string>
     <string name="buttons_title">Bottoni</string>
     <string name="recents_ui_title">Pannello recenti</string>
-    <string name="app_ops_category">App Opps</string>
+    <string name="app_ops_category">App Ops</string>
     <string name="system_app_remover">Rimozione app di sistema</string>
     <string name="dialer_title">Telefono</string>
 
@@ -112,4 +112,14 @@
     <string name="build_date">Data di build</string>
     <string name="build_date_default"></string>
     <string name="keywords_build_date">data di build, informazioni build</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Schermata di blocco, pulsante di spegnimento, torcia</string>
+    <string name="torch_power_button_gesture_none">Disabilitato</string>
+    <string name="torch_power_button_gesture_dt">Doppio click pulsante di spegnimento per attivare la torcia (aggiunge un ritardo al singolo click)</string>
+    <string name="torch_power_button_gesture_lp">Pressione prolungata al tasto di spegnimento per attivare la torcia</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Previeni risvegli accidentali</string>
+    <string name="proximity_wake_summary">Controlla il sensore di prossimità prima dello sblocco del dispositivo</string>
 </resources>
