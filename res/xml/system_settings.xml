@@ -22,6 +22,7 @@
     android:title="@string/system_category_title">
 
     <Preference
+        android:fragment="com.syberia.settings.fragments.GeneralTweaks"
         android:icon="@drawable/ic_general_tweaks"
         android:key="general_tweaks"
         android:title="@string/general_tweaks_title" />
