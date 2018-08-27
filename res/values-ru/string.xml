@@ -272,4 +272,10 @@
     <string name="lockscreen_weather_omni_style_title">Стиль Omni</string>
     <string name="lockscreen_weather_pixel_style_title">Стиль Pixel</string>
 
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Анимация выключения экрана</string>
+    <string name="screen_off_animation_default">По умолчанию</string>
+    <string name="screen_off_animation_crt">ЭЛТ</string>
+    <string name="screen_off_animation_scale">Масштаб</string>
+
 </resources>
