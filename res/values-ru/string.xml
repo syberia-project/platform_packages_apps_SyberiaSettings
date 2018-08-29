@@ -78,5 +78,9 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+    
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Нажатие на кнопки громкости будит ваше устройство</string>
 
 </resources>
