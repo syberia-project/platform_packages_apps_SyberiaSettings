@@ -47,6 +47,16 @@
         android:title="@string/heads_up_notifications_title"
         android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
 
+    <Preference
+        android:key="notification_light"
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:title="@string/notification_light_settings" >
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$NotificationAppListActivity" />
+    </Preference>
+
+
     <com.syberia.settings.preference.CustomSeekBarPreference
         android:key="qs_panel_bg_alpha"
         android:title="@string/qs_panel_alpha_title"

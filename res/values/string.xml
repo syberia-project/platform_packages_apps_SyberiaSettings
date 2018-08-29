@@ -447,4 +447,7 @@
     <string name="ignore_rssnr_summary">Ignore RSSNR in LTE signal strength calculation</string>
 
     <string name="other_title">Other</string>
+
+    <string name="notification_light_settings">Notifications light</string>
+
 </resources>

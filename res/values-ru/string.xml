@@ -427,5 +427,7 @@
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должно быть в DateFormat например MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Ввести строку</string>
+
+    <string name="notification_light_settings">Индикация уведомлений</string>
     
 </resources>
