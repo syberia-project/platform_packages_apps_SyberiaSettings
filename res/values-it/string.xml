@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Estensioni Syberia</string>
     <string name="syberia_dashboard_summary">Features introdotte nel progetto Syberia</string>
@@ -21,6 +22,7 @@
     <string name="traffic_options_summary">Mostra le informazioni sul traffico di rete</string>
     <string name="misc_extensions_title">Altre estensioni</string>
     <string name="misc_extensions_summary">Estensioni aggiuntive</string>
+    <string name="navbar_title">Barra di navigazione</string>
 
     <string name="general_tweaks_title">Tweaks generali</string>
     <string name="animations_title">Animazioni</string>
@@ -58,6 +60,7 @@
     <string name="power_menu_title">Menu di spegnimento</string>
     <string name="power_menu_title_summary">Visualizza o cambia le opzioni nel menu di spegnimento</string>
     <string name="powermenu_screenshot">Screenshot</string>
+    <string name="powermenu_screenrecord">Registra schermo</string>
     <string name="powermenu_power">Spegni</string>
     <string name="powermenu_restart">Riavvia</string>
     <string name="powermenu_restart_recovery">Riavvio avanzato</string>
@@ -122,4 +125,31 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Previeni risvegli accidentali</string>
     <string name="proximity_wake_summary">Controlla il sensore di prossimità prima dello sblocco del dispositivo</string>
+
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Animazioni spegnimento dello schermo</string>
+    <string name="screen_off_animation_default">Predefinito</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scala</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Icone nella statusbar</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Shortcuts schermata di blocco</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Pulsanti di navigazione</string>
+    <string name="navbar_visibility">Abilita barra di navigazione</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Controllo luminosità</string>
+    <string name="status_bar_toggle_brightness_summary">Modifica la luminosità mediante lo slide della statusbar</string>
+
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Risveglia tramite pulsanti del volume</string>
+    <string name="volume_rocker_wake_summary">Risveglia il dispositivo premendo i pulsanti del volume</string>
+    <string name="volume_rocker_music_controls_title">Controlli musicali</string>
+    <string name="volume_rocker_music_controls_summary">Cambia traccia musicale con la pressione prolungata dei pulsanti del volume quando lo schermo è spento</string>
+
 </resources>
