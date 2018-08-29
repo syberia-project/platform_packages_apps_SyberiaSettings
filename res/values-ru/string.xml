@@ -74,4 +74,8 @@
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
     <string name="navbar_visibility">Включить панель навигации</string>
 
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+
 </resources>
