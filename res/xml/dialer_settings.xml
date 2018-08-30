@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+<<<<<<< HEAD
     Copyright © 2018-2019 Syberia Project
+=======
+    Copyright © 2018 Syberia Project
+    Date: 29.08.2018
+    Time: 21:24
+    Author: @alexxxdev <alexxxdev@ya.ru>
+>>>>>>> c590666... Added features flash-call-on-waiting [3/3]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -38,4 +45,25 @@
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
 </PreferenceCategory>
+
+<PreferenceCategory
+        android:key="flash_on_call_options"
+        android:title="@string/flash_on_call_category" >
+
+         <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="flash_on_call_waiting"
+            android:title="@string/flash_on_call_title"
+            android:defaultValue="false" />
+
+         <com.syberia.settings.preference.CustomSeekBarPreference
+            android:key="flash_on_call_waiting_delay"
+            android:max="1000"
+            android:persistent="false"
+            android:title="@string/flash_on_call_delay_title"
+            settings:min="50"
+            settings:units="ms"
+            settings:interval="50"
+            android:dependency="flash_on_call_waiting"/>
+         </PreferenceCategory>
+
 </PreferenceScreen>
