@@ -155,6 +155,10 @@
     <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
     <string name="status_bar_toggle_brightness_summary">Durum çubuğunu kaydırarak parlaklığı ayarla</string>
     
+    <string name="flash_on_call_category">Flaş yakıp söndür</string>
+    <string name="flash_on_call_title">Gelen aramalarda flaşı yakıp söndür</string>
+    <string name="flash_on_call_delay_title">Flaş yakıp söndürme süresi</string>
+   
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Ses tuşu ile uyanma</string>
     <string name="volume_rocker_wake_summary">Ses tuşlarına basmak cihazınızı uyandırır</string>
