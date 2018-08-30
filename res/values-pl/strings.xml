@@ -114,7 +114,7 @@
     <string name="keywords_build_date">build date, build info</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">>Przytrzymaj przycisk zasilania, aby włączyć latarkę, gdy ekran jest wyłączony</string>
+    <string name="torch_power_button_gesture_title">Przytrzymaj przycisk zasilania, aby włączyć latarkę, gdy ekran jest wyłączony</string>
     <string name="torch_power_button_gesture_none">Wyłączone</string>
     <string name="torch_power_button_gesture_dt">Dwukrotne naciśnięcie powoduje włączenie latarki (doda małe opóźnienie do pojedynczego stuknięcia)</string>
     <string name="torch_power_button_gesture_lp">Długie naciśnięcie powoduje włączenie latarki</string>
