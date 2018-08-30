@@ -128,4 +128,24 @@
     <string name="screen_off_animation_default">Domyślna</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
+    
+     <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Ikony paska stanu</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Skróty ekranu blokday</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Pasek nawigacji</string>
+    <string name="navbar_visibility">Pokaż pasek nawigacji</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Kontrola jasności</string>
+    <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
+    
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Wybudź urządzenie przyciskami głośności</string>
+    <string name="volume_rocker_wake_summary">Naciśnięcie przycisków głośności wybudzi urządzenie</string>
+    <string name="volume_rocker_music_controls_title">Sterowanie odtwarzaniem</string>
+    <string name="volume_rocker_music_controls_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
 </resources>
