@@ -60,5 +60,6 @@
     <Preference
         android:icon="@drawable/ic_phone_classic"
         android:key="dialer"
-        android:title="@string/dialer_title" />
+        android:title="@string/dialer_title"
+        android:fragment="com.syberia.settings.fragments.DialerSettings" />
 </PreferenceScreen>

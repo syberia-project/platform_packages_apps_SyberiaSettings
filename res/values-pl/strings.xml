@@ -102,4 +102,50 @@
 
     <string name="haptic_on_action_title">Wibracja po dotknięciu</string>
     <string name="haptic_on_action_summary">Wibracja po dotknięciu zamiast po kliknięciu</string>
+    
+        <!-- About phone screen, Syberia version -->
+    <string name="syberia_version">Wersja Syberii</string>
+    <string name="syberia_version_default">Nieznany</string>
+    <string name="keywords_syberia_version">wersja syberii</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default"></string>
+    <string name="keywords_build_date">build date, build info</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Przytrzymaj przycisk zasilania, aby włączyć latarkę, gdy ekran jest wyłączony</string>
+    <string name="torch_power_button_gesture_none">Wyłączone</string>
+    <string name="torch_power_button_gesture_dt">Dwukrotne naciśnięcie powoduje włączenie latarki (doda małe opóźnienie do pojedynczego stuknięcia)</string>
+    <string name="torch_power_button_gesture_lp">Długie naciśnięcie powoduje włączenie latarki</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Zapobiegaj przypadkowemu włączeniu się ekranu</string>
+    <string name="proximity_wake_summary">Sprawdź sensor przed włączeniem ekranu</string>
+
+     <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Animacje wyłączania ekranu</string>
+    <string name="screen_off_animation_default">Domyślna</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
+    
+     <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Ikony paska stanu</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Skróty ekranu blokday</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Pasek nawigacji</string>
+    <string name="navbar_visibility">Pokaż pasek nawigacji</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Kontrola jasności</string>
+    <string name="status_bar_toggle_brightness_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>
+    
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Wybudź urządzenie przyciskami głośności</string>
+    <string name="volume_rocker_wake_summary">Naciśnięcie przycisków głośności wybudzi urządzenie</string>
+    <string name="volume_rocker_music_controls_title">Sterowanie odtwarzaniem</string>
+    <string name="volume_rocker_music_controls_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
 </resources>

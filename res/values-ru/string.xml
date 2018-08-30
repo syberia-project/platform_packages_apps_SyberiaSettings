@@ -134,4 +134,7 @@
     <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
     <string name="volume_rocker_music_controls_summary">При выключенном экране длительное нажатие клавиш громкости пропускает музыкальные треки</string>
 
+    <string name="flash_on_call_category">Пульсация фонариком</string>
+    <string name="flash_on_call_title">Пульсация фонариком при входящем вызове</string>
+    <string name="flash_on_call_delay_title">Частота пульсации фонарика</string>
 </resources>

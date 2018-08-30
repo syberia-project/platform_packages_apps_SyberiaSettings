@@ -163,7 +163,11 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-    
+
+    <string name="flash_on_call_category">Pulse flash</string>
+    <string name="flash_on_call_title">Pulse flash on incoming call</string>
+    <string name="flash_on_call_delay_title">Flash pulse rate</string>
+   
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>

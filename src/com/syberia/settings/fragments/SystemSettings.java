@@ -36,7 +36,6 @@ public class SystemSettings extends SettingsPreferenceFragment {
 	private static final String CATEGORY_ANIMATIONS = "animations";
 	private static final String CATEGORY_RESENT = "recents_ui";
 	private static final String CATEGORY_SYS_APP_REMOVER = "system_app_remover";
-	private static final String CATEGORY_DIALER = "dialer";
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -47,7 +46,6 @@ public class SystemSettings extends SettingsPreferenceFragment {
 		preferenceScreen.removePreference(findPreference(CATEGORY_ANIMATIONS));
 		preferenceScreen.removePreference(findPreference(CATEGORY_RESENT));
 		preferenceScreen.removePreference(findPreference(CATEGORY_SYS_APP_REMOVER));
-		preferenceScreen.removePreference(findPreference(CATEGORY_DIALER));
     }
 
     @Override
