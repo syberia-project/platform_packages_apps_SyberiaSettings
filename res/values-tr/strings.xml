@@ -39,7 +39,7 @@
     <string name="traffic_options_title">Ağ trafiği göstergeleri</string>
     <string name="traffic_options_summary">Ağ trafiği bilgilerini görüntüle</string>
     <string name="misc_extensions_title">Çeşitli ayarlar</string>
-    <string name="misc_extensions_summary"></string>
+    <string name="misc_extensions_summary">Diğer bölümlere dahil olmayan ayarlar</string>
     <string name="navbar_title">Gezinti Çubuğu</string>
 
     <string name="general_tweaks_title">Genel Ayarlar</string>
@@ -160,4 +160,5 @@
     <string name="volume_rocker_wake_summary">Ses tuşlarına basmak cihazınızı uyandırır</string>
     <string name="volume_rocker_music_controls_title">Müzik kontrolü</string>
     <string name="volume_rocker_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak parçaları değiştir</string>
+
 </resources>
