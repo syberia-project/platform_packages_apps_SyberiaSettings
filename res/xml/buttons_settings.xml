@@ -63,6 +63,20 @@
             android:title="@string/power_menu_title"
             android:summary="@string/power_menu_title_summary"
             android:fragment="com.syberia.settings.fragments.PowerMenuSettings" />
+	    
+	<com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:summary="@string/volume_rocker_wake_summary"
+            android:title="@string/volume_rocker_wake_title"
+	    android:defaultValue="false" 
+	    android:disableDependentsState="true" />
+	    
+	<com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="volume_button_music_control"
+            android:summary="@string/volume_rocker_music_controls_summary"
+            android:title="@string/volume_rocker_music_controls_title"
+            android:defaultValue="false"
+            android:dependency="volume_rocker_wake" />
     </PreferenceCategory>
 
     <PreferenceCategory

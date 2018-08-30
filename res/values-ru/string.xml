@@ -78,6 +78,12 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+    
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Нажатие на кнопки громкости будит ваше устройство</string>
+    <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
+    <string name="volume_rocker_music_controls_summary">При выключенном экране длительное нажатие клавиш громкости пропускает музыкальные треки</string>
 
     <string name="flash_on_call_category">Пульсация фонариком</string>
     <string name="flash_on_call_title">Пульсация фонариком при входящем вызове</string>
