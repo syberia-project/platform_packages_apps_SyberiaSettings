@@ -39,7 +39,7 @@
     <string name="traffic_options_title">Traffic indicators</string>
     <string name="traffic_options_summary">Display Traffic information</string>
     <string name="misc_extensions_title">Misc extensions</string>
-    <string name="misc_extensions_summary"></string>
+    <string name="misc_extensions_summary">Settings that are not included in other sections</string>
     <string name="navbar_title">Navigation Bar</string>
 
     <string name="general_tweaks_title">General Tweaks</string>
