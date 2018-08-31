@@ -34,5 +34,11 @@
          android:title="@string/status_bar_toggle_brightness"
          android:summary="@string/status_bar_toggle_brightness_summary"
          android:defaultValue="false" />
+	 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+         android:key="double_tap_sleep_gesture"
+         android:title="@string/double_tap_sleep_gesture_title"
+         android:summary="@string/double_tap_sleep_gesture_summary"
+         android:defaultValue="false" />
 
 </PreferenceScreen>
