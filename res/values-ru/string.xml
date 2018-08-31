@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="syberia_settings_title">Настройка Syberia</string>
+    <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
+
+    <string name="system_category_title">Система</string>
+    <string name="system_category_summary">Различные дополнения системы</string>
+    <string name="statusbar_category_title">Панель состояния</string>
+    <string name="statusbar_category_summary">Настроить панели состояния</string>
+    <string name="panels_category_title">Панели</string>
+    <string name="panels_category_summary">Настроить панель состояния, уведомлений, панели быстрого доступа</string>
+    <string name="lockscreen_category_title">Экран блокировки</string>
+    <string name="lockscreen_category_summary">Настроить экран блокировки</string>
+    <string name="systemui_tuner_title">Элементы панели состояния</string>
+    <string name="systemui_tuner_summary">Параметры батареи и отключение значков строки состояния</string>
+    <string name="statusbar_clock_title">Отображать часы &amp; дату</string>
+    <string name="statusbar_clock_summary">На панели состояния</string>
+    <string name="battery_style_title">Стиль значка батареи</string>
+    <string name="battery_style_summary">Настроить стиль значка батареи</string>
+    <string name="traffic_options_title">Индикатор сетевого трафика</string>
+    <string name="traffic_options_summary">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="misc_extensions_title">Прочие настройки</string>
+    <string name="misc_extensions_summary"></string>
+    <string name="navbar_title">Панель навигации</string>
+
+    <string name="general_tweaks_title">Основные настройки</string>
+    <string name="animations_title">Настройка анимации</string>
+    <string name="buttons_title">Настройка кнопок</string>
+    <string name="recents_ui_title">Недавние приложения</string>
+    <string name="app_ops_category">Операции в приложениях</string>
+    <string name="system_app_remover">Удаление системных приложений</string>
+    <string name="dialer_title">Телефон</string>
 
     <string name="syberia_settings_title">Настройка Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
@@ -42,8 +72,6 @@
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
 
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Аппаратные кнопки</string>
      <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
     <string name="backlight_timeout_on">Всегда включена</string>
@@ -53,10 +81,13 @@
     <string name="backlight_timeout_15s">15 секунд</string>
     <string name="backlight_timeout_20s">20 секунд</string>
     <string name="backlight_timeout_30s">30 секунд</string>
-     <!-- Enable keys backlight-->
+
+    <!-- Enable keys backlight-->
     <string name="button_brightness_title">Яркость подсветки кнопок</string>
 
     <!-- Power Menu -->
+    <string name="power_menu_title">Меню выключения</string>
+    <string name="power_menu_title_summary">Посмотреть или изменить меню кнопки питания</string>
     <string name="powermenu_screenshot">Снимок экрана</string>
     <string name="powermenu_power">Выключение</string>
     <string name="powermenu_restart">Перезагрузка</string>
@@ -70,6 +101,15 @@
     <string name="powermenu_logout">Выход из системы</string>
 
     <!-- HW Keys customization -->
+    <string name="action_value_default_action" translatable="false">По умолчанию</string>
+    <string name="action_value_select_app" translatable="false">Приложение</string>
+    <string name="action_value_custom_action" translatable="false">Пользовательское действие</string>
+    <string name="action_value_back" translatable="false">Назад</string>
+    <string name="action_value_home" translatable="false">Домой</string>
+    <string name="action_value_search_assist" translatable="false">Поиск</string>
+    <string name="action_value_recent_apps" translatable="false">Недавние</string>
+    <string name="action_value_voice_search" translatable="false">Голосовой поиск</string>
+    <string name="action_value_menu" translatable="false">task_menu</string>
     <string name="picker_activities">Действия</string>
     <string name="select_custom_app_title">Выбрать приложение</string>
     <string name="select_custom_activity_title">Выбрать пользовательское действие</string>
@@ -78,6 +118,7 @@
     <string name="action_entry_default_action">Настройки по умолчанию</string>
     <string name="action_entry_select_app">Выберите приложение</string>
     <string name="action_entry_custom_action">Выберите пользовательское действие</string>
+    <string name="hardware_keys_category">Аппаратные кнопки</string>
     <string name="hardware_keys_home_key_title">Кнопка «Домой»</string>
     <string name="hardware_keys_menu_key_title">Кнопка «Меню»</string>
     <string name="hardware_keys_assist_key_title">Кнопка «Поиск»</string>
@@ -96,6 +137,16 @@
 
     <string name="haptic_on_action_title">Вибрация по действию</string>
     <string name="haptic_on_action_summary">Вибрация по действию, а не нажатию</string>
+
+        <!-- About phone screen, Syberia version -->
+    <string name="syberia_version">Версия Syberia</string>
+    <string name="syberia_version_default">Неизвестно</string>
+    <string name="keywords_syberia_version">Версия Syberia</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Дата билда</string>
+    <string name="build_date_default">Неизвестно</string>
+    <string name="keywords_build_date">Дата билда, информация о билде</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
