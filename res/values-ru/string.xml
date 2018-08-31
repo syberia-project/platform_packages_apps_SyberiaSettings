@@ -144,9 +144,9 @@
     <string name="keywords_syberia_version">Версия Syberia</string>
 
     <!-- About phone screen, build date -->
-    <string name="build_date">Дата билда</string>
+    <string name="build_date">Дата сборки</string>
     <string name="build_date_default">Неизвестно</string>
-    <string name="keywords_build_date">Дата билда, информация о билде</string>
+    <string name="keywords_build_date">Дата сборки, информация о сборке</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
