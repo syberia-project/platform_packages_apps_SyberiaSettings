@@ -20,7 +20,7 @@
     <string name="traffic_options_title">Индикатор сетевого трафика</string>
     <string name="traffic_options_summary">Показывать индикатор сетевого трафика в строке состояния</string>
     <string name="misc_extensions_title">Прочие настройки</string>
-    <string name="misc_extensions_summary"></string>
+    <string name="misc_extensions_summary">Настройки, не вошедшие в другие разделы</string>
     <string name="navbar_title">Панель навигации</string>
 
     <string name="general_tweaks_title">Основные настройки</string>
