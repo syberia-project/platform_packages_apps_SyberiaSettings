@@ -146,10 +146,21 @@
     <string name="status_bar_toggle_brightness">Controllo luminosità</string>
     <string name="status_bar_toggle_brightness_summary">Modifica la luminosità mediante lo slide della statusbar</string>
 
+    <string name="flash_on_call_category">Pulse flash</string>
+    <string name="flash_on_call_title">Lampeggia il flash durante le chiamate in arrivo</string>
+    <string name="flash_on_call_delay_title">Frequenza del flash</string>
+
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Risveglia tramite pulsanti del volume</string>
     <string name="volume_rocker_wake_summary">Risveglia il dispositivo premendo i pulsanti del volume</string>
     <string name="volume_rocker_music_controls_title">Controlli musicali</string>
     <string name="volume_rocker_music_controls_summary">Cambia traccia musicale con la pressione prolungata dei pulsanti del volume quando lo schermo è spento</string>
 
+    <!-- Double-tap-to sleep -->
+    <string name="double_tap_sleep_gesture_title">Doppio tap per spegnere lo schermo</string>
+    <string name="double_tap_sleep_gesture_summary">Doppio tap sulla status bar per spegnere lo schermo</string>
+
+    <!-- DoubleTap2Sleep -->
+    <string name="double_tap_sleep_lockscreen_title">Doppio tap per spegnere lo schermo</string>
+    <string name="double_tap_sleep_lockscreen_sumary">Doppio tap in qualsiasi parte della schermata di blocco per spegnere lo schermo</string>
 </resources>
