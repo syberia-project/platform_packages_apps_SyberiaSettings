@@ -138,15 +138,15 @@
     <string name="haptic_on_action_title">Вибрация по действию</string>
     <string name="haptic_on_action_summary">Вибрация по действию, а не нажатию</string>
 
-        <!-- About phone screen, Syberia version -->
+    <!-- About phone screen, Syberia version -->
     <string name="syberia_version">Версия Syberia</string>
     <string name="syberia_version_default">Неизвестно</string>
     <string name="keywords_syberia_version">Версия Syberia</string>
 
     <!-- About phone screen, build date -->
-    <string name="build_date">Дата сборки</string>
+    <string name="build_date">Дата билда</string>
     <string name="build_date_default">Неизвестно</string>
-    <string name="keywords_build_date">Дата сборки, информация о сборке</string>
+    <string name="keywords_build_date">Дата билда, информация о билде</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
