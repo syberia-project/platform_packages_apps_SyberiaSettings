@@ -20,4 +20,17 @@
     android:title="@string/panel_notifications_title">
 
 
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/qs_show_brightness_title"
+        android:summary="@string/qs_show_brightness_summary"
+        android:defaultValue="true" />
+
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_brightness_position_bottom"
+        android:title="@string/qs_brightness_position_bottom_title"
+        android:summary="@string/qs_brightness_position_bottom_summary"
+        android:defaultValue="false"
+        android:dependency="qs_show_brightness" />
+
 </PreferenceScreen>
