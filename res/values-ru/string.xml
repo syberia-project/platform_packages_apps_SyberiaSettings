@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!--
+    Copyright © 2018 Syberia Project
+    Date: 16.08.2018
+    Time: 21:24
+    Author: @alexxxdev <alexxxdev@ya.ru>
 
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Настройка Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
 
@@ -30,7 +48,7 @@
     <string name="recents_ui_title">Недавние приложения</string>
     <string name="app_ops_category">Операции в приложениях</string>
     <string name="system_app_remover">Удаление системных приложений</string>
-    <string name="dialer_title">Настройки звонилки</string>
+    <string name="dialer_title">Телефон</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
@@ -42,8 +60,6 @@
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
 
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Аппаратные кнопки</string>
      <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
     <string name="backlight_timeout_on">Всегда включена</string>
@@ -53,10 +69,13 @@
     <string name="backlight_timeout_15s">15 секунд</string>
     <string name="backlight_timeout_20s">20 секунд</string>
     <string name="backlight_timeout_30s">30 секунд</string>
-     <!-- Enable keys backlight-->
+
+    <!-- Enable keys backlight-->
     <string name="button_brightness_title">Яркость подсветки кнопок</string>
 
     <!-- Power Menu -->
+    <string name="power_menu_title">Меню выключения</string>
+    <string name="power_menu_title_summary">Посмотреть или изменить меню кнопки питания</string>
     <string name="powermenu_screenshot">Снимок экрана</string>
     <string name="powermenu_power">Выключение</string>
     <string name="powermenu_restart">Перезагрузка</string>
@@ -70,6 +89,15 @@
     <string name="powermenu_logout">Выход из системы</string>
 
     <!-- HW Keys customization -->
+    <string name="action_value_default_action" translatable="false">По умолчанию</string>
+    <string name="action_value_select_app" translatable="false">Приложение</string>
+    <string name="action_value_custom_action" translatable="false">Пользовательское действие</string>
+    <string name="action_value_back" translatable="false">Назад</string>
+    <string name="action_value_home" translatable="false">Домой</string>
+    <string name="action_value_search_assist" translatable="false">Поиск</string>
+    <string name="action_value_recent_apps" translatable="false">Недавние</string>
+    <string name="action_value_voice_search" translatable="false">Голосовой поиск</string>
+    <string name="action_value_menu" translatable="false">task_menu</string>
     <string name="picker_activities">Действия</string>
     <string name="select_custom_app_title">Выбрать приложение</string>
     <string name="select_custom_activity_title">Выбрать пользовательское действие</string>
@@ -97,6 +125,16 @@
 
     <string name="haptic_on_action_title">Вибрация по действию</string>
     <string name="haptic_on_action_summary">Вибрация по действию, а не нажатию</string>
+
+        <!-- About phone screen, Syberia version -->
+    <string name="syberia_version">Версия Syberia</string>
+    <string name="syberia_version_default">Неизвестно</string>
+    <string name="keywords_syberia_version">Версия Syberia</string>
+
+    <!-- About phone screen, build date -->
+    <string name="build_date">Дата билда</string>
+    <string name="build_date_default">Неизвестно</string>
+    <string name="keywords_build_date">Дата билда, информация о билде</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
