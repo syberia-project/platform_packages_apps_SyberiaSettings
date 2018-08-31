@@ -165,4 +165,12 @@
     <string name="volume_rocker_music_controls_title">Müzik kontrolü</string>
     <string name="volume_rocker_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak parçaları değiştir</string>
 
+    <!-- Double-tap-to sleep -->
+    <string name="double_tap_sleep_gesture_title">Çift tıklama ile uyut</string>
+    <string name="double_tap_sleep_gesture_summary">Durum çubuğuna çift tıklayarak cihazı uyut</string>
+    
+    <!-- DoubleTap2Sleep -->
+    <string name="double_tap_sleep_lockscreen_title">Çift tıklama ile uyut</string>
+    <string name="double_tap_sleep_lockscreen_sumary">Kilit ekranında herhangi bir yere çift tıklayarak cihazı uyut</string>
+    
 </resources>
