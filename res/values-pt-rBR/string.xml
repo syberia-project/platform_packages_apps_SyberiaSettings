@@ -77,15 +77,6 @@
     <string name="powermenu_logout">Logout</string>
 
     <!-- HW Keys customization -->
-    <string name="action_value_default_action" translatable="false">Padrão</string>
-    <string name="action_value_select_app" translatable="false">app</string>
-    <string name="action_value_custom_action" translatable="false">custom</string>
-    <string name="action_value_back" translatable="false">task_back</string>
-    <string name="action_value_home" translatable="false">task_home</string>
-    <string name="action_value_search_assist" translatable="false">task_assist</string>
-    <string name="action_value_recent_apps" translatable="false">task_recents</string>
-    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
-    <string name="action_value_menu" translatable="false">task_menu</string>
     <string name="picker_activities">Atividades</string>
     <string name="select_custom_app_title">Escolher aplicativo personalizado</string>
     <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
@@ -122,14 +113,14 @@
     <string name="keywords_build_date">build date, build info</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_title">Desligar a tela com o botão power</string>
     <string name="torch_power_button_gesture_none">Desativado</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo poder para ligar ou desligar a tela (adicionará um pequeno atraso para o toque único)</string>
+    <string name="torch_power_button_gesture_lp">Toque longo para ligar a tela</string>
 
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Evitar o despertar acidental</string>
+    <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
 
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Animação ao desligar tela</string>
