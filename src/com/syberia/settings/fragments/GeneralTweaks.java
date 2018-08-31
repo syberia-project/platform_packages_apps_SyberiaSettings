@@ -51,6 +51,9 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         mScreenOffAnimation.setValue(String.valueOf(screenOffStyle));
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);
+
+        PreferenceScreen preferenceScreen = getPreferenceScreen();
+        preferenceScreen.removePreference(findPreference("proximity_on_wake"));
     }
 
     @Override
