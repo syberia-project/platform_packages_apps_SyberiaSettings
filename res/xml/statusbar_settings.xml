@@ -23,7 +23,7 @@
 
      <Preference
             android:title="@string/statusbar_items_title" 
-    	    android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
+    	    android:icon="@drawable/ic_systemui_tuner_statusbaritems_edit" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
