@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Настройка Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
@@ -156,4 +156,11 @@
     <string name="flash_on_call_category">Пульсация фонариком</string>
     <string name="flash_on_call_title">Пульсация фонариком при входящем вызове</string>
     <string name="flash_on_call_delay_title">Частота пульсации фонарика</string>
+
+    <!-- Double-tap-to sleep -->
+    <string name="double_tap_sleep_gesture_title">Двойное нажатие на строке состояния для сна</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды нажмите в любом месте на строке состояния, чтобы перевести устройство в спящий режим</string>
+    <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
+    <string name="double_tap_sleep_lockscreen_sumary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести устройство в спящий режим</string>
+
 </resources>
