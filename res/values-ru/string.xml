@@ -6,7 +6,7 @@
     <string name="system_category_title">Система</string>
     <string name="system_category_summary">Различные дополнения системы</string>
     <string name="statusbar_category_title">Панель состояния</string>
-    <string name="statusbar_category_summary">Настроить панели состояния</string>
+    <string name="statusbar_category_summary">Настроить панель состояния</string>
     <string name="panels_category_title">Панели</string>
     <string name="panels_category_summary">Настроить панель состояния, уведомлений, панели быстрого доступа</string>
     <string name="lockscreen_category_title">Экран блокировки</string>
