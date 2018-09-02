@@ -162,5 +162,5 @@
 
     <!-- DoubleTap2Sleep -->
     <string name="double_tap_sleep_lockscreen_title">Doppio tap per spegnere lo schermo</string>
-    <string name="double_tap_sleep_lockscreen_sumary">Doppio tap in qualsiasi parte della schermata di blocco per spegnere lo schermo</string>
+    <string name="double_tap_sleep_lockscreen_summary">Doppio tap in qualsiasi parte della schermata di blocco per spegnere lo schermo</string>
 </resources>
