@@ -133,7 +133,7 @@
     <string name="statusbar_items_title">Ikony paska stanu</string>
 
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Skróty ekranu blokday</string>
+    <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Pasek nawigacji</string>
@@ -148,4 +148,12 @@
     <string name="volume_rocker_wake_summary">Naciśnięcie przycisków głośności wybudzi urządzenie</string>
     <string name="volume_rocker_music_controls_title">Sterowanie odtwarzaniem</string>
     <string name="volume_rocker_music_controls_summary">Przy wyłączonym ekranie, długie naciśnięcie przycisków głośności spowoduje zmianę utworu</string>
+    
+     <!-- Double-tap-to sleep -->
+    <string name="double_tap_sleep_gesture_title">Stuknij dwukrotnie, aby uśpić</string>
+    <string name="double_tap_sleep_gesture_summary">>Podwójnie stuknij pasek statusu, aby uśpić urządzenie</string>
+    
+    <!-- DoubleTap2Sleep -->
+    <string name="double_tap_sleep_lockscreen_title">Dwukrotnie stuknij na ekranie blokady, aby uśpić</string>
+    <string name="double_tap_sleep_lockscreen_sumary">Podwójnie stuknij, aby uśpić urządzenie</string>
 </resources>
