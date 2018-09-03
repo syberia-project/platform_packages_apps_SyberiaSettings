@@ -163,4 +163,10 @@
     <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
     <string name="double_tap_sleep_lockscreen_sumary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести устройство в спящий режим</string>
 
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
+
 </resources>
