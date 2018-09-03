@@ -35,12 +35,14 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.syberia.settings.preference.CustomSeekBarPreference;
+import com.syberia.settings.preference.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
 public class DialerSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener{
 
 	private static final String FLASH_ON_CALL_WAITING_DELAY = "flash_on_call_waiting_delay";
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
 	private CustomSeekBarPreference mFlashOnCallWaitingDelay;
 
@@ -48,6 +50,13 @@ public class DialerSettings extends SettingsPreferenceFragment implements OnPref
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.dialer_settings);
+
+        PreferenceScreen prefScreen = getPreferenceScreen();
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(incallVibCategory);
+        }
 
         final ContentResolver resolver = getActivity().getContentResolver();
 
