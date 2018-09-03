@@ -173,4 +173,15 @@
     <string name="double_tap_sleep_lockscreen_title">Çift tıklama ile uyut</string>
     <string name="double_tap_sleep_lockscreen_sumary">Kilit ekranında herhangi bir yere çift tıklayarak cihazı uyut</string>
     
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama titreşim ayarları</string>
+    <string name="incall_vibrate_connect_title">Yanıtlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Beklemede titret</string>
+    <string name="incall_vibrate_disconnect_title">Arama sonlandığında titret</string>
+    
+        <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Ağ trafiği</string>
+    <string name="network_traffic_state_summary">Durum çubuğunda ağ aktivitesini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ aktivitesi otomatik gizleme sınırı (KB/s)</string>
+    
 </resources>
