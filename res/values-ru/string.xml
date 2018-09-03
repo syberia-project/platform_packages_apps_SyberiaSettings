@@ -256,4 +256,15 @@
     <string name="volume_steps_voice_call_title">Количество шагов: Голосовые вызовы</string>
     <string name="volume_steps_reset">Сброс</string>
 
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Погода</string>
+    <string name="lockscreen_weather_enabled_title">Показывать на экране блокировки</string>
+    <string name="lockscreen_weather_enabled_summary">Показывать информацию о погоде на экране блокировки</string>
+    <string name="lockscreen_weather_settings_title">Настройки погоды</string>
+    <string name="lockscreen_weather_settings_summary">Выбор пакета значков и провайдера погоды</string>
+    <string name="weather_config_title">Провайдер погоды</string>
+    <string name="weather_config_summary">Настройки провайдера погоды</string>
+    <string name="weather_icon_pack_title">Пакет значков</string>
+    <string name="weather_icon_pack_info_title">Пакет значков используется в быстрых настройках и на экране блокировки</string>
+
 </resources>
