@@ -169,4 +169,8 @@
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
 
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
 </resources>
