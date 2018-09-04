@@ -39,7 +39,7 @@
     <string name="traffic_options_title">Ağ trafiği göstergeleri</string>
     <string name="traffic_options_summary">Ağ trafiği bilgilerini görüntüle</string>
     <string name="misc_extensions_title">Çeşitli ayarlar</string>
-    <string name="misc_extensions_summary"></string>
+    <string name="misc_extensions_summary">Diğer bölümlere dahil olmayan ayarlar</string>
     <string name="navbar_title">Gezinti Çubuğu</string>
 
     <string name="general_tweaks_title">Genel Ayarlar</string>
@@ -155,9 +155,22 @@
     <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
     <string name="status_bar_toggle_brightness_summary">Durum çubuğunu kaydırarak parlaklığı ayarla</string>
     
+    <string name="flash_on_call_category">Flaş yakıp söndür</string>
+    <string name="flash_on_call_title">Gelen aramalarda flaşı yakıp söndür</string>
+    <string name="flash_on_call_delay_title">Flaş yakıp söndürme süresi</string>
+   
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Ses tuşu ile uyanma</string>
     <string name="volume_rocker_wake_summary">Ses tuşlarına basmak cihazınızı uyandırır</string>
     <string name="volume_rocker_music_controls_title">Müzik kontrolü</string>
     <string name="volume_rocker_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak parçaları değiştir</string>
+
+    <!-- Double-tap-to sleep -->
+    <string name="double_tap_sleep_gesture_title">Çift tıklama ile uyut</string>
+    <string name="double_tap_sleep_gesture_summary">Durum çubuğuna çift tıklayarak cihazı uyut</string>
+    
+    <!-- DoubleTap2Sleep -->
+    <string name="double_tap_sleep_lockscreen_title">Çift tıklama ile uyut</string>
+    <string name="double_tap_sleep_lockscreen_sumary">Kilit ekranında herhangi bir yere çift tıklayarak cihazı uyut</string>
+    
 </resources>

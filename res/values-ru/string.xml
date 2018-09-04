@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Настройки Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
@@ -6,38 +6,7 @@
     <string name="system_category_title">Система</string>
     <string name="system_category_summary">Различные дополнения системы</string>
     <string name="statusbar_category_title">Панель состояния</string>
-    <string name="statusbar_category_summary">Настроить панели состояния</string>
-    <string name="panels_category_title">Панели</string>
-    <string name="panels_category_summary">Настроить панель состояния, уведомлений, панели быстрого доступа</string>
-    <string name="lockscreen_category_title">Экран блокировки</string>
-    <string name="lockscreen_category_summary">Настроить экран блокировки</string>
-    <string name="systemui_tuner_title">Элементы панели состояния</string>
-    <string name="systemui_tuner_summary">Параметры батареи и отключение значков строки состояния</string>
-    <string name="statusbar_clock_title">Отображать часы &amp; дату</string>
-    <string name="statusbar_clock_summary">На панели состояния</string>
-    <string name="battery_style_title">Стиль значка батареи</string>
-    <string name="battery_style_summary">Настроить стиль значка батареи</string>
-    <string name="traffic_options_title">Индикатор сетевого трафика</string>
-    <string name="traffic_options_summary">Показывать индикатор сетевого трафика в строке состояния</string>
-    <string name="misc_extensions_title">Прочие настройки</string>
-    <string name="misc_extensions_summary"></string>
-    <string name="navbar_title">Панель навигации</string>
-
-    <string name="general_tweaks_title">Основные настройки</string>
-    <string name="animations_title">Настройка анимации</string>
-    <string name="buttons_title">Настройка кнопок</string>
-    <string name="recents_ui_title">Недавние приложения</string>
-    <string name="app_ops_category">Операции в приложениях</string>
-    <string name="system_app_remover">Удаление системных приложений</string>
-    <string name="dialer_title">Телефон</string>
-
-    <string name="syberia_settings_title">Настройка Syberia</string>
-    <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
-
-    <string name="system_category_title">Система</string>
-    <string name="system_category_summary">Различные дополнения системы</string>
-    <string name="statusbar_category_title">Панель состояния</string>
-    <string name="statusbar_category_summary">Настроить панели состояния</string>
+    <string name="statusbar_category_summary">Настроить панель состояния</string>
     <string name="panels_category_title">Панели</string>
     <string name="panels_category_summary">Настроить панель состояния, уведомлений, панели быстрого доступа</string>
     <string name="lockscreen_category_title">Экран блокировки</string>
@@ -60,8 +29,8 @@
     <string name="recents_ui_title">Недавние приложения</string>
     <string name="app_ops_category">Операции в приложениях</string>
     <string name="system_app_remover">Удаление системных приложений</string>
-    <string name="dialer_title">Настройки звонилки</string>
-
+    <string name="dialer_title">Телефон</string>
+    
     <!-- Color picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
@@ -193,5 +162,16 @@
     <string name="double_tap_sleep_gesture_summary">Дважды нажмите в любом месте на строке состояния, чтобы перевести устройство в спящий режим</string>
     <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
     <string name="double_tap_sleep_lockscreen_sumary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести устройство в спящий режим</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
 
 </resources>

@@ -19,11 +19,12 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/statusbar_category_title">
 
      <Preference
             android:title="@string/statusbar_items_title" 
-    	    android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
+    	    android:icon="@drawable/ic_systemui_tuner_statusbaritems_edit" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
@@ -34,5 +35,23 @@
          android:title="@string/status_bar_toggle_brightness"
          android:summary="@string/status_bar_toggle_brightness_summary"
          android:defaultValue="false" />
+	 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+         android:key="double_tap_sleep_gesture"
+         android:title="@string/double_tap_sleep_gesture_title"
+         android:summary="@string/double_tap_sleep_gesture_summary"
+         android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="network_traffic_state"
+        android:title="@string/network_traffic_state_title"
+        android:summary="@string/network_traffic_state_summary"
+        android:defaultValue="false" />
+     <com.syberia.settings.preference.CustomSeekBarPreference
+        android:key="network_traffic_autohide_threshold"
+        android:title="@string/network_traffic_autohide_threshold_title"
+        android:max="10"
+        settings:min="0"
+        settings:units="" />
 
 </PreferenceScreen>
