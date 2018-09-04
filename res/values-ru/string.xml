@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Настройка Syberia</string>
+    <string name="syberia_settings_title">Настройки Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
 
     <string name="system_category_title">Система</string>
@@ -173,4 +173,5 @@
     <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
     <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
     <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
+
 </resources>
