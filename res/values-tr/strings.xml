@@ -171,7 +171,7 @@
     
     <!-- DoubleTap2Sleep -->
     <string name="double_tap_sleep_lockscreen_title">Çift tıklama ile uyut</string>
-    <string name="double_tap_sleep_lockscreen_sumary">Kilit ekranında herhangi bir yere çift tıklayarak cihazı uyut</string>
+    <string name="double_tap_sleep_lockscreen_summary">Kilit ekranında herhangi bir yere çift tıklayarak cihazı uyut</string>
     
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Arama titreşim ayarları</string>

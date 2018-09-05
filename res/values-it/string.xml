@@ -9,7 +9,7 @@
     <string name="statusbar_category_title">Statusbar</string>
     <string name="statusbar_category_summary">Personalizza la tua statusbar</string>
     <string name="panels_category_title">Pannelli</string>
-    <string name="panels_category_summary">Statusbar, Notifiche, Pannello delle impostazioni rapide</string>
+    <string name="panels_category_summary">Statusbar, Notifiche, Impostazioni rapide</string>
     <string name="lockscreen_category_title">Blocco schermo</string>
     <string name="lockscreen_category_summary">Personalizza il tuo blocco schermo</string>
     <string name="systemui_tuner_title">Elementi della statusbar</string>
@@ -117,7 +117,7 @@
     <string name="keywords_build_date">data di build, informazioni build</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Schermata di blocco, pulsante di spegnimento, torcia</string>
+    <string name="torch_power_button_gesture_title">Azione pulsante di blocco</string>
     <string name="torch_power_button_gesture_none">Disabilitato</string>
     <string name="torch_power_button_gesture_dt">Doppio click pulsante di spegnimento per attivare la torcia (aggiunge un ritardo al singolo click)</string>
     <string name="torch_power_button_gesture_lp">Pressione prolungata al tasto di spegnimento per attivare la torcia</string>
@@ -162,5 +162,11 @@
 
     <!-- DoubleTap2Sleep -->
     <string name="double_tap_sleep_lockscreen_title">Doppio tap per spegnere lo schermo</string>
-    <string name="double_tap_sleep_lockscreen_sumary">Doppio tap in qualsiasi parte della schermata di blocco per spegnere lo schermo</string>
+    <string name="double_tap_sleep_lockscreen_summary">Doppio tap in qualsiasi parte della schermata di blocco per spegnere lo schermo</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni di vibrazione chiamate in entrata</string>
+    <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
+    <string name="incall_vibrate_call_wait_title">Vibra durante chiamata in entrata</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate al termine della chiamata</string>
 </resources>
