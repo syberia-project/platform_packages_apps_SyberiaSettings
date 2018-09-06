@@ -305,9 +305,13 @@
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
     
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
-    <string name="lockscreen_visualizer_summary">Показывать визуализацию музыки на экране блокировки во время воспроизведения</string>
+    <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_category">Визуализация спектра музыки</string>
+    <string name="lockscreen_visualizer_enable">Включить визуализатор</string>
+    <string name="lockscreen_visualizer_enable_summary">Показывать визуализацию музыки на экране блокировки во время воспроизведения</string>
+    <string name="lockscreen_visualizer_enable_custom">Использовать цвет</string>
+    <string name="lockscreen_visualizer_enable_custom_summary">Использовать выбранный цвет вместо автоматического</string>
+    <string name="lockscreen_visualizer_custom_color">Цвет визуализатора</string>
     
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль значка батареи</string>
