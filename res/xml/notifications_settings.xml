@@ -19,7 +19,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/notifications_title">
+    android:title="@string/panel_notifications_title">
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="force_expanded_notifications"

@@ -197,7 +197,7 @@
     <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
 
-    <string name="notifications_title">Notifications</string>
+    <string name="panel_notifications_title">Notifications</string>
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>

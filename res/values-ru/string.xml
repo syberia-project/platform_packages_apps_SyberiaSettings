@@ -5,10 +5,10 @@
 
     <string name="system_category_title">Система</string>
     <string name="system_category_summary">Различные дополнения системы</string>
-    <string name="statusbar_category_title">Панель состояния</string>
-    <string name="statusbar_category_summary">Настроить панель состояния</string>
+    <string name="statusbar_category_title">Панель строки состояния</string>
+    <string name="statusbar_category_summary">Настроить панель строки состояния</string>
     <string name="panels_category_title">Панели</string>
-    <string name="panels_category_summary">Настроить панель состояния, уведомлений, панели быстрого доступа</string>
+    <string name="panels_category_summary">Настроить панель строки состояния, уведомлений, панели быстрого доступа</string>
     <string name="lockscreen_category_title">Экран блокировки</string>
     <string name="lockscreen_category_summary">Настроить экран блокировки</string>
     <string name="systemui_tuner_title">Элементы панели состояния</string>
@@ -188,4 +188,6 @@
     <string name="battery_light_medium_color">Заряжается</string>
     <string name="battery_light_full_color">Заряжена (90%)</string>
     <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
+
+    <string name="panel_notifications_title">Панель уведомлений</string>
 </resources>
