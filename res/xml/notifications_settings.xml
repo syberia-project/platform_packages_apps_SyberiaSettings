@@ -20,7 +20,13 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/notifications_title">
-    
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="force_expanded_notifications"
+        android:title="@string/force_expanded_notifications_title"
+        android:summary="@string/force_expanded_notifications_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="smart_pulldown"
         android:title="@string/smart_pulldown_title"
