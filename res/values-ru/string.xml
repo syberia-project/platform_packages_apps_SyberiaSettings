@@ -174,4 +174,7 @@
     <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
     <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
 
+    <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
+    <string name="powermenu_lockscreen_summary">Включите, чтобы использовать меню питания на защищенном экране блокировки</string>
 </resources>
