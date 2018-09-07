@@ -23,9 +23,11 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
@@ -62,7 +64,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements OnP
 		mThreshold.setValue(value);
 		mThreshold.setOnPreferenceChangeListener(this);
 		mThreshold.setEnabled(isNetMonitorEnabled);
-
     }
 
 	@Override
