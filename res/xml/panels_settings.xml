@@ -39,6 +39,6 @@
         android:fragment="com.syberia.settings.fragments.NotificationsSettings"
         android:icon="@drawable/ic_notification"
         android:key="notification"
-        android:title="@string/notifications_title" />
+        android:title="@string/panel_notifications_title" />
 
 </PreferenceScreen>
