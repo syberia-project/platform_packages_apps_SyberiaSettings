@@ -156,4 +156,48 @@
     <!-- DoubleTap2Sleep -->
     <string name="double_tap_sleep_lockscreen_title">Dwukrotnie stuknij na ekranie blokady, aby uśpić</string>
     <string name="double_tap_sleep_lockscreen_sumary">Podwójnie stuknij, aby uśpić urządzenie</string>
+    
+     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opcje wibracji podczas połączenia</string>
+    <string name="incall_vibrate_connect_title">Wibracja przy połączeniut</string>
+    <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
+    <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Ruch sieciowy</string>
+    <string name="network_traffic_state_summary">Pokaż aktywność sieci na pasku stanu</string>
+    <string name="network_traffic_autohide_threshold_title">Próg do auto ukrycia aktywności internetu (KB/s))</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Widoczność ekranu blokady</string>
+    <string name="powermenu_lockscreen_summary">Włącz możliwość skorzystania z okna menu zasilania na ekranie blokady</string>
+
+    <string name="panel_notifications_title">Powiadomienia</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
+    <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
+    <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia gdy nie ma powiadomień</string>
+    <string name="smart_pulldown_off">Wyłączone</string>
+    <string name="smart_pulldown_none">Brak powiadomień</string>
+    <string name="smart_pulldown_dismissable">Brak powiadomień do odrzucenia</string>
+    <string name="smart_pulldown_ongoing">Brak bieżących powiadomień</string>
+
+    <string name="battery_category_title">Ustawienia baterii</string>
+    <string name="battery_category_summary">Ustawienia baterii</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Dioda ładowania baterii</string>
+    <string name="battery_light_enable">Włączona</string>
+    <string name="battery_light_allow_on_dnd_title">Dioda baterii w trybie Nie przeszkadzać</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Kolor diody podczas ładowania</string>
+    <string name="battery_light_low_color">Niski poziom baterii</string>
+    <string name="battery_light_medium_color">Średni poziom baterii</string>
+    <string name="battery_light_full_color">Prawie pełna bateria</string>
+    <string name="battery_light_reallyfull_color">Pełna bateria (100)</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Wymuś rozwinięte powiadomienia</string>
+    <string name="force_expanded_notifications_summary">Dostępne dla aplikacji, które obsługują rozwijane powiadomienia</string>
 </resources>
