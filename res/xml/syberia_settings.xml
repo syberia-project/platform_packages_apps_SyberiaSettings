@@ -41,4 +41,11 @@
         android:summary="@string/lockscreen_category_summary"
         android:title="@string/lockscreen_category_title" />
 
+    <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.BatteryScreenSettings"
+        android:icon="@drawable/ic_battery_settings"
+        android:key="battery_category"
+        android:summary="@string/battery_category_summary"
+        android:title="@string/battery_category_title" />
+
 </PreferenceScreen>
