@@ -20,7 +20,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Syberia Ayarları</string>
-    <string name="syberia_dashboard_summary">Syberia Project'e eklenen birçok ekstra özellik</string>
+    <string name="syberia_dashboard_summary">Syberia Project\'e eklenen birçok ekstra özellik</string>
 
     <string name="system_category_title">Sistem</string>
     <string name="system_category_summary">Çeşitli sistem ayarları</string>
