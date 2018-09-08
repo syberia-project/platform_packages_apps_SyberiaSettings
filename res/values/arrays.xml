@@ -31,7 +31,7 @@
     </string-array>
 
     <string-array name="volte_icon_type_values" translatable="false">
-        <item>4</item> 
+        <item>4</item>
         <item>3</item>
         <item>5</item>
         <item>6</item>
@@ -134,7 +134,7 @@
 
     <string-array name="status_bar_battery_style_entries" translatable="false">
         <item>@string/status_bar_battery_style_icon_portrait</item>
-        <!--<item>@string/status_bar_battery_style_q</item>-->	
+        <!--<item>@string/status_bar_battery_style_q</item>-->
         <item>@string/status_bar_battery_style_circle</item>
         <item>@string/status_bar_battery_style_dotted_circle</item>
         <item>@string/status_bar_battery_style_big_circle</item>
@@ -245,7 +245,7 @@
     <!-- Network traffic type -->
     <string-array name="show_network_traffic_type_entries" translatable="false">
         <item>@string/show_network_traffic_combined</item>
-        <item>@string/show_network_traffic_dynamic</item>    
+        <item>@string/show_network_traffic_dynamic</item>
         <item>@string/show_network_traffic_up</item>
         <item>@string/show_network_traffic_down</item>
         <item>@string/show_network_traffic_all</item>
@@ -253,7 +253,7 @@
 
     <string-array name="show_network_traffic_type_values" translatable="false">
         <item>3</item>
-        <item>4</item>	
+        <item>4</item>
         <item>1</item>
         <item>2</item>
         <item>0</item>
@@ -554,15 +554,15 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item> 
+        <item>3</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>
-        <item>7</item> 
+        <item>7</item>
         <item>8</item>
         <item>9</item>
         <item>10</item>
-        <item>11</item> 
+        <item>11</item>
         <item>12</item>
         <item>13</item>
         <item>14</item>
@@ -575,5 +575,68 @@
         <item>21</item>
         <item>22</item>
         <item>23</item>
+    </string-array>
+
+    <!-- Statusbar Clock -->
+    <string-array name="status_bar_clock_style_entries" translatable="false">
+        <item>@string/status_bar_clock_style_left</item>
+        <item>@string/status_bar_clock_style_center</item>
+        <item>@string/status_bar_clock_style_right</item>
+    </string-array>
+    <string-array name="status_bar_clock_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="status_bar_am_pm_entries" translatable="false">
+        <item>@string/status_bar_am_pm_hidden</item>
+        <item>@string/status_bar_am_pm_small</item>
+        <item>@string/status_bar_am_pm_normal</item>
+    </string-array>
+    <string-array name="status_bar_am_pm_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_display_entries">
+        <item>@string/clock_date_display_none</item>
+        <item>@string/clock_date_display_small</item>
+        <item>@string/clock_date_display_normal</item>
+    </string-array>
+    <string-array name="clock_date_display_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_style_entries">
+        <item>@string/clock_date_style_normal</item>
+        <item>@string/clock_date_style_lowercase</item>
+        <item>@string/clock_date_style_uppercase</item>
+    </string-array>
+    <string-array name="clock_date_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_format_entries_values">
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-dd-MM</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>MMM dd</item>
+        <item>MMM dd, yyyy</item>
+        <item>MMMM dd, yyyy</item>
+        <item>EEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd/MM</item>
+        <item>EEE MM/dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEE MMMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+        <item>@string/clock_date_format_custom</item>
     </string-array>
 </resources>
