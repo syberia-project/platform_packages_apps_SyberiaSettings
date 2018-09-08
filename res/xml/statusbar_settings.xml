@@ -55,6 +55,13 @@
         android:summary="@string/status_bar_battery_text_charging_summary"
         android:defaultValue="true" />
 
+     <Preference
+        android:fragment="com.syberia.settings.fragments.ClockOptions"
+        android:icon="@drawable/ic_status_bar_clock"
+        android:key="clock_options_category"
+        android:summary="@string/clock_options_summary"
+        android:title="@string/clock_options_title" />
+
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="show_fourg"
         android:title="@string/show_fourg_title"
