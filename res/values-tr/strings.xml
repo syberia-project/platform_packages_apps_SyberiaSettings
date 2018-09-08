@@ -20,7 +20,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Syberia Ayarları</string>
-    <string name="syberia_dashboard_summary">Syberia Projesine eklenen birçok ekstra özellik</string>
+    <string name="syberia_dashboard_summary">Syberia Project'e eklenen birçok ekstra özellik</string>
 
     <string name="system_category_title">Sistem</string>
     <string name="system_category_summary">Çeşitli sistem ayarları</string>
@@ -184,4 +184,37 @@
     <string name="network_traffic_state_summary">Durum çubuğunda ağ aktivitesini göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ aktivitesi otomatik gizleme sınırı (KB/s)</string>
     
+    <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Kilit ekranında görüntülenme</string>
+    <string name="powermenu_lockscreen_summary">Kilit ekranındayken güç menüsünü göstermeyi ve kullanmayı aktifleştir</string>
+
+    <string name="notifications_title">Bildirimler</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Smart pulldown</string>
+    <string name="smart_pulldown_summary">%1$s bildirim varken hızlı ayarları aç</string>
+    <string name="smart_pulldown_none_summary">Bildirim yokken hızlı ayarları aç</string>
+    <string name="smart_pulldown_off">Kapalı</string>
+    <string name="smart_pulldown_none">Bildirim yokken</string>
+    <string name="smart_pulldown_dismissable">Temizlenebilen bildirim yokken</string>
+    <string name="smart_pulldown_ongoing">Devam eden bildirim yokken</string>
+    
+    <string name="battery_category_title">Pil ayarları</string>
+    <string name="battery_category_summary">Pil ayarları</string>
+     
+    <!-- Battery light -->
+    <string name="battery_light_settings">Pil şarj ışığı</string>
+    <string name="battery_light_enable">Aktifleştir</string>
+    <string name="battery_light_allow_on_dnd_title">Rahatsız etme modunda pil ışığı</string>
+    <string name="battery_light_low_blinking_title">Düşük pilde yakıp söndür</string>
+    <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
+    <string name="battery_light_low_color">Düşük pil</string>
+    <string name="battery_light_medium_color">Orta pil</string>
+    <string name="battery_light_full_color">Neredeyse dolu pil</string>
+    <string name="battery_light_reallyfull_color">Dolu (100) pil</string>
+    
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Bildirimleri Zorla Genişlet</string>
+    <string name="force_expanded_notifications_summary">Yalnızca genişletilebilen bildirimler için mevcut</string>
+
 </resources>
