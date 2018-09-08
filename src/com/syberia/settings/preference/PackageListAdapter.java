@@ -19,7 +19,10 @@ import android.widget.TextView;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.TreeSet;
- import com.android.settings.R;
+ import com.syberia.settings.R;
+
+
+
  public class PackageListAdapter extends BaseAdapter implements Runnable {
     private PackageManager mPm;
     private LayoutInflater mInflater;
@@ -89,11 +92,11 @@ import java.util.TreeSet;
         if (convertView != null) {
             holder = (ViewHolder) convertView.getTag();
         } else {
-            convertView = mInflater.inflate(R.layout.preference_icon, null, false);
+            convertView = mInflater.inflate(R.layout.item_preference_icon, null, false);
             holder = new ViewHolder();
             convertView.setTag(holder);
-            holder.title = (TextView) convertView.findViewById(com.android.internal.R.id.title);
-            holder.summary = (TextView) convertView.findViewById(com.android.internal.R.id.summary);
+            holder.title = (TextView) convertView.findViewById(R.id.title);
+            holder.summary = (TextView) convertView.findViewById(R.id.summary);
             holder.icon = (ImageView) convertView.findViewById(R.id.icon);
         }
          PackageItem applicationInfo = getItem(position);
