@@ -34,4 +34,9 @@
         android:entryValues="@array/smart_pulldown_values"
         android:persistent="false" />
 
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications_title"
+        android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
+
 </PreferenceScreen>
