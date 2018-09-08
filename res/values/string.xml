@@ -247,4 +247,14 @@
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
 </resources>
