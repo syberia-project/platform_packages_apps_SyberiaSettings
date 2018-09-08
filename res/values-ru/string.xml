@@ -589,6 +589,41 @@
     <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
 
     <!-- Statusbar brightness control -->
-    <string name="status_bar_brightness_control_title">Строки состояния регулировка яркости</string>
+    <string name="status_bar_brightness_control_title">Регулировка яркости</string>
     <string name="status_bar_brightness_control_summary">Отрегулируйте яркость, перемещаясь по строке состояния</string>
+
+    <!-- Statusbar Clock -->
+    <string name="clock_options_title">Настройки часов</string>
+    <string name="clock_options_summary">Настройка отображения часов и даты в строке состояния</string>
+    <string name="status_bar_clock">Часы и дата</string>
+    <string name="status_bar_clock_summary">Настройка отображения часов и даты в строке состояния</string>
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_show">Показать часы и дату</string>
+    <string name="statusbar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-х часовой формат включен</string>
+    <string name="status_bar_am_pm_normal">Нормальный размер</string>
+    <string name="status_bar_am_pm_small">Маленький размер</string>
+    <string name="status_bar_am_pm_hidden">Скрыт (по умолчанию)</string>
+    <string name="clock_seconds_display">Показывать секунды</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать дату перед часами</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Нормальный размер шрифта</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Нормальный размер</string>
+    <string name="clock_date_style_lowercase">Нижний регистр</string>
+    <string name="clock_date_style_uppercase">Верхний регистр</string>
+    <string name="clock_date_format_custom">Пользовательский java-формат</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должно быть в DateFormat например MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Ввести строку</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от часов</string>
+    <string name="clock_date_position">Размещение даты</string>
+
 </resources>
