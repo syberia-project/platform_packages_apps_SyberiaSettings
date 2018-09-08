@@ -217,4 +217,37 @@
     <string name="force_expanded_notifications_title">Bildirimleri Zorla Genişlet</string>
     <string name="force_expanded_notifications_summary">Yalnızca genişletilebilen bildirimler için mevcut</string>
 
+    <!-- Heads up -->
+    <string name="heads_up_notifications_title">Açılır pencere bildirimleri</string>
+    <string name="summary_heads_up_enabled">Açılır pencere bildirimleri aktif</string>
+    <string name="summary_heads_up_disabled">Açılır pencere bildirimleri devre dışı</string>
+    <string name="add_heads_up_package">Uygulama ekle</string>
+    <string name="add_heads_up_stoplist_summary">Bu uygulamalarda açılır pencere bildirimlerini kapat</string>
+    <string name="profile_choose_app">Uygulama seç</string>
+    <string name="dialog_delete_title">Sil</string>
+    <string name="dialog_delete_message">Seçili öğe silinsin mi?</string>
+    <string name="add_heads_up_blacklist_summary">Bu uygulamalardan gelen açılır pencere bildirimlerini engelle</string>
+    <string name="heads_up_stoplist_title">Kapatma Listesi</string>
+    <string name="heads_up_blacklist_title">Engelli Listesi</string>
+    
+     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Zaman aşımı</string>
+    <string name="heads_up_time_out_summary">Açılır pencere bildirimleri <xliff:g id="number">%d</xliff:g> saniye gösterilecek</string>
+    <string name="heads_up_time_out_2sec">2 saniye</string>
+    <string name="heads_up_time_out_4sec">4 saniye</string>
+    <string name="heads_up_time_out_5sec">5 saniye</string>
+    <string name="heads_up_time_out_6sec">6 saniye</string>
+    <string name="heads_up_time_out_8sec">8 saniye</string>
+    <string name="heads_up_time_out_10sec">10 saniye</string>
+    
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Erteleme zamanlayıcısı</string>
+    <string name="heads_up_snooze_summary_one_minute">Açılır pencere bildirimini yukarı kaydırmak o uygulamadan gelen açılır pencere bildirimlerini 1 dakikalığına engeller</string>
+    <string name="heads_up_snooze_summary">Açılır pencere bildirimini yukarı kaydırmak o uygulamadan gelen açılır pencere bildirimlerini <xliff:g id="number">%d</xliff:g> dakikalığına engeller</string>
+    <string name="heads_up_snooze_disabled_summary">Erteleme zamanlayıcısı devre dışı</string>
+    <string name="heads_up_snooze_1min">1 dakika</string>
+    <string name="heads_up_snooze_5min">5 dakika</string>
+    <string name="heads_up_snooze_10min">10 dakika</string>
+    <string name="heads_up_snooze_15min">15 dakika</string>
+    <string name="heads_up_snooze_20min">20 dakika</string>
 </resources>
