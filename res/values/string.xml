@@ -75,7 +75,7 @@
     <string name="button_brightness_title">Backlight</string>
 
     <!-- Power Menu -->
-    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_title">电源菜单</string>
     <string name="power_menu_title_summary">View or change power menu entries</string>
     <string name="powermenu_screenshot">Screenshot</string>
     <string name="powermenu_screenrecord">Screenrecord</string>
