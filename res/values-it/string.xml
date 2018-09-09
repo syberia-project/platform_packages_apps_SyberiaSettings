@@ -169,4 +169,76 @@
     <string name="incall_vibrate_connect_title">Vibra alla risposta</string>
     <string name="incall_vibrate_call_wait_title">Vibra durante chiamata in entrata</string>
     <string name="incall_vibrate_disconnect_title">Vibrate al termine della chiamata</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Visibilità nella schermata di blocco</string>
+    <string name="powermenu_lockscreen_summary">Abilita e consenti l\'utilizzo del menu di spegnimento nella schermata di blocco</string>
+
+    <string name="panel_notifications_title">Notifiche</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Smart pulldown</string>
+    <string name="smart_pulldown_summary">Apri le impostazioni rapide quando ci sono %1$s notifiche</string>
+    <string name="smart_pulldown_none_summary">Apri le impostazioni rapide quando non ci sono notifiche</string>
+    <string name="smart_pulldown_off">Disattivo</string>
+    <string name="smart_pulldown_none">Nessuna notifica</string>
+    <string name="smart_pulldown_dismissable">Non rimovibile</string>
+    <string name="smart_pulldown_ongoing">In corso</string>
+
+    <string name="battery_category_title">Batteria</string>
+    <string name="battery_category_summary">Impostazioni della batteria</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Led di ricarica</string>
+    <string name="battery_light_enable">Abilitato</string>
+    <string name="battery_light_allow_on_dnd_title">Led in modalità non disturbare</string>
+    <string name="battery_light_low_blinking_title">Lampeggia quando la batteria è scarica</string>
+    <string name="battery_light_cat">Colore del led durante la carica</string>
+    <string name="battery_light_low_color">Batteria scarica</string>
+    <string name="battery_light_medium_color">Batteria a circa metà carica</string>
+    <string name="battery_light_full_color">Batteria quasi carica</string>
+    <string name="battery_light_reallyfull_color">Carica (100)</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Forza l\'espansione delle notifiche</string>
+    <string name="force_expanded_notifications_summary">Solo se l\'applicazione supporta l\'espansione delle notifiche</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_notifications_title">Heads up</string>
+    <string name="summary_heads_up_enabled">Le notifiche pop-up sono abilitate</string>
+    <string name="summary_heads_up_disabled">Le notifiche pop-up sono disabilitate</string>
+    <string name="add_heads_up_package">Aggiungi app</string>
+    <string name="add_heads_up_stoplist_summary">Disabilita notifiche heads up per queste applicazioni</string>
+    <string name="profile_choose_app">Seleziona app</string>
+    <string name="dialog_delete_title">Rimuovi</string>
+    <string name="dialog_delete_message">Rimuovere gli elementi selezionati?</string>
+    <string name="add_heads_up_blacklist_summary">Disabilita notifiche heads up per queste applicazioni</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Le notifiche heads up saranno visibili per <xliff:g id="number">%d</xliff:g> secondi</string>
+    <string name="heads_up_time_out_2sec">2 secondi</string>
+    <string name="heads_up_time_out_4sec">4 secondi</string>
+    <string name="heads_up_time_out_5sec">5 secondi</string>
+    <string name="heads_up_time_out_6sec">6 secondi</string>
+    <string name="heads_up_time_out_8sec">8 secondi</string>
+    <string name="heads_up_time_out_10sec">10 secondi</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Interrompi notifiche heads up</string>
+    <string name="heads_up_snooze_summary_one_minute">Con uno swipe in alto, le notifiche heads up per quell\'applicazione verranno interrotte per 1 minuto</string>
+    <string name="heads_up_snooze_summary">Con uno swipe in alto, le notifiche heads up per quell\'applicazione verranno interrotte per <xliff:g id="number">%d</xliff:g> minuto</string>
+    <string name="heads_up_snooze_disabled_summary">Disabilitato</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minuti</string>
+    <string name="heads_up_snooze_10min">10 minuti</string>
+    <string name="heads_up_snooze_15min">15 minuti</string>
+    <string name="heads_up_snooze_20min">20 minuti</string>
 </resources>
