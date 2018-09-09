@@ -157,7 +157,6 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
                  list.setOnItemClickListener(new OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        // Add empty application definition, the user will be able to edit it later
                         PackageItem info = (PackageItem) parent.getItemAtPosition(position);
                         addCustomApplicationPref(info.packageName, mStoplistPackages);
                         dialog.cancel();
@@ -167,8 +166,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
             case DIALOG_BLACKLIST_APPS:
                 list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
-                    public void onItemClick(AdapterView<?> parent,
-                            View view, int position, long id) {
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         PackageItem info = (PackageItem) parent.getItemAtPosition(position);
                         addCustomApplicationPref(info.packageName, mBlacklistPackages);
                         dialog.cancel();
@@ -231,7 +229,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
                 }
             }
         }
-         // Keep these at the top
+        // Keep these at the top
         mAddStoplistPref.setOrder(0);
         mAddBlacklistPref.setOrder(0);
         // Add 'add' options
@@ -270,7 +268,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
         if (pkg == null) {
             pkg = new Package(packageName);
             map.put(packageName, pkg);
-            savePackageList(false, map);
+            savePackageList(true, map);
             refreshCustomApplicationPrefs();
         }
     }
@@ -280,7 +278,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
                 PackageManager.GET_META_DATA);
         Preference pref =
                 new Preference(getActivity());
-         pref.setKey(pkg.name);
+        pref.setKey(pkg.name);
         pref.setTitle(info.applicationInfo.loadLabel(mPackageManager));
         pref.setIcon(info.applicationInfo.loadIcon(mPackageManager));
         pref.setPersistent(false);
@@ -289,16 +287,17 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
     }
     private void removeApplicationPref(String packageName, Map<String,Package> map) {
         if (map.remove(packageName) != null) {
-            savePackageList(false, map);
+            savePackageList(true, map);
             refreshCustomApplicationPrefs();
         }
     }
      private boolean parsePackageList() {
-     	boolean parsed = false;
+     	boolean parsed = true;
          final String stoplistString = Settings.System.getString(getContentResolver(),
                 Settings.System.HEADS_UP_STOPLIST_VALUES);
          final String blacklistString = Settings.System.getString(getContentResolver(),
                 Settings.System.HEADS_UP_BLACKLIST_VALUES);
+
         if (!TextUtils.equals(mStoplistPackageList, stoplistString)) {
             mStoplistPackageList = stoplistString;
             mStoplistPackages.clear();
@@ -311,7 +310,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
             parseAndAddToMap(blacklistString, mBlacklistPackages);
             parsed = true;
         }
-         return parsed;
+        return parsed;
     }
 
     private void parseAndAddToMap(String baseString, Map<String,Package> map) {
@@ -344,8 +343,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment implements Prefe
             } else {
                 mBlacklistPackageList = value;
             }
-        Settings.System.putString(getContentResolver(),
-                setting, value);
+            Settings.System.putString(getContentResolver(), setting, value);
     	}
 	}
 
