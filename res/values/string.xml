@@ -20,11 +20,11 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Syberia Settings</string>
-    <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
+    <string name="syberia_dashboard_summary">极多的拓展功能</string>
 
-    <string name="system_category_title">System</string>
-    <string name="system_category_summary">Various system extensions</string>
-    <string name="statusbar_category_title">Statusbar</string>
+    <string name="system_category_title">系统功能</string>
+    <string name="system_category_summary">系统功能自定义</string>
+    <string name="statusbar_category_title">状态栏</string>
     <string name="statusbar_category_summary">Customize your statusbar</string>
     <string name="panels_category_title">Panels</string>
     <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
