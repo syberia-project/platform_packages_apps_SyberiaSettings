@@ -19,7 +19,7 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Syberia Settings</string>
+    <string name="syberia_settings_title">Syberia</string>
     <string name="syberia_dashboard_summary">极多的拓展功能</string>
 
     <string name="system_category_title">系统功能</string>
