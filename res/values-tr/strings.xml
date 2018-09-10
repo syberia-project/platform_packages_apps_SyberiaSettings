@@ -149,7 +149,7 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Gezinti çubuğu düğmeleri</string>
-    <string name="navbar_visibility">Gezinti çubuğunu aktifleştir</string>
+    <string name="navbar_visibility">Gezinti çubuğunu göster</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
@@ -157,7 +157,7 @@
     
     <string name="flash_on_call_category">Flaş yakıp söndür</string>
     <string name="flash_on_call_title">Gelen aramalarda flaşı yakıp söndür</string>
-    <string name="flash_on_call_delay_title">Flaş yakıp söndürme süresi</string>
+    <string name="flash_on_call_delay_title">Flaş yakıp söndürme aralığı</string>
    
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Ses tuşu ile uyanma</string>
@@ -181,14 +181,14 @@
     
         <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Ağ trafiği</string>
-    <string name="network_traffic_state_summary">Durum çubuğunda ağ aktivitesini göster</string>
-    <string name="network_traffic_autohide_threshold_title">Ağ aktivitesi otomatik gizleme sınırı (KB/s)</string>
+    <string name="network_traffic_state_summary">Durum çubuğunda ağ trafiğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ trafiği otomatik gizleme sınırı (KB/s)</string>
     
     <!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Kilit ekranında görüntülenme</string>
     <string name="powermenu_lockscreen_summary">Kilit ekranındayken güç menüsünü göstermeyi ve kullanmayı aktifleştir</string>
 
-    <string name="notifications_title">Bildirimler</string>
+    <string name="panel_notifications_title">Bildirimler</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Smart pulldown</string>
@@ -208,10 +208,10 @@
     <string name="battery_light_allow_on_dnd_title">Rahatsız etme modunda pil ışığı</string>
     <string name="battery_light_low_blinking_title">Düşük pilde yakıp söndür</string>
     <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
-    <string name="battery_light_low_color">Düşük pil</string>
-    <string name="battery_light_medium_color">Orta pil</string>
-    <string name="battery_light_full_color">Neredeyse dolu pil</string>
-    <string name="battery_light_reallyfull_color">Dolu (100) pil</string>
+    <string name="battery_light_low_color">Düşük pil seviyesi</string>
+    <string name="battery_light_medium_color">Orta pil seviyesi</string>
+    <string name="battery_light_full_color">Neredeyse dolu pil seviyesi</string>
+    <string name="battery_light_reallyfull_color">Dolu pil (100)</string>
     
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Bildirimleri Zorla Genişlet</string>
