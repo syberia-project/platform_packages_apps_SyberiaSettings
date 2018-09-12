@@ -25,6 +25,12 @@
             android:summary="@string/advanced_reboot_summary"
             android:defaultValue="false" />
 
+     <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="lockscreen_power_menu_disabled"
+            android:title="@string/lockscreen_power_menu_disabled_title"
+            android:summary="@string/lockscreen_power_menu_disabled_summary"
+            android:defaultValue="true" />
+
      <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="powermenu_power"
             android:title="@string/powermenu_power"

@@ -505,4 +505,8 @@
     <string name="swap_volume_buttons_title">Ориентация</string>
     <string name="swap_volume_buttons_summary">Поменять местами кнопки громкости при повороте экрана</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Отключить на экране блокировки</string>
+    <string name="lockscreen_power_menu_disabled_summary">Отключить меню питания на защищенном экране блокировки</string>
+
 </resources>
