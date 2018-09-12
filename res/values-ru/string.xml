@@ -509,4 +509,8 @@
     <string name="lockscreen_power_menu_disabled_title">Отключить на экране блокировки</string>
     <string name="lockscreen_power_menu_disabled_summary">Отключить меню питания на защищенном экране блокировки</string>
 
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Всплывающая иконка приложения</string>
+    <string name="toast_icon_summary">Отображать иконку приложения на всплывающем уведомлении</string>
+
 </resources>
