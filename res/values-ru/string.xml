@@ -501,4 +501,8 @@
     <string name="aggressive_battery_saver_title">В режиме экономии батареи</string> 
     <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">Ориентация</string>
+    <string name="swap_volume_buttons_summary">Поменять местами кнопки громкости при повороте экрана</string>
+
 </resources>
