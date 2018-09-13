@@ -32,6 +32,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 import android.provider.Settings;
 import android.view.View;
+import android.widget.Toast;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.syberia.AwesomeAnimationHelper;
@@ -69,6 +70,7 @@ public class Animations extends SettingsPreferenceFragment
     private static final String KEY_LISTVIEW_ANIMATION = "listview_animation";
     private static final String KEY_LISTVIEW_INTERPOLATOR = "listview_interpolator";
     private static final String POWER_MENU_ANIMATIONS = "power_menu_animations";
+    private static final String KEY_TOAST_ANIMATION = "toast_animation";
 
     private CustomSeekBarPreference mAnimDuration;
     ListPreference mActivityOpenPref;
@@ -83,6 +85,7 @@ public class Animations extends SettingsPreferenceFragment
     ListPreference mWallpaperIntraOpen;
     ListPreference mWallpaperIntraClose;
 
+    private ListPreference mToastAnimation;
     private ListPreference mPowerMenuAnimations;
     private ListPreference mListViewAnimation;
     private ListPreference mListViewInterpolator;
@@ -124,6 +127,13 @@ public class Animations extends SettingsPreferenceFragment
                 getContentResolver(), Settings.System.POWER_MENU_ANIMATIONS, 0)));
         mPowerMenuAnimations.setSummary(mPowerMenuAnimations.getEntry());
         mPowerMenuAnimations.setOnPreferenceChangeListener(this);
+
+        mToastAnimation = (ListPreference) findPreference(KEY_TOAST_ANIMATION);
+        mToastAnimation.setSummary(mToastAnimation.getEntry());
+        int CurrentToastAnimation = Settings.Global.getInt(getContentResolver(), Settings.Global.TOAST_ANIMATION, 1);
+        mToastAnimation.setValueIndex(CurrentToastAnimation); //set to index of default value
+        mToastAnimation.setSummary(mToastAnimation.getEntries()[CurrentToastAnimation]);
+        mToastAnimation.setOnPreferenceChangeListener(this);
 
         mActivityOpenPref = (ListPreference) findPreference(ACTIVITY_OPEN);
         mActivityOpenPref.setSummary(getProperSummary(mActivityOpenPref));
@@ -343,8 +353,13 @@ public class Animations extends SettingsPreferenceFragment
             mPowerMenuAnimations.setValue(String.valueOf(newValue));
             mPowerMenuAnimations.setSummary(mPowerMenuAnimations.getEntry());
             return true;
+        } else if (preference == mToastAnimation) {
+            int index = mToastAnimation.findIndexOfValue((String) newValue);
+            Settings.Global.putString(getContentResolver(), Settings.Global.TOAST_ANIMATION, (String) newValue);
+            mToastAnimation.setSummary(mToastAnimation.getEntries()[index]);
+            Toast.makeText(mContext, "Toast Test", Toast.LENGTH_SHORT).show();
+            return true;
         }
-
         return false;
     }
 
