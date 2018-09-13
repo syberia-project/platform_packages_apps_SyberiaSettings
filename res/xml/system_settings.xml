@@ -58,6 +58,12 @@
         android:title="@string/system_app_remover" />
 
     <Preference
+        android:icon="@drawable/ic_sound_settings"
+        android:key="sound_settings"
+        android:title="@string/sound_settings_title"
+        android:fragment="com.syberia.settings.fragments.SystemSoundSettings" />
+
+    <Preference
         android:icon="@drawable/ic_phone_classic"
         android:key="dialer"
         android:title="@string/dialer_title"
