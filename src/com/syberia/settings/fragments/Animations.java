@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -71,6 +72,9 @@ public class Animations extends SettingsPreferenceFragment
     private static final String KEY_LISTVIEW_INTERPOLATOR = "listview_interpolator";
     private static final String POWER_MENU_ANIMATIONS = "power_menu_animations";
     private static final String KEY_TOAST_ANIMATION = "toast_animation";
+    private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
+    private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
+    private static final String SCROLLINGCACHE_DEFAULT = "2";
 
     private CustomSeekBarPreference mAnimDuration;
     ListPreference mActivityOpenPref;
@@ -85,6 +89,7 @@ public class Animations extends SettingsPreferenceFragment
     ListPreference mWallpaperIntraOpen;
     ListPreference mWallpaperIntraClose;
 
+    private ListPreference mScrollingCachePref;
     private ListPreference mToastAnimation;
     private ListPreference mPowerMenuAnimations;
     private ListPreference mListViewAnimation;
@@ -121,6 +126,11 @@ public class Animations extends SettingsPreferenceFragment
             mAnimationsStrings[i] = AwesomeAnimationHelper.getProperName(getActivity().getApplicationContext(), mAnimations[i]);
             mAnimationsNum[i] = String.valueOf(mAnimations[i]);
         }
+
+        mScrollingCachePref = (ListPreference) findPreference(SCROLLINGCACHE_PREF);
+        mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
+                SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
+        mScrollingCachePref.setOnPreferenceChangeListener(this);
 
         mPowerMenuAnimations = (ListPreference) findPreference(POWER_MENU_ANIMATIONS);
         mPowerMenuAnimations.setValue(String.valueOf(Settings.System.getInt(
@@ -358,6 +368,11 @@ public class Animations extends SettingsPreferenceFragment
             Settings.Global.putString(getContentResolver(), Settings.Global.TOAST_ANIMATION, (String) newValue);
             mToastAnimation.setSummary(mToastAnimation.getEntries()[index]);
             Toast.makeText(mContext, "Toast Test", Toast.LENGTH_SHORT).show();
+            return true;
+        } else if (preference == mScrollingCachePref) {
+            if (newValue != null) {
+                SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String) newValue);
+            }
             return true;
         }
         return false;
