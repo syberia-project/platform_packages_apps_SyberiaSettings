@@ -537,4 +537,8 @@
     <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string> 
     <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
 
+    <!-- Volume swap buttons -->
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+
 </resources>
