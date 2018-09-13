@@ -19,7 +19,11 @@
 
 package com.syberia.settings.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.os.Looper;
 import android.support.v4.app.Fragment;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
@@ -28,19 +32,105 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.Utils;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
+
+import com.syberia.settings.preference.IncreasingRingVolumePreference;
+import com.syberia.settings.controller.IncreasingRingPreferenceController;
+import com.syberia.settings.controller.IncreasingRingVolumePreferenceController;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class SystemSoundSettings extends SettingsPreferenceFragment {
+import java.util.ArrayList;
+import java.util.List;
+
+public class SystemSoundSettings extends DashboardFragment {
+	private static final String TAG = "SystemSoundSettings";
+
+	private final IncreasingRingVolumePreferenceCallback mIncreasingRingVolumeCallback = new IncreasingRingVolumePreferenceCallback();
+
+	private static final int SAMPLE_CUTOFF = 2000;
+	static final int STOP_SAMPLE = 1;
+
+	final Handler mHandler = new Handler(Looper.getMainLooper()) {
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case STOP_SAMPLE:
+                    mIncreasingRingVolumeCallback.stopSample();
+                    break;
+            }
+        }
+    };
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.system_sound_settings);
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
+    }
+
+    @Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.system_sound_settings;
+    }
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, this, getLifecycle());
+    }
+
+	@Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+
+        IncreasingRingVolumePreferenceController irvpc =
+                use(IncreasingRingVolumePreferenceController.class);
+        irvpc.setCallback(mIncreasingRingVolumeCallback);
+        getLifecycle().addObserver(irvpc);
+    }
+
+	@Override
+    public void onPause() {
+        super.onPause();
+        mIncreasingRingVolumeCallback.stopSample();
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(Context context, SystemSoundSettings fragment, Lifecycle lifecycle) {
+     	final List<AbstractPreferenceController> controllers = new ArrayList<>();
+
+		controllers.add(new IncreasingRingPreferenceController(context));
+        controllers.add(new IncreasingRingVolumePreferenceController(context));        
+
+        return controllers;
+    }
+
+    final class IncreasingRingVolumePreferenceCallback implements
+            IncreasingRingVolumePreference.Callback {
+        private IncreasingRingVolumePreference mPlayingPref;
+
+        @Override
+        public void onSampleStarting(IncreasingRingVolumePreference pref) {
+            mPlayingPref = pref;
+            mHandler.removeMessages(STOP_SAMPLE);
+            mHandler.sendEmptyMessageDelayed(STOP_SAMPLE, SAMPLE_CUTOFF);
+        }
+
+        public void stopSample() {
+            if (mPlayingPref != null) {
+                mPlayingPref.stopSample();
+                mPlayingPref = null;
+            }
+        }
+    };
+
+    @Override
+    protected String getLogTag() {
+        return TAG;
     }
 }
