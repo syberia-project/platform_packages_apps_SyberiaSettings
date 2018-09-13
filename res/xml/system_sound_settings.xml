@@ -28,4 +28,11 @@
         android:title="@string/volume_steps_fragment_title"
         android:summary="@string/volume_steps_summary" />
         
+    <!-- Headset -->
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="headset_connect_player"
+        android:title="@string/headset_connect_player_title"
+        android:summary="@string/headset_connect_player_summary"
+        android:defaultValue="false"
+        android:order="-129"/>
 </PreferenceScreen>
