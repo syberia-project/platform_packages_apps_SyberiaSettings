@@ -35,7 +35,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.syberia.settings.preference.CustomSeekBarPreference;
-import com.syberia.settings.preference.Utils;
+import com.syberia.settings.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
 

@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.syberia.settings.preference;
+package com.syberia.settings;
 
 import android.app.Activity;
 import android.content.Context;
