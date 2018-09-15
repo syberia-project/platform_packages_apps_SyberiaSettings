@@ -53,6 +53,12 @@
     </Preference>
 
     <Preference
+        android:key="inactive_apps"
+        android:title="@string/inactive_apps_title"
+        android:icon="@drawable/ic_inactive_apps"
+        android:fragment="com.android.settings.fuelgauge.InactiveApps" />
+
+    <Preference
         android:icon="@drawable/ic_system_app_remover"
         android:key="system_app_remover"
         android:title="@string/system_app_remover" />
