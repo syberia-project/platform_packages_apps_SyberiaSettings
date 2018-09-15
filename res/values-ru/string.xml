@@ -179,6 +179,8 @@
     <string name="powermenu_lockscreen_summary">Включите, чтобы использовать меню питания на защищенном экране блокировки</string>
 
     <!-- Battery light -->
+    <string name="battery_category_title">Настройки батареи</string>
+    <string name="battery_category_summary">Расширенные настройки батареи</string>
     <string name="battery_light_settings">Индикация батареи</string>
     <string name="battery_light_enable">Включена</string>
     <string name="battery_light_allow_on_dnd_title">Включить светодиод в режиме «Не беспокоить»</string>
@@ -224,4 +226,53 @@
     <string name="heads_up_snooze_10min">10 минут</string>
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
+    
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Быстрый доступ</string>
+    <string name="quick_pulldown_summary">%1$s угол строки состояния открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_summary_always">Всегда показывать быстрые настройки в раскрывающемся меню строки состояния</string>
+    <string name="quick_pulldown_off">Выключено</string>
+    <string name="quick_pulldown_left">Левый</string>
+    <string name="quick_pulldown_right">Правый</string>
+    <string name="quick_pulldown_always">Всегда</string>
+    
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Умный доступ</string>
+    <string name="smart_pulldown_summary">Открыть быстрые настройки когда %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открыть быстрые настройки когда нет уведомлений</string>
+    <string name="smart_pulldown_off">Выключен</string>
+    <string name="smart_pulldown_none">Нет уведомлений</string>
+    <string name="smart_pulldown_dismissable">Нет отклоняемых</string>
+    <string name="smart_pulldown_ongoing">Нет постоянных</string>
+    
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Принудительно раскрывать уведомления</string>
+    <string name="force_expanded_notifications_summary">Доступно только для приложений поддерживающих данную функцию</string>
+    
+    <string name="sound_settings_title">Настройки звука</string>
+    
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Шаг громкости</string>
+    <string name="volume_steps_summary">Изменить количество шагов громкости</string>
+    <string name="volume_steps_alarm_title">Количество шагов: Будильник</string>
+    <string name="volume_steps_dtmf_title">Количество шагов: Тональный набор</string>
+    <string name="volume_steps_music_title">Количество шагов: Медиа</string>
+    <string name="volume_steps_notification_title">Количество шагов: Уведомления</string>
+    <string name="volume_steps_ring_title">Количество шагов: Звонок</string>
+    <string name="volume_steps_system_title">Количество шагов: Система</string>
+    <string name="volume_steps_voice_call_title">Количество шагов: Голосовые вызовы</string>
+    <string name="volume_steps_reset">Сброс</string>
+    
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Запустить музыкальное приложение</string>
+    <string name="headset_connect_player_summary">Запустить музыкальное приложение когда подключены наушники</string>
+    
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Постепенное увеличение громкости звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
+    
+    <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Ответ кнопками громкости</string>
+    <string name="volume_answer_call_summary">Ответить на звонок нажатием кнопок громкости</string>
 </resources>
