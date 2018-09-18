@@ -384,4 +384,7 @@
     <string name="charging_animation_title">Анимация зарядки</string>
     <string name="charging_animation_summary">Отображать анимацию зарадки во время подключения</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Отображать уведомление когда включен режим отладки через ADB</string>
 </resources>

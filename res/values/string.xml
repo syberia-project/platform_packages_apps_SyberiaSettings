@@ -424,4 +424,7 @@
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB notification</string>
+    <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
 </resources>
