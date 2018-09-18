@@ -33,4 +33,10 @@
         android:summary="@string/volume_steps_summary"
         android:fragment="com.syberia.settings.fragments.VolumeStepsFragment" />
 
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>

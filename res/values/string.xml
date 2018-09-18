@@ -366,4 +366,7 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert layout</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB notification</string>
+    <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
 </resources>

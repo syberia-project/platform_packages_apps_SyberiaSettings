@@ -281,4 +281,7 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертированная разметка</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Отображать уведомление когда включен режим отладки через ADB</string>
 </resources>
