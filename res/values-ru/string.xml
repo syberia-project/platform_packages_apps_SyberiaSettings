@@ -15,7 +15,6 @@
     <string name="systemui_tuner_summary">Параметры батареи и отключение значков строки состояния</string>
     <string name="statusbar_clock_title">Отображать часы &amp; дату</string>
     <string name="statusbar_clock_summary">На панели состояния</string>
-    <string name="battery_style_title">Стиль значка батареи</string>
     <string name="battery_style_summary">Настроить стиль значка батареи</string>
     <string name="traffic_options_title">Индикатор сетевого трафика</string>
     <string name="traffic_options_summary">Показывать индикатор сетевого трафика в строке состояния</string>
@@ -298,5 +297,21 @@
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
     <string name="lockscreen_visualizer_summary">Показывать визуализацию музыки на экране блокировки во время воспроизведения</string>
+    
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Стиль значка батареи</string>
+    <string name="battery_style_port">Вертикальный</string>
+    <string name="battery_style_land">Горизонтальный</string>
+    <string name="battery_style_circle">Круг</string>
+    <string name="battery_style_dotted_circle">Пунктирный круг</string>
+    <string name="battery_style_big_circle">Большой круг</string>
+    <string name="battery_style_big_dotted_circle">Большой пунктирный круг</string>
+    <string name="battery_style_text">Текст</string>
+    <string name="battery_style_hidden">Скрыта</string>
+    <string name="show_battery_percent_title">Показывать процент заряда батареи</string>
+    <string name="battery_style_category_title">Значок батареи</string>
+    <string name="battery_percent_none">Не показывать</string>
+    <string name="battery_percent_outside">Снаружи</string>
+    <string name="battery_percent_inside">Внутри</string>
 
 </resources>
