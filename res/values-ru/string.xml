@@ -294,5 +294,9 @@
     <!-- Media art -->
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+    
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Визуализация спектра музыки</string>
+    <string name="lockscreen_visualizer_summary">Показывать визуализацию музыки на экране блокировки во время воспроизведения</string>
 
 </resources>
