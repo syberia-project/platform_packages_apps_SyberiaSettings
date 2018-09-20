@@ -290,5 +290,9 @@
     <string name="fprint_sucess_vib_summary">Вибрировать при успешной авторизации отпечатком пальца</string>
     <string name="fprint_error_vib_title">Вибрация при ошибке авторизации</string>
     <string name="fprint_error_vib_summary">Вибрировать при ошибке авторизации отпечатком пальца</string>
+    
+    <!-- Media art -->
+    <string name="media_art_title">Медиа-обложка</string>
+    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
 
 </resources>
