@@ -15,7 +15,6 @@
     <string name="systemui_tuner_summary">Opcje baterii i ikony do wyłączenia</string>
     <string name="statusbar_clock_title">Pokaż zegar &amp; date</string>
     <string name="statusbar_clock_summary">Na pasku stanu</string>
-    <string name="battery_style_title">Style Baterii</string>
     <string name="battery_style_summary">Dostosuj ikonę baterii</string>
     <string name="traffic_options_title">Wskaźnik Ruchu Systemowego</string>
     <string name="traffic_options_summary">Wyświetl informacje o ruchu systemowym</string>
@@ -200,4 +199,104 @@
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Wymuś rozwinięte powiadomienia</string>
     <string name="force_expanded_notifications_summary">Dostępne dla aplikacji, które obsługują rozwijane powiadomienia</string>
+    
+        <!-- Heads up -->
+    <string name="heads_up_notifications_title">Wyskakujące powiadomienia</string>
+    <string name="summary_heads_up_enabled">Wyskakujące powiadomienia włączone</string>
+    <string name="summary_heads_up_disabled">Wyskakujące powiadomienia wyłączone</string>
+    <string name="add_heads_up_package">Dodaj aplikacje</string>
+    <string name="add_heads_up_stoplist_summary">Wyłącz wyskakujące powiadomienia w tych aplikacjiach</string>
+    <string name="profile_choose_app">Wybierz aplikację</string>
+    <string name="dialog_delete_title">Usuń</string>
+    <string name="dialog_delete_message">Usunąć wybrany element?</string>
+    <string name="add_heads_up_blacklist_summary">Całkowicie wyłącz wyskakujące powiadomienia w tych aplikacjach</string>
+    <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
+    <string name="heads_up_blacklist_title">Czarna lista</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Koniec czasu</string>
+    <string name="heads_up_time_out_summary">Wyskakujące powiadomienia będą wyświetlane przez <xliff:g id="number">%d</xliff:g> sekund</string>
+    <string name="heads_up_time_out_2sec">2 sekundy</string>
+    <string name="heads_up_time_out_4sec">4 sekundy</string>
+    <string name="heads_up_time_out_5sec">5 sekund</string>
+    <string name="heads_up_time_out_6sec">6 sekund</string>
+    <string name="heads_up_time_out_8sec">8 sekund</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Drzemka</string>
+    <string name="heads_up_snooze_summary_one_minute">Przesunięcie palcem w górę usypia powiadomienie z tej aplikacji na 1 minutę</string>
+    <string name="heads_up_snooze_summary">Przesunięcie do góry na powiadomieniu, wyłączy je na <xliff:g id="number">%d</xliff:g> minuty</string>
+    <string name="heads_up_snooze_disabled_summary">Drzemka jest wyłączona</string>
+    <string name="heads_up_snooze_1min">1 minuta</string>
+    <string name="heads_up_snooze_5min">5 minut</string>
+    <string name="heads_up_snooze_10min">10 minut</string>
+    <string name="heads_up_snooze_15min">15 minut</string>
+    <string name="heads_up_snooze_20min">20 minut</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Kroki poziomów głośności</string>
+    <string name="volume_steps_summary">Personalizuj kroki poziomów głośności</string>
+    <string name="volume_steps_alarm_title">Kroki głośności: Alarm</string>
+    <string name="volume_steps_dtmf_title">Kroki głośności: Klawiatura numeryczna</string>
+    <string name="volume_steps_music_title">Kroki głośności: Muzyka</string>
+    <string name="volume_steps_notification_title">Kroki głośności: Powiadomienia</string>
+    <string name="volume_steps_ring_title">Kroki głośności: Dzwonek</string>
+    <string name="volume_steps_system_title">Kroki głośności: System</string>
+    <string name="volume_steps_voice_call_title">Kroki głośności: Połączenie głosowe</string>
+    <string name="volume_steps_reset">Resetuj</string>
+
+    <string name="sound_settings_title">Ustawienia głośności</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Uruchom aplikację do odtwarzania muzyki</string>
+    <string name="headset_connect_player_summary">Uruchom aplikację do słuchania muzyki przy podłączeniu zestawu słuchawkowego</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Narastająca głośność dzwonka</string>
+    <string name="increasing_ring_min_volume_title">Głośność początkowa</string>
+    <string name="increasing_ring_ramp_up_time_title">Wydłużenie odstępu</string>
+    
+    <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Odbieranie połączeń</string>
+    <string name="volume_answer_call_summary">Odbieranie połączeń przychodzących za pomocą przycisków głośności</string>
+    
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Styl ikony baterii</string>
+    <string name="battery_style_port">Pionowy</string>
+    <string name="battery_style_land">Poziomy</string>
+    <string name="battery_style_circle">Okrąg</string>
+    <string name="battery_style_dotted_circle">Przerywany okrąg</string>
+    <string name="battery_style_big_circle">Duży okrąg</string>
+    <string name="battery_style_big_dotted_circle">Duży przerywany okrąg</string>
+    <string name="battery_style_text">Tekst</string>
+    <string name="battery_style_hidden">Ukryty</string>
+    <string name="show_battery_percent_title">Pokaż procent baterii</string>
+    <string name="battery_style_category_title">Procent baterii</string>
+    <string name="battery_percent_none">Nie pokazuj</string>
+    <string name="battery_percent_outside">Pokaż obok ikony</string>
+    <string name="battery_percent_inside">Pokaż wewnątrz ikony</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Przezroczystość</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Suwak jasności</string>
+    <string name="qs_show_brightness_summary">Pokaż suwak jaśności w panelu szybkich ustawień</string>
+    <string name="qs_brightness_position_bottom_title">Suwak jasności na dole</string>
+    <string name="qs_brightness_position_bottom_summary">Pokaż suwak jaśności na dole panelu szybkich ustawień</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Wibracja podczas uwierzytelniania odcisku palca</string>
+    <string name="fprint_sucess_vib_summary">Wibracja po udanym uwierzytelnieniu odcisku palca</string>
+    <string name="fprint_error_vib_title">Wibracja podczas błędnego odcisku palca</string>
+    <string name="fprint_error_vib_summary">Wibracja po nieudanym uwierzytelnieniu odcisku palca</string>
+    
+    <!-- Media art -->
+    <string name="media_art_title">Okładka albumu</string>
+    <string name="media_art_summary">Pokazuj okładkę albumu na ekranie blokady</string>
+    
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Wizualizacja muzyki</string>
+    <string name="lockscreen_visualizer_summary">Wyświetlaj wizualizację muzyki na ekranie blokady gdy gra muzyka</string>
 </resources>
