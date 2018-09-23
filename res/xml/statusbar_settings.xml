@@ -62,6 +62,12 @@
         android:summary="@string/clock_options_summary"
         android:title="@string/clock_options_title" />
 
+    <Preference
+         android:key="network_traffic"
+         android:title="@string/traffic_title"
+         android:summary="@string/traffic_summary"
+         android:fragment="com.syberia.settings.fragments.NetworkTraffic" />
+
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="show_fourg"
         android:title="@string/show_fourg_title"
