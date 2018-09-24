@@ -34,8 +34,6 @@
     <string name="systemui_tuner_summary">Pil seçenekleri ve durum çubuğu simgeleri devre dışı</string>
     <string name="statusbar_clock_title">Saati ve tarihi göster</string>
     <string name="statusbar_clock_summary">Durum çubuğunun içinde</string>
-    <string name="battery_style_title">Pil Stili</string>
-    <string name="battery_style_summary">Pil Simgesi Özelleştirmesi</string>
     <string name="traffic_options_title">Ağ trafiği göstergeleri</string>
     <string name="traffic_options_summary">Ağ trafiği bilgilerini görüntüle</string>
     <string name="misc_extensions_title">Çeşitli ayarlar</string>
@@ -149,7 +147,7 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Gezinti çubuğu düğmeleri</string>
-    <string name="navbar_visibility">Gezinti çubuğunu aktifleştir</string>
+    <string name="navbar_visibility">Gezinti çubuğunu göster</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
@@ -157,7 +155,7 @@
     
     <string name="flash_on_call_category">Flaş yakıp söndür</string>
     <string name="flash_on_call_title">Gelen aramalarda flaşı yakıp söndür</string>
-    <string name="flash_on_call_delay_title">Flaş yakıp söndürme süresi</string>
+    <string name="flash_on_call_delay_title">Flaş yakıp söndürme aralığı</string>
    
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Ses tuşu ile uyanma</string>
@@ -181,14 +179,14 @@
     
         <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Ağ trafiği</string>
-    <string name="network_traffic_state_summary">Durum çubuğunda ağ aktivitesini göster</string>
-    <string name="network_traffic_autohide_threshold_title">Ağ aktivitesi otomatik gizleme sınırı (KB/s)</string>
+    <string name="network_traffic_state_summary">Durum çubuğunda ağ trafiğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ trafiği otomatik gizleme sınırı (KB/s)</string>
     
     <!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Kilit ekranında görüntülenme</string>
     <string name="powermenu_lockscreen_summary">Kilit ekranındayken güç menüsünü göstermeyi ve kullanmayı aktifleştir</string>
 
-    <string name="notifications_title">Bildirimler</string>
+    <string name="panel_notifications_title">Bildirimler</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Smart pulldown</string>
@@ -208,10 +206,10 @@
     <string name="battery_light_allow_on_dnd_title">Rahatsız etme modunda pil ışığı</string>
     <string name="battery_light_low_blinking_title">Düşük pilde yakıp söndür</string>
     <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
-    <string name="battery_light_low_color">Düşük pil</string>
-    <string name="battery_light_medium_color">Orta pil</string>
-    <string name="battery_light_full_color">Neredeyse dolu pil</string>
-    <string name="battery_light_reallyfull_color">Dolu (100) pil</string>
+    <string name="battery_light_low_color">Düşük pil seviyesi</string>
+    <string name="battery_light_medium_color">Orta pil seviyesi</string>
+    <string name="battery_light_full_color">Neredeyse dolu pil seviyesi</string>
+    <string name="battery_light_reallyfull_color">Dolu pil (100)</string>
     
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Bildirimleri Zorla Genişlet</string>
@@ -250,4 +248,72 @@
     <string name="heads_up_snooze_10min">10 dakika</string>
     <string name="heads_up_snooze_15min">15 dakika</string>
     <string name="heads_up_snooze_20min">20 dakika</string>
+    
+     <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Ses kademeleri</string>
+    <string name="volume_steps_summary">Ses kademelerini özelleştir</string>
+    <string name="volume_steps_alarm_title">Alarm sesi kademesi</string>
+    <string name="volume_steps_dtmf_title">DTMF ses kademesi</string>
+    <string name="volume_steps_music_title">Ortam sesi kademesi</string>
+    <string name="volume_steps_notification_title">Bildirim sesi kademesi</string>
+    <string name="volume_steps_ring_title">Zil sesi kademesi</string>
+    <string name="volume_steps_system_title">Sistem sesi kademesi</string>
+    <string name="volume_steps_voice_call_title">Sesli arama ses kademesi</string>
+    <string name="volume_steps_reset">Sıfırla</string>
+    
+    <string name="sound_settings_title">Ses ayarları</string>
+    
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Müzik uygulamasını başlat</string>
+    <string name="headset_connect_player_summary">Kulaklık takıldığında varsayılan müzik uygulamasını başlat</string>
+    
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Artan zil sesi seviyesi</string>
+    <string name="increasing_ring_min_volume_title">Başlama seviyesi</string>
+    <string name="increasing_ring_ramp_up_time_title">Yükselme süresi</string>
+    
+    <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Ses tuşuyla cevapla</string>
+    <string name="volume_answer_call_summary">Ses tuşlarına basıldığında gelen aramayı cevapla</string>
+    
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Pil ikonu stili</string>
+    <string name="battery_style_port">Düşey</string>
+    <string name="battery_style_land">Yatay</string>
+    <string name="battery_style_circle">Çember</string>
+    <string name="battery_style_dotted_circle">Noktalı çember</string>
+    <string name="battery_style_big_circle">Büyük çember</string>
+    <string name="battery_style_big_dotted_circle">Noktalı büyük çember</string>
+    <string name="battery_style_text">Metin</string>
+    <string name="battery_style_hidden">Gizli</string>
+    <string name="show_battery_percent_title">Pil yüzdesini göster</string>
+    <string name="battery_style_category_title">Pil ikonu</string>
+    <string name="battery_percent_none">Gösterme</string>
+    <string name="battery_percent_outside">İkonun yanında göster</string>
+    <string name="battery_percent_inside">İkonun içinde göster</string>
+    
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Opaklık</string>
+    
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Parlaklık kontrolü</string>
+    <string name="qs_show_brightness_summary">Hızlı ayarlarda parlaklık kontrolünü göster</string>
+    <string name="qs_brightness_position_bottom_title">Parlaklık kontrolü konumu</string>
+    <string name="qs_brightness_position_bottom_summary">Parlaklık kontrolünü hızlı ayarların altında göster</string>
+    
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
+    <string name="fprint_sucess_vib_summary">Parmak izi doğrulandığında titret</string>
+    <string name="fprint_error_vib_title">Parmak izi hata titreşimi</string>
+    <string name="fprint_error_vib_summary">Parmak izi doğrulanamadığında titret</string>
+    
+    <!-- Media art -->
+    <string name="media_art_title">Ortam kapak resmi</string>
+    <string name="media_art_summary">Kilit ekranında ortam kapak resmini göster</string>
+    
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Müzik görselleştirmesi</string>
+    <string name="lockscreen_visualizer_summary">Müzik çalarken kilit ekranında müziği görselleştir</string>
+    
+    
 </resources>
