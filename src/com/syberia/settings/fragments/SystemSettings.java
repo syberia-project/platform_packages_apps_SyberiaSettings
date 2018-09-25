@@ -33,7 +33,6 @@ import com.android.internal.logging.nano.MetricsProto;
 
 public class SystemSettings extends SettingsPreferenceFragment {
 
-	private static final String CATEGORY_ANIMATIONS = "animations";
 	private static final String CATEGORY_RESENT = "recents_ui";
 	private static final String CATEGORY_SYS_APP_REMOVER = "system_app_remover";
 
@@ -43,7 +42,6 @@ public class SystemSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.system_settings);
 
         PreferenceScreen preferenceScreen = getPreferenceScreen();
-		preferenceScreen.removePreference(findPreference(CATEGORY_ANIMATIONS));
 		preferenceScreen.removePreference(findPreference(CATEGORY_RESENT));
 		preferenceScreen.removePreference(findPreference(CATEGORY_SYS_APP_REMOVER));
     }

@@ -28,6 +28,7 @@
         android:title="@string/general_tweaks_title" />
 
     <Preference
+        android:fragment="com.syberia.settings.fragments.AnimationsSettings"
         android:icon="@drawable/ic_animations"
         android:key="animations"
         android:title="@string/animations_title" />
