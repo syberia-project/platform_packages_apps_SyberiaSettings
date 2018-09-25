@@ -402,5 +402,6 @@
     <string name="title_animation_no_override">Prevent app overrides</string>
     <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
     <string name="animation_duration_default">Default</string>
+    <string name="task_open_behind_title">Task open behind animation</string>
 
 </resources>
