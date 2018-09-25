@@ -66,6 +66,9 @@ public class Animations extends SettingsPreferenceFragment
     private static final String PREF_TILE_ANIM_DURATION = "qs_tile_animation_duration";
     private static final String PREF_TILE_ANIM_INTERPOLATOR = "qs_tile_animation_interpolator";
 
+    private static final String KEY_LISTVIEW_ANIMATION = "listview_animation";
+    private static final String KEY_LISTVIEW_INTERPOLATOR = "listview_interpolator";
+
     private CustomSeekBarPreference mAnimDuration;
     ListPreference mActivityOpenPref;
     ListPreference mActivityClosePref;
@@ -78,6 +81,9 @@ public class Animations extends SettingsPreferenceFragment
     ListPreference mWallpaperClose;
     ListPreference mWallpaperIntraOpen;
     ListPreference mWallpaperIntraClose;
+
+    private ListPreference mListViewAnimation;
+    private ListPreference mListViewInterpolator;
 
     private int[] mAnimations;
     private String[] mAnimationsStrings;
@@ -197,6 +203,22 @@ public class Animations extends SettingsPreferenceFragment
         mTileAnimationInterpolator.setValue(String.valueOf(tileAnimationInterpolator));
         updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
         mTileAnimationInterpolator.setOnPreferenceChangeListener(this);
+
+        mListViewAnimation = (ListPreference) findPreference(KEY_LISTVIEW_ANIMATION);
+        int listviewanimation = Settings.Global.getInt(resolver,
+                Settings.Global.LISTVIEW_ANIMATION, 0);
+        mListViewAnimation.setValue(String.valueOf(listviewanimation));
+        mListViewAnimation.setSummary(mListViewAnimation.getEntry());
+        mListViewAnimation.setOnPreferenceChangeListener(this);
+
+        mListViewInterpolator = (ListPreference) findPreference(KEY_LISTVIEW_INTERPOLATOR);
+        int listviewinterpolator = Settings.Global.getInt(resolver,
+                Settings.Global.LISTVIEW_INTERPOLATOR, 0);
+        mListViewInterpolator.setValue(String.valueOf(listviewinterpolator));
+        mListViewInterpolator.setSummary(mListViewInterpolator.getEntry());
+        mListViewInterpolator.setEnabled(listviewanimation > 0);
+        mListViewInterpolator.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -291,6 +313,21 @@ public class Animations extends SettingsPreferenceFragment
             Settings.System.putIntForUser(getContentResolver(), Settings.System.ANIM_TILE_INTERPOLATOR,
                     tileAnimationInterpolator, UserHandle.USER_CURRENT);
             updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
+            return true;
+        } else if (preference == mListViewAnimation) {
+            int value = Integer.parseInt((String) newValue);
+            int index = mListViewAnimation.findIndexOfValue((String) newValue);
+            Settings.Global.putInt(resolver,
+                    Settings.Global.LISTVIEW_ANIMATION, value);
+            mListViewAnimation.setSummary(mListViewAnimation.getEntries()[index]);
+            mListViewInterpolator.setEnabled(value > 0);
+            return true;
+        } else if (preference == mListViewInterpolator) {
+            int value = Integer.parseInt((String) newValue);
+            int index = mListViewInterpolator.findIndexOfValue((String) newValue);
+            Settings.Global.putInt(resolver,
+                    Settings.Global.LISTVIEW_INTERPOLATOR, value);
+            mListViewInterpolator.setSummary(mListViewInterpolator.getEntries()[index]);
             return true;
         }
         return false;
