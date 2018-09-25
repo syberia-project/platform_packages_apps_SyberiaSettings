@@ -46,6 +46,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
+import com.syberia.settings.preference.CustomSeekBarPreference;
+
 public class AnimationsSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener{
 
 	private static final String KEY_TOAST_ANIMATION = "toast_animation";
@@ -65,6 +67,7 @@ public class AnimationsSettings extends SettingsPreferenceFragment implements On
     private static final String WALLPAPER_INTRA_OPEN = "wallpaper_intra_open";
     private static final String WALLPAPER_INTRA_CLOSE = "wallpaper_intra_close";
     private static final String TASK_OPEN_BEHIND = "task_open_behind";
+    private static final String ANIMATION_DURATION = "animation_duration";
 
     private static final String SCROLLINGCACHE_DEFAULT = "2";
 
@@ -84,6 +87,7 @@ public class AnimationsSettings extends SettingsPreferenceFragment implements On
     private ListPreference mWallpaperIntraClose;
     private ListPreference mTaskOpenBehind;
     private SwitchPreference mAnimNoOverride;
+    private CustomSeekBarPreference mAnimationDuration;
 
     protected Context mContext;
     protected ContentResolver resolver;
@@ -211,6 +215,10 @@ public class AnimationsSettings extends SettingsPreferenceFragment implements On
         mTaskOpenBehind.setEntries(mAnimationsStrings);
         mTaskOpenBehind.setEntryValues(mAnimationsNum);
         mTaskOpenBehind.setValueIndex(getProperIndex(mTaskOpenBehind));
+
+        mAnimationDuration = (CustomSeekBarPreference) findPreference(ANIMATION_DURATION);
+        mAnimationDuration.setValue(Settings.System.getInt(resolver, Settings.System.ANIMATION_CONTROLS_DURATION, 0));
+        mAnimationDuration.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -311,6 +319,10 @@ public class AnimationsSettings extends SettingsPreferenceFragment implements On
             Settings.System.putInt(resolver,
                     Settings.System.ACTIVITY_ANIMATION_CONTROLS[10], val);
             preference.setSummary(getProperSummary(preference));
+            return true;
+        } else if (preference == mAnimationDuration) {
+            int val = (Integer) objValue;
+            Settings.System.putInt(getContentResolver(), Settings.System.ANIMATION_CONTROLS_DURATION, val);
             return true;
         }
         return false;
