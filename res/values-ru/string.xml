@@ -279,10 +279,13 @@
     <string name="qs_panel_alpha_title">Непрозрачность</string>
 
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_cat">Яркость</string>
     <string name="qs_show_brightness_title">Регулятор яркости</string>
     <string name="qs_show_brightness_summary">Показать регулятор яркости в панели быстрых настроек</string>
     <string name="qs_brightness_position_bottom_title">Регулятор яркости внизу</string>
     <string name="qs_brightness_position_bottom_summary">Показать регулятор яркости внизу панели быстрых настроек</string>
+    <string name="qs_brightness_icon_title">Отображать значок</string>
+    <string name="qs_brightness_icon_summary">Отображать значок яркости слева от ползунка для настройки авто яркости</string>
 
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Вибрация при авторизации</string>
@@ -323,5 +326,106 @@
     <string name="gesture_settings_summary">Использовать свайпы нижней части экрана для навигации</string>
     <string name="use_bottom_gesture_title">Использовать жесты</string>
     <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\nНазад\n- Свайп вверх слева или справа\n\nДомой\n- Свайп вверх по центру экрана\n\nНедавние приложения\n- Свайп вверх по центру экрана и удержание\n\nПоследнее приложение\n- Короткий свайп вверх и удержание.</string>
-
+    
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
+    <string name="toast_none_animation">Нет</string>
+    <string name="toast_default_animation">По умолчанию</string>
+    <string name="toast_fade_animation">Исчезание</string>
+    <string name="toast_SlideRight_animation">Слайд вправо</string>
+    <string name="toast_SlideLeft_animation">Слайд влево</string>
+    <string name="toast_Xylon_animation">Анимация Xylon</string>
+    <string name="toast_Toko_animation">Анимация Toko</string>
+    <string name="toast_Tn_animation">Анимация Tn</string>
+    <string name="toast_Honami_animation">Анимация Honami</string>
+    <string name="toast_FastFade_animation">Быстрое затухание</string>
+    <string name="toast_GrowFade_animation">Постепенное затухание</string>
+    <string name="toast_GrowFadeCenter_animation">Постепенное затухание от центра</string>
+    <string name="toast_GrowFadeBottom_animation">Возрастающее затухание вниз</string>
+    <string name="toast_Translucent_animation">Прозрачность</string>
+    <string name="toast_SlideLeftRight_animation">Слайд слева направо</string>
+    <string name="toast_SlideRightLeft_animation">Слайд справа налево</string>
+    <string name="toast_animation_test">Это тест для выбранной анимации</string>
+    <string name="toast">Всплывающие уведомления</string>
+    
+    <!-- ListView animation -->
+    <string name="listview">Список</string>
+    <string name="listview_animation_title">Анимация списков</string>
+    <string name="listview_off">По умолчанию</string>
+    <string name="listview_wave_left">Волна (слева)</string>
+    <string name="listview_wave_right">Волна (справа)</string>
+    <string name="listview_alpha">Альфа</string>
+    <string name="listview_scale">Маштабирование</string>
+    <string name="listview_stack_top">Стек (сверху)</string>
+    <string name="listview_stack_bottom">Стек (снизу)</string>
+    <string name="listview_unfold">Разворачивание</string>
+    <string name="listview_fold">Сворачивание</string>
+    <string name="listview_translate_left">Переход (слева)</string>
+    <string name="listview_translate_right">Переход (справа)</string>
+     <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Эффекты анимации списка</string>
+    <string name="listview_accelerate_interpolator">Ускорить</string>
+    <string name="listview_decelerate_interpolator">Замедлить</string>
+    <string name="listview_accelerate_decelerate_interpolator">Ускорение и замедление</string>
+    <string name="listview_anticipate_interpolator">Подпрыгнуть</string>
+    <string name="listview_overshoot_interpolator">Перепрыгнуть</string>
+    <string name="listview_anticipate_overshoot_interpolator">Ускорить и проскочить</string>
+    <string name="listview_bounce_interpolator">Пружинить</string>
+    
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Кэш прокрутки</string>
+    <string name="pref_scrollingcache_summary">Кэш прокрутки может повысить плавность прокрутки за счёт использования ОЗУ</string>
+    <string name="pref_scrollingcache_force_enable">Включить принудительно</string>
+    <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
+    <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
+    <string name="pref_scrollingcache_force_disable">Отключить принудительно</string>
+    
+    <!-- AOKP custom system animations -->
+    <string name="system_animations">Системные анимации</string>
+    <string name="system_animation_title">Системные анимации</string>
+    <string name="activity_open_title">Анимация открытия активити</string>
+    <string name="activity_close_title">Анимация закрытия активности</string>
+    <string name="task_open_title">Анимация открытия задачи</string>
+    <string name="task_open_behind_title">Анимация открытия фоновой задачи</string>
+    <string name="task_close_title">Анимация закрытия задачи</string>
+    <string name="task_move_to_front_title">Анимация движения вперед</string>
+    <string name="task_move_to_back_title">Анимация движения назад</string>
+    <string name="wallpaper_open_title">Анимация открытия обоев</string>
+    <string name="wallpaper_close_title">Анимация закрытия обоев</string>
+    <string name="wallpaper_intra_open_title">Внутр. анимации открытия обоев</string>
+    <string name="wallpaper_intra_close_title">Внутр. анимация закрытия обоев</string>
+    <string name="animation_duration_title">Длительность анимации</string>
+    <string name="title_animation_no_override">Предотвратить переопределения приложениями</string>
+    <string name="summary_animation_no_override">Запретить приложениям переопределять переходы</string>
+    <string name="animation_duration_default">По умолчанию</string>
+    
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock">Часы и дата</string>
+    <string name="status_bar_clock_summary">Настройка отображения часов и даты в строке состояния</string>
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_show">Показать часы и дату</string>
+    <string name="status_bar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-х часовой формат включен</string>
+    <string name="status_bar_am_pm_normal">Нормальный размер</string>
+    <string name="status_bar_am_pm_small">Маленький размер</string>
+    <string name="status_bar_am_pm_hidden">Скрыт (по умолчанию)</string>
+    <string name="clock_seconds_display">Показывать секунды</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать дату перед часами</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Нормальный размер шрифта</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Нормальный размер</string>
+    <string name="clock_date_style_lowercase">Нижний регистр</string>
+    <string name="clock_date_style_uppercase">Верхний регистр</string>
+    <string name="clock_date_format_custom">Пользовательский java-формат</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должно быть в DateFormat например MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Ввести строку</string>
+    
 </resources>
