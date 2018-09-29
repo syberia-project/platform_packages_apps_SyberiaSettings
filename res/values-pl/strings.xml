@@ -299,4 +299,119 @@
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Wizualizacja muzyki</string>
     <string name="lockscreen_visualizer_summary">Wyświetlaj wizualizację muzyki na ekranie blokady gdy gra muzyka</string>
+    
+     <!-- Toast Animation -->
+    <string name="toast_animation_title">>Animacje dymka z komunikatami</string>
+    <string name="toast_none_animation">Brak</string>
+    <string name="toast_default_animation">Domyślna</string>
+    <string name="toast_fade_animation">Zanikanie</string>
+    <string name="toast_SlideRight_animation">Przesunięcie w prawo</string>
+    <string name="toast_SlideLeft_animation">Przesunięcie w lewo</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Szybkie zanikanie</string>
+    <string name="toast_GrowFade_animation">Rosnące zanikanie</string>
+    <string name="toast_GrowFadeCenter_animation">Rosnące zanikanie do środka</string>
+    <string name="toast_GrowFadeBottom_animation">Rosnące zanikanie ku dołowi</string>
+    <string name="toast_Translucent_animation">Przezroczysty</string>
+    <string name="toast_SlideLeftRight_animation">Przesunięcie z lewej do prawej</string>
+    <string name="toast_SlideRightLeft_animation">Przesunięcie z prawej do lewej</string>
+    <string name="toast_animation_test">To jest test dymka z komunikatami</string>
+    <string name="toast">Dymek powiadomień</string>
+
+    <!-- ListView animation -->
+    <string name="listview">Widok listy</string>
+    <string name="listview_animation_title">Animacja widoku listy</string>
+    <string name="listview_off">Domyślna</string>
+    <string name="listview_wave_left">Fala (lewo)</string>
+    <string name="listview_wave_right">Fala (prawo)</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_scale">Skalowanie</string>
+    <string name="listview_stack_top">Stos (góra)</string>
+    <string name="listview_stack_bottom">Stos (dół)</string>
+    <string name="listview_unfold">Rozwijanie</string>
+    <string name="listview_fold">Zwijanie</string>
+    <string name="listview_translate_left">Przełóż (z lewej)</string>
+    <string name="listview_translate_right">Przełóż (z prawej)</string>
+     
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Interpolacja widoku listy</string>
+    <string name="listview_accelerate_interpolator">Przyśpiesz</string>
+    <string name="listview_decelerate_interpolator">Zwolnij</string>
+    <string name="listview_accelerate_decelerate_interpolator">Przyśpiesz i zwolnij</string>
+    <string name="listview_anticipate_interpolator">Przewiduj</string>
+    <string name="listview_overshoot_interpolator">Przekrocz</string>
+    <string name="listview_anticipate_overshoot_interpolator">Przewidź i przekrocz</string>
+    <string name="listview_bounce_interpolator">Podskok</string>
+
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Pamięć podręczna przewijania</string>
+    <string name="pref_scrollingcache_summary">Pamięć podręczna przewijania może poprawić wydajność przewijania kosztem pamięci</string>
+    <string name="pref_scrollingcache_force_enable">Wymuś włączenie</string>
+    <string name="pref_scrollingcache_default_enable">Domyślnie włączone</string>
+    <string name="pref_scrollingcache_default_disable">Domyślnie wyłączone</string>
+    <string name="pref_scrollingcache_force_disable">Wymuś wyłączenie</string>
+
+    <!-- AOKP custom system animations -->
+    <string name="system_animations">Animacje systemu</string>
+    <string name="system_animation_title">Animacje systemowe</string>
+    <string name="activity_open_title">Animacja otwierania aktywności</string>
+    <string name="activity_close_title">Animacja zamykania aktywności</string>
+    <string name="task_open_title">Animacja otwarcia zadania</string>
+    <string name="task_close_title">Animacja zamknięcia zadania</string>
+    <string name="task_move_to_front_title">Animacja przysunięcia</string>
+    <string name="task_move_to_back_title">Animacja odsunięcia</string>
+    <string name="wallpaper_open_title">Animacja otwarcia tapety</string>
+    <string name="wallpaper_close_title">Animacja zamknięcia tapety</string>
+    <string name="wallpaper_intra_open_title">Animacja wewnętrznego otwarcia tapety</string>
+    <string name="wallpaper_intra_close_title">Animacja wewnętrznego zamknięcia tapety</string>
+    <string name="animation_duration_title">Czas trwania animacji</string>
+    <string name="title_animation_no_override">Zapobiegaj zastąpieniu animacji przez aplikacje</string>
+    <string name="summary_animation_no_override">Zapobiegaj zastąpieniu efektów przejścia przez aplikacje</string>
+    <string name="animation_duration_default">Domyślne</string>
+    <string name="task_open_behind_title">Animacja po otwarciu zadanian</string>
+
+     <!-- Statusbar Clock -->
+    <string name="status_bar_clock">Zegar i data</string>
+    <string name="status_bar_clock_summary">Wyświetlanie i dostosowywanie zegara i daty</string>
+    <string name="status_bar_clock_title">Ustawienia zegara</string>
+    <string name="status_bar_clock_show">Pokaż zegar i datę</string>
+    <string name="status_bar_clock_style_title">Styl zegara</string>
+    <string name="status_bar_clock_style_right">Po prawej</string>
+    <string name="status_bar_clock_style_center">Wyśrodkowany</string>
+    <string name="status_bar_clock_style_left">Po lewej</string>
+    <string name="status_bar_am_pm_title">Styl AM/PM</string>
+    <string name="status_bar_am_pm_info">24-godzinny zegar jest aktywny</string>
+    <string name="status_bar_am_pm_normal">Normalny</string>
+    <string name="status_bar_am_pm_small">Mały</string>
+    <string name="status_bar_am_pm_hidden">Ukryty (domyślnie)</string>
+    <string name="clock_seconds_display">Pokaż sekundy</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Wyświetlanie niestandardowej daty przed zegarem</string>
+    <string name="clock_date_display_none">Nie pokazuj</string>
+    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
+    <string name="clock_date_display_normal">Normalny rozmiar czcionki</string>
+    <string name="clock_date_style">Styl dany</string>
+    <string name="clock_date_style_normal">Normalny</string>
+    <string name="clock_date_style_lowercase">Małe litery</string>
+    <string name="clock_date_style_uppercase">Duże litery</string>
+    <string name="clock_date_format_custom">Niestandardowy format Java</string>
+    <string name="clock_date_format">Format daty</string>
+    <string name="clock_date_string_edittext_title">Musi być w formacie np. MM/dd/rr</string>
+    <string name="clock_date_string_edittext_summary">Wprowadź ciąg</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Wibruj przy dotknięciu</string>
+    <string name="quick_settings_vibrate_summary">Wibruj podczas dotykania przełączników</string>
+
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Gesty</string>
+    <string name="gesture_settings_summary">Przesuń w górę na dole ekranu, aby użyć gestów</string>
+    <string name="use_bottom_gesture_title">Włącz gesty</string>
+    <string name="gesture_settings_info">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nCofnij\n- Przesuń po lewej lub prawej stronie\n\nEkran główny\n- Przesuń na środku\n\nOstatnie aplikacje\n- Przesuń na środku i przytrzymaj\n\nOstatnia aplikacja\n- Lekko przesuń w górę i przytrzymaj</string>
+
+</resources>
+
 </resources>
