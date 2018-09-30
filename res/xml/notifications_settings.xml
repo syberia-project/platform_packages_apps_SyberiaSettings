@@ -54,34 +54,24 @@
         settings:min="0"
         settings:units=""
         android:persistent="false" />
-    <PreferenceCategory
-        android:key="quick_settings_brightness"
-        android:title="@string/qs_brightness_cat">
-        <com.syberia.settings.preference.SecureSettingSwitchPreference
-            android:key="qs_show_brightness"
-            android:title="@string/qs_show_brightness_title"
-            android:summary="@string/qs_show_brightness_summary"
-            android:defaultValue="true" />
 
-        <com.syberia.settings.preference.SecureSettingSwitchPreference
-            android:key="qs_brightness_position_bottom"
-            android:title="@string/qs_brightness_position_bottom_title"
-            android:summary="@string/qs_brightness_position_bottom_summary"
-            android:defaultValue="false"
-            android:dependency="qs_show_brightness" />
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/qs_show_brightness_title"
+        android:summary="@string/qs_show_brightness_summary"
+        android:defaultValue="true" />
 
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="qs_show_brightness_icon"
-            android:title="@string/qs_brightness_icon_title"
-            android:summary="@string/qs_brightness_icon_summary"
-            android:dependency="qs_show_brightness"
-            android:defaultValue="false"/>
-    </PreferenceCategory>
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_brightness_position_bottom"
+        android:title="@string/qs_brightness_position_bottom_title"
+        android:summary="@string/qs_brightness_position_bottom_summary"
+        android:defaultValue="false"
+        android:dependency="qs_show_brightness" />
 
-        <com.syberia.settings.preference.SecureSettingSwitchPreference
-    	    android:key="quick_settings_vibrate"
-    	    android:title="@string/quick_settings_vibrate_title"
-    	    android:summary="@string/quick_settings_vibrate_summary"
-    	    android:defaultValue="false" />
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+	android:key="quick_settings_vibrate"
+	android:title="@string/quick_settings_vibrate_title"
+	android:summary="@string/quick_settings_vibrate_summary"
+	android:defaultValue="false" />
 
 </PreferenceScreen>
