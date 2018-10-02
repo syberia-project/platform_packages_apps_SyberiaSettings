@@ -55,4 +55,14 @@
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="other"
+            android:title="@string/other_title" >
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="ignore_rssnr"
+            android:title="@string/ignore_rssnr_title"
+            android:summary="@string/ignore_rssnr_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>
