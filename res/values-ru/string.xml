@@ -275,6 +275,10 @@
     <string name="volume_answer_call_title">Ответ кнопками громкости</string>
     <string name="volume_answer_call_summary">Ответить на звонок нажатием кнопок громкости</string>
 
+    <!-- The Home key answer -->
+    <string name="home_answer_call_title">Ответ кнопкой Домой</string>
+    <string name="home_answer_call_summary">Ответить на звонок нажатием кнопки Домой</string>
+
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Непрозрачность</string>
 

@@ -59,6 +59,19 @@
     <PreferenceCategory
             android:key="other"
             android:title="@string/other_title" >
+
+	<com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="call_home_answer"
+            android:title="@string/home_answer_call_title"
+            android:summary="@string/home_answer_call_summary"
+            android:defaultValue="false" />
+
+	<com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="call_volume_answer"
+            android:title="@string/volume_answer_call_title"
+            android:summary="@string/volume_answer_call_summary"
+            android:defaultValue="false" />
+
         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="ignore_rssnr"
             android:title="@string/ignore_rssnr_title"
