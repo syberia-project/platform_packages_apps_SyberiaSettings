@@ -446,17 +446,20 @@
     <string name="gesture_settings_summary">Use bottom swipe up gestures for navigation</string>
     <string name="use_bottom_gesture_title">Enable gestures</string>
     <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
+    
+    <!-- Notifications light -->
+    <string name="notification_light_settings">Notifications light</string>
 
+    <!-- Other -->
+    <string name="other_title">Other</string>
+
+    <!-- RSSNR -->
     <string name="ignore_rssnr_title">Ignore RSSNR</string>
     <string name="ignore_rssnr_summary">Ignore RSSNR in LTE signal strength calculation</string>
 
-    <string name="other_title">Other</string>
-
-    <string name="notification_light_settings">Notifications light</string>
-
-    <string name="about_team_title">About team</string>
+    <!-- About team -->
+    <string name="about_team_title">About Syberia team</string>
     <string name="about_team_summary">Information about the team and maintainers</string>
-
     <string name="syberia_team_title">Syberia Team</string>
 
 </resources>

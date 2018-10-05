@@ -432,6 +432,19 @@
     <string name="clock_date_string_edittext_title">Должно быть в DateFormat например MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Ввести строку</string>
 
+    <!-- Notifications light -->
     <string name="notification_light_settings">Индикация уведомлений</string>
+    
+    <!-- Other -->
+    <string name="other_title">Другое</string>
+
+    <!-- RSSNR -->
+    <string name="ignore_rssnr_title">Не учитывать RNSSR</string>
+    <string name="ignore_rssnr_summary">Не учитывать RNSSR при расчете сигнала LTE</string>
+    
+    <!-- About team -->
+    <string name="about_team_title">О команде &quot;Syberia&quot;</string>
+    <string name="about_team_summary">Информация о команде и поддерживаемых устройствах</string>
+    <string name="syberia_team_title">Команда &quot;Syberia&quot;</string>
     
 </resources>
