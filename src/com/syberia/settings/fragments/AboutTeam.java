@@ -211,6 +211,18 @@ public class AboutTeam extends SettingsPreferenceFragment {
                         )
                 )
         );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Redmi Note 5 (whyred)",
+                        new AboutTeamAdapter.Dev(
+                                "federicobenedetti ",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/26311786?s=400&v=4",
+                                "https://forum.xda-developers.com/member.php?u=5825602",
+                                "https://github.com/federicobenedetti",
+                                ""
+                        )
+                )
+        );
 
     }
 }
