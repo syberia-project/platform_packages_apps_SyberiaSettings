@@ -151,5 +151,66 @@ public class AboutTeam extends SettingsPreferenceFragment {
                         )
                 )
         );
+        list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi 5s (capricorn)",
+                        new AboutTeamAdapter.Dev(
+                                "mesziman",
+                                "",
+                                "https://avatars1.githubusercontent.com/u/4874388?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-5s/development/rom-syberia-rom-1-0-t3835690",
+                                "https://github.com/mesziman",
+                                ""
+                        )
+                )
+        );
+        list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Redmi Note 3 (kenzo)",
+                        new AboutTeamAdapter.Dev(
+                                "Amitava_123",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/26063103?s=400&v=4",
+                                "https://forum.xda-developers.com/redmi-note-3/development/rom-syberia-project-t3837399",
+                                "https://github.com/Amitava123",
+                                ""
+                        )
+                )
+        );
+        list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Redmi Note 4 (mido)",
+                        new AboutTeamAdapter.Dev(
+                                "NATO666613",
+                                "",
+                                "https://avatars3.githubusercontent.com/u/7190697?s=400&v=4",
+                                "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-syberia-project-t3846212",
+                                "https://github.com/kondors1995",
+                                ""
+                        )
+                )
+        );
+        list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi Mix 2 (chiron)",
+                        new AboutTeamAdapter.Dev(
+                                "AleD219",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/40178945?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-mix-2/development/rom-syberia-project-t3847007",
+                                "https://github.com/AleD219",
+                                ""
+                        )
+                )
+        );
+        list.add(new AboutTeamAdapter.Maintainer(
+                        "Asus ZenFone Max Pro M1 (X00TD)",
+                        new AboutTeamAdapter.Dev(
+                                "thetoymaker",
+                                "",
+                                "https://avatars2.githubusercontent.com/u/37396330?s=400&v=4",
+                                "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-syberia-project-t3848146",
+                                "https://github.com/Toymakerftw",
+                                ""
+                        )
+                )
+        );
+
     }
 }
