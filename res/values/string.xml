@@ -450,4 +450,9 @@
 
     <string name="notification_light_settings">Notifications light</string>
 
+    <string name="about_team_title">About team</string>
+    <string name="about_team_summary">Information about the team and maintainers</string>
+
+    <string name="syberia_team_title">Syberia Team</string>
+
 </resources>
