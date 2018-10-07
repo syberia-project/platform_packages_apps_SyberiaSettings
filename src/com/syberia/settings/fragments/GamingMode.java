@@ -41,9 +41,14 @@ import android.widget.ListView;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
 import com.android.settings.SettingsPreferenceFragment;
 import com.syberia.settings.preference.PackageListAdapter;
 import com.syberia.settings.preference.PackageListAdapter.PackageItem;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
 import java.util.ArrayList;
@@ -52,7 +57,7 @@ import java.util.List;
 import java.util.Map;
 
 public class GamingMode extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceClickListener {
+        implements Preference.OnPreferenceClickListener, Indexable {
 
     private static final int DIALOG_GAMING_APPS = 1;
     private static final String GAMING_MODE_HW_KEYS = "gaming_mode_hw_keys_toggle";
@@ -329,4 +334,28 @@ public class GamingMode extends SettingsPreferenceFragment
         Settings.System.putString(getContentResolver(),
                 setting, value);
     }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.gaming_mode_settings;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
