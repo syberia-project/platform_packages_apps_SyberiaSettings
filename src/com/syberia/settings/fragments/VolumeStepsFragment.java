@@ -30,22 +30,29 @@ import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
 import com.android.settings.R;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
 public class VolumeStepsFragment extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener{
+        Preference.OnPreferenceChangeListener, Indexable {
 
 	private static final String TAG = "VolumeSteps";
     private static final String VOLUME_STEP_DEFAULTS = "volume_step_defaults";
@@ -183,4 +190,28 @@ public class VolumeStepsFragment extends SettingsPreferenceFragment implements
         mAudioManager.setStreamMaxVolume(volume_map.get(pref.getKey()), steps);
         updateVolumeStepPrefs(pref, steps);
     }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.volume_steps_fragment;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }

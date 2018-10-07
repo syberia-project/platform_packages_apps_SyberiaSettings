@@ -31,6 +31,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.text.format.DateFormat;
 import android.util.Log;
@@ -38,16 +39,22 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.android.settings.R;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
 import com.syberia.settings.preference.SystemSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Date;
 
 public class ClockDateSettings extends SettingsPreferenceFragment implements
-	OnPreferenceChangeListener  {
+	OnPreferenceChangeListener, Indexable  {
 
     private static final String STATUS_BAR_CLOCK = "status_bar_clock";
     private static final String STATUS_BAR_CLOCK_SECONDS = "status_bar_clock_seconds";
@@ -272,4 +279,28 @@ public class ClockDateSettings extends SettingsPreferenceFragment implements
         }
         mClockDateFormat.setEntries(parsedDateEntries);
     }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.clock_date_settings;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }

@@ -34,6 +34,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
 import android.os.UserHandle;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.support.v4.app.Fragment;
 import android.support.v7.preference.ListPreference;
@@ -57,6 +58,9 @@ import java.util.List;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.syberia.settings.preference.CustomSeekBarPreference;
@@ -65,7 +69,7 @@ import com.syberia.settings.preference.ActionFragment;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
-public class ButtonsSettings extends ActionFragment implements OnPreferenceChangeListener{
+public class ButtonsSettings extends ActionFragment implements OnPreferenceChangeListener, Indexable{
 
     private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
@@ -308,4 +312,28 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
 	}
         return true;
     }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.buttons_settings;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }

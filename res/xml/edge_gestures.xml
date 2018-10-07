@@ -14,7 +14,8 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    xmlns:syberiasettings="http://schemas.android.com/apk/res-auto">
+    xmlns:syberiasettings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/edge_gestures_title" >
 
     <com.syberia.settings.preference.SecureSettingSwitchPreference
         android:key="edge_gestures_enabled"
