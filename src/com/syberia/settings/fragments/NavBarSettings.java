@@ -19,6 +19,7 @@
 
 package com.syberia.settings.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
@@ -30,14 +31,22 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 
 import com.android.settings.R;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
 import com.android.settings.SettingsPreferenceFragment;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.internal.util.hwkeys.ActionUtils;
 
-public class NavBarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+import java.util.ArrayList;
+import java.util.List;
+
+public class NavBarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
 
     private static final String NAVBAR_VISIBILITY = "navbar_visibility";
     private SwitchPreference mNavbarVisibility;
@@ -95,4 +104,28 @@ public class NavBarSettings extends SettingsPreferenceFragment implements OnPref
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
     }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.navbar_settings;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
