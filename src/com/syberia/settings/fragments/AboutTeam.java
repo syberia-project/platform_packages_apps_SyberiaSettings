@@ -64,7 +64,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
+        getActivity().setTitle(R.string.about_team_title);
         initList();
 
         RecyclerView recyclerView = getView().findViewById(R.id.recyclerView);

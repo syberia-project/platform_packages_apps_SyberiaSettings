@@ -28,10 +28,10 @@
             android:title="@string/powermenu_restart"
             android:defaultValue="true" />
 
-         <!-- <com.syberia.settings.preference.SystemSettingSwitchPreference
+         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="powermenu_restart_recovery"
             android:title="@string/powermenu_restart_recovery"
-            android:defaultValue="true" /> -->
+            android:defaultValue="true" />
 
          <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="powermenu_screenshot"
