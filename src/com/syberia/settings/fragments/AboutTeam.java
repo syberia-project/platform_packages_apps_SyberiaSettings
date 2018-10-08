@@ -247,6 +247,18 @@ public class AboutTeam extends SettingsPreferenceFragment {
                         )
                 )
         );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Moto G5 Plus (potter)",
+                        new AboutTeamAdapter.Dev(
+                                "Ashwin4RC",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/40515149?s=400&v=4",
+                                "https://forum.xda-developers.com/member.php?u=8866469",
+                                "https://github.com/ashwin4rc",
+                                ""
+                        )
+                )
+        );
 
     }
 }
