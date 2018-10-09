@@ -40,18 +40,18 @@
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
 
-     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
-    <string name="backlight_timeout_on">Всегда включена</string>
-    <string name="backlight_timeout_3s">3 секунды</string>
-    <string name="backlight_timeout_default">5 секунд (по умолчанию)</string>
-    <string name="backlight_timeout_10s">10 секунд</string>
-    <string name="backlight_timeout_15s">15 секунд</string>
-    <string name="backlight_timeout_20s">20 секунд</string>
-    <string name="backlight_timeout_30s">30 секунд</string>
-
-    <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Яркость подсветки кнопок</string>
+    <!-- Button brightness -->
+    <string name="button_backlight_options_category">Подсветка кнопок</string>
+    <string name="button_backlight_enable_title">Включить подсветку</string>
+    <string name="button_backlight_title">Подсветка кнопок</string>
+    <string name="button_backlight_summary">Настройка включения и яркости</string>
+    <string name="button_backlight_on_touch_only_title">Подсветка по прикосновению к кнопкам</string>
+    <string name="button_backlight_on_touch_only_summary">Подсвечивать кнопки только при касании, а не всё время. Тайм-аут подсветки влияет на эту функцию.</string>
+    <string name="button_timeout_title">Время работы подсветки</string>
+    <string name="button_timeout_summary">Отклычено при значении \"0\"</string>
+    <string name="button_link_brightness">В соответствии с экраном</string>
+    <string name="button_link_brightness_summary">Использовать яркость экрана</string>
+    <string name="button_manual_brightness">Уровень яркости</string>
 
     <!-- Power Menu -->
     <string name="power_menu_title">Меню выключения</string>

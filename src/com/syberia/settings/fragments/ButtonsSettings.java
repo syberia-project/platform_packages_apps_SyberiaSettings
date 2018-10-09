@@ -33,6 +33,8 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.content.res.Resources;
+import android.os.PowerManager;
+import android.os.ServiceManager;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -47,9 +49,11 @@ import com.android.internal.util.hwkeys.ActionUtils;
 
 public class ButtonsSettings extends ActionFragment implements OnPreferenceChangeListener{
 
-    private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
-    private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+
+    private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
+    private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
+    private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
 
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_HOME = "home_key";
@@ -59,10 +63,12 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
-    private ListPreference mBacklightTimeout;
     private ListPreference mTorchPowerButton;
-    private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mHwKeyDisable;
+
+    private CustomSeekBarPreference mButtonTimoutBar;
+    private CustomSeekBarPreference mManualButtonBrightness;
+    private PreferenceCategory mButtonBackLightCategory;
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -84,6 +90,28 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
+	mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
+                KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
+        final int customButtonBrightness = getResources().getInteger(
+                com.android.internal.R.integer.config_button_brightness_default);
+        final int currentBrightness = Settings.System.getInt(resolver,
+                Settings.System.CUSTOM_BUTTON_BRIGHTNESS, customButtonBrightness);
+        PowerManager pm = (PowerManager)getActivity().getSystemService(Context.POWER_SERVICE);
+        mManualButtonBrightness.setMax(pm.getMaximumScreenBrightnessSetting());
+        mManualButtonBrightness.setValue(currentBrightness);
+        mManualButtonBrightness.setOnPreferenceChangeListener(this);
+         mButtonTimoutBar = (CustomSeekBarPreference) findPreference(KEY_BUTTON_TIMEOUT);
+        int currentTimeout = Settings.System.getInt(resolver,
+                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 0);
+        mButtonTimoutBar.setValue(currentTimeout);
+        mButtonTimoutBar.setOnPreferenceChangeListener(this);
+         final boolean enableBacklightOptions = getResources().getBoolean(
+                com.android.internal.R.bool.config_button_brightness_support);
+         mButtonBackLightCategory = (PreferenceCategory) findPreference(KEY_BUTON_BACKLIGHT_OPTIONS);
+        if (!enableBacklightOptions) {
+            prefScreen.removePreference(mButtonBackLightCategory);
+        }
+
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen.findPreference(CATEGORY_HWKEY);
         int keysDisabled = 0;
@@ -92,23 +120,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
             keysDisabled = Settings.Secure.getIntForUser(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE, 0, UserHandle.USER_CURRENT);
             mHwKeyDisable.setChecked(keysDisabled != 0);
             mHwKeyDisable.setOnPreferenceChangeListener(this);
-            mBacklightTimeout = (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
-            mButtonBrightness = (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
-            if (mBacklightTimeout != null) {
-                mBacklightTimeout.setOnPreferenceChangeListener(this);
-                int BacklightTimeout = Settings.System.getInt(getContentResolver(),
-                Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 5000);
-                mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
-                mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
-            }
-            if (mButtonBrightness != null) {
-                int ButtonBrightness = Settings.System.getInt(getContentResolver(),
-                Settings.System.BUTTON_BRIGHTNESS, 255);
-                mButtonBrightness.setValue(ButtonBrightness / 1);
-                mButtonBrightness.setOnPreferenceChangeListener(this);
-            }
-        }
-
+	}
 	mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
         int mTorchPowerButtonValue = Settings.System.getInt(resolver,
                     Settings.System.TORCH_POWER_BUTTON_GESTURE, 0);
@@ -186,19 +198,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
 		ContentResolver resolver = getActivity().getContentResolver();
-
-		if (preference == mBacklightTimeout) {
-            String BacklightTimeout = (String) newValue;
-            int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
-            Settings.System.putInt(getActivity().getContentResolver(), Settings.System.BUTTON_BACKLIGHT_TIMEOUT, BacklightTimeoutValue);
-            int BacklightTimeoutIndex = mBacklightTimeout.findIndexOfValue(BacklightTimeout);
-            mBacklightTimeout.setSummary(mBacklightTimeout.getEntries()[BacklightTimeoutIndex]);
-            return true;
-        } else if (preference == mButtonBrightness) {
-            int value = (Integer) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(), Settings.System.BUTTON_BRIGHTNESS, value * 1);
-            return true;
-        }  else if (preference == mHwKeyDisable) {
+	if (preference == mHwKeyDisable) {
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
@@ -215,7 +215,17 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                 //if doubletap for torch is enabled, switch off double tap for camera
                 Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,1);
 	    }
-           }
-        return false;
+        } else if (preference == mButtonTimoutBar) {
+            int buttonTimeout = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.BUTTON_BACKLIGHT_TIMEOUT, buttonTimeout);
+        } else if (preference == mManualButtonBrightness) {
+            int buttonBrightness = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+        } else {
+	    return false; 
+	}
+        return true;
     }
 }
