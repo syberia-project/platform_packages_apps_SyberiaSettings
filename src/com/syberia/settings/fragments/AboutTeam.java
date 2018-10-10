@@ -236,18 +236,6 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 )
         );
 	list.add(new AboutTeamAdapter.Maintainer(
-                        "Lenovo ZUK Z2 (Plus)",
-                        new AboutTeamAdapter.Dev(
-                                "devabhi",
-                                "",
-                                "https://avatars2.githubusercontent.com/u/39195567?s=400&v=4",
-                                "https://forum.xda-developers.com/member.php?u=9150591",
-                                "https://github.com/devabhixda",
-                                ""
-                        )
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
                         "Moto G5 Plus (potter)",
                         new AboutTeamAdapter.Dev(
                                 "Ashwin4RC",
