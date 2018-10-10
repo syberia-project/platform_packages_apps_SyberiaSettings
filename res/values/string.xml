@@ -541,6 +541,10 @@
     <string name="volte_icon_title">VoLTE/VoWiFi icon</string>
     <string name="volte_icon_summary">Display VoLTE/VoWiFi icon</string>
 
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
     <string name="navigationbar_settings_title">SmartNav Bar</string>
     <string name="navigationbar_settings_summary">Smart Nav Bar Customizations</string>
 

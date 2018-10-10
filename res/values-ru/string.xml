@@ -531,6 +531,10 @@
     <string name="volte_icon_title">VoLTE/VoWiFi иконка</string>
     <string name="volte_icon_summary">Отображать иконку VoLTE/VoWiFi</string>
 
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Показывать индикатор роуминга</string>
+    <string name="roaming_indicator_icon_summary">В роуминге: отображать индикатор роуминга в значке сигнала</string>
+
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
