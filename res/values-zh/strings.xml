@@ -445,7 +445,7 @@
     <string name="gesture_settings_title">导航栏手势</string>
     <string name="gesture_settings_summary">使用导航栏滑动手势操作</string>
     <string name="use_bottom_gesture_title">启用手势</string>
-    <string name="gesture_settings_info">必须禁用导航栏!\n\n可用手势\n\n返回\n- 向左或向右滑动\n\n主页\n- 从中心向上滑动\n\n最近\n- 从中心向上滑动并悬停\n\n上一个应用程序\n- 短滑并在中心悬停</string>
+    <string name="gesture_settings_info">必须禁用导航栏!\n\n可用手势\n\n返回\n- 在屏幕底部的左右侧上滑\n\n主页\n- 从中心向上滑动\n\n最近\n- 从中心向上滑动并悬停\n\n上一个应用程序\n- 短滑并在中心悬停</string>
     
     <!-- Notifications light -->
     <string name="notification_light_settings">通知灯效</string>
