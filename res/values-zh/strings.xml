@@ -20,14 +20,14 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Syberia</string>
-    <string name="syberia_dashboard_summary">由Syberia OS提供的额外设置</string>
+    <string name="syberia_dashboard_summary">由 Syberia OS 提供的额外设置</string>
 
     <string name="system_category_title">系统</string>
     <string name="system_category_summary">系统相关拓展</string>
     <string name="statusbar_category_title">状态栏</string>
     <string name="statusbar_category_summary">自定义你的状态栏</string>
     <string name="panels_category_title">面板</string>
-    <string name="panels_category_summary">状态栏	通知	快速设置面板</string>
+    <string name="panels_category_summary">状态栏、通知、快速设置面板</string>
     <string name="lockscreen_category_title">锁屏界面</string>
     <string name="lockscreen_category_summary">自定义你的锁屏界面</string>
     <string name="systemui_tuner_title">状态栏图标</string>
@@ -145,7 +145,7 @@
      <!-- Screen off animation -->
     <string name="screen_off_animation_title">关闭屏幕时的动画</string>
     <string name="screen_off_animation_default">默认</string>
-    <string name="screen_off_animation_crt">CRT电视</string>
+    <string name="screen_off_animation_crt">CRT 电视</string>
     <string name="screen_off_animation_scale">缩放</string>
 
     <!-- Statusbar Tuner -->
@@ -314,7 +314,7 @@
     <string name="battery_percent_inside">在电池图标内显示</string>
 
     <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacity</string>
+    <string name="qs_panel_alpha_title">不透明度</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">亮度条</string>
@@ -337,7 +337,7 @@
     <string name="lockscreen_visualizer_summary">当音乐播放时在锁屏上使其可视化</string>
     
     <!-- Toast Animation -->
-    <string name="toast_animation_title">Toast动画</string>
+    <string name="toast_animation_title">Toast 动画</string>
     <string name="toast_none_animation">无动画</string>
     <string name="toast_default_animation">默认</string>
     <string name="toast_fade_animation">淡出</string>
@@ -354,7 +354,7 @@
     <string name="toast_Translucent_animation">半透明</string>
     <string name="toast_SlideLeftRight_animation">从左到右滑动</string>
     <string name="toast_SlideRightLeft_animation">从右到左滑动</string>
-    <string name="toast_animation_test">点击这里来测试你所选择的Toast动画效果</string>
+    <string name="toast_animation_test">点击这里来测试你所选择的 Toast 动画效果</string>
     <string name="toast">Toast</string>
 
     <!-- ListView animation -->
@@ -445,7 +445,7 @@
     <string name="gesture_settings_title">导航栏手势</string>
     <string name="gesture_settings_summary">使用导航栏滑动手势操作</string>
     <string name="use_bottom_gesture_title">启用手势</string>
-    <string name="gesture_settings_info">必须禁用导航栏!\n\n可用手势\n\nBack\n- 向左或向右滑动\n\nHome\n- 从中心向上滑动\n\nRecent apps\n- 从中心向上滑动并悬停\n\n上一个应用程序\n- 短滑并在中心悬停</string>
+    <string name="gesture_settings_info">必须禁用导航栏!\n\n可用手势\n\n返回\n- 在屏幕底部的左右侧上滑\n\n主页\n- 从中心向上滑动\n\n最近\n- 从中心向上滑动并悬停\n\n上一个应用程序\n- 短滑并在中心悬停</string>
     
     <!-- Notifications light -->
     <string name="notification_light_settings">通知灯效</string>
@@ -454,12 +454,12 @@
     <string name="other_title">其他</string>
 
     <!-- RSSNR -->
-    <string name="ignore_rssnr_title">忽略RSS误差</string>
+    <string name="ignore_rssnr_title">忽略 RSS 误差</string>
     <string name="ignore_rssnr_summary">在线性信号强度计算中忽略误差</string>
 
     <!-- About team -->
-    <string name="about_team_title">关于Syberia OS团队</string>
-    <string name="about_team_summary">关于Syberia OS团队和设备维护者的信息(Chinese Translate By Tg@PianCat)</string>
-    <string name="syberia_team_title">Syberia OS团队</string>
+    <string name="about_team_title">关于 Syberia OS 团队</string>
+    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息(Chinese Translate By Tg@PianCat)</string>
+    <string name="syberia_team_title">Syberia OS 团队</string>
 
 </resources>
