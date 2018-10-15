@@ -447,4 +447,22 @@
     <string name="about_team_summary">Информация о команде и поддерживаемых устройствах</string>
     <string name="syberia_team_title">Команда &quot;Syberia&quot;</string>
     
+        <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Погода</string>
+    <string name="lockscreen_weather_enabled_title">Отображать на экране блокировки</string>
+    <string name="lockscreen_weather_enabled_summary">Показывать информацию о погоде на экране блокировки</string>
+    <string name="lockscreen_weather_settings_title">Настройка параметров погоды</string>
+    <string name="lockscreen_weather_settings_summary">Выбор набора иконок и поставщика погоды</string>
+    <string name="weather_config_title">Поставщик погоды</string>
+    <string name="weather_config_summary">Настройки системного сервиса</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Набор иконок</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Набор иконок используется в быстрых настройках и на экране блокировки</string>
+    <string name="lockscreen_weather_show_city_title">Отображать название города</string>
+    <string name="lockscreen_weather_show_city_summary">Показывать название города слева от изображения</string>
+    <string name="lockscreen_weather_show_temp_title">Отображать температуру</string>
+    <string name="lockscreen_weather_show_temp_summary">Показывать текущую температуру справа от изображения</string>
+    
 </resources>
