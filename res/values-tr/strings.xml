@@ -60,17 +60,15 @@
 
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Donanımsal tuşlar</string>
-     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Tuş aydınlatması zaman aşımı</string>
-    <string name="backlight_timeout_on">Her zaman etkin</string>
-    <string name="backlight_timeout_3s">3 sn</string>
-    <string name="backlight_timeout_default">5 sn (varsayılan)</string>
-    <string name="backlight_timeout_10s">10 sn</string>
-    <string name="backlight_timeout_15s">15 sn</string>
-    <string name="backlight_timeout_20s">20 sn</string>
-    <string name="backlight_timeout_30s">30 sn</string>
-     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Tuş aydınlatması</string>
+        <!-- Button brightness -->
+    <string name="button_backlight_options_category">Backlight options</string>
+    <string name="button_backlight_enable_title">Allow button backlight</string>
+    <string name="button_link_brightness">Link to screen brightness</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on current screen brightness level</string>
+    <string name="button_manual_brightness">Brightness level</string>
+    <string name="button_timeout_title">Backlight timeout</string>
+    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
 
     <!-- Power Menu -->
     <string name="power_menu_title">Güç menüsü</string>
@@ -276,6 +274,10 @@
     <string name="volume_answer_call_title">Ses tuşuyla cevapla</string>
     <string name="volume_answer_call_summary">Ses tuşlarına basıldığında gelen aramayı cevapla</string>
     
+    <!-- The home key answer -->
+    <string name="home_answer_call_title">Home button answer</string>
+    <string name="home_answer_call_summary">Answer the incoming call when Home button pressed</string>
+    
     <!-- Battery Styles -->
     <string name="battery_style_title">Pil ikonu stili</string>
     <string name="battery_style_port">Düşey</string>
@@ -432,7 +434,27 @@
     
     <string name="notification_light_settings">Notifications light</string>
     
+    <string name="about_team_title">About team</string>
+    <string name="about_team_summary">Information about the team and maintainers</string>
+    <string name="syberia_team_title">Syberia Team</string>
     
+     <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
+    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
+    <string name="lockscreen_weather_settings_title">Setup weather options</string>
+    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
     
     
 </resources>
