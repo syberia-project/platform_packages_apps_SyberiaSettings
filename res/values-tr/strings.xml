@@ -420,12 +420,12 @@
     
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Dokunulduğunda titret</string>
-    <string name="quick_settings_vibrate_summary">Hızlı ayarlar butonlarına dokunulduğunda titret</string>
+    <string name="quick_settings_vibrate_summary">Hızlı ayar butonlarına dokunulduğunda titret</string>
     
     <!-- Navigation gestures -->
     <string name="gesture_settings_title">Gezinme hareketleri</string>
     <string name="gesture_settings_summary">Gezinme için aşağıdan kaydırma hareketlerini kullan</string>
-    <string name="use_bottom_gesture_title">Hareketleri aktifleştir</string>
+    <string name="use_bottom_gesture_title">Hareketleri etkinleştir</string>
     <string name="gesture_settings_info">Gezinti çubuğu devre dışı olmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Sağ ya da soldan yukarı kaydır\n\nAna ekran\n- Ortadan yukarı kaydır\n\nSon uygulamalar\n- Ortadan yukarı kaydır ve tut\n\nÖnceki uygulama\n- Yukarı kısa kaydır ve ortada tut</string>
     
     <string name="ignore_rssnr_title">RSSNR\'ı ihmal et</string>
