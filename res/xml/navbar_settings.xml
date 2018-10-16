@@ -51,4 +51,11 @@
 	android:title="@string/pa_pie_control_title"
 	android:layout="@layout/preference_syberia_pie" />
 	
+
+    <Preference 
+        android:key="edge_gestures" 
+        android:title="@string/edge_gestures_title" 
+        android:summary="@string/edge_gestures_summary" 
+        android:fragment="com.syberia.settings.fragments.EdgeGesturesSettings"/>
+
 </PreferenceScreen>
