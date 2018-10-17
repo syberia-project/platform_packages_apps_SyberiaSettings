@@ -459,7 +459,26 @@
 
     <!-- About team -->
     <string name="about_team_title">关于 Syberia OS 团队</string>
-    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息(Chinese Translate By Tg@PianCat)</string>
+    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息(Chinese Translate By Tg @PianCat & Subezhj)</string>
     <string name="syberia_team_title">Syberia OS 团队</string>
+    
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">天气</string>
+    <string name="lockscreen_weather_enabled_title">锁屏显示</string>
+    <string name="lockscreen_weather_enabled_summary">处于 DOZE 模式（主动显示）时显示锁屏天气信息</string>
+    <string name="lockscreen_weather_settings_title">设置天气选项</string>
+    <string name="lockscreen_weather_settings_summary">设置图标包与天气服务</string>
+    <string name="weather_config_title">天气服务</string>
+    <string name="weather_config_summary">设置天气的服务</string>
+    <string name="header_weather_title">标题视图天气</string>
+    <string name="header_weather_summary">使用通知面板标题来显示天气</string>
+    <string name="weather_icon_pack_title">条件图标包</string>
+    <string name="weather_icon_pack_note">注意\u003a 你可以安装新的图标包在 Play商店，搜索 \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">图标包用于状态栏与锁屏界面</string>
+    <string name="lockscreen_weather_show_city_title">显示城市名字</string>
+    <string name="lockscreen_weather_show_city_summary">在图像左侧的显示当前城市名称</string>
+    <string name="lockscreen_weather_show_temp_title">显示温度</string>
+    <string name="lockscreen_weather_show_temp_summary">在图像的右侧显示当前的温度</string>
+
 
 </resources>
