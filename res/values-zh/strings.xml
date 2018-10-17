@@ -459,7 +459,7 @@
 
     <!-- About team -->
     <string name="about_team_title">关于 Syberia OS 团队</string>
-    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息(Chinese Translate By Tg @PianCat & Subezhj)</string>
+    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息(Chinese Translate By Tg @PianCat &amp; Subezhj)</string>
     <string name="syberia_team_title">Syberia OS 团队</string>
     
     <!-- Lockscreen weather -->
