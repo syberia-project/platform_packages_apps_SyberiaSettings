@@ -476,9 +476,9 @@
     <string name="weather_icon_pack_note">注意\u003a 你可以安装新的图标包在 Play商店，搜索 \"Chronus icons\"</string>
     <string name="weather_icon_pack_info_title">图标包用于状态栏与锁屏界面</string>
     <string name="lockscreen_weather_show_city_title">显示城市名字</string>
-    <string name="lockscreen_weather_show_city_summary">在图像左侧的显示当前城市名称</string>
+    <string name="lockscreen_weather_show_city_summary">在图像左侧显示当前城市名称</string>
     <string name="lockscreen_weather_show_temp_title">显示温度</string>
-    <string name="lockscreen_weather_show_temp_summary">在图像的右侧显示当前的温度</string>
+    <string name="lockscreen_weather_show_temp_summary">在图像右侧显示当前的温度</string>
 
 
 </resources>
