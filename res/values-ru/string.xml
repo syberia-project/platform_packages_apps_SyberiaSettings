@@ -519,7 +519,11 @@
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G иконка</string>
-    <string name="show_fourg_icon_summary">Отображать 4G вместо LTE</string>   
+    <string name="show_fourg_icon_summary">Отображать 4G вместо LTE</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE/VoWiFi иконка</string>
+    <string name="volte_icon_summary">Отображать иконку VoLTE/VoWiFi</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
