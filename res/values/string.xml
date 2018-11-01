@@ -492,4 +492,8 @@
     <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    
+    <!-- QS styles -->
+    <string name="qs_styles_dialog_title">Select a QS tile style</string>
+    
 </resources>
