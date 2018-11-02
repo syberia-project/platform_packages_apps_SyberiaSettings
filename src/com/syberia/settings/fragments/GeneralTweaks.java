@@ -35,12 +35,17 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.syberia.SyberiaUtils;
 
 public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener{
 
-	private static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
-	private ListPreference mScreenOffAnimation;
+    private ListPreference mRecentsComponentType;
+    private static final String RECENTS_COMPONENT_TYPE = "recents_component";
 
+    
+    private ListPreference mScreenOffAnimation;
+	private static final String SCREEN_OFF_ANIMATION = "screen_off_animation";
+	
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
@@ -51,19 +56,39 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         mScreenOffAnimation.setValue(String.valueOf(screenOffStyle));
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);
+
+        // recents component type
+        mRecentsComponentType = (ListPreference) findPreference(RECENTS_COMPONENT_TYPE);
+        int type = Settings.System.getInt(resolver,
+                Settings.System.RECENTS_COMPONENT, 0);
+        mRecentsComponentType.setValue(String.valueOf(type));
+        mRecentsComponentType.setSummary(mRecentsComponentType.getEntry());
+        mRecentsComponentType.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-		ContentResolver resolver = getActivity().getContentResolver();
-		if (preference == mScreenOffAnimation) {
-			String value = (String) newValue;
-			Settings.System.putInt(resolver,
-			Settings.System.SCREEN_OFF_ANIMATION, Integer.valueOf(value));
-			int valueIndex = mScreenOffAnimation.findIndexOfValue(value);
-			mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[valueIndex]);
-			return true;
-		}        
+	ContentResolver resolver = getActivity().getContentResolver();
+	if (preference == mScreenOffAnimation) {
+		String value = (String) newValue;
+		Settings.System.putInt(resolver,
+		Settings.System.SCREEN_OFF_ANIMATION, Integer.valueOf(value));
+		int valueIndex = mScreenOffAnimation.findIndexOfValue(value);
+		mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[valueIndex]);
+	return true;
+        } else if (preference == mRecentsComponentType) {
+            int type = Integer.valueOf((String) newValue);
+            int index = mRecentsComponentType.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.RECENTS_COMPONENT, type);
+            mRecentsComponentType.setSummary(mRecentsComponentType.getEntries()[index]);
+            if (type == 1) { // Disable swipe up gesture, if oreo type selected
+               Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
+            }
+            SyberiaUtils.showSystemUiRestartDialog(getContext());
+            return true;
+        }
     	return false;
     }
 

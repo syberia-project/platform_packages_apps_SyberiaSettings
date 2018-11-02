@@ -496,4 +496,8 @@
     <!-- QS styles -->
     <string name="qs_styles_dialog_title">Select a QS tile style</string>
     
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Recents Style</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
 </resources>

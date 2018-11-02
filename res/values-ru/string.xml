@@ -482,4 +482,6 @@
     <!-- QS styles -->
     <string name="qs_styles_dialog_title">Выберите стиль плиток</string>
 
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Стиль запущенных приложений</string>
 </resources>
