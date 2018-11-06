@@ -217,7 +217,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                                 "federicobenedetti",
                                 "",
                                 "https://avatars0.githubusercontent.com/u/26311786?s=400&v=4",
-                                "https://forum.xda-developers.com/member.php?u=5825602",
+                                "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-syberia-project-t3863434",
                                 "https://github.com/federicobenedetti",
                                 ""
                         )
@@ -253,7 +253,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                                 "fir3walk",
                                 "",
                                 "https://avatars0.githubusercontent.com/u/18166102?s=400&v=4",
-                                "",
+                                "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3862622",
                                 "https://github.com/fir3walk",
                                 ""
                         )
