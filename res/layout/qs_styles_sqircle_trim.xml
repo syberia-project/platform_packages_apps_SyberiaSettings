@@ -16,7 +16,7 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/QsTileStyleSquare"
+    android:id="@+id/QsTileStyleSqircleTrim"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -29,7 +29,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:padding="15dp"
-            android:src="@drawable/qs_styles_shape_square"
+            android:src="@drawable/qs_styles_shape_sqircle_trim"
             android:tint="@color/qs_tile_background_active"
             tools:ignore="ContentDescription" />
 
@@ -51,7 +51,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:padding="15dp"
-            android:src="@drawable/qs_styles_shape_square"
+            android:src="@drawable/qs_styles_shape_sqircle_trim"
             android:tint="@color/qs_tile_background_inactive"
             tools:ignore="ContentDescription" />
 
@@ -73,7 +73,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:padding="15dp"
-            android:src="@drawable/qs_styles_shape_square"
+            android:src="@drawable/qs_styles_shape_sqircle_trim"
             android:tint="@color/qs_tile_background_active"
             tools:ignore="ContentDescription" />
 
@@ -95,7 +95,7 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:padding="15dp"
-            android:src="@drawable/qs_styles_shape_square"
+            android:src="@drawable/qs_styles_shape_sqircle_trim"
             android:tint="@color/qs_tile_background_inactive"
             tools:ignore="ContentDescription" />
 

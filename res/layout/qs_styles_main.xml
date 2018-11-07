@@ -44,6 +44,9 @@
                 <include layout="@layout/qs_styles_roundedsquare" />
                 <include layout="@layout/qs_styles_squircle" />
                 <include layout="@layout/qs_styles_teardrop" />
+                <include layout="@layout/qs_styles_circle_trim" />
+                <include layout="@layout/qs_styles_sqircle_trim" />
+                <include layout="@layout/qs_styles_twotone" />
 
             </GridLayout>
         </HorizontalScrollView>
@@ -53,8 +56,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="23dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="8dp"
             android:textSize="14sp"
+    	    android:gravity="center|center_vertical"
             android:text="@string/qs_styles_dialog_title" />
     </LinearLayout>
 </ScrollView>

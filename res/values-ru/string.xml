@@ -479,4 +479,7 @@
     <string name="volume_key_cursor_control_on">Громкость вверх/вниз двигает курсор влево/вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Громкость вверх/вниз двигает курсор вправо/влево</string>
 
+    <!-- QS styles -->
+    <string name="qs_styles_dialog_title">Выберите стиль плиток</string>
+
 </resources>

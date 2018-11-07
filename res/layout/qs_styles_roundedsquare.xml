@@ -28,7 +28,7 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:padding="10dp"
+            android:padding="15dp"
             android:src="@drawable/qs_styles_shape_roundedsquare"
             android:tint="@color/qs_tile_background_active"
             tools:ignore="ContentDescription" />
@@ -50,7 +50,7 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:padding="10dp"
+            android:padding="15dp"
             android:src="@drawable/qs_styles_shape_roundedsquare"
             android:tint="@color/qs_tile_background_inactive"
             tools:ignore="ContentDescription" />
@@ -72,7 +72,7 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:padding="10dp"
+            android:padding="15dp"
             android:src="@drawable/qs_styles_shape_roundedsquare"
             android:tint="@color/qs_tile_background_active"
             tools:ignore="ContentDescription" />
@@ -94,7 +94,7 @@
         <ImageView
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:padding="10dp"
+            android:padding="15dp"
             android:src="@drawable/qs_styles_shape_roundedsquare"
             android:tint="@color/qs_tile_background_inactive"
             tools:ignore="ContentDescription" />
@@ -105,28 +105,6 @@
             android:layout_centerInParent="true"
             android:src="@drawable/qs_styles_flashlight"
             android:tint="@color/qs_tile_icon_inactive"
-            tools:ignore="ContentDescription" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center">
-
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:padding="10dp"
-            android:src="@drawable/qs_styles_shape_roundedsquare"
-            android:tint="@color/qs_tile_background_active"
-            tools:ignore="ContentDescription" />
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_centerInParent="true"
-            android:src="@drawable/qs_styles_rotate"
-            android:tint="@color/qs_tile_icon_active"
             tools:ignore="ContentDescription" />
     </RelativeLayout>
 
