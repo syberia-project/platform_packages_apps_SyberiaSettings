@@ -529,4 +529,12 @@
     <string name="ticker_animation_mode_alpha_fade">Затухание</string>
     <string name="ticker_animation_mode_scroll">Прокрутка</string>
     <string name="ticker_tick_duration_title">Длительность отображения</string>
+
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Набор иконок</string>
+    <string name="recents_icon_pack_summary">Пакет иконок для панели запущенный приложений</string>
+    <string name="no_iconpacks_summary">Не установленно ни одного пакета иконок</string>
+    <string name="dialog_pick_iconpack_title">Выберите пакет иконок</string>
+    <string name="default_iconpack_title">Иконки по умолчанию</string>
+
 </resources>
