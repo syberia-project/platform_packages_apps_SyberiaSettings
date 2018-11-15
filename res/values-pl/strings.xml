@@ -20,6 +20,7 @@
     <string name="traffic_options_summary">Wyświetl informacje o ruchu systemowym</string>
     <string name="misc_extensions_title">Różne Rozszerzenia</string>
     <string name="misc_extensions_summary"></string>
+    <string name="navbar_title">Pasek nawigacji</string>
 
     <string name="general_tweaks_title">Ogólne poprawki</string>
     <string name="animations_title">Animacje</string>
@@ -172,6 +173,15 @@
     <string name="powermenu_lockscreen_summary">Włącz możliwość skorzystania z okna menu zasilania na ekranie blokady</string>
 
     <string name="panel_notifications_title">Powiadomienia</string>
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Szybkie rozwijanie</string>
+    <string name="quick_pulldown_summary">%1$s strona belki powiadomień rozwija pasek szybkich ustawień</string>
+    <string name="quick_pulldown_summary_always">Zawsze pokazuj pasek szybkich ustawień po rozwinięciu belki powiadomień</string>
+    <string name="quick_pulldown_off">Wyłączone</string>
+    <string name="quick_pulldown_left">Lewa</string>
+    <string name="quick_pulldown_right">Prawa</string>
+    <string name="quick_pulldown_always">Zawsze</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
@@ -411,6 +421,24 @@
     <string name="gesture_settings_summary">Przesuń w górę na dole ekranu, aby użyć gestów</string>
     <string name="use_bottom_gesture_title">Włącz gesty</string>
     <string name="gesture_settings_info">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nCofnij\n- Przesuń po lewej lub prawej stronie\n\nEkran główny\n- Przesuń na środku\n\nOstatnie aplikacje\n- Przesuń na środku i przytrzymaj\n\nOstatnia aplikacja\n- Lekko przesuń w górę i przytrzymaj</string>
+
+    <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Pogoda</string>
+    <string name="lockscreen_weather_enabled_title">Pokaż na ekranie blokady</string>
+    <string name="lockscreen_weather_enabled_summary">Pokaż informacje o pogodzie na ekranie blokady</string>
+    <string name="lockscreen_weather_settings_title">Ustawienia pogody</string>
+    <string name="lockscreen_weather_settings_summary">Skonfiguruj paczkę ikon oraz dostawcę pogody</string>
+    <string name="weather_config_title">Dostawca pogody</string>
+    <string name="weather_config_summary">Ustawienia usługi systemowej</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Wybierz paczkę ikon</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Wybrana paczka ikon jest używana w panelu szybkich ustawień i na ekranie blokady</string>
+    <string name="lockscreen_weather_show_city_title">Pokaż nazwę miasta</string>
+    <string name="lockscreen_weather_show_city_summary">Pokaż nazwę miasta po lewej stronie</string>
+    <string name="lockscreen_weather_show_temp_title">Pokaż temperaturę</string>
+    <string name="lockscreen_weather_show_temp_summary">Pokaż aktualną temperaturę po prawej stronie</string>
 
 </resources>
 
