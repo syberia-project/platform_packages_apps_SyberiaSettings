@@ -484,4 +484,49 @@
 
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Стиль запущенных приложений</string>
+    
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Анимация Pixel</string>
+    <string name="pixel_navbar_anim_summary">Включение анимации кнопки Домой</string>
+
+    <!-- Pulse navigation bar music visualizer -->
+    <string name="pulse_help_policy_notice_summary">Пульс не работает с некоторыми плеерами при прослушивании через динамик устройства</string>
+    <string name="pulse_settings">Пульс</string>
+    <string name="pulse_settings_summary">Графический эквалайзер навигационной панели</string>
+    <string name="fling_show_pulse_title">Включить Пульс</string>
+    <string name="fling_show_pulse_summary">Графический эквалайзер на навигационной панели</string>
+		    <string name="pulse_render_mode_title">Режим рендеринга</string>
+    <string name="pulse_render_mode_summary">%1$s</string>
+    <string name="pulse_render_mode_fading_bars">Затухающие блоки</string>
+    <string name="pulse_render_mode_solid_lines">Сплошные линии</string>
+    <string name="fling_pulse_color">Цвет Пульса</string>
+    <string name="fling_pulse_color_summary">Используется также для автоматического цвета</string>
+    <string name="eos_fling_lavalamp_title">Включить Лава Лампу</string>
+    <string name="eos_fling_lavalamp_summary">Плавная анимация лава лампы для Пульса</string>
+    <string name="pulse_advanced_category">Дополнительно</string>
+    <string name="pulse_legacy_mode_advanced_category">Настройки режима затухающих блоков</string>
+    <string name="pulse_custom_fudge_factor">Уровень чувствительности</string>
+    <string name="lavamp_solid_speed_title">Скорость лава лампы</string>
+    <string name="pulse_solid_units_count">Количество сплошных линий</string>
+    <string name="pulse_solid_lines_count">Количество сплошных линий</string>
+    <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
+    <string name="pulse_solid_dimen_category">Настройки режима сплошных линий</string>
+    <string name="pulse_custom_buttons_opacity_title">Smartbar buttons opacity on Pulse</string>
+    <string name="pulse_auto_color_title">Авто цвет Пульса</string>
+    <string name="pulse_auto_color_summary">Синхронизация цвета с обложками альбомов. Переопределяет прозрачность лава лампы и непрозрачность линий</string>
+
+    <!-- Pulse config -->
+    <string name="pulse_custom_dimen">Ширина блока</string>
+    <string name="pulse_custom_div">Расстояние между блоками</string>
+    <string name="pulse_filled_block_size">Количество строк блока</string>
+    <string name="pulse_empty_block_size">Межстрочный интервал блока</string>
+
+    <!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">Бегущая строка</string>
+    <string name="status_bar_show_ticker_title">Бегущая строка</string>
+    <string name="status_bar_show_ticker_summary">Предварительный просмотр уведомлений в строке состояния</string>
+    <string name="ticker_animation_mode_title">Анимация бегущей строки</string>
+    <string name="ticker_animation_mode_alpha_fade">Затухание</string>
+    <string name="ticker_animation_mode_scroll">Прокрутка</string>
+    <string name="ticker_tick_duration_title">Длительность отображения</string>
 </resources>
