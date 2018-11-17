@@ -479,7 +479,7 @@
 
     <string name="animations_title">Animations</string>
     <string name="animations_summary">Modify system animations</string>
-
+
     <!-- AOKP custom system animations -->
     <string name="system_animation_title">System</string>
     <string name="activity_open_title">Activity open animation</string>
@@ -544,5 +544,13 @@
     <string name="listview_overshoot_interpolator">Overshoot</string>
     <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
     <string name="listview_bounce_interpolator">Bounce</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Power menu animation</string>
+    <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
+    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_aosp">AOSP (default)</string>
+    <string name="power_menu_animation_bottom">Bottom</string>
+    <string name="power_menu_animation_top">Top</string>
 
 </resources>
