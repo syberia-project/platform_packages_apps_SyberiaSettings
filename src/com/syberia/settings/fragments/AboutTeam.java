@@ -259,6 +259,18 @@ public class AboutTeam extends SettingsPreferenceFragment {
                         )
                 )
         );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi 5s+ (natrium)",
+                        new AboutTeamAdapter.Dev(
+                                "cfdddd",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/31411742?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-5s-plus/development/rom-syberia-project-t3869145",
+                                "https://github.com/00day0",
+                                ""
+                        )
+                )
+        );
 
     }
 }
