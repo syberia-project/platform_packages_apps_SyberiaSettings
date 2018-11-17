@@ -889,4 +889,11 @@
     <string name="qs_columns_portrait_title">Колонки (Вертикальная ориентация)</string>
     <string name="qs_columns_landscape_title">Колонки (Горизонтальная ориентация)</string>
 
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Анимация меню питания</string>
+    <string name="power_menu_animation_dialog_title">Выбор анимации</string>
+    <string name="power_menu_animation_aosp">AOSP (по умолчанию)</string>
+    <string name="power_menu_animation_bottom">Снизу</string>
+    <string name="power_menu_animation_top">Сверху</string>
+
 </resources>
