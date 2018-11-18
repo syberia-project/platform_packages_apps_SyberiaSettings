@@ -895,5 +895,12 @@
     <string name="power_menu_animation_aosp">AOSP (по умолчанию)</string>
     <string name="power_menu_animation_bottom">Снизу</string>
     <string name="power_menu_animation_top">Сверху</string>
+    <string name="power_menu_animation_xylon">Анимация xylon</string>
+    <string name="power_menu_animation_slide">Сдвиг</string>
+    <string name="power_menu_animation_turn">Переворот</string>
+    <string name="power_menu_animation_fly">Полёт</string>
+    <string name="power_menu_animation_card">Карточка</string>
+    <string name="power_menu_animation_translucent_top">Полупрозрачный (сверху)</string>
+    <string name="power_menu_animation_translucent_bottom">Полупрозрачный (снизу)</string>
 
 </resources>
