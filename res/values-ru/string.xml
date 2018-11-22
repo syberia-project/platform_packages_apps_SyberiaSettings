@@ -537,4 +537,8 @@
     <string name="dialog_pick_iconpack_title">Выберите пакет иконок</string>
     <string name="default_iconpack_title">Иконки по умолчанию</string>
 
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G иконка</string>
+    <string name="show_fourg_icon_summary">Отображать 4G вместо LTE</string>   
+
 </resources>
