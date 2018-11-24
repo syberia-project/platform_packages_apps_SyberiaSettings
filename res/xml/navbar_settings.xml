@@ -25,13 +25,6 @@
         android:key="navbar_visibility"
         android:title="@string/navbar_visibility" />
 
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-        android:key="pixel_nav_animation"
-        android:title="@string/pixel_navbar_anim_title"
-        android:summary="@string/pixel_navbar_anim_summary"
-        android:dependency="navbar_visibility"
-        android:defaultValue="true" />
-
     <Preference
             android:title="@string/navbar_tuner_title" >
             <intent android:action="android.intent.action.MAIN"
@@ -39,17 +32,17 @@
                 android:targetClass="com.android.systemui.tuner.NavBarActivity" />
     </Preference>
 
+    <!-- Smart Nav Bar -->
+    <Preference
+        android:key="navigationbar_settings"
+        android:title="@string/navigationbar_settings_title"
+        android:summary="@string/navigationbar_settings_summary"
+        android:fragment="com.android.settings.smartnav.NavigationBarSettings" />
+
     <Preference
         android:key="gesture_settings"
         android:title="@string/gesture_settings_title"
         android:summary="@string/gesture_settings_summary"
         android:fragment="com.syberia.settings.fragments.OmniGestureSettings" />
 	
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="one_hand_mode_enabled"
-            android:title="@string/one_hand_mode_title"
-            android:summary="@string/one_hand_mode_summary"
-            android:dependency="navbar_visibility"
-            android:defaultValue="false" />
-
 </PreferenceScreen>
