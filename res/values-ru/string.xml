@@ -304,4 +304,9 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
+    <!-- Notification guts kill app button -->
+    <string name="notification_misc">Разное</string>
+    <string name="notification_guts_kill_app_button_title">Кнопка принудительной остановки приложения</string>
+    <string name="notification_guts_kill_app_button_summary">Показывать кнопку принудительной остановки приложения при длительном нажатии на уведомление</string>
+
 </resources>

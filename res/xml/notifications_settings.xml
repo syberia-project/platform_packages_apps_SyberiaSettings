@@ -33,6 +33,18 @@
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
+	
+    <PreferenceCategory
+        android:key="notification_misc"
+        android:title="@string/notification_misc">
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="notification_guts_kill_app_button"
+        android:title="@string/notification_guts_kill_app_button_title"
+        android:summary="@string/notification_guts_kill_app_button_summary"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
 
     <com.syberia.settings.preference.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
