@@ -77,12 +77,12 @@ import com.syberia.settings.Utils;
 public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener, 
                                           DialogInterface.OnDismissListener, Indexable {
 
-    private ListPreference mRecentsComponentType;
+    private ListPreference mRecentsLayoutStylePref;
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
 
-    private static final String RECENTS_COMPONENT_TYPE = "recents_component";
+    private static final String RECENTS_LAYOUT_STYLE_PREF = "recents_layout_style";
     private static final String RECENTS_ICON_PACK_KEY = "recents_icon_pack";
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
@@ -126,13 +126,13 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
             screen.removePreference(findPreference(RECENTS_ICON_PACK_KEY));
         }
 
-        // recents component type
-        mRecentsComponentType = (ListPreference) findPreference(RECENTS_COMPONENT_TYPE);
+        // recents layout style
+        mRecentsLayoutStylePref = (ListPreference) findPreference(RECENTS_LAYOUT_STYLE_PREF);
         int type = Settings.System.getInt(resolver,
-                Settings.System.RECENTS_COMPONENT, 0);
-        mRecentsComponentType.setValue(String.valueOf(type));
-        mRecentsComponentType.setSummary(mRecentsComponentType.getEntry());
-        mRecentsComponentType.setOnPreferenceChangeListener(this);
+                Settings.System.RECENTS_LAYOUT_STYLE, 0);
+        mRecentsLayoutStylePref.setValue(String.valueOf(type));
+        mRecentsLayoutStylePref.setSummary(mRecentsLayoutStylePref.getEntry());
+        mRecentsLayoutStylePref.setOnPreferenceChangeListener(this);
 	
 	Resources res = null;
         Context ctx = getContext();
@@ -222,13 +222,13 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
 		int valueIndex = mScreenOffAnimation.findIndexOfValue(value);
 		mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[valueIndex]);
 	return true;
-        } else if (preference == mRecentsComponentType) {
+        } else if (preference == mRecentsLayoutStylePref) {
             int type = Integer.valueOf((String) newValue);
-            int index = mRecentsComponentType.findIndexOfValue((String) newValue);
+            int index = mRecentsLayoutStylePref.findIndexOfValue((String) newValue);
             Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.RECENTS_COMPONENT, type);
-            mRecentsComponentType.setSummary(mRecentsComponentType.getEntries()[index]);
-            if (type == 1) { // Disable swipe up gesture if oreo type selected
+                    Settings.System.RECENTS_LAYOUT_STYLE, type);
+            mRecentsLayoutStylePref.setSummary(mRecentsLayoutStylePref.getEntries()[index]);
+            if (type != 0) { // Disable swipe up gesture if oreo type selected
                Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
 	    }

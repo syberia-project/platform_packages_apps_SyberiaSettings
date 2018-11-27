@@ -521,6 +521,10 @@
 
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Стиль запущенных приложений</string>
+    <string name="recents_quickstep">Pie</string>
+    <string name="recents_stock">Oreo</string>
+    <string name="recents_grid">Сетка</string>
+    <string name="recents_go">Андроид Go</string>
 
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Анимация Pixel</string>
