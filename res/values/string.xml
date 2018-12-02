@@ -531,6 +531,32 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
+    <!-- Lock Widget -->
+    <string name="ls_widget" >Widget Styles</string>
+
+    <!-- Lock Widget Fonts -->
+    <string name="lock_widget_font_stock">Normal (Default)</string>
+    <string name="lock_widget_font_bold">Bold</string>
+    <string name="lock_widget_font_italic">Italic</string>
+    <string name="lock_widget_font_bold_italic">Bold Italic</string>
+    <string name="lock_widget_font_light_italic">Light Italic</string>
+    <string name="lock_widget_font_thin_italic">Thin Italic</string>
+    <string name="lock_widget_font_light">Light</string>
+    <string name="lock_widget_font_thin">Thin</string>
+    <string name="lock_widget_font_condensed_normal">Condensed</string>
+    <string name="lock_widget_font_condensed_italic">Condensed Italic</string>
+    <string name="lock_widget_font_condensed_bold">Condensed Bold</string>
+    <string name="lock_widget_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_widget_font_condensed_light">Condensed Light</string>
+    <string name="lock_widget_font_condensed_light_italic">Condensed Light Italic</string> 
+    <string name="lock_widget_font_medium_normal">Medium</string>
+    <string name="lock_widget_font_medium_italic">Medium Italic</string>
+    <string name="lock_widget_font_black">Black</string>
+    <string name="lock_widget_font_black_italic">Black Italic</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Clock font style</string> 
 </resources> 
 
 </resources>

@@ -66,7 +66,7 @@
 -->
     <PreferenceCategory
         android:key="lockscreen_weather"
-        android:title="@string/lockscreen_weather_category" />
+        android:title="@string/lockscreen_weather_category" >
 
         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="lockscreen_weather_enabled"
@@ -93,5 +93,21 @@
             android:title="@string/lockscreen_weather_settings_title"
             android:summary="@string/lockscreen_weather_settings_summary"
             android:fragment="com.syberia.settings.fragments.OmniJawsSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ls_widget"
+        android:title="@string/ls_widget">
+
+        <ListPreference
+            android:key="lock_clock_fonts"
+            android:title="@string/lock_clock_font_title"
+            android:entries="@array/lock_widget_fonts_entries"
+            android:entryValues="@array/lock_widget_fonts_values"
+            android:defaultValue="0"
+            android:persistent="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

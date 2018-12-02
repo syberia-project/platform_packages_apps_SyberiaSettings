@@ -22,21 +22,56 @@ package com.syberia.settings.fragments;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.PreferenceFragmentCompat;
+import android.support.v14.preference.SwitchPreference;
+import android.content.ContentResolver;
+import android.content.res.Resources;
+import android.net.Uri;
+import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class LockScreenSettings extends SettingsPreferenceFragment {
+public class LockScreenSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
+
+private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
+
+ListPreference mLockClockFonts;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.lockscreen_settings);
+
+	ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        Resources resources = getResources();
+
+        // Lockscren Clock Fonts
+        mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
+        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 0)));
+        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+        mLockClockFonts.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+		ContentResolver resolver = getActivity().getContentResolver();
+		if (preference == mLockClockFonts) {
+            		Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONTS,
+                    	Integer.valueOf((String) newValue));
+            		mLockClockFonts.setValue(String.valueOf(newValue));
+            		mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+	return true; 
+	}
+    	return false;
     }
 
     @Override
