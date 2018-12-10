@@ -616,4 +616,8 @@
     <string name="show_carrier_statusbar">Status bar</string>
     <string name="show_carrier_enabled">Both</string>
 
+    <!-- Smart Clock -->
+    <string name="use_smart_clock">Smart Clock</string>
+    <string name="use_smart_clock_summary">Show statusbar clock periodically. The clock will be visible every minute for 5 seconds.</string>
+
 </resources>
