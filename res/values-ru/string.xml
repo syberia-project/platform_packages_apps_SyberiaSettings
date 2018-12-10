@@ -578,4 +578,8 @@
     <string name="show_carrier_statusbar">Статусбар</string>
     <string name="show_carrier_enabled">Экран блокировки и статусбар</string>
 
+    <!-- Smart Clock -->
+    <string name="use_smart_clock">Умные часы</string>
+    <string name="use_smart_clock_summary">Периодически показывать часы в статусбаре. Часы будут видимы каждую минуту на протяжении 5 секунд.</string>
+
 </resources>
