@@ -271,6 +271,18 @@ public class AboutTeam extends SettingsPreferenceFragment {
                         )
                 )
         );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Lenovo ZUK Z2 (Plus)",
+                        new AboutTeamAdapter.Dev(
+                                "Danish1999",
+                                "",
+                                "https://avatars1.githubusercontent.com/u/38377782?s=400&v=4",
+                                "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-syberia-project-t3878408",
+                                "https://github.com/Danish1999",
+                                ""
+                        )
+                )
+        );
 
     }
 }
