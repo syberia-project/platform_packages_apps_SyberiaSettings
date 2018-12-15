@@ -593,4 +593,12 @@
      <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
+    
+    <!-- Rounded corners -->
+    <string name="corners_category">Скругление углов</string>
+    <string name="corner_radius">Радиус скругленного угла</string>
+    <string name="content_padding">Отступ от угла</string>
+    <string name="corner_fwvals">Использовать базовые значения</string>
+    <string name="corner_fwvals_summary">Полезно если устройство по умолчанию имеет скругленные углы</string>
+
 </resources>
