@@ -478,6 +478,12 @@
     <string name="volume_key_cursor_control_off">Откл.</string>
     <string name="volume_key_cursor_control_on">Громкость вверх/вниз двигает курсор влево/вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Громкость вверх/вниз двигает курсор вправо/влево</string>
+    
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Управление курсором клавиатуры</string>
+    <string name="volbtn_cursor_control_off">Отключено</string>
+    <string name="volbtn_cursor_control_on">Громкость вверх/вниз перемещает курсор влево/вправо</string>
+    <string name="volbtn_cursor_control_on_reverse">Громкость вверх/вниз перемещает курсор вправо/влево</string>
 
     <!-- QS styles -->
     <string name="qs_styles_dialog_title">Выберите стиль плиток</string>
