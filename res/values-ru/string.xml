@@ -613,4 +613,11 @@
     <string name="network_traffic_location_title">Расположение индикатора трафика</string>
     <string name="network_traffic_location_summary">Включить отображение индикатора в строке состояния или заголовке панели быстрых настроек (рекомендуется для дисплеев с вырезами)</string>
 
+    <!-- Rounded corners -->
+    <string name="corners_category">Скругление углов экрана</string>
+    <string name="corner_radius">Радиус скругленного угла</string>
+    <string name="content_padding">Отступ от угла</string>
+    <string name="corner_fwvals">Использовать базовые значения</string>
+    <string name="corner_fwvals_summary">Полезно если устройство по умолчанию имеет скругленные углы</string>
+
 </resources>
