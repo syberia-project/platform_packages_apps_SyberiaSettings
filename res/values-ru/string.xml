@@ -519,6 +519,39 @@
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
     
+    <!-- Lock Widget -->
+    <string name="ls_widget">Стиль виджета</string>
+
+    <!-- Lock Widget Fonts -->
+    <string name="lock_widget_font_stock">Нормальный (по умолчанию)</string>
+    <string name="lock_widget_font_bold">Жирный</string>
+    <string name="lock_widget_font_italic">Курсив</string>
+    <string name="lock_widget_font_bold_italic">Жирный курсив</string>
+    <string name="lock_widget_font_light_italic">Легкий курсив</string>
+    <string name="lock_widget_font_thin_italic">Тонкий курсив</string>
+    <string name="lock_widget_font_light">Легкий</string>
+    <string name="lock_widget_font_thin">Тонкий</string>
+    <string name="lock_widget_font_condensed_normal">Сжатый</string>
+    <string name="lock_widget_font_condensed_italic">Сжатый курсив</string>
+    <string name="lock_widget_font_condensed_bold">Сжатый жирный</string>
+    <string name="lock_widget_font_condensed_bold_italic">Сжатый жирный курсив</string>
+    <string name="lock_widget_font_condensed_light">Сжатый легкий</string>
+    <string name="lock_widget_font_condensed_light_italic">Сжатый легкий курсив</string> 
+    <string name="lock_widget_font_medium_normal">Средний</string>
+    <string name="lock_widget_font_medium_italic">Средний курсив</string>
+    <string name="lock_widget_font_black">Черный</string>
+    <string name="lock_widget_font_black_italic">Черный курсив</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Стиль шрифта часов</string> 
+
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Стиль шрифта даты</string>
+
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Размер шрифта даты</string>
+    <string name="lockclock_font_size_title">Размер шрифта часов</string>
+    
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Анимации</string>
     <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
