@@ -575,4 +575,12 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Панель звука</string>
+    <string name="audio_panel_view_media_title">Медиа</string>
+    <string name="audio_panel_view_ringer_title">Рингтон</string>
+    <string name="audio_panel_view_notification_title">Уведомления</string>
+    <string name="audio_panel_view_alarm_title">Будильник</string>
+    <string name="audio_panel_view_voice_title">Голос</string>
+    <string name="audio_panel_view_bt_sco_title">Блютуз</string>
 </resources>
