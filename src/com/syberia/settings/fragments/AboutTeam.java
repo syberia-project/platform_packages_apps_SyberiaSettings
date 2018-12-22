@@ -283,6 +283,18 @@ public class AboutTeam extends SettingsPreferenceFragment {
                         )
                 )
         );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi 8 (dipper)",
+                        new AboutTeamAdapter.Dev(
+                                "Ethan Halsall",
+                                "",
+                                "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-8/development/9-0-rom-syberia-project-t3881271",
+                                "https://github.com/ethan-halsall",
+                                ""
+			)
+                )
+        );
 
     }
 }
