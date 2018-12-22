@@ -284,4 +284,9 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Уведомление об отладке</string>
     <string name="adb_notify_summary">Отображать уведомление когда включен режим отладки через ADB</string>
+
+    <!-- USB Configuration -->
+    <string name="usb_default_config_title">Конфигурация USB</string>
+    <string name="usb_default_config_summary">Выберите поведение по умолчанию при подключении к устройству через USB</string>
+
 </resources>
