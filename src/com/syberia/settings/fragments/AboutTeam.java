@@ -295,6 +295,18 @@ public class AboutTeam extends SettingsPreferenceFragment {
 			)
                 )
         );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi A1 (tissot)",
+                        new AboutTeamAdapter.Dev(
+                                "mdeejay",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-a1/development/rom-syberia-project-t3884514",
+                                "https://github.com/Tissot-Beast",
+                                ""
+			)
+                )
+        );
 
     }
 }
