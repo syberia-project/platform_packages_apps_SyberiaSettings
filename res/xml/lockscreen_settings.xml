@@ -112,6 +112,13 @@
         android:key="ls_widget"
         android:title="@string/ls_widget">
 
+        <com.syberia.settings.preference.SystemSettingListPreference
+            android:key="lockscreen_clock_selection"
+            android:title="@string/lockscreen_clock_selection_title"
+            android:entries="@array/lockscreen_clock_selection_entries"
+            android:entryValues="@array/lockscreen_clock_selection_values"
+            android:defaultValue="0" />
+
         <com.syberia.settings.preference.CustomSeekBarPreference
             android:key="lockclock_font_size"
             android:title="@string/lockclock_font_size_title"

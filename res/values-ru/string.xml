@@ -571,6 +571,14 @@
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Размер шрифта даты</string>
     <string name="lockclock_font_size_title">Размер шрифта часов</string>
+
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Стиль часов</string>
+    <string name="lockscreen_clock_selection_digital">По умолчанию</string>
+    <string name="lockscreen_clock_selection_digital_bold">Цифровые (жирный)</string>
+    <string name="lockscreen_clock_selection_analog">Аналоговые</string>
+    <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
     
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Анимации</string>
