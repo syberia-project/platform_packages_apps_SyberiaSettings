@@ -562,6 +562,12 @@
     <string name="lock_widget_font_black">Черный</string>
     <string name="lock_widget_font_black_italic">Черный курсив</string>
 
+    <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Виджет часов</string>
+    <string name="lockscreen_clock_summary">Показывать виджет часов на экране блокировки</string>
+    <string name="lockscreen_info_title">Информация под часами</string>
+    <string name="lockscreen_info_summary">Показывать дату, будильник  на экране блокировки</string>
+
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Стиль шрифта часов</string> 
 

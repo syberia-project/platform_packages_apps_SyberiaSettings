@@ -575,6 +575,12 @@
     <string name="lock_widget_font_black">Black</string>
     <string name="lock_widget_font_black_italic">Black Italic</string>
 
+    <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Clock widget</string>
+    <string name="lockscreen_clock_summary">Show the clock widget on the lockscreen</string>
+    <string name="lockscreen_info_title">Items underneath the clock</string>
+    <string name="lockscreen_info_summary">Show the date, alarms and zen on the lockscreen</string>
+
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Clock font style</string> 
 
