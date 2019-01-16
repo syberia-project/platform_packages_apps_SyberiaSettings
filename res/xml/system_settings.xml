@@ -55,11 +55,13 @@
     <Preference
         android:key="wakelock_blocker"
         android:fragment="com.syberia.settings.fragments.WakeLockBlocker"
+        android:icon="@drawable/ic_wakeblock"
         android:title="@string/wakelock_blocker_title" />
 
     <Preference
         android:id="@+id/alarm_blocker"
         android:fragment="com.syberia.settings.fragments.AlarmBlocker"
+        android:icon="@drawable/ic_alarmblock"
         android:title="@string/alarm_blocker" />
 
     <Preference
