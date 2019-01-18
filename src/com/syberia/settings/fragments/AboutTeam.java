@@ -128,12 +128,12 @@ public class AboutTeam extends SettingsPreferenceFragment {
         );
         list.add(new AboutTeamAdapter.Header());
         list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi 5 (gemini)",
+                        "OnePlus 6 (enchilada)",
                         new AboutTeamAdapter.Dev(
                                 "DennySPb",
                                 "",
                                 "https://syberiaos.com/img/avatars/DennySPb.jpg",
-                                "https://forum.xda-developers.com/mi-5/development/rom-syberia-project-t3833868",
+                                "",
                                 "https://github.com/DennySPB",
                                 ""
                         )
@@ -303,6 +303,30 @@ public class AboutTeam extends SettingsPreferenceFragment {
                                 "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
                                 "https://forum.xda-developers.com/mi-a1/development/rom-syberia-project-t3884514",
                                 "https://github.com/Tissot-Beast",
+                                ""
+			)
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Redmi Note 5 (vince)",
+                        new AboutTeamAdapter.Dev(
+                                "mdeejay",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
+                                "https://forum.xda-developers.com/redmi-note-5/development/rom-syberia-project-t3884842",
+                                "https://github.com/Tissot-Beast",
+                                ""
+			)
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Redmi 4x (santoni)",
+                        new AboutTeamAdapter.Dev(
+                                "HarukeyUA",
+                                "",
+                                "https://avatars1.githubusercontent.com/u/12065476?s=400&v=4",
+                                "https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-syberia-project-t3890225",
+                                "https://github.com/HarukeyUA",
                                 ""
 			)
                 )
