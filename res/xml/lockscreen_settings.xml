@@ -71,7 +71,7 @@
 
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="lock_screen_visualizer_custom_color"
-            android:title="@string/battery_bar_color"
+            android:title="@string/lockscreen_visualizer_custom_color"
             android:dependency="lock_screen_visualizer_use_custom_color"
             android:defaultValue="0xffffffff"
             android:dialogTitle="@string/lockscreen_visualizer_custom_color" />
