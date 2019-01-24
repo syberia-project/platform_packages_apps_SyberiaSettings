@@ -88,6 +88,12 @@
         android:fragment="com.syberia.settings.fragments.SystemSoundSettings" />
 
     <Preference
+        android:icon="@drawable/ic_gaming_mode"
+        android:key="gaming_mode"
+        android:title="@string/gaming_mode_title"
+        android:fragment="com.syberia.settings.fragments.GamingMode" />
+
+    <Preference
         android:icon="@drawable/ic_phone_classic"
         android:key="dialer"
         android:title="@string/dialer_title"
