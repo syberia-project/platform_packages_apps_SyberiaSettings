@@ -769,5 +769,28 @@
     <string name="lockscreen_weather_style_title">Стиль погоды</string>
     <string name="lockscreen_weather_omni_style_title">Стиль Omni</string>
     <string name="lockscreen_weather_pixel_style_title">Стиль Pixel</string>
+    
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Игровой режим</string>
+    <string name="gaming_mode_summary">Настройка параметров игрового режима</string>
+    <string name="gaming_mode_app_picker_title">Автоматически включить для этих приложений</string>
+    <string name="add_gaming_mode_package_title">Добавить приложения для игрового режима</string>
+    <string name="add_gaming_mode_package_summary">Игровой режим будет автоматически включен для выбранных приложений</string>
+    <string name="gaming_mode_speaker_title">Отвечать на звонки через динамик</string>
+    <string name="gaming_mode_speaker_summary">Направляйте входящие звонки через динамик при включенном игровом режиме</string>
+    <string name="gaming_mode_headsup_title">Блокировка уведомлений</string>
+    <string name="gaming_mode_headsup_summary">Блокировать все всплывающие уведомления кроме звонков</string>
+    <string name="gaming_mode_hardware_keys_title">Блокировка кнопок</string>
+	    <string name="gaming_mode_hardware_keys_summary">Отключить аппаратные кнопки при включенном игровом режиме</string>
+    <string name="gaming_mode_brightness_title">Отключение автояркости</string>
+    <string name="gaming_mode_brightness_summary">Блокировка яркости экрана при включенном игровом режиме</string>
+    <string name="gaming_mode_dnd_title">Вибро режим</string>
+    <string name="gaming_mode_dnd_summary">Перевод телефона в режим вибрации при включенном игровом режиме</string>
+    <string name="gaming_mode_max_media_title">Громкость медиа</string>
+    <string name="gaming_mode_max_media_summary">Максимально увеличить громкость медиа при включенном игровом режиме</string>
+    <string name="gaming_mode_dynamic_title">Динамический игровой режим</string>
+    <string name="gaming_mode_dynamic_summary">Авктоматическое включение игрового режима</string>
+    <string name="dynamic_mode_footer">Каждый раз когда вы открываете какое-либо приложение, и система обнаруживает что оно является игрой, игровой режим будет автоматически включен. После удаления приложения из недавних, все пользовательские настройки будут восстановлены. Обратите внимание, что это не работает для каждого игрового приложения..</string>
+    <string name="dynamic_mode_footer_dialer">Некоторые функции звонилки, такие как «Ответ на вызовы через динамик», будут работать только с приложением AOSP Dialer</string>
 
 </resources>
