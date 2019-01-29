@@ -22,6 +22,8 @@
     <string name="syberia_settings_title">Syberia Settings</string>
     <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
 
+    <string name="gestures_category_title">Gestures</string>
+    <string name="gestures_category_summary">Various gestures settings</string>
     <string name="system_category_title">System</string>
     <string name="system_category_summary">Various system extensions</string>
     <string name="statusbar_category_title">Statusbar</string>
@@ -39,6 +41,8 @@
     <string name="misc_extensions_title">Misc extensions</string>
     <string name="misc_extensions_summary">Settings that are not included in other sections</string>
     <string name="navbar_title">Navigation Bar</string>
+    <string name="doubletap_gestures_title">Double tap gestures</string>
+    <string name="navigation_gestures_title">Navigation gestures</string>
 
     <string name="general_tweaks_title">General Tweaks</string>
     <string name="animations_title">Animations</string>
@@ -648,6 +652,7 @@
     
     <!-- Pie control -->
     <string name="pa_pie_control_title">Pie Controls</string>
+    <string name="pa_pie_control_summary">Pie Controls as navigation</string>
     <string name="pie_enable_title">Enable</string>
     <string name="pie_enable_summary">Enable Pie controls as navigation</string>
     <string name="pie_settings">Pie settings</string>

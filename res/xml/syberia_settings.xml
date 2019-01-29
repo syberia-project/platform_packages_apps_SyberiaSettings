@@ -49,6 +49,13 @@
         android:title="@string/battery_category_title" />
 
     <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.GesturesSettings"
+        android:icon="@drawable/ic_gestures_page"
+        android:key="gestures_category"
+        android:summary="@string/gestures_category_summary"
+        android:title="@string/gestures_category_title" />
+
+    <PreferenceScreen
         android:fragment="com.syberia.settings.fragments.AboutTeam"
         android:icon="@drawable/ic_about_team"
         android:key="about_team"

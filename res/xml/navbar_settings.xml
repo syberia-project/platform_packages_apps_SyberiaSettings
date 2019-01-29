@@ -39,23 +39,4 @@
         android:summary="@string/navigationbar_settings_summary"
         android:fragment="com.android.settings.smartnav.NavigationBarSettings" />
 
-    <Preference
-        android:key="gesture_settings"
-        android:title="@string/gesture_settings_title"
-        android:summary="@string/gesture_settings_summary"
-        android:fragment="com.syberia.settings.fragments.OmniGestureSettings" />
-
-    <Preference
-        android:key="syberia_pie_category"
-	android:fragment="com.syberia.settings.fragments.PieSettings"
-	android:title="@string/pa_pie_control_title"
-	android:layout="@layout/preference_syberia_pie" />
-	
-
-    <Preference 
-        android:key="edge_gestures" 
-        android:title="@string/edge_gestures_title" 
-        android:summary="@string/edge_gestures_summary" 
-        android:fragment="com.syberia.settings.fragments.EdgeGesturesSettings"/>
-
 </PreferenceScreen>

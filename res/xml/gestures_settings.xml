@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018 Syberia Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/gestures_category_title">
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference 
+        android:key="three_finger_gesture" 
+        android:title="@string/three_finger_gesture" 
+        android:summary="@string/three_finger_gesture_summary" 
+        android:icon="@drawable/ic_screenshot"
+        android:defaultValue="false" />
+
+    <PreferenceCategory
+        android:title="@string/navigation_gestures_title"
+        android:key="navigation_gestures" >
+
+    <Preference 
+        android:key="edge_gestures" 
+        android:title="@string/edge_gestures_title" 
+        android:summary="@string/edge_gestures_summary" 
+        android:icon="@drawable/ic_edge_gestures"
+        android:fragment="com.syberia.settings.fragments.EdgeGesturesSettings"/>
+
+    <Preference
+        android:key="gesture_settings"
+        android:title="@string/gesture_settings_title"
+        android:summary="@string/gesture_settings_summary"
+        android:icon="@drawable/ic_op_gestures"
+        android:fragment="com.syberia.settings.fragments.OmniGestureSettings" />
+
+    <Preference
+        android:key="syberia_pie_category"
+	android:fragment="com.syberia.settings.fragments.PieSettings"
+        android:icon="@drawable/ic_settings_pie"
+	android:title="@string/pa_pie_control_title"
+	android:summary="@string/pa_pie_control_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/doubletap_gestures_title"
+        android:key="doubleap_gestures" >
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_sleep_lockscreen_title"
+        android:summary="@string/double_tap_sleep_lockscreen_summary"
+        android:icon="@drawable/ic_zzz"
+        android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+         android:key="double_tap_sleep_gesture"
+         android:title="@string/double_tap_sleep_gesture_title"
+         android:summary="@string/double_tap_sleep_gesture_summary"
+        android:icon="@drawable/ic_zzz"
+         android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
