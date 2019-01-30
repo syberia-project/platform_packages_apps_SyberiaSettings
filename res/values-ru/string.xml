@@ -3,6 +3,8 @@
     <string name="syberia_settings_title">Настройки Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
 
+    <string name="gestures_category_title">Жесты</string>
+    <string name="gestures_category_summary">Настройка различных жестов</string>
     <string name="system_category_title">Система</string>
     <string name="system_category_summary">Различные дополнения системы</string>
     <string name="statusbar_category_title">Панель строки состояния</string>
@@ -21,6 +23,8 @@
     <string name="misc_extensions_title">Прочие настройки</string>
     <string name="misc_extensions_summary">Настройки, не вошедшие в другие разделы</string>
     <string name="navbar_title">Панель навигации</string>
+    <string name="doubletap_gestures_title">Жесты двойного нажатия</string>
+    <string name="navigation_gestures_title">Жесты навигации</string>
 
     <string name="general_tweaks_title">Основные настройки</string>
     <string name="animations_title">Настройка анимации</string>
@@ -327,7 +331,7 @@
 
     <!-- Navigation gestures -->
     <string name="gesture_settings_title">Навигация жестами</string>
-    <string name="gesture_settings_summary">Использовать свайпы нижней части экрана для навигации</string>
+    <string name="gesture_settings_summary">Жесты навигации в стиле OnePlus</string>
     <string name="use_bottom_gesture_title">Использовать жесты</string>
     <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\nНазад\n- Свайп вверх слева или справа\n\nДомой\n- Свайп вверх по центру экрана\n\nНедавние приложения\n- Свайп вверх по центру экрана и удержание\n\nПоследнее приложение\n- Короткий свайп вверх и удержание.</string>
     <string name="gesture_swipe_length_title">Высота срабатывания свайпа</string>
@@ -653,4 +657,46 @@
     <string name="file_header_select_title">Выбрать изображение из галереи</string>
     <string name="file_header_select_summary">Выбрать изображение из хранилища</string>
     <string name="file_header_provider_title">Статическое изображение</string>
+
+    <!-- Pie -->
+    <string name="pa_pie_control_title">PIE</string>
+    <string name="pa_pie_control_summary">Свайп с края для включения/отключения PIE, состоящего из управления ярлыками и навигацией</string>
+    <string name="pie_enable_title">Включить панель управления PIE</string>
+    <string name="pie_settings">Настройки PIE</string>
+    <string name="pie_settings_summary">Настройте Pie по своему вкусу</string>
+    <string name="pie_theme_mode_title">Тема</string>
+    <string name="pie_auto">Автоматически</string>
+    <string name="pie_white">Белый</string>
+    <string name="pie_dark">Тёмный</string>
+    <string name="pie_battery_title">Индикатор батареи</string>
+    <string name="pie_battery_text">Только текст</string>
+    <string name="pie_battery_circle">Только круг</string>
+    <string name="pie_battery_both">Оба</string>
+    <string name="pie_status_indicator">Индикатор сети</string>
+    <string name="pie_status_wifi">Только Wi-Fi</string>
+    <string name="pie_status_mobile">Только мобильная сеть</string>
+    <string name="pie_status_none">Пусто</string>
+    <string name="pie_status_both">Оба</string>
+    <string name="pa_pie_gravity_title">Расположение PIE</string>
+    <string name="pa_pie_gravity_summary">Выберите место, где будет расположен PIE</string>
+    <string name="pa_pie_gravity_bottom">Внизу</string>
+    <string name="pa_pie_gravity_right">Справа</string>
+    <string name="pa_pie_gravity_left">Слева</string>
+
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">Жесты от края экрана</string>
+    <string name="edge_gestures_summary">Навигация с помощью жестов  от края экрана</string>
+    <string name="edge_gestures_description">Проведите по экрану снизу для перехода к домашнему экрану, продолжайте удерживать для открытия недавних приложения. Проведите слева или справа для возврата назад.</string>
+    <string name="edge_gestures_feedback_duration_title">Длительность виброотклика</string>
+    <string name="edge_gestures_long_press_delay_title">Величина задержки до срабатывания долгого нажатия</string>
+    <string name="edge_gestures_back_category_title">Жест назад</string>
+    <string name="edge_gestures_back_edges_title">Область жеста назад</string>
+    <string name="edge_gestures_back_edges_left_side">Слева</string>
+    <string name="edge_gestures_back_edges_right_side">Справа</string>
+    <string name="edge_gestures_back_edges_both_sides">С обеих сторон</string>
+    <string name="edge_gestures_landscape_back_edges_title">Жест \"Назад\" в альбомной ориентации срабатывает с</string>
+    <string name="edge_gestures_back_screen_percent_title">Активная область жеста \"Назад\" будет ниже этого процента экрана</string>
+    <string name="edge_gestures_back_screen_percent_summary">Активная область ниже % экрана</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">Анимация жеста \"Назад\"</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">Показывать анимацию по краям при использовании жеста \"Назад\"</string>
 </resources>
