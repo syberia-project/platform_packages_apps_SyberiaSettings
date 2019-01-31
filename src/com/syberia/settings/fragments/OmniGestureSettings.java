@@ -30,6 +30,9 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.SwitchPreference;
+import com.android.internal.util.hwkeys.ActionUtils;
+
 import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
@@ -41,11 +44,13 @@ public class OmniGestureSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "OmniGestureSettings";
+    private static final String KEY_OMNI_GESTURES_ENABLED = "use_bottom_gesture_navigation";
     private static final String KEY_SWIPE_LENGTH = "gesture_swipe_length";
     private static final String KEY_SWIPE_TIMEOUT = "gesture_swipe_timeout";
 
     private CustomSeekBarPreference mSwipeTriggerLength;
     private CustomSeekBarPreference mSwipeTriggerTimeout;
+    private SwitchPreference mOmniGesturesEnabled;
 
     @Override
     public int getMetricsCategory() {
@@ -56,6 +61,9 @@ public class OmniGestureSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.omni_gesture_settings);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.gesture_settings_info);
+ 
+        mOmniGesturesEnabled = (SwitchPreference) findPreference(KEY_OMNI_GESTURES_ENABLED);
+        mOmniGesturesEnabled.setOnPreferenceChangeListener(this);
 
         mSwipeTriggerLength = (CustomSeekBarPreference) findPreference(KEY_SWIPE_LENGTH);
         int value = Settings.System.getInt(getContentResolver(),
@@ -83,8 +91,21 @@ public class OmniGestureSettings extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         final String key = preference.getKey();
-
-        if (preference == mSwipeTriggerLength) {
+        if (preference == mOmniGesturesEnabled) {
+            int enabled = ((boolean) objValue) ? 1 : 0;
+            if (enabled == 1) {
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.NAVIGATION_BAR_VISIBLE, 0);
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.EDGE_GESTURES_ENABLED, 0);
+            } else {
+                if (ActionUtils.hasNavbarByDefault(getPrefContext())) {
+                    Settings.Secure.putInt(getContentResolver(),
+                            Settings.Secure.NAVIGATION_BAR_VISIBLE,
+                            1);
+                }
+            }
+        } else if (preference == mSwipeTriggerLength) {
             int value = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
                      Settings.System.OMNI_BOTTOM_GESTURE_SWIPE_LIMIT, value);

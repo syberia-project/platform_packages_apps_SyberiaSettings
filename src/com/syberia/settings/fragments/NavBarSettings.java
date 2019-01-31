@@ -73,6 +73,12 @@ public class NavBarSettings extends SettingsPreferenceFragment implements OnPref
             boolean showing = ((Boolean)newValue);
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_VISIBLE,
                     showing ? 1 : 0);
+            if (showing == true) {
+                Settings.System.putInt(getContentResolver(),
+                        Settings.System.OMNI_USE_BOTTOM_GESTURE_NAVIGATION, 0);
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.EDGE_GESTURES_ENABLED, 0);
+            }
             updateBarVisibleAndUpdatePrefs(showing);
             mHandler.postDelayed(new Runnable() {
                 @Override
