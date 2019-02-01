@@ -591,4 +591,15 @@
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Строки состояния регулировка яркости</string>
     <string name="status_bar_brightness_control_summary">Отрегулируйте яркость, перемещаясь по строке состояния</string>
+
+    <!-- Carrier Label -->
+    <string name="carrier_options">Выбрать место расположения</string>
+    <string name="custom_carrier_label_title">Название оператора</string>
+    <string name="custom_carrier_label_explain">Введите пользовательское название. Оставьте пустым чтобы использовать сетевое название</string>
+    <string name="custom_carrier_label_notset">Пользовательское название не установлено</string>
+    <string name="show_carrier_title">Место расположения</string>
+    <string name="show_carrier_disabled">Отключено</string>
+    <string name="show_carrier_keyguard">Экран блокировки</string>
+    <string name="show_carrier_statusbar">Статусбар</string>
+    <string name="show_carrier_enabled">Экран блокировки и статусбар</string>
 </resources>
