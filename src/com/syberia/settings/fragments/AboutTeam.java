@@ -164,18 +164,6 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 )
         );
         list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Redmi Note 3 (kenzo)",
-                        new AboutTeamAdapter.Dev(
-                                "Amitava_123",
-                                "",
-                                "https://avatars0.githubusercontent.com/u/26063103?s=400&v=4",
-                                "https://forum.xda-developers.com/redmi-note-3/development/rom-syberia-project-t3837399",
-                                "https://github.com/Amitava123",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
                         "Xiaomi Redmi Note 4 (mido)",
                         new AboutTeamAdapter.Dev(
                                 "NATO666613",
