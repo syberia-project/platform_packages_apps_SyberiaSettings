@@ -32,10 +32,11 @@
                 android:targetClass="com.android.systemui.tuner.NavBarActivity" />
     </Preference>
 
+    <!-- Smart Nav Bar -->
     <Preference
-        android:key="gesture_settings"
-        android:title="@string/gesture_settings_title"
-        android:summary="@string/gesture_settings_summary"
-        android:fragment="com.syberia.settings.fragments.OmniGestureSettings" />
+        android:key="navigationbar_settings"
+        android:title="@string/navigationbar_settings_title"
+        android:summary="@string/navigationbar_settings_summary"
+        android:fragment="com.android.settings.smartnav.NavigationBarSettings" />
 
 </PreferenceScreen>

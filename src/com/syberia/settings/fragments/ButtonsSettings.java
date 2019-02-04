@@ -54,6 +54,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
     private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
+    private static final String KEY_VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_HOME = "home_key";
@@ -64,6 +65,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     private ListPreference mTorchPowerButton;
+    private ListPreference mVolumeKeyCursorControl;
     private SwitchPreference mHwKeyDisable;
 
     private CustomSeekBarPreference mButtonTimoutBar;
@@ -89,6 +91,12 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+	// Cursor volume keys
+        int cursorControlAction = Settings.System.getInt(resolver,
+                Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
+        mVolumeKeyCursorControl = initActionList(KEY_VOLUME_KEY_CURSOR_CONTROL,
+                cursorControlAction);
 
 	mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
                 KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
@@ -185,6 +193,13 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
         return list;
     }
 
+    private void handleActionListChange(ListPreference pref, Object newValue, String setting) {
+        String value = (String) newValue;
+        int index = pref.findIndexOfValue(value);
+         pref.setSummary(pref.getEntries()[index]);
+        Settings.System.putInt(getContentResolver(), setting, Integer.valueOf(value));
+    }
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
@@ -223,6 +238,9 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
             int buttonBrightness = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.CUSTOM_BUTTON_BRIGHTNESS, buttonBrightness);
+        } else if (preference == mVolumeKeyCursorControl) {
+            handleActionListChange(mVolumeKeyCursorControl, newValue,
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL);
         } else {
 	    return false; 
 	}

@@ -34,4 +34,43 @@
         android:entries="@array/screen_off_animation_entries"
         android:entryValues="@array/screen_off_animation_values" />
 
+     <ListPreference
+        android:key="recents_component"
+        android:title="@string/recents_component_type_title"
+        android:dialogTitle="@string/recents_component_type_title"
+        android:entries="@array/recents_component_type_title_entries"
+        android:defaultValue="0"
+        android:entryValues="@array/recents_component_type_title_values"/>
+
+    <Preference
+        android:key="recents_icon_pack"
+        android:title="@string/recents_icon_pack_title"
+        android:summary="@string/recents_icon_pack_summary" />
+
+    <PreferenceCategory
+        android:key="corners_category"
+        android:title="@string/corners_category" >
+
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="sysui_rounded_fwvals"
+	android:title="@string/corner_fwvals"
+	android:summary="@string/corner_fwvals_summary"
+	android:defaultValue="true"
+	android:disableDependentsState="true" />
+
+    <com.syberia.settings.preference.CustomSeekBarPreference
+        android:key="sysui_rounded_size"
+	android:title="@string/corner_radius"
+	android:max="60"
+	android:persistent="false"
+	android:dependency="sysui_rounded_fwvals" />
+
+    <com.syberia.settings.preference.CustomSeekBarPreference
+        android:key="sysui_rounded_content_padding"
+	android:title="@string/content_padding"
+	android:max="10"
+	android:persistent="false"
+	android:dependency="sysui_rounded_fwvals" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -128,12 +128,12 @@ public class AboutTeam extends SettingsPreferenceFragment {
         );
         list.add(new AboutTeamAdapter.Header());
         list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi 5 (gemini)",
+                        "OnePlus 6 (enchilada)",
                         new AboutTeamAdapter.Dev(
                                 "DennySPb",
                                 "",
                                 "https://syberiaos.com/img/avatars/DennySPb.jpg",
-                                "https://forum.xda-developers.com/mi-5/development/rom-syberia-project-t3833868",
+                                "",
                                 "https://github.com/DennySPB",
                                 ""
                         )
@@ -159,18 +159,6 @@ public class AboutTeam extends SettingsPreferenceFragment {
                                 "https://avatars1.githubusercontent.com/u/4874388?s=400&v=4",
                                 "https://forum.xda-developers.com/mi-5s/development/rom-syberia-rom-1-0-t3835690",
                                 "https://github.com/mesziman",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Redmi Note 3 (kenzo)",
-                        new AboutTeamAdapter.Dev(
-                                "Amitava_123",
-                                "",
-                                "https://avatars0.githubusercontent.com/u/26063103?s=400&v=4",
-                                "https://forum.xda-developers.com/redmi-note-3/development/rom-syberia-project-t3837399",
-                                "https://github.com/Amitava123",
                                 ""
                         )
                 )
@@ -217,7 +205,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                                 "federicobenedetti",
                                 "",
                                 "https://avatars0.githubusercontent.com/u/26311786?s=400&v=4",
-                                "https://forum.xda-developers.com/member.php?u=5825602",
+                                "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-syberia-project-t3863434",
                                 "https://github.com/federicobenedetti",
                                 ""
                         )
@@ -245,6 +233,90 @@ public class AboutTeam extends SettingsPreferenceFragment {
                                 "https://github.com/ashwin4rc",
                                 ""
                         )
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Poco F1 (beryllium)",
+                        new AboutTeamAdapter.Dev(
+                                "fir3walk",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/18166102?s=400&v=4",
+                                "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3862622",
+                                "https://github.com/fir3walk",
+                                ""
+                        )
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi 5s+ (natrium)",
+                        new AboutTeamAdapter.Dev(
+                                "cfdddd",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/31411742?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-5s-plus/development/rom-syberia-project-t3869145",
+                                "https://github.com/00day0",
+                                ""
+                        )
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Lenovo ZUK Z2 (Plus)",
+                        new AboutTeamAdapter.Dev(
+                                "Danish1999",
+                                "",
+                                "https://avatars1.githubusercontent.com/u/38377782?s=400&v=4",
+                                "https://forum.xda-developers.com/lenovo-zuk-z2/development/rom-syberia-project-t3878408",
+                                "https://github.com/Danish1999",
+                                ""
+                        )
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi 8 (dipper)",
+                        new AboutTeamAdapter.Dev(
+                                "Ethan Halsall",
+                                "",
+                                "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-8/development/9-0-rom-syberia-project-t3881271",
+                                "https://github.com/ethan-halsall",
+                                ""
+			)
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Mi A1 (tissot)",
+                        new AboutTeamAdapter.Dev(
+                                "mdeejay",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
+                                "https://forum.xda-developers.com/mi-a1/development/rom-syberia-project-t3884514",
+                                "https://github.com/Tissot-Beast",
+                                ""
+			)
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Redmi Note 5 (vince)",
+                        new AboutTeamAdapter.Dev(
+                                "mdeejay",
+                                "",
+                                "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
+                                "https://forum.xda-developers.com/redmi-note-5/development/rom-syberia-project-t3884842",
+                                "https://github.com/Tissot-Beast",
+                                ""
+			)
+                )
+        );
+	list.add(new AboutTeamAdapter.Maintainer(
+                        "Xiaomi Redmi 4x (santoni)",
+                        new AboutTeamAdapter.Dev(
+                                "HarukeyUA",
+                                "",
+                                "https://avatars1.githubusercontent.com/u/12065476?s=400&v=4",
+                                "https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-syberia-project-t3890225",
+                                "https://github.com/HarukeyUA",
+                                ""
+			)
                 )
         );
 

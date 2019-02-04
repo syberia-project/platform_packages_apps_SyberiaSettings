@@ -22,21 +22,98 @@ package com.syberia.settings.fragments;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.PreferenceFragmentCompat;
+import android.support.v14.preference.SwitchPreference;
+import android.content.ContentResolver;
+import android.content.res.Resources;
+import android.net.Uri;
+import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.syberia.settings.preference.CustomSeekBarPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class LockScreenSettings extends SettingsPreferenceFragment {
+public class LockScreenSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
+
+private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
+private static final String LOCK_DATE_FONTS = "lock_date_fonts";
+private static final String CLOCK_FONT_SIZE = "lockclock_font_size";
+private static final String DATE_FONT_SIZE = "lockdate_font_size";
+
+ListPreference mLockClockFonts;
+ListPreference mLockDateFonts;
+private CustomSeekBarPreference mClockFontSize;
+private CustomSeekBarPreference mDateFontSize;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.lockscreen_settings);
+
+	ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        Resources resources = getResources();
+
+        // Lockscren Clock Fonts
+        mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
+        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 0)));
+        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+        mLockClockFonts.setOnPreferenceChangeListener(this);
+
+	// Lockscren Date Fonts
+        mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
+        mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 0)));
+        mLockDateFonts.setSummary(mLockDateFonts.getEntry());
+        mLockDateFonts.setOnPreferenceChangeListener(this);
+
+ 	// Lock Clock Size
+        mClockFontSize = (CustomSeekBarPreference) findPreference(CLOCK_FONT_SIZE);
+        mClockFontSize.setValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKCLOCK_FONT_SIZE, 64));
+        mClockFontSize.setOnPreferenceChangeListener(this);
+
+        // Lock Date Size
+        mDateFontSize = (CustomSeekBarPreference) findPreference(DATE_FONT_SIZE);
+        mDateFontSize.setValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKDATE_FONT_SIZE,16));
+        mDateFontSize.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+		ContentResolver resolver = getActivity().getContentResolver();
+		if (preference == mLockClockFonts) {
+            		Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONTS,
+                    	Integer.valueOf((String) newValue));
+            		mLockClockFonts.setValue(String.valueOf(newValue));
+            		mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+	return true; 
+	}       else if (preference == mLockDateFonts) {
+			Settings.System.putInt(getContentResolver(), Settings.System.LOCK_DATE_FONTS,
+			Integer.valueOf((String) newValue));
+			mLockDateFonts.setValue(String.valueOf(newValue));
+			mLockDateFonts.setSummary(mLockDateFonts.getEntry());
+        		return true;
+	}      else if (preference == mClockFontSize) {
+			int top = (Integer) newValue;
+			Settings.System.putInt(getContentResolver(),
+			Settings.System.LOCKCLOCK_FONT_SIZE, top*1);
+			return true;
+        }      else if (preference == mDateFontSize) {
+			int top = (Integer) newValue;
+			Settings.System.putInt(getContentResolver(),
+			Settings.System.LOCKDATE_FONT_SIZE, top*1);
+			return true;
+	}
+    	return false;
     }
 
     @Override

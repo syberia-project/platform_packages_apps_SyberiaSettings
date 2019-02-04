@@ -489,7 +489,7 @@
     <string name="lockscreen_weather_show_city_summary">在图像左侧显示当前城市名称</string>
     <string name="lockscreen_weather_show_temp_title">显示温度</string>
     <string name="lockscreen_weather_show_temp_summary">在图像右侧显示当前的温度</string>
-    
+
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">仅当屏幕开启时发出提示音</string>
     <string name="notification_sound_vib_screen_on_summary">当屏幕打开时播放声音和振动通知<</string>

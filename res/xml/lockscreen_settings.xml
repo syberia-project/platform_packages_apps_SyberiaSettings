@@ -29,12 +29,6 @@
     </Preference>
     
     <com.syberia.settings.preference.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_lockscreen"
-        android:title="@string/double_tap_sleep_lockscreen_title"
-        android:summary="@string/double_tap_sleep_lockscreen_summary"
-        android:defaultValue="false" />
-
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
@@ -52,6 +46,11 @@
         android:summary="@string/media_art_summary"
         android:defaultValue="false" />
 	
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
 
 <!--    <com.syberia.settings.preference.SecureSettingSwitchPreference
         android:key="lockscreen_visualizer_enabled"
@@ -59,4 +58,74 @@
         android:summary="@string/lockscreen_visualizer_summary"
         android:defaultValue="false" />
 -->
+    <PreferenceCategory
+        android:key="lockscreen_weather"
+        android:title="@string/lockscreen_weather_category" >
+
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_enabled"
+            android:title="@string/lockscreen_weather_enabled_title"
+            android:summary="@string/lockscreen_weather_enabled_summary"
+            android:defaultValue="false" />
+
+	<com.syberia.settings.preference.SystemSettingSwitchPreference
+	    android:key="lockscreen_weather_show_city"
+	    android:title="@string/lockscreen_weather_show_city_title"
+	    android:summary="@string/lockscreen_weather_show_city_summary"
+	    android:dependency="lockscreen_weather_enabled"
+	    android:defaultValue="false" />
+
+	 <com.syberia.settings.preference.SystemSettingSwitchPreference
+	    android:key="lockscreen_weather_show_temp"
+	    android:title="@string/lockscreen_weather_show_temp_title"
+	    android:summary="@string/lockscreen_weather_show_temp_summary"
+	    android:dependency="lockscreen_weather_enabled"
+	    android:defaultValue="true" />
+
+        <Preference
+            android:key="omnijaws_settings"
+            android:title="@string/lockscreen_weather_settings_title"
+            android:summary="@string/lockscreen_weather_settings_summary"
+            android:fragment="com.syberia.settings.fragments.OmniJawsSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ls_widget"
+        android:title="@string/ls_widget">
+
+        <com.syberia.settings.preference.CustomSeekBarPreference
+            android:key="lockclock_font_size"
+            android:title="@string/lockclock_font_size_title"
+            android:max="120"
+            android:min="50"
+            android:persistent="false"
+            android:defaultValue="64" />
+
+        <ListPreference
+            android:key="lock_clock_fonts"
+            android:title="@string/lock_clock_font_title"
+            android:entries="@array/lock_widget_fonts_entries"
+            android:entryValues="@array/lock_widget_fonts_values"
+            android:defaultValue="0"
+            android:persistent="false" />
+
+        <com.syberia.settings.preference.CustomSeekBarPreference
+           android:key="lockdate_font_size"
+           android:title="@string/lockdate_font_size_title"
+           android:max="40"
+           android:min="10"
+           android:defaultValue="16"
+           android:persistent="false" />
+
+        <ListPreference
+            android:key="lock_date_fonts"
+            android:title="@string/lock_date_font_title"
+            android:entries="@array/lock_widget_fonts_entries"
+            android:entryValues="@array/lock_widget_fonts_values"
+            android:defaultValue="0"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

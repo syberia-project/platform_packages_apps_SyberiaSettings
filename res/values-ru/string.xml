@@ -3,6 +3,8 @@
     <string name="syberia_settings_title">Настройки Syberia</string>
     <string name="syberia_dashboard_summary">Расширенные настройки Syberia</string>
 
+    <string name="gestures_category_title">Жесты</string>
+    <string name="gestures_category_summary">Настройка различных жестов</string>
     <string name="system_category_title">Система</string>
     <string name="system_category_summary">Различные дополнения системы</string>
     <string name="statusbar_category_title">Панель строки состояния</string>
@@ -21,6 +23,8 @@
     <string name="misc_extensions_title">Прочие настройки</string>
     <string name="misc_extensions_summary">Настройки, не вошедшие в другие разделы</string>
     <string name="navbar_title">Панель навигации</string>
+    <string name="doubletap_gestures_title">Жесты двойного нажатия</string>
+    <string name="navigation_gestures_title">Жесты навигации</string>
 
     <string name="general_tweaks_title">Основные настройки</string>
     <string name="animations_title">Настройка анимации</string>
@@ -327,9 +331,15 @@
 
     <!-- Navigation gestures -->
     <string name="gesture_settings_title">Навигация жестами</string>
-    <string name="gesture_settings_summary">Использовать свайпы нижней части экрана для навигации</string>
+    <string name="gesture_settings_summary">Жесты навигации в стиле OnePlus</string>
     <string name="use_bottom_gesture_title">Использовать жесты</string>
     <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\nНазад\n- Свайп вверх слева или справа\n\nДомой\n- Свайп вверх по центру экрана\n\nНедавние приложения\n- Свайп вверх по центру экрана и удержание\n\nПоследнее приложение\n- Короткий свайп вверх и удержание.</string>
+    <string name="gesture_swipe_length_title">Высота срабатывания свайпа</string>
+    <string name="gesture_swipe_length_summary">Необходимая высота снизу для срабатывания свайпа</string>
+    <string name="gesture_action_timeout_title">Время срабатывания свайпа</string>
+    <string name="gesture_action_timeout_summary">Необхожимое время для срабатывания свайпа</string>
+    <string name="unit_msec">мс</string>
+    <string name="unit_px">пикс.</string>
     
     <!-- Toast Animation -->
     <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
@@ -447,4 +457,246 @@
     <string name="about_team_summary">Информация о команде и поддерживаемых устройствах</string>
     <string name="syberia_team_title">Команда &quot;Syberia&quot;</string>
     
+        <!-- Lockscreen weather -->
+    <string name="lockscreen_weather_category">Погода</string>
+    <string name="lockscreen_weather_enabled_title">Отображать на экране блокировки</string>
+    <string name="lockscreen_weather_enabled_summary">Показывать информацию о погоде на экране блокировки</string>
+    <string name="lockscreen_weather_settings_title">Настройка параметров погоды</string>
+    <string name="lockscreen_weather_settings_summary">Выбор набора иконок и поставщика погоды</string>
+    <string name="weather_config_title">Поставщик погоды</string>
+    <string name="weather_config_summary">Настройки системного сервиса</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Набор иконок</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Набор иконок используется в быстрых настройках и на экране блокировки</string>
+    <string name="lockscreen_weather_show_city_title">Отображать название города</string>
+    <string name="lockscreen_weather_show_city_summary">Показывать название города слева от изображения</string>
+    <string name="lockscreen_weather_show_temp_title">Отображать температуру</string>
+    <string name="lockscreen_weather_show_temp_summary">Показывать текущую температуру справа от изображения</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
+    
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Включить режим одной руки</string>
+    <string name="one_hand_mode_summary">Для активации сделать свайп влево или вправо на панели навигации</string>
+
+    <!-- Volume rocker cursor control -->
+    <string name="volume_key_cursor_control_title">Кнопки громкости управляют курсором</string>
+    <string name="volume_key_cursor_control_off">Откл.</string>
+    <string name="volume_key_cursor_control_on">Громкость вверх/вниз двигает курсор влево/вправо</string>
+    <string name="volume_key_cursor_control_on_reverse">Громкость вверх/вниз двигает курсор вправо/влево</string>
+    
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Управление курсором клавиатуры</string>
+    <string name="volbtn_cursor_control_off">Отключено</string>
+    <string name="volbtn_cursor_control_on">Громкость вверх/вниз перемещает курсор влево/вправо</string>
+    <string name="volbtn_cursor_control_on_reverse">Громкость вверх/вниз перемещает курсор вправо/влево</string>
+
+    <!-- QS styles -->
+    <string name="qs_styles_dialog_title">Выберите стиль плиток</string>
+
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Стиль запущенных приложений</string>
+    
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Анимация Pixel</string>
+    <string name="pixel_navbar_anim_summary">Включение анимации кнопки Домой</string>
+
+    <!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">Бегущая строка</string>
+    <string name="status_bar_show_ticker_title">Бегущая строка</string>
+    <string name="status_bar_show_ticker_summary">Предварительный просмотр уведомлений в строке состояния</string>
+    <string name="ticker_animation_mode_title">Анимация бегущей строки</string>
+    <string name="ticker_animation_mode_alpha_fade">Затухание</string>
+    <string name="ticker_animation_mode_scroll">Прокрутка</string>
+    <string name="ticker_tick_duration_title">Длительность отображения</string>
+
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">Набор иконок</string>
+    <string name="recents_icon_pack_summary">Пакет иконок для панели запущенный приложений</string>
+    <string name="no_iconpacks_summary">Не установленно ни одного пакета иконок</string>
+    <string name="dialog_pick_iconpack_title">Выберите пакет иконок</string>
+    <string name="default_iconpack_title">Иконки по умолчанию</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G иконка</string>
+    <string name="show_fourg_icon_summary">Отображать 4G вместо LTE</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE/VoWiFi иконка</string>
+    <string name="volte_icon_summary">Отображать иконку VoLTE/VoWiFi</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
+    
+    <!-- Lock Widget -->
+    <string name="ls_widget">Стиль виджета</string>
+
+    <!-- Lock Widget Fonts -->
+    <string name="lock_widget_font_stock">Нормальный (по умолчанию)</string>
+    <string name="lock_widget_font_bold">Жирный</string>
+    <string name="lock_widget_font_italic">Курсив</string>
+    <string name="lock_widget_font_bold_italic">Жирный курсив</string>
+    <string name="lock_widget_font_light_italic">Легкий курсив</string>
+    <string name="lock_widget_font_thin_italic">Тонкий курсив</string>
+    <string name="lock_widget_font_light">Легкий</string>
+    <string name="lock_widget_font_thin">Тонкий</string>
+    <string name="lock_widget_font_condensed_normal">Сжатый</string>
+    <string name="lock_widget_font_condensed_italic">Сжатый курсив</string>
+    <string name="lock_widget_font_condensed_bold">Сжатый жирный</string>
+    <string name="lock_widget_font_condensed_bold_italic">Сжатый жирный курсив</string>
+    <string name="lock_widget_font_condensed_light">Сжатый легкий</string>
+    <string name="lock_widget_font_condensed_light_italic">Сжатый легкий курсив</string> 
+    <string name="lock_widget_font_medium_normal">Средний</string>
+    <string name="lock_widget_font_medium_italic">Средний курсив</string>
+    <string name="lock_widget_font_black">Черный</string>
+    <string name="lock_widget_font_black_italic">Черный курсив</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Стиль шрифта часов</string> 
+
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Стиль шрифта даты</string>
+
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Размер шрифта даты</string>
+    <string name="lockclock_font_size_title">Размер шрифта часов</string>
+    
+    <!-- Tiles animation/interpolator style  -->
+    <string name="qs_animation_options_title">Анимации</string>
+    <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
+    <string name="qs_tile_animation_duration_title">Продолжительность анимации</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполятор анимации</string>
+    <string name="qs_tile_animation_style_off">Без анимации</string>
+    <string name="qs_tile_animation_style_flip">Переворот</string>
+    <string name="qs_tile_animation_style_rotate">Поворот</string>
+    <string name="qs_tile_animation_duration_low">Медленно</string>
+    <string name="qs_tile_animation_duration_default">По умолчанию</string>
+    <string name="qs_tile_animation_duration_fast">Быстро</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейный</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорять</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедлять</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорять и замедлять</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Подпрыгивать</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Преувеличить</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Опережать</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Опережать и преувеличить</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Панель звука</string>
+    <string name="audio_panel_view_media_title">Медиа</string>
+    <string name="audio_panel_view_ringer_title">Рингтон</string>
+    <string name="audio_panel_view_notification_title">Уведомления</string>
+    <string name="audio_panel_view_alarm_title">Будильник</string>
+    <string name="audio_panel_view_voice_title">Голос</string>
+    <string name="audio_panel_view_bt_sco_title">Блютуз</string>
+
+     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Скриншот жестом</string>
+    <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
+    
+    <!-- Rounded corners -->
+    <string name="corners_category">Скругление углов</string>
+    <string name="corner_radius">Радиус скругленного угла</string>
+    <string name="content_padding">Отступ от угла</string>
+    <string name="corner_fwvals">Использовать базовые значения</string>
+    <string name="corner_fwvals_summary">Полезно если устройство по умолчанию имеет скругленные углы</string>
+    
+    <string name="qs_running_services_title">Иконка запущенных сервисов</string>
+    <string name="qs_running_services_summary">Показывать иконку запущенных сервисов в панели быстрых настроек</string>
+    <string name="qs_edit_title">Иконка редактирования</string>
+    <string name="qs_edit_summary">Показывать иконку редактирования плиток в панели быстрых настроек</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
+    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные *wakelocks*</string>
+    <string name="wakelock_blocker_reload">Сбросить</string>
+    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Блокировка *alarms*</string>
+    <string name="alarm_blocker_title">Включено</string>
+    <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
+    <string name="alarm_blocker_save">Сохранить</string>
+    <string name="alarm_list_header">Доступные *alarms*</string>
+    <string name="alarm_blocker_reload">Перезагрузить</string>
+    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
+
+    <!-- Disable OS on lockscreen -->
+    <string name="block_on_secure_keyguard_title">Отключить быстрые настройки</string>
+    <string name="block_on_secure_keyguard_summary">Отключить быстрые настройки на заблокированном экране</string>
+
+    <string name="status_bar_custom_header_title">Пользовательский заголовок изображения</string>
+    <string name="status_bar_custom_header_summary">Показывать изображение в заголовке панели уведомления</string>
+    <string name="daylight_header_pack_title">Пакет изображений</string>
+    <string name="status_bar_custom_header_shadow_title">Тень изображения в заголовке</string>
+    <string name="status_bar_custom_header_shadow_summary">Затемнить изображение заголовка для лучшей видимости на ярких фонах</string>
+    <string name="unit_percent">\u0025</string>
+    <string name="static_header_provider_title">Статический</string>
+    <string name="daylight_header_provider_title">Динамический</string>
+    <string name="custom_header_provider_title">Изменение изображений</string>
+    <string name="custom_header_browse_title">Обзор установленных изображений</string>
+    <string name="custom_header_browse_summary">Используйте длительное нажатие на изображение для установки его в заголовок</string>
+    <string name="style_enabled_summary">Пользовательский заголовок изображения ВКЛЮЧЕН</string>
+    <string name="style_disabled_summary">Пользовательский заголовок изображения ОТКЛЮЧЕН</string>
+    <string name="header_provider_disabled">Отключён</string>
+    <string name="custom_header_title">Заголовок</string>
+    <string name="qs_appearance_category">Заголовки</string>
+    <string name="qs_misc_category">Разное</string>
+    <string name="file_header_select_title">Выбрать изображение из галереи</string>
+    <string name="file_header_select_summary">Выбрать изображение из хранилища</string>
+    <string name="file_header_provider_title">Статическое изображение</string>
+
+    <!-- Pie -->
+    <string name="pa_pie_control_title">PIE</string>
+    <string name="pa_pie_control_summary">Свайп с края для включения/отключения PIE, состоящего из управления ярлыками и навигацией</string>
+    <string name="pie_enable_title">Включить панель управления PIE</string>
+    <string name="pie_settings">Настройки PIE</string>
+    <string name="pie_settings_summary">Настройте Pie по своему вкусу</string>
+    <string name="pie_theme_mode_title">Тема</string>
+    <string name="pie_auto">Автоматически</string>
+    <string name="pie_white">Белый</string>
+    <string name="pie_dark">Тёмный</string>
+    <string name="pie_battery_title">Индикатор батареи</string>
+    <string name="pie_battery_text">Только текст</string>
+    <string name="pie_battery_circle">Только круг</string>
+    <string name="pie_battery_both">Оба</string>
+    <string name="pie_status_indicator">Индикатор сети</string>
+    <string name="pie_status_wifi">Только Wi-Fi</string>
+    <string name="pie_status_mobile">Только мобильная сеть</string>
+    <string name="pie_status_none">Пусто</string>
+    <string name="pie_status_both">Оба</string>
+    <string name="pa_pie_gravity_title">Расположение PIE</string>
+    <string name="pa_pie_gravity_summary">Выберите место, где будет расположен PIE</string>
+    <string name="pa_pie_gravity_bottom">Внизу</string>
+    <string name="pa_pie_gravity_right">Справа</string>
+    <string name="pa_pie_gravity_left">Слева</string>
+
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">Жесты от края экрана</string>
+    <string name="edge_gestures_summary">Навигация с помощью жестов  от края экрана</string>
+    <string name="edge_gestures_description">Проведите по экрану снизу для перехода к домашнему экрану, продолжайте удерживать для открытия недавних приложения. Проведите слева или справа для возврата назад.</string>
+    <string name="edge_gestures_feedback_duration_title">Длительность виброотклика</string>
+    <string name="edge_gestures_long_press_delay_title">Величина задержки до срабатывания долгого нажатия</string>
+    <string name="edge_gestures_back_category_title">Жест назад</string>
+    <string name="edge_gestures_back_edges_title">Область жеста назад</string>
+    <string name="edge_gestures_back_edges_left_side">Слева</string>
+    <string name="edge_gestures_back_edges_right_side">Справа</string>
+    <string name="edge_gestures_back_edges_both_sides">С обеих сторон</string>
+    <string name="edge_gestures_landscape_back_edges_title">Жест \"Назад\" в альбомной ориентации срабатывает с</string>
+    <string name="edge_gestures_back_screen_percent_title">Активная область жеста \"Назад\" будет ниже этого процента экрана</string>
+    <string name="edge_gestures_back_screen_percent_summary">Активная область ниже % экрана</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">Анимация жеста \"Назад\"</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">Показывать анимацию по краям при использовании жеста \"Назад\"</string>
 </resources>

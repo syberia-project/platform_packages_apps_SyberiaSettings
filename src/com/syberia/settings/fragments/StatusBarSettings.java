@@ -43,7 +43,10 @@ import com.android.internal.logging.nano.MetricsProto;
 public class StatusBarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener{
 
 	private CustomSeekBarPreference mThreshold;
-    private SystemSettingSwitchPreference mNetMonitor;
+	private SystemSettingSwitchPreference mNetMonitor;
+
+	private ListPreference mTickerAnimationMode;
+	private CustomSeekBarPreference mTickerAnimationDuration;
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -64,6 +67,30 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements OnP
 		mThreshold.setValue(value);
 		mThreshold.setOnPreferenceChangeListener(this);
 		mThreshold.setEnabled(isNetMonitorEnabled);
+
+        mTickerAnimationMode = (ListPreference) findPreference("status_bar_ticker_animation_mode");
+        mTickerAnimationMode.setOnPreferenceChangeListener(this);
+        int tickerAnimationMode = Settings.System.getInt(resolver, Settings.System.STATUS_BAR_TICKER_ANIMATION_MODE, 0);
+        mTickerAnimationMode.setValue(String.valueOf(tickerAnimationMode));
+        updateTickerAnimationModeSummary(tickerAnimationMode);
+
+	mTickerAnimationDuration = (CustomSeekBarPreference) findPreference("status_bar_ticker_tick_duration");
+        int tickerAnimationDuration = Settings.System.getIntForUser(resolver,
+                Settings.System.STATUS_BAR_TICKER_TICK_DURATION, 3000, UserHandle.USER_CURRENT);
+        mTickerAnimationDuration.setValue(tickerAnimationDuration);
+        mTickerAnimationDuration.setOnPreferenceChangeListener(this);
+
+    }
+
+    private void updateTickerAnimationModeSummary(int value) {
+        Resources res = getResources();
+         if (value == 0) {
+            // Fade
+             mTickerAnimationMode.setSummary(res.getString(R.string.ticker_animation_mode_alpha_fade));
+        } else if (value == 1) {
+            // Scroll
+            mTickerAnimationMode.setSummary(res.getString(R.string.ticker_animation_mode_scroll));
+        }
     }
 
 	@Override
@@ -82,7 +109,19 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements OnP
                     Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, val,
                     UserHandle.USER_CURRENT);
             return true;
-        }
+        } else if (preference == mTickerAnimationMode) {
+            int tickerAnimationMode = Integer.valueOf((String) objValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+		     Settings.System.STATUS_BAR_TICKER_ANIMATION_MODE, tickerAnimationMode);
+            updateTickerAnimationModeSummary(tickerAnimationMode);
+            return true;
+        } else if (preference == mTickerAnimationDuration) {
+            int tickerAnimationDuration = (Integer) objValue;
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_TICKER_TICK_DURATION, tickerAnimationDuration,
+                    UserHandle.USER_CURRENT);
+            return true;
+	}
         return false;
     }
 
