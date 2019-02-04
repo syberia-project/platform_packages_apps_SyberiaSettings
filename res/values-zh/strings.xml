@@ -21,7 +21,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Syberia</string>
     <string name="syberia_dashboard_summary">由 Syberia OS 提供的额外设置</string>
-
+    
+    <string name="gestures_category_title">手势</string>
+    <string name="gestures_category_summary">各种手势设置</string>
     <string name="system_category_title">系统</string>
     <string name="system_category_summary">系统相关拓展</string>
     <string name="statusbar_category_title">状态栏</string>
@@ -39,6 +41,7 @@
     <string name="misc_extensions_title">杂项设置</string>
     <string name="misc_extensions_summary">额外的设置</string>
     <string name="navbar_title">导航栏</string>
+    <string name="doubletap_gestures_title">双击手势</string>
 
     <string name="general_tweaks_title">常用设置</string>
     <string name="animations_title">动画</string>
@@ -272,7 +275,7 @@
     <string name="volume_steps_alarm_title">闹钟音量分级</string>
     <string name="volume_steps_dtmf_title">DTMF音量分级</string>
     <string name="volume_steps_music_title">媒体音量分级</string>
-    <string name="volume_steps_notification_title">通知银联分级</string>
+    <string name="volume_steps_notification_title">通知音量分级</string>
     <string name="volume_steps_ring_title">铃声音量分级</string>
     <string name="volume_steps_system_title">系统音量分级</string>
     <string name="volume_steps_voice_call_title">通话音量分级</string>
@@ -434,7 +437,7 @@
     <string name="clock_date_style_uppercase">大写</string>
     <string name="clock_date_format_custom">自定义日期格式</string>
     <string name="clock_date_format">日期格式</string>
-    <string name="clock_date_string_edittext_title">必须填写日期格式 如MM/DD/Y(月/日/年)</string>
+    <string name="clock_date_string_edittext_title">必须填写日期格式 如 MM/DD/Y (月/日/年)</string>
     <string name="clock_date_string_edittext_summary">保存样式</string>
 
     <!-- QuickSettings haptic feedback -->
@@ -446,6 +449,12 @@
     <string name="gesture_settings_summary">使用导航栏滑动手势操作</string>
     <string name="use_bottom_gesture_title">启用手势</string>
     <string name="gesture_settings_info">必须禁用导航栏!\n\n可用手势\n\n返回\n- 在屏幕底部的左右侧上滑\n\n主页\n- 从中心向上滑动\n\n最近\n- 从中心向上滑动并悬停\n\n上一个应用程序\n- 短滑并在中心悬停</string>
+    <string name="gesture_swipe_length_title">滑动触发高度</string>
+    <string name="gesture_swipe_length_summary">从底部到触发滑动高度</string>
+    <string name="gesture_action_timeout_title">滑动触发超时</string>
+    <string name="gesture_action_timeout_summary">启动手势动作前超时</string>
+    <string name="unit_msec">ms</string>
+    <string name="unit_px">px</string>
     
     <!-- Notifications light -->
     <string name="notification_light_settings">通知灯效</string>
@@ -459,7 +468,7 @@
 
     <!-- About team -->
     <string name="about_team_title">关于 Syberia OS 团队</string>
-    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息(Chinese Translate By Tg @PianCat &amp; Subezhj)</string>
+    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息</string>
     <string name="syberia_team_title">Syberia OS 团队</string>
     
     <!-- Lockscreen weather -->
@@ -480,5 +489,235 @@
     <string name="lockscreen_weather_show_temp_title">显示温度</string>
     <string name="lockscreen_weather_show_temp_summary">在图像右侧显示当前的温度</string>
 
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">仅当屏幕开启时发出提示音</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕打开时播放声音和振动通知</string>
+    
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">启用单手模式支持</string>
+    <string name="one_hand_mode_summary">允许在导航栏上向右或向左滑动以启用单手模式</string>
+
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">输入光标控制</string>
+    <string name="volbtn_cursor_control_off">关闭</string>
+    <string name="volbtn_cursor_control_on">音量+/- 键来控制光标向左/右移动</string>
+    <string name="volbtn_cursor_control_on_reverse">音量+/- 键来控制光标向右/左移动</string>
+    
+    <!-- QS styles -->
+    <string name="qs_styles_dialog_title">选择 QS 面板按钮样式</string>
+    
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">最近任务样式</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel 样式动画</string>
+    <string name="pixel_navbar_anim_summary">用于长按主页键的动画</string>
+
+    <!-- Statusbar ticker -->
+    <string name="status_bar_ticker_title">通知预览</string>
+    <string name="status_bar_show_ticker_title">通知预览</string>
+    <string name="status_bar_show_ticker_summary">在状态栏显示收到的新通知</string>
+    <string name="ticker_animation_mode_title">通知预览动画</string>
+    <string name="ticker_animation_mode_alpha_fade">波浪</string>
+    <string name="ticker_animation_mode_scroll">滚动</string>
+    <string name="ticker_tick_duration_title">通知预览显示时长</string>
+
+    <!-- Recents icon packs -->
+    <string name="recents_icon_pack_title">图标包</string>
+    <string name="recents_icon_pack_summary">在最近任务面板显示你自己选择的图标包</string>
+    <string name="no_iconpacks_summary">没有图标包</string>
+    <string name="dialog_pick_iconpack_title">选择图标包</string>
+    <string name="default_iconpack_title">默认图标包</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G 标识</string>
+    <string name="show_fourg_icon_summary">显示 4G 标识而不是 LTE 标识</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE/VoWiFi 标识</string>
+    <string name="volte_icon_summary">显示 VoLTE/VoWiFi 标识</string>
+
+    <string name="navigationbar_settings_title">SmartBar 导航栏</string>
+    <string name="navigationbar_settings_summary">自定义你的 SmartBar 导航栏</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁定屏幕上显示充电器最大电流和电压以及电池温度</string>
+
+    <!-- Lock Widget -->
+    <string name="ls_widget" >时钟部件样式</string>
+
+    <!-- Lock Widget Fonts -->
+    <string name="lock_widget_font_stock">普通（默认）</string>
+    <string name="lock_widget_font_bold">加粗</string>
+    <string name="lock_widget_font_italic">斜体</string>
+    <string name="lock_widget_font_bold_italic">斜体加粗</string>
+    <string name="lock_widget_font_light_italic">细斜体</string>
+    <string name="lock_widget_font_thin_italic">极细斜体</string>
+    <string name="lock_widget_font_light">细</string>
+    <string name="lock_widget_font_thin">极细</string>
+    <string name="lock_widget_font_condensed_normal">小型</string>
+    <string name="lock_widget_font_condensed_italic">小型斜体</string>
+    <string name="lock_widget_font_condensed_bold">小型加粗</string>
+    <string name="lock_widget_font_condensed_bold_italic">粗小型斜体</string>
+    <string name="lock_widget_font_condensed_light">细小型</string>
+    <string name="lock_widget_font_condensed_light_italic">细小型斜体</string> 
+    <string name="lock_widget_font_medium_normal">中等</string>
+    <string name="lock_widget_font_medium_italic">中等斜体</string>
+    <string name="lock_widget_font_black">黑体</string>
+    <string name="lock_widget_font_black_italic">斜黑体</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">时钟字体样式</string> 
+
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">日期字体样式</string>
+
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">日期字体大小</string>
+    <string name="lockclock_font_size_title">时钟字体大小</string>
+    
+    <!-- Tiles animation/interpolator style  -->
+    <string name="qs_animation_options_title">动画</string>
+    <string name="qs_tile_animation_style_title">动画样式</string>
+    <string name="qs_tile_animation_duration_title">动画时长</string>
+    <string name="qs_tile_animation_interpolator_title">动画插值器</string>
+    <string name="qs_tile_animation_style_off">无动画</string>
+    <string name="qs_tile_animation_style_flip">弹跳</string>
+    <string name="qs_tile_animation_style_rotate">旋转</string>
+    <string name="qs_tile_animation_duration_low">慢</string>
+    <string name="qs_tile_animation_duration_default">默认</string>
+    <string name="qs_tile_animation_duration_fast">快</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">线性</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">加速</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">减速</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">加速减速</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">反弹</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">过渡</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">预测</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">预测过渡</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+
+    <!-- Audio Panel view  -->
+    <string name="audio_panel_view">音量面板</string>
+    <string name="audio_panel_view_media_title">媒体</string>
+    <string name="audio_panel_view_ringer_title">铃声</string>
+    <string name="audio_panel_view_notification_title">消息</string>
+    <string name="audio_panel_view_alarm_title">闹钟</string>
+    <string name="audio_panel_view_voice_title">通话</string>
+    <string name="audio_panel_view_bt_sco_title">蓝牙</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">三指截屏</string>
+    <string name="three_finger_gesture_summary">滑动三指进行截屏</string>
+    
+    <!-- Rounded corners -->
+    <string name="corners_category">角度</string>
+    <string name="corner_radius">圆角半径</string>
+    <string name="content_padding">圆角填充</string>
+    <string name="corner_fwvals">使用系统值</string>
+    <string name="corner_fwvals_summary">如果设备本身有圆角，则非常有用</string>
+    
+    <string name="qs_running_services_title">正在运行的服务图标</string>
+    <string name="qs_running_services_summary">在页脚中启用正在运行的服务图标</string>
+    <string name="qs_edit_title">编辑图标</string>
+    <string name="qs_edit_summary">在页脚中启用编辑图标</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">唤醒拦截器</string>
+    <string name="wakelock_blocker_summary">拦截系统唤醒</string>
+    <string name="wakelock_blocker_save">保存</string>
+    <string name="wakelock_list_header">可拦截唤醒器</string>
+    <string name="wakelock_blocker_reload">重载</string>
+    <string name="wakelock_blocker_warning_title">谨慎操作</string>
+    <string name="wakelock_blocker_warning">拦截系统唤醒可能会导致不稳定、崩溃或数据丢失</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">定时器拦截</string>
+    <string name="alarm_blocker_title">开启</string>
+    <string name="alarm_blocker_summary">关闭屏幕时开启定时器拦截</string>
+    <string name="alarm_blocker_save">保存</string>
+    <string name="alarm_list_header">可拦截定时器</string>
+    <string name="alarm_blocker_reload">重载</string>
+    <string name="alarm_blocker_warning_title">谨慎操作</string>
+    <string name="alarm_blocker_warning">拦截系统定时器可能会导致不稳定、崩溃或数据丢失</string>
+
+    <!-- Disable OS on lockscreen -->
+    <string name="block_on_secure_keyguard_title">关闭快速下拉</string>
+    <string name="block_on_secure_keyguard_summary">在锁屏界面关闭快速下拉</string>
+    
+    <!-- Pie control -->
+    <string name="pa_pie_control_title">Pie 控制</string>
+    <string name="pa_pie_control_summary">作为导航的 Pie 控制</string>
+    <string name="pie_enable_title">开启</string>
+    <string name="pie_enable_summary">开启作为导航的 Pie 控制</string>
+    <string name="pie_settings">Pie 设置</string>
+    <string name="pie_settings_summary">如你所喜爱去设置</string>
+    <string name="pie_theme_mode_title">主题</string>
+    <string name="pie_auto">自动</string>
+    <string name="pie_white">浅色</string>
+    <string name="pie_dark">深色</string>
+    <string name="pie_battery_title">电池指示器</string>
+    <string name="pie_battery_text">仅文本</string>
+    <string name="pie_battery_circle">仅园</string>
+    <string name="pie_battery_both">两者</string>
+    <string name="pie_status_indicator">网速指示器</string>
+    <string name="pie_status_wifi">仅 WIFI</string>
+    <string name="pie_status_mobile">仅移动网络</string>
+    <string name="pie_status_none">无</string>
+    <string name="pie_status_both">两者</string>
+    <string name="pa_pie_gravity_title">Pie 位置</string>
+    <string name="pa_pie_gravity_summary">放置 Pie 的位置</string>
+    <string name="pa_pie_gravity_bottom">底部</string>
+    <string name="pa_pie_gravity_right">右边</string>
+    <string name="pa_pie_gravity_left">左边</string>
+
+    <!-- Edge gestures --> 
+    <string name="edge_gestures_title">边缘手势</string>
+    <string name="edge_gestures_summary">用边缘手势去取代导航栏</string>
+    <string name="edge_gestures_description">从底部滑动来触发主页手势。按住打开多任务。向左向右返回</string>
+    <string name="edge_gestures_feedback_duration_title">触觉反馈时间</string>
+    <string name="edge_gestures_long_press_delay_title">延迟直到长时间按压动作开始</string>
+    <string name="edge_gestures_back_category_title">返回手势</string>
+    <string name="edge_gestures_back_edges_title">触发返回手势</string>
+    <string name="edge_gestures_landscape_back_edges_title">触发横向上的返回手势</string>
+    <string name="edge_gestures_back_screen_percent_title">返回的操作必须从屏幕的比例开始</string>
+    <string name="edge_gestures_back_screen_percent_summary">在 % of 屏幕下触发</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">返回手势动画</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">在使用返回手势时，显示动画的效果</string>
+    <string name="edge_gestures_back_edges_left_side">左侧</string>
+    <string name="edge_gestures_back_edges_right_side">右侧</string>
+    <string name="edge_gestures_back_edges_both_sides">两侧</string>
+
+    <!-- Header -->
+    <string name="status_bar_custom_header_title">自定义顶部图像</string>
+    <string name="status_bar_custom_header_summary">选择要显示在通知面板顶部的图像</string>
+    <string name="qs_appearance_category">外观</string>
+    <string name="daylight_header_pack_title">顶部图像包</string>
+    <string name="status_bar_custom_header_shadow_title">顶部图像阴影</string>
+    <string name="status_bar_custom_header_shadow_summary">为了更好地看到明亮的图像</string>
+    <string name="static_header_provider" translatable="false">static</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="static_header_provider_title">静态</string>
+    <string name="daylight_header_provider_title">动态</string>
+    <string name="custom_header_provider_title">顶部提供器</string>
+    <string name="custom_header_browse_title">浏览已安装项目</string>
+    <string name="custom_header_browse_summary">单击任何图像以使用静态模式</string>
+    <string name="custom_header_browse_summary_new">浏览所有可用的图像项目</string>
+    <string name="custom_header_pick_title">选择顶部图像</string>
+    <string name="custom_header_pick_summary">选择一张图象来做静态模式</string>
+    <string name="style_enabled_summary">已开启自定义</string>
+    <string name="style_disabled_summary">已关闭自定义</string>
+    <string name="header_provider_disabled">无</string>
+    <string name="custom_header_title">通知面板顶部</string>
+    <string name="qs_misc_category">杂项</string>
+    <string name="file_header_select_title">选择本地图像</string>
+    <string name="file_header_select_summary">从根目录选择图像</string>
+    <string name="file_header_provider_title">单一图像</string>
+    <string name="file_header_provider" translatable="false">file</string>
 
 </resources>
