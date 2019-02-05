@@ -695,8 +695,8 @@
     <string name="edge_gestures_back_edges_right_side">Справа</string>
     <string name="edge_gestures_back_edges_both_sides">С обеих сторон</string>
     <string name="edge_gestures_landscape_back_edges_title">Жест \"Назад\" в альбомной ориентации срабатывает с</string>
-    <string name="edge_gestures_back_screen_percent_title">Активная область жеста \"Назад\" будет ниже этого процента экрана</string>
-    <string name="edge_gestures_back_screen_percent_summary">Активная область ниже % экрана</string>
+    <string name="edge_gestures_back_screen_percent_title">Активная область жеста \"Назад\" будет выше этого процента экрана</string>
+    <string name="edge_gestures_back_screen_percent_summary">Активная область выше % экрана</string>
     <string name="edge_gestures_back_show_ui_feedback_title">Анимация жеста \"Назад\"</string>
     <string name="edge_gestures_back_show_ui_feedback_summary">Показывать анимацию по краям при использовании жеста \"Назад\"</string>
 </resources>
