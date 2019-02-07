@@ -93,7 +93,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 "https://syberiaos.com/img/avatars/DennySPb.jpg",
                 "https://forum.xda-developers.com/member.php?u=3639510",
                 "",
-                "https://t.me/DennySPb"
+                "https://t.me/SyberiaOSHelpdesk"
         ));
         team.add(new AboutTeamAdapter.Dev(
                 "blinoff82",
@@ -101,7 +101,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 "https://syberiaos.com/img/avatars/blinoff82.jpg",
                 "https://forum.xda-developers.com/member.php?u=4937139",
                 "",
-                "https://t.me/blinoff82"
+                "https://t.me/SyberiaOSHelpdesk"
         ));
         team.add(new AboutTeamAdapter.Dev(
                 "alexxxdev",
@@ -109,7 +109,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 "https://syberiaos.com/img/avatars/alexxxdev.jpg",
                 "https://forum.xda-developers.com/member.php?u=3074355",
                 "",
-                "https://t.me/alexxxdev"
+                "https://t.me/SyberiaOSHelpdesk"
         ));
         team.add(new AboutTeamAdapter.Dev(
                 "Lane Shukhov",
@@ -117,7 +117,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 "https://syberiaos.com/img/avatars/rlshukhov.jpg",
                 "",
                 "",
-                "https://t.me/rlshukhov"
+                "https://t.me/SyberiaOSHelpdesk"
         ));
         list.add(new AboutTeamAdapter.Team(
                         "http://github.com/syberia-project",
