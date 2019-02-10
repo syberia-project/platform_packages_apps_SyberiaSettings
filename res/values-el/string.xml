@@ -251,7 +251,7 @@
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Τέλος χρόνου</string>
-    <string name="heads_up_time_out_summary">Οι ειδοποιήσεις ειδοποίησης θα εμφανιστούν για<ns0:g id="number">%d</ns0:g> seconds</string>
+    <string name="heads_up_time_out_summary">Οι ειδοποιήσεις ειδοποίησης θα εμφανιστούν για <xliff:g id="number">%d</xliff:g> seconds</string>
     <string name="heads_up_time_out_2sec">2 δευτερόλεπτα</string>
     <string name="heads_up_time_out_4sec">4 δευτερόλεπτα</string>
     <string name="heads_up_time_out_5sec">5 δευτερόλεπτα</string>
@@ -262,7 +262,7 @@
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Αναβοσβήνει το χρονοδιακόπτη</string>
     <string name="heads_up_snooze_summary_one_minute">Πηγαίνοντας επάνω στις ειδοποιήσεις πετώντας θα αναβληθεί το κεφάλι από την αίτηση για 1 λεπτό</string>
-    <string name="heads_up_snooze_summary">Πηγαίνοντας επάνω στις ειδοποιήσεις πετώντας θα αναβληθεί το κεφάλι από την αίτηση για<ns0:g id="number">%d</ns0:g> minutes</string>
+    <string name="heads_up_snooze_summary">Πηγαίνοντας επάνω στις ειδοποιήσεις πετώντας θα αναβληθεί το κεφάλι από την αίτηση για <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Ο χρονοδιακόπτης αναβολής είναι απενεργοποιημένος</string>
     <string name="heads_up_snooze_1min">1 λεπτό</string>
     <string name="heads_up_snooze_5min">5 λεπτά</string>
