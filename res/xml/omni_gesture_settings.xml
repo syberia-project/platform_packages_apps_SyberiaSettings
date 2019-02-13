@@ -41,4 +41,14 @@
             android:persistent="false"
             settings:units="@string/unit_msec"
             android:dependency="use_bottom_gesture_navigation" />
+
+    <com.syberia.settings.preference.SystemSettingIntListPreference
+            android:key="bottom_gesture_navigation_feedback_duration"
+            android:entries="@array/bottom_gestures_feedback_time_labels"
+            android:entryValues="@array/bottom_gestures_feedback_time"
+            android:title="@string/bottom_gestures_feedback_duration_title"
+            android:dialogTitle="@string/bottom_gestures_feedback_duration_title"
+            android:summary="%s"
+            android:defaultValue="50" />
+
 </PreferenceScreen>

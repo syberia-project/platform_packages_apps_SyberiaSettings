@@ -338,6 +338,7 @@
     <string name="gesture_swipe_length_summary">Необходимая высота снизу для срабатывания свайпа</string>
     <string name="gesture_action_timeout_title">Время срабатывания свайпа</string>
     <string name="gesture_action_timeout_summary">Необхожимое время для срабатывания свайпа</string>
+    <string name="bottom_gestures_feedback_duration_title">Длительность виброотклика</string>
     <string name="unit_msec">мс</string>
     <string name="unit_px">пикс.</string>
     
