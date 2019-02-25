@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Ustawienia Syberia</string>
-    <string name="syberia_dashboard_summary">Dodatkowe ustawienia dodane do Syberia Project</string>
+    <string name="syberia_settings_title">Dodatki Syberii</string>
+    <string name="syberia_dashboard_summary">Dodatki dodane do Syberia Project</string>
 
     <string name="system_category_title">System</string>
     <string name="system_category_summary">Rozszerzenia systemowe</string>
@@ -22,13 +22,13 @@
     <string name="misc_extensions_summary"></string>
     <string name="navbar_title">Pasek nawigacji</string>
 
-    <string name="general_tweaks_title">Ogólne poprawki</string>
+    <string name="general_tweaks_title">Ogólne ustawienia</string>
     <string name="animations_title">Animacje</string>
     <string name="buttons_title">Przyciski</string>
     <string name="recents_ui_title">Wygląd panelu ostatnich aplikacji</string>
     <string name="app_ops_category">Ochrona prywatności</string>
     <string name="system_app_remover">Usuwanie aplikacji systemowych</string>
-    <string name="dialer_title">Dialer</string>
+    <string name="dialer_title">Połączenia telefoniczne</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Wybór kolorów</string>
@@ -430,6 +430,7 @@
     <string name="gesture_swipe_length_title">Wysokość przesunięcia</string>
     <string name="gesture_action_timeout_title">Opóźnienie</string>
     <string name="gesture_action_timeout_summary">Okres czasu przed wykonaniem akcji</string>
+    <string name="bottom_gestures_feedback_duration_title">Długość wibracji</string>
 
     <!-- Notifications light -->
     <string name="notification_light_settings">Dioda powiadomień</string>
@@ -592,5 +593,84 @@
     <string name="qs_running_services_summary">Włącz ikonę Uruchomione usługi w stopce</string>
     <string name="qs_edit_title">Ikona edycji</string>
     <string name="qs_edit_summary">Włącz ikonę edycji przełączników w stopce</string>
+
+    <!-- Gestures -->
+    <string name="gestures_category_title">Sterowanie gestami</string>
+    <string name="gestures_category_summary">Różne ustawienia odnośnie gestów</string>
+    <string name="navigation_gestures_title">Nawigacja gestami</string>
+
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">Gesty krawędzi</string>
+    <string name="edge_gestures_summary">Używaj gestów krawędzi do nawigacji</string>
+    <string name="edge_gestures_description">Przeciągnięcie od dołu przenosi cię na ekran domowy, przeciągnięcię od dołu i dłuższe przytrzymanie powoduje otworzenie ostatnich aplikacji. Przeciągnięcie od lewej lub prawej aktywuje gest wstecz</string>
+    <string name="edge_gestures_feedback_duration_title">Długość wibracji</string>
+    <string name="edge_gestures_long_press_delay_title">Opóżnienie przed aktywacją akcji długiego przyciśnięcia</string>
+    <string name="edge_gestures_back_category_title">Gest wstecz</string>
+    <string name="edge_gestures_back_edges_title">Aktywuj gest wstecz z</string>
+    <string name="edge_gestures_landscape_back_edges_title">Aktywuj gest wstecz gdy telefon jest w trybie poziomym</string>
+    <string name="edge_gestures_back_screen_percent_title">Gest wstecz musi być aktywowany poniżej tym % ekranu</string>
+    <string name="edge_gestures_back_screen_percent_summary">Używaj powyżej % ekranu</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">Animacja gestu wstecz</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">Pokaż animację podczas używania gestów krawędzi</string>
+    <string name="edge_gestures_back_edges_left_side">Z lewej strony</string>
+    <string name="edge_gestures_back_edges_right_side">Z prawej strony</string>
+    <string name="edge_gestures_back_edges_both_sides">Z obu stron</string>
+
+    <!-- Pie control -->
+    <string name="pa_pie_control_title">Gesty Pie</string>
+    <string name="pa_pie_control_summary">Używaj gestów pie do nawigacji</string>
+    <string name="pie_enable_title">Włącz</string>
+    <string name="pie_enable_summary">Używaj gestów pie do nawigacji</string>
+    <string name="pie_settings">ustawienia pie</string>
+    <string name="pie_settings_summary">Adjust pie to your liking</string>
+    <string name="pie_theme_mode_title">Motyw</string>
+    <string name="pie_auto">Automatyczny</string>
+    <string name="pie_white">Jasny</string>
+    <string name="pie_dark">Ciemny</string>
+    <string name="pie_battery_title">Wskaźnik baterii</string>
+    <string name="pie_battery_text">Tylko tekst</string>
+    <string name="pie_battery_circle">Tylko okrąg</string>
+    <string name="pie_battery_both">Oba</string>
+    <string name="pie_status_indicator">Wskaźnik aktywnośći sieci</string>
+    <string name="pie_status_wifi">Tylko wifi</string>
+    <string name="pie_status_mobile">Tylko dane komórkowe</string>
+    <string name="pie_status_none">Żaden</string>
+    <string name="pie_status_both">Oba</string>
+    <string name="pa_pie_gravity_title">Grawitacja Pie</string>
+    <string name="pa_pie_gravity_summary">Lokalizacja gdzie gesty Pie będą wyświetlone</string>
+    <string name="pa_pie_gravity_bottom">Dół</string>
+    <string name="pa_pie_gravity_right">Prawa</string>
+    <string name="pa_pie_gravity_left">Lewa</string>
+
+    <!-- Screen Stabilization -->
+    <string name="screen_stabilization_title">Stabilizacja ekranu</string>
+    <string name="screen_stabilization_enable">Włącz stabilizacje ekranu</string>
+    <string name="screen_stabilization_enable_summary">Zostaw poniższe wartości tak jak są domyślnie jeżeli nie rozumiesz co one znaczą</string>
+    <string name="stabilization_velocity_friction_title">Velocity friction</string>
+    <string name="stabilization_position_friction_title">Position friction</string>
+    <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
+
+    <!-- Disable OS on lockscreen -->
+    <string name="block_on_secure_keyguard_title">Nie wyświetlaj szybkich ustawień</string>
+    <string name="block_on_secure_keyguard_summary">Nie pokazuj szybkich ustawień na zabezpieczonym ekranie blokady</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Blokowanie wakelocków</string>
+    <string name="wakelock_blocker_summary">Blokuj systemowe wakelocki</string>
+    <string name="wakelock_blocker_save">Zapisz</string>
+    <string name="wakelock_list_header">Dostępne wakelocki</string>
+    <string name="wakelock_blocker_reload">Odśwież</string>
+    <string name="wakelock_blocker_warning_title">Postępuj ostrożnie</string>
+    <string name="wakelock_blocker_warning">Blokowanie wakelocków moze powodować niestabilność, crashe aplikacji lub utraty danych</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Blokowanie alarmów</string>
+    <string name="alarm_blocker_title">Włącz</string>
+    <string name="alarm_blocker_summary">Blokuj alarmy gdy ekran jest wyłączony</string>
+    <string name="alarm_blocker_save">Zapisz</string>
+    <string name="alarm_list_header">Dostępne alarmy</string>
+    <string name="alarm_blocker_reload">Odśwież</string>
+    <string name="alarm_blocker_warning_title">Postępuj ostrożnie</string>
+    <string name="alarm_blocker_warning">Blokowanie alarmów może powodować niestabilność, crashe aplikacji lub utraty danych</string>
 
 </resources>
