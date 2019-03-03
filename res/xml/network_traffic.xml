@@ -33,7 +33,15 @@
         android:defaultValue="0"
         android:persistent="false" />
 
-    <com.syberia.setting.preference.SystemSettingSwitchPreference
+    <com.syberia.settings.preference.CustomSeekBarPreference
+        android:key="network_traffic_font_size"
+        android:title="@string/nettraf_font_size"
+        android:max="30"
+        settings:min="18"
+        settings:defaultValue="21"
+        settings:units="dp" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="network_traffic_hidearrow"
         android:title="@string/network_traffic_hidearrow"
         android:summary="@string/network_traffic_hidearrow_summary"
