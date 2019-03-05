@@ -2,20 +2,20 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Estensioni Syberia</string>
-    <string name="syberia_dashboard_summary">Features introdotte nel progetto Syberia</string>
+    <string name="syberia_dashboard_summary">Caratteristiche introdotte nel progetto Syberia</string>
 
     <string name="system_category_title">Sistema</string>
     <string name="system_category_summary">Varie estensioni del sistema</string>
     <string name="statusbar_category_title">Statusbar</string>
     <string name="statusbar_category_summary">Personalizza la tua statusbar</string>
     <string name="panels_category_title">Pannelli</string>
-    <string name="panels_category_summary">Statusbar, Notifiche, Impostazioni rapide</string>
+    <string name="panels_category_summary">Barra di stato, Notifiche, Impostazioni rapide</string>
     <string name="lockscreen_category_title">Blocco schermo</string>
     <string name="lockscreen_category_summary">Personalizza il tuo blocco schermo</string>
-    <string name="systemui_tuner_title">Elementi della statusbar</string>
-    <string name="systemui_tuner_summary">Opzioni della batteria e delle icone della statusbar da disabilitare</string>
+    <string name="systemui_tuner_title">Elementi della barra di stato</string>
+    <string name="systemui_tuner_summary">Opzioni della batteria e delle icone della barra di stato da disabilitare</string>
     <string name="statusbar_clock_title">Mostra orologio &amp; data</string>
-    <string name="statusbar_clock_summary">Nella statusbar</string>
+    <string name="statusbar_clock_summary">Nella barra di stato</string>
     <string name="battery_style_title">Stile batteria</string>
     <string name="battery_style_summary">Personalizzazione dell\'icona della batteria</string>
     <string name="traffic_options_title">Indicatori del traffico di rete</string>
@@ -112,9 +112,9 @@
     <string name="keywords_syberia_version">versione syberia</string>
 
     <!-- About phone screen, build date -->
-    <string name="build_date">Data di build</string>
+    <string name="build_date">Data della build</string>
     <string name="build_date_default"></string>
-    <string name="keywords_build_date">data di build, informazioni build</string>
+    <string name="keywords_build_date">data della build, informazioni build</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Azione pulsante di blocco</string>
@@ -133,10 +133,10 @@
     <string name="screen_off_animation_scale">Scala</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Icone nella statusbar</string>
+    <string name="statusbar_items_title">Icone nella barra di stato</string>
 
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Shortcuts schermata di blocco</string>
+    <string name="lockscreen_tuner_title">Scorciatoie schermata di blocco</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Pulsanti di navigazione</string>
@@ -146,7 +146,7 @@
     <string name="status_bar_toggle_brightness">Controllo luminosità</string>
     <string name="status_bar_toggle_brightness_summary">Modifica la luminosità mediante lo slide della statusbar</string>
 
-    <string name="flash_on_call_category">Pulse flash</string>
+    <string name="flash_on_call_category">Flash ad impulsi</string>
     <string name="flash_on_call_title">Lampeggia il flash durante le chiamate in arrivo</string>
     <string name="flash_on_call_delay_title">Frequenza del flash</string>
 
@@ -171,9 +171,9 @@
     <string name="incall_vibrate_disconnect_title">Vibrate al termine della chiamata</string>
 
     <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_state_title">Traffico di rete</string>
+    <string name="network_traffic_state_summary">Mostra l'attività di rete nella barra di stato</string>
+    <string name="network_traffic_autohide_threshold_title">Soglia di offuscamento dell'attività di rete (KB/s)</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Visibilità nella schermata di blocco</string>
