@@ -468,10 +468,6 @@
     <!-- Other -->
     <string name="other_title">Αλλα</string>
 
-    <!-- RSSNR -->
-    <string name="ignore_rssnr_title">Αγνόηση του RSSNR</string>
-    <string name="ignore_rssnr_summary">Αγνοήστε το RSSNR σε υπολογισμό ισχύος σήματος LTE</string>
-
     <!-- About team -->
     <string name="about_team_title">Σχετικά με την ομάδα του Syberia</string>
     <string name="about_team_summary">Πληροφορίες για την ομάδα και τους διαχειριστές</string>

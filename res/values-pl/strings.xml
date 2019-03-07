@@ -438,10 +438,6 @@
     <!-- Other -->
     <string name="other_title">Inne</string>
 
-    <!-- RSSNR -->
-    <string name="ignore_rssnr_title">Ignoruj RSSNR</string>
-    <string name="ignore_rssnr_summary">Ignoruj RSSNR w obliczaniu siły sygnału LTE</string>
-
     <!-- About team -->
     <string name="about_team_title">Twórcy Syberii</string>
     <string name="about_team_summary">Informacje o zespole i opiekunach Syberii</string>

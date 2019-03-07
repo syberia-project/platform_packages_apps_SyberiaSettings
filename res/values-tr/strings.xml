@@ -428,8 +428,6 @@
     <string name="use_bottom_gesture_title">Hareketleri etkinleştir</string>
     <string name="gesture_settings_info">Gezinti çubuğu devre dışı olmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Sağ ya da soldan yukarı kaydır\n\nAna ekran\n- Ortadan yukarı kaydır\n\nSon uygulamalar\n- Ortadan yukarı kaydır ve tut\n\nÖnceki uygulama\n- Yukarı kısa kaydır ve ortada tut</string>
     
-    <string name="ignore_rssnr_title">RSSNR\'ı ihmal et</string>
-    <string name="ignore_rssnr_summary">LTE sinyal gücü hesaplamasında RSSNR\'ı ihmal et</string>
     <string name="other_title">Diğer</string>
     
     <string name="notification_light_settings">Bildirim ışığı</string>

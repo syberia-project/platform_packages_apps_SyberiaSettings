@@ -443,10 +443,6 @@
     <!-- Other -->
     <string name="other_title">Інше</string>
 
-    <!-- RSSNR -->
-    <string name="ignore_rssnr_title">Ігнорувати RNSSR</string>
-    <string name="ignore_rssnr_summary">Ігнорувати RNSSR при розрахунку сигналу для LTE</string>
-
     <!-- About team -->
     <string name="about_team_title">Про команду &quot;Syberia&quot;</string>
     <string name="about_team_summary">Інформація про команду і підтримувані пристрої</string>

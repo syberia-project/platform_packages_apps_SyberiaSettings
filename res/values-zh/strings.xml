@@ -462,10 +462,6 @@
     <!-- Other -->
     <string name="other_title">其他</string>
 
-    <!-- RSSNR -->
-    <string name="ignore_rssnr_title">忽略 RSS 误差</string>
-    <string name="ignore_rssnr_summary">在线性信号强度计算中忽略误差</string>
-
     <!-- About team -->
     <string name="about_team_title">关于 Syberia OS 团队</string>
     <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息</string>

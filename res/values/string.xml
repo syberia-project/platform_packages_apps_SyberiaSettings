@@ -467,10 +467,6 @@
     <!-- Other -->
     <string name="other_title">Other</string>
 
-    <!-- RSSNR -->
-    <string name="ignore_rssnr_title">Ignore RSSNR</string>
-    <string name="ignore_rssnr_summary">Ignore RSSNR in LTE signal strength calculation</string>
-
     <!-- About team -->
     <string name="about_team_title">About Syberia team</string>
     <string name="about_team_summary">Information about the team and maintainers</string>

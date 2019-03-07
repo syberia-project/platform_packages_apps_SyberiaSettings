@@ -453,10 +453,6 @@
     <!-- Other -->
     <string name="other_title">Другое</string>
 
-    <!-- RSSNR -->
-    <string name="ignore_rssnr_title">Не учитывать RNSSR</string>
-    <string name="ignore_rssnr_summary">Не учитывать RNSSR при расчете сигнала LTE</string>
-    
     <!-- About team -->
     <string name="about_team_title">О команде &quot;Syberia&quot;</string>
     <string name="about_team_summary">Информация о команде и поддерживаемых устройствах</string>
