@@ -495,7 +495,7 @@
     <string name="notification_sound_vib_screen_on_summary">Reproduce sonido y vibración para notificaciones cuando la pantalla está encendida</string>
     
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Habilitar usando el modo de una mano</string>
+    <string name="one_hand_mode_title">Habilitar modo de una mano</string>
     <string name="one_hand_mode_summary">Permitir deslizar a la derecha o izquierda en la barra de navegación para habilitarlo</string>
 
     <!-- Volume key cursor control -->
@@ -617,9 +617,9 @@
     <string name="corner_fwvals_summary">Útil si el dispositivo tiene esquinas redondeadas</string>
     
     <string name="qs_running_services_title">Icono de servicios en ejecución</string>
-    <string name="qs_running_services_summary">Habilita el icono de servicios en ejecución en el pie de página</string>
+    <string name="qs_running_services_summary">Habilita el icono de servicios en ejecución en la parte inferior de notificaciones</string>
     <string name="qs_edit_title">Icono de edición</string>
-    <string name="qs_edit_summary">Habilita el icono de edición de ajustes rápidos en el pie de página</string>
+    <string name="qs_edit_summary">Habilita el icono de edición de ajustes rápidos en la parte inferior de notificaciones</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Bloqueador de Wakelock</string>
@@ -627,7 +627,7 @@
     <string name="wakelock_blocker_save">Guardar</string>
     <string name="wakelock_list_header">Wakelocks disponibles</string>
     <string name="wakelock_blocker_reload">Recargar</string>
-    <string name="wakelock_blocker_warning_title">Proceda con precaución</string>
+    <string name="wakelock_blocker_warning_title">Procede con precaución</string>
     <string name="wakelock_blocker_warning">El bloqueo de wakelocks puede causar inestabilidad, bloqueos o pérdida de datos</string>
 
     <!-- Alarm blocker -->
@@ -689,7 +689,7 @@
 
     <!-- Header -->
     <string name="status_bar_custom_header_title">Imagen de cabecera personalizada</string>
-    <string name="status_bar_custom_header_summary">Elija una imagen para mostrar en la parte superior del panel de notificaciones</string>
+    <string name="status_bar_custom_header_summary">Elije una imagen para mostrar en la parte superior del panel de notificaciones</string>
     <string name="qs_appearance_category">APARIENCIA</string>
     <string name="daylight_header_pack_title">Paquete de imágenes del encabezado</string>
     <string name="status_bar_custom_header_shadow_title">Sombra de la imagen del encabezado</string>
@@ -703,7 +703,7 @@
     <string name="custom_header_browse_summary">Haga clic en cualquier imagen para usar en modo estático</string>
     <string name="custom_header_browse_summary_new">Examinar todos los paquetes de encabezado disponibles</string>
     <string name="custom_header_pick_title">Seleccionar imagen de cabecera</string>
-    <string name="custom_header_pick_summary">Seleccione una imagen para usar en modo estático</string>
+    <string name="custom_header_pick_summary">Selecciona una imagen para usar en modo estático</string>
     <string name="style_enabled_summary">La imagen del encabezado personalizado está activada</string>
     <string name="style_disabled_summary">La imagen del encabezado personalizado está desactivada</string>
     <string name="header_provider_disabled">Deshabilitado</string>
@@ -715,10 +715,10 @@
     <string name="file_header_provider" translatable="false">file</string>
 
     <!-- Screen Stabilization -->
-    <string name="screen_stabilization_title">Estabilización de pantallan</string>
+    <string name="screen_stabilization_title">Estabilización de pantalla</string>
     <string name="screen_stabilization_enable">Habilitar la estabilización de pantalla</string>
-    <string name="screen_stabilization_enable_summary">Deje los valores de abajo como están si no entiende lo que significan</string>
+    <string name="screen_stabilization_enable_summary">Deja los valores de abajo como están si no entiendes lo que significan</string>
     <string name="stabilization_velocity_friction_title">Velocidad de fricción</string>
-    <string name="stabilization_position_friction_title">posición de roce</string>
+    <string name="stabilization_position_friction_title">Posición de fricción</string>
     <string name="stabilization_velocity_amplitude_title">Amplitud de velocidad</string>
 </resources>
