@@ -575,9 +575,9 @@
     
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animaciones</string>
-    <string name="qs_tile_animation_style_title">Estilo de animacion</string>
+    <string name="qs_tile_animation_style_title">Estilo de animación</string>
     <string name="qs_tile_animation_duration_title">Duración de la animación</string>
-    <string name="qs_tile_animation_interpolator_title">Interpolador de animacion</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador de animación</string>
     <string name="qs_tile_animation_style_off">Sin animación</string>
     <string name="qs_tile_animation_style_flip">Dar la vuelta</string>
     <string name="qs_tile_animation_style_rotate">Girar</string>
