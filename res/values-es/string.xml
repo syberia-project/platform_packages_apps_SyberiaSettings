@@ -79,13 +79,13 @@
     <string name="power_menu_title">Menú de energía</string>
     <string name="power_menu_title_summary">Ver o cambiar las entradas del menú de energía</string>
     <string name="powermenu_screenshot">Captura de pantalla</string>
-    <string name="powermenu_screenrecord">Grabadora de pantalla</string>
-    <string name="powermenu_power">Energía</string>
+    <string name="powermenu_screenrecord">Grabación de pantalla</string>
+    <string name="powermenu_power">Apagar</string>
     <string name="powermenu_restart">Reiniciar</string>
     <string name="powermenu_restart_recovery">Reinicio avanzado</string>
-    <string name="powermenu_airplane">Avión</string>
-    <string name="powermenu_settings">Ajustes</string>
-    <string name="powermenu_lockdown">Bloquear</string>
+    <string name="powermenu_airplane">Modo avión</string>
+    <string name="powermenu_settings">Ajustes del sistema</string>
+    <string name="powermenu_lockdown">Bloquear dispositivo</string>
     <string name="powermenu_soundpanel">Panel de sonido</string>
     <string name="powermenu_users">Usuarios</string>
     <string name="powermenu_logout">Cerrar sesión</string>
@@ -146,7 +146,7 @@
     <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de encender la pantalla</string>
 
      <!-- Screen off animation -->
-    <string name="screen_off_animation_title">Animación de pantalla apagada</string>
+    <string name="screen_off_animation_title">Animación al apagar pantalla</string>
     <string name="screen_off_animation_default">Predeterminado</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Escala</string>
@@ -155,7 +155,7 @@
     <string name="statusbar_items_title">Elementos de la barra de estado</string>
 
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Atajos de pantalla de bloqueo</string>
+    <string name="lockscreen_tuner_title">Atajos en pantalla de bloqueo</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Botones de la barra de navegación</string>
@@ -163,17 +163,17 @@
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Control de brillo</string>
-    <string name="status_bar_toggle_brightness_summary">Ajuste el brillo deslizando a través de la barra de estado</string>
+    <string name="status_bar_toggle_brightness_summary">Ajustar el brillo deslizando a través de la barra de estado</string>
 
     <string name="flash_on_call_category">Pulso flash</string>
-    <string name="flash_on_call_title">Pulso de flash en llamada entrante</string>
-    <string name="flash_on_call_delay_title">Frecuencia del pulso flash</string>
+    <string name="flash_on_call_title">Usar flash en llamada entrante</string>
+    <string name="flash_on_call_delay_title">Frecuencia del pulso</string>
    
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Despertar con botones de volumen</string>
-    <string name="volume_rocker_wake_summary">Al presionar las teclas de volumen se encenderá su dispositivo</string>
+    <string name="volume_rocker_wake_summary">Al presionar las teclas de volumen se encenderá el dispositivo</string>
     <string name="volume_rocker_music_controls_title">Control de música</string>
-    <string name="volume_rocker_music_controls_summary">Mantenga pulsados los botones de volumen para cambiar las pistas mientras la pantalla está apagada</string>
+    <string name="volume_rocker_music_controls_summary">Mantén pulsado los botones de volumen para cambiar la música mientras la pantalla está apagada</string>
     
     <!-- Double-tap-to sleep -->
     <string name="double_tap_sleep_gesture_title">Doble toque para dormir</string>
@@ -185,18 +185,18 @@
     
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opciones de vibración en llamada</string>
-    <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
-    <string name="incall_vibrate_call_wait_title">Vibrar llamada en espera</string>
-    <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
+    <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
 
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Tráfico de red</string>
-    <string name="network_traffic_state_summary">Mostrar la actividad de red en la barra de estado</string>
-    <string name="network_traffic_autohide_threshold_title">Umbral de actividad de red (KB/s)</string>
+    <string name="network_traffic_state_summary">Muestra la actividad de red en la barra de estado</string>
+    <string name="network_traffic_autohide_threshold_title">Umbral de actividad (KB/s)</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="powermenu_lockscreen_title">Visibilidad de pantalla de bloqueo</string>
-    <string name="powermenu_lockscreen_summary">Habilite la capacidad de mostrar y usar el diálogo del menú de energía mientras está en la pantalla de bloqueo</string>
+    <string name="powermenu_lockscreen_title">Visibilidad en pantalla de bloqueo</string>
+    <string name="powermenu_lockscreen_summary">Habilita la capacidad de mostrar y usar el diálogo del menú energía mientras está en la pantalla de bloqueo</string>
 
     <string name="panel_notifications_title">Notificaciones</string>
 
@@ -285,20 +285,20 @@
 
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Iniciar aplicación de música</string>
-    <string name="headset_connect_player_summary">Inicia la aplicación de música predeterminada cuando los auriculares están conectados</string>
+    <string name="headset_connect_player_summary">Abre la aplicación de música predeterminada cuando los auriculares se conecten al dispositivo</string>
 
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Aumento del volumen de timbre</string>
+    <string name="increasing_ring_volume_option_title">Aumentar volumen de timbre</string>
     <string name="increasing_ring_min_volume_title">Comenzar en</string>
     <string name="increasing_ring_ramp_up_time_title">Aumentar hasta</string>
     
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Responder con teclas de volumen</string>
-    <string name="volume_answer_call_summary">Contestar la llamada cuando se presionan las teclas de volumen</string>
+    <string name="volume_answer_call_summary">Contestar la llamada cuando presiones las teclas de volumen</string>
 
     <!-- The home key answer -->
     <string name="home_answer_call_title">Responder con botón de inicio</string>
-    <string name="home_answer_call_summary">Contestar la llamada entrante cuando se presiona el botón de inicio</string>
+    <string name="home_answer_call_summary">Contestar la llamada cuando presiones el botón de inicio</string>
     
     <!-- Battery Styles -->
     <string name="battery_style_title">Estilo de icono de batería</string>
@@ -323,7 +323,7 @@
     <string name="qs_show_brightness_title">Control deslizante de brillo</string>
     <string name="qs_show_brightness_summary">Muestra un control deslizante de brillo en el panel de ajustes rápidos</string>
     <string name="qs_brightness_position_bottom_title">Control deslizante de brillo en la parte inferior</string>
-    <string name="qs_brightness_position_bottom_summary">Mostrar un control deslizante de brillo en la parte inferior de los ajustes rápidos</string>
+    <string name="qs_brightness_position_bottom_summary">Muestra un control deslizante de brillo en la parte inferior de los ajustes rápidos</string>
 
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Vibración de autenticación de huella digital</string>
@@ -495,7 +495,7 @@
     <string name="notification_sound_vib_screen_on_summary">Reproduce sonido y vibración para notificaciones cuando la pantalla está encendida</string>
     
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Habilitar usando el modo de una mano</string>
+    <string name="one_hand_mode_title">Habilitar modo de una mano</string>
     <string name="one_hand_mode_summary">Permitir deslizar a la derecha o izquierda en la barra de navegación para habilitarlo</string>
 
     <!-- Volume key cursor control -->
@@ -517,13 +517,13 @@
     <string name="pixel_navbar_anim_summary">Usar animacíon pixel en botón de inicio</string>
 
     <!-- Statusbar ticker -->
-    <string name="status_bar_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_summary">Vista previa de notificación en la barra de estado</string>
-    <string name="ticker_animation_mode_title">Animación ticker</string>
-    <string name="ticker_animation_mode_alpha_fade">Fundido</string>
+    <string name="status_bar_ticker_title">Vista previa de notificación</string>
+    <string name="status_bar_show_ticker_title">Ver notificación</string>
+    <string name="status_bar_show_ticker_summary">Muestra una vista previa de notificación en la barra de estado</string>
+    <string name="ticker_animation_mode_title">Animación de vista previa</string>
+    <string name="ticker_animation_mode_alpha_fade">Fundir</string>
     <string name="ticker_animation_mode_scroll">Desplazar</string>
-    <string name="ticker_tick_duration_title">Duración del ticker</string>
+    <string name="ticker_tick_duration_title">Duración de la vista previa</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Icono 4G</string>
@@ -575,9 +575,9 @@
     
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animaciones</string>
-    <string name="qs_tile_animation_style_title">Estilo de animacion</string>
+    <string name="qs_tile_animation_style_title">Estilo de animación</string>
     <string name="qs_tile_animation_duration_title">Duración de la animación</string>
-    <string name="qs_tile_animation_interpolator_title">Interpolador de animacion</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador de animación</string>
     <string name="qs_tile_animation_style_off">Sin animación</string>
     <string name="qs_tile_animation_style_flip">Dar la vuelta</string>
     <string name="qs_tile_animation_style_rotate">Girar</string>
@@ -611,15 +611,15 @@
     
     <!-- Rounded corners -->
     <string name="corners_category">Esquinas</string>
-    <string name="corner_radius">Radio de la esquina redondeada</string>
-    <string name="content_padding">Relleno de esquina</string>
+    <string name="corner_radius">Radio de las esquinas redondeadas</string>
+    <string name="content_padding">Relleno de las esquinas</string>
     <string name="corner_fwvals">Usar valores del sistema</string>
     <string name="corner_fwvals_summary">Útil si el dispositivo tiene esquinas redondeadas</string>
     
     <string name="qs_running_services_title">Icono de servicios en ejecución</string>
-    <string name="qs_running_services_summary">Habilita el icono de servicios en ejecución en el pie de página</string>
+    <string name="qs_running_services_summary">Habilita el icono de servicios en ejecución en la parte inferior de notificaciones</string>
     <string name="qs_edit_title">Icono de edición</string>
-    <string name="qs_edit_summary">Habilita el icono de edición de ajustes rápidos en el pie de página</string>
+    <string name="qs_edit_summary">Habilita el icono de edición de ajustes rápidos en la parte inferior de notificaciones</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Bloqueador de Wakelock</string>
@@ -627,7 +627,7 @@
     <string name="wakelock_blocker_save">Guardar</string>
     <string name="wakelock_list_header">Wakelocks disponibles</string>
     <string name="wakelock_blocker_reload">Recargar</string>
-    <string name="wakelock_blocker_warning_title">Proceda con precaución</string>
+    <string name="wakelock_blocker_warning_title">Procede con precaución</string>
     <string name="wakelock_blocker_warning">El bloqueo de wakelocks puede causar inestabilidad, bloqueos o pérdida de datos</string>
 
     <!-- Alarm blocker -->
@@ -689,7 +689,7 @@
 
     <!-- Header -->
     <string name="status_bar_custom_header_title">Imagen de cabecera personalizada</string>
-    <string name="status_bar_custom_header_summary">Elija una imagen para mostrar en la parte superior del panel de notificaciones</string>
+    <string name="status_bar_custom_header_summary">Elije una imagen para mostrar en la parte superior del panel de notificaciones</string>
     <string name="qs_appearance_category">APARIENCIA</string>
     <string name="daylight_header_pack_title">Paquete de imágenes del encabezado</string>
     <string name="status_bar_custom_header_shadow_title">Sombra de la imagen del encabezado</string>
@@ -703,7 +703,7 @@
     <string name="custom_header_browse_summary">Haga clic en cualquier imagen para usar en modo estático</string>
     <string name="custom_header_browse_summary_new">Examinar todos los paquetes de encabezado disponibles</string>
     <string name="custom_header_pick_title">Seleccionar imagen de cabecera</string>
-    <string name="custom_header_pick_summary">Seleccione una imagen para usar en modo estático</string>
+    <string name="custom_header_pick_summary">Selecciona una imagen para usar en modo estático</string>
     <string name="style_enabled_summary">La imagen del encabezado personalizado está activada</string>
     <string name="style_disabled_summary">La imagen del encabezado personalizado está desactivada</string>
     <string name="header_provider_disabled">Deshabilitado</string>
@@ -715,10 +715,10 @@
     <string name="file_header_provider" translatable="false">file</string>
 
     <!-- Screen Stabilization -->
-    <string name="screen_stabilization_title">Estabilización de pantallan</string>
+    <string name="screen_stabilization_title">Estabilización de pantalla</string>
     <string name="screen_stabilization_enable">Habilitar la estabilización de pantalla</string>
-    <string name="screen_stabilization_enable_summary">Deje los valores de abajo como están si no entiende lo que significan</string>
+    <string name="screen_stabilization_enable_summary">Deja los valores de abajo como están si no entiendes lo que significan</string>
     <string name="stabilization_velocity_friction_title">Velocidad de fricción</string>
-    <string name="stabilization_position_friction_title">posición de roce</string>
+    <string name="stabilization_position_friction_title">Posición de fricción</string>
     <string name="stabilization_velocity_amplitude_title">Amplitud de velocidad</string>
 </resources>
