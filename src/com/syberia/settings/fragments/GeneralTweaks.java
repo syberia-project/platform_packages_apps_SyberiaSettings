@@ -66,6 +66,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.syberia.SyberiaUtils;
+import com.syberia.settings.Utils;
 
 public class GeneralTweaks extends SettingsPreferenceFragment implements OnPreferenceChangeListener, DialogInterface.OnDismissListener{
 
@@ -73,10 +74,14 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
+
     private static final String RECENTS_COMPONENT_TYPE = "recents_component";
+    private static final String RECENTS_ICON_PACK_KEY = "recents_icon_pack";
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
+
+    final String KEY_LAUNCHER3_PACKAGE_NAME = "com.android.launcher3";
 
     private final static String[] sSupportedActions = new String[] {
         "org.adw.launcher.THEMES",
@@ -103,11 +108,16 @@ public class GeneralTweaks extends SettingsPreferenceFragment implements OnPrefe
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.general_tweaks);
 		ContentResolver resolver = getActivity().getContentResolver();
+	final PreferenceScreen screen = getPreferenceScreen();
         mScreenOffAnimation = (ListPreference) findPreference(SCREEN_OFF_ANIMATION);
         int screenOffStyle = Settings.System.getInt(resolver, Settings.System.SCREEN_OFF_ANIMATION, 0);
         mScreenOffAnimation.setValue(String.valueOf(screenOffStyle));
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);
+
+	if (!Utils.isPackageInstalled(getActivity(), KEY_LAUNCHER3_PACKAGE_NAME)) {
+            screen.removePreference(findPreference(RECENTS_ICON_PACK_KEY));
+        }
 
         // recents component type
         mRecentsComponentType = (ListPreference) findPreference(RECENTS_COMPONENT_TYPE);
