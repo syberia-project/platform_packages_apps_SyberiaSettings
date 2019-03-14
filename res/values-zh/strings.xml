@@ -603,7 +603,6 @@
     <string name="audio_panel_view_media_title">媒体</string>
     <string name="audio_panel_view_ringer_title">铃声</string>
     <string name="audio_panel_view_notification_title">消息</string>
-    <string name="audio_panel_view_alarm_title">闹钟</string>
     <string name="audio_panel_view_voice_title">通话</string>
     <string name="audio_panel_view_bt_sco_title">蓝牙</string>
 

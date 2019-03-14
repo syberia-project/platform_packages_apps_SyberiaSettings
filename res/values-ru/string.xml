@@ -595,7 +595,6 @@
     <string name="audio_panel_view_media_title">Медиа</string>
     <string name="audio_panel_view_ringer_title">Рингтон</string>
     <string name="audio_panel_view_notification_title">Уведомления</string>
-    <string name="audio_panel_view_alarm_title">Будильник</string>
     <string name="audio_panel_view_voice_title">Голос</string>
     <string name="audio_panel_view_bt_sco_title">Блютуз</string>
 
