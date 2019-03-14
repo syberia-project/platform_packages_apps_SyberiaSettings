@@ -97,7 +97,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
         ));
         team.add(new AboutTeamAdapter.Dev(
                 "blinoff82",
-                "ROM Developer",
+                "Project Administrator",
                 "https://syberiaos.com/img/avatars/blinoff82.jpg",
                 "https://forum.xda-developers.com/member.php?u=4937139",
                 "",
