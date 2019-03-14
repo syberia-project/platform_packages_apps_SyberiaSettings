@@ -190,11 +190,11 @@ public class AboutTeam extends SettingsPreferenceFragment {
         list.add(new AboutTeamAdapter.Maintainer(
                         "Asus ZenFone Max Pro M1 (X00TD)",
                         new AboutTeamAdapter.Dev(
-                                "thetoymaker",
+                                "DarknessKiller",
                                 "",
-                                "https://avatars2.githubusercontent.com/u/37396330?s=400&v=4",
-                                "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-syberia-project-t3848146",
-                                "https://github.com/Toymakerftw",
+                                "https://avatars3.githubusercontent.com/u/23330152?s=460&v=4",
+                                "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-syberia-project-t3910618",
+                                "https://github.com/DarknessKiller",
                                 ""
                         )
                 )
