@@ -140,6 +140,18 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 )
         );
         list.add(new AboutTeamAdapter.Maintainer(
+                        "OnePlus 6T (fajita)",
+                        new AboutTeamAdapter.Dev(
+                                "coderzstas",
+                                "",
+                                "https://avatars3.githubusercontent.com/u/3104406?s=460&v=4",
+                                "https://forum.xda-developers.com/oneplus-6t/development/rom-syberia-project-t3911727",
+                                "https://github.com/coderzstas",
+                                ""
+                        )
+                )
+        );
+        list.add(new AboutTeamAdapter.Maintainer(
                         "Xiaomi Mi 5 (gemini)",
                         new AboutTeamAdapter.Dev(
                                 "blinoff82",
