@@ -600,7 +600,6 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">Πίνακας ήχου</string>
     <string name="audio_panel_view_media_title">Μεσο ΜΑΖΙΚΗΣ ΕΝΗΜΕΡΩΣΗΣ</string>
-    <string name="audio_panel_view_ringer_title">Δαχτυλίδι</string>
     <string name="audio_panel_view_notification_title">Γνωστοποίηση</string>
     <string name="audio_panel_view_voice_title">Φωνή</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>

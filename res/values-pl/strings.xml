@@ -568,7 +568,6 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">Suwak głośności</string>
     <string name="audio_panel_view_media_title">Multimedia</string>
-    <string name="audio_panel_view_ringer_title">Dzwonek</string>
     <string name="audio_panel_view_notification_title">Powiadomienie</string>
     <string name="audio_panel_view_voice_title">Głos</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>

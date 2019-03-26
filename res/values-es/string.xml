@@ -599,7 +599,6 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">Panel de audio</string>
     <string name="audio_panel_view_media_title">Multimedia</string>
-    <string name="audio_panel_view_ringer_title">Timbre</string>
     <string name="audio_panel_view_notification_title">Notificación</string>
     <string name="audio_panel_view_voice_title">Voz</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>

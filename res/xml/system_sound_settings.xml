@@ -62,11 +62,6 @@
             android:enabled="false"/>
 
         <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="audio_panel_view_ringer"
-            android:title="@string/audio_panel_view_ringer_title"
-            android:defaultValue="false"/>
-
-        <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="audio_panel_view_notification"
             android:title="@string/audio_panel_view_notification_title"
             android:defaultValue="false"/>
