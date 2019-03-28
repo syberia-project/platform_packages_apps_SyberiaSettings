@@ -22,6 +22,14 @@
         android:key="sleep_mode"
         android:icon="@drawable/ic_sleepmode"
         android:title="@string/sleep_mode_title"
+        android:summary="@string/sleep_mode_title_summary"
         android:fragment="com.syberia.settings.fragments.BatteryTweaks" />
+
+    <Preference
+        android:key="aggressive_battery"
+        android:icon="@drawable/ic_aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:summary="@string/aggressive_battery_summary"
+        android:fragment="com.syberia.settings.fragments.AggressiveBattery" />
 
 </PreferenceScreen>
