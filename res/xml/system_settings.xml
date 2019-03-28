@@ -71,6 +71,12 @@
         android:fragment="com.android.settings.fuelgauge.InactiveApps" />
 
     <Preference
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:icon="@drawable/ic_aggressive_battery"
+        android:fragment="com.syberia.settings.fragments.AggressiveBattery" />
+
+    <Preference
         android:icon="@drawable/ic_system_app_remover"
         android:key="system_app_remover"
         android:title="@string/system_app_remover" />
