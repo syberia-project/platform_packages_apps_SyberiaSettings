@@ -726,4 +726,15 @@
     <string name="sleep_mode_aggressive_toggle_summary">Включить агрессивный режим ожидания когда режим сна включен</string>
     <string name="sleep_mode_display_text">В режиме сна можно отключить определенные службы, чтобы сэкономить заряд батареи и отключить звук на телефоне во время сна</string>
 
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Агрессивное энергосбережение</string>
+    <string name="aggressive_battery_summary">Более строгая экономия заряда батареи</string>
+    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Они могут мешать работе служб, предназначенных для работы в режиме ожидания, например приложений для навигации. Вы можете занести эти приложения в белый список в настройках батареи</string>
+    <string name="aggressive_idle_title">Агрессивный режим простоя</string>
+    <string name="aggressive_idle_summary">Чаще переводить устройство в режим ожидания и меньше пробуждать</string>
+    <string name="aggressive_standby_title">Агрессивный режим ожидания</string>
+    <string name="aggressive_standby_summary">Запретить приложениям запускаться в фоне</string>
+    <string name="aggressive_battery_saver_title">Авто-включение в режиме энергосбережения</string>
+    <string name="aggressive_battery_saver_summary">Автоматически включать Агрессивное энергосбережение в режиме экономии энергии</string>
+
 </resources>
