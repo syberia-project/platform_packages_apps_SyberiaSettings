@@ -29,12 +29,14 @@ import android.os.UserHandle;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 import android.provider.Settings;
 import android.view.View;
 import android.text.format.DateFormat;
 
+import android.provider.SearchIndexableResource;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
@@ -50,8 +52,7 @@ import java.util.HashSet;
 import java.util.List;
 
 @SearchIndexable
-public class BatteryTweaks extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceChangeListener {
+public class BatteryTweaks extends SettingsPreferenceFragment {
 
     private Preference mSleepMode;
 
@@ -122,11 +123,6 @@ public class BatteryTweaks extends SettingsPreferenceFragment
     }
 
     @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SYBERIA;
-    }
-
-    @Override
     public void onResume() {
         super.onResume();
         updateSleepModeSummary();
@@ -137,4 +133,30 @@ public class BatteryTweaks extends SettingsPreferenceFragment
         super.onPause();
         updateSleepModeSummary();
     }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.SYBERIA;
+    }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.battery_tweaks;
+                    return Arrays.asList(sir);
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
