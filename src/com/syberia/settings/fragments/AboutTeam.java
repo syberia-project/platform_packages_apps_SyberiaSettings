@@ -238,11 +238,11 @@ public class AboutTeam extends SettingsPreferenceFragment {
 	list.add(new AboutTeamAdapter.Maintainer(
                         "Xiaomi Poco F1 (beryllium)",
                         new AboutTeamAdapter.Dev(
-                                "fir3walk",
+                                "Ethan Halsall",
                                 "",
-                                "https://avatars0.githubusercontent.com/u/18166102?s=400&v=4",
-                                "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3862622",
-                                "https://github.com/fir3walk",
+                                "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
+                                "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3912500",
+                                "https://github.com/ethan-halsall",
                                 ""
                         )
                 )
