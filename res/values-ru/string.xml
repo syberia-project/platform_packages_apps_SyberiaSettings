@@ -562,6 +562,12 @@
     <string name="lock_widget_font_black">Черный</string>
     <string name="lock_widget_font_black_italic">Черный курсив</string>
 
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Фильтр обложки песни</string>
+    <string name="lockscreen_cover_filter_none">Нет</string>
+    <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
+    <string name="lockscreen_cover_filter_blur">Размытие</string>
+
     <!-- Lockscreen items -->
     <string name="lockscreen_clock_title">Виджет часов</string>
     <string name="lockscreen_clock_summary">Показывать виджет часов на экране блокировки</string>

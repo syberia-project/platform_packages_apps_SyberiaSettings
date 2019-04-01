@@ -575,6 +575,12 @@
     <string name="lock_widget_font_black">Black</string>
     <string name="lock_widget_font_black_italic">Black Italic</string>
 
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Media cover art filter</string>
+    <string name="lockscreen_cover_filter_none">None</string>
+    <string name="lockscreen_cover_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_cover_filter_blur">Blur</string>
+
     <!-- Lockscreen items -->
     <string name="lockscreen_clock_title">Clock widget</string>
     <string name="lockscreen_clock_summary">Show the clock widget on the lockscreen</string>
