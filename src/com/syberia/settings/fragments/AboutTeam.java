@@ -220,18 +220,6 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 )
         );
 	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Redmi Note 5 (whyred)",
-                        new AboutTeamAdapter.Dev(
-                                "rashedsahaji",
-                                "",
-                                "https://avatars1.githubusercontent.com/u/42634886?s=400&v=4",
-                                "https://forum.xda-developers.com/redmi-note-5-pro/development/rom-syberia-project-t3862355",
-                                "https://github.com/rashedsahaji",
-                                ""
-                        )
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
                         "Xiaomi Redmi 3s (land)",
                         new AboutTeamAdapter.Dev(
                                 "Weritos666",
