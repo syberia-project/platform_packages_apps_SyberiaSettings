@@ -119,6 +119,14 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 "",
                 "https://t.me/SyberiaOSHelpdesk"
         ));
+        team.add(new AboutTeamAdapter.Dev(
+                "coderzstas",
+                "Back-end developer",
+                "https://syberiaos.com/img/avatars/coderzstas.jpg",
+                "https://forum.xda-developers.com/member.php?u=3297592",
+                "",
+                "https://t.me/SyberiaOSHelpdesk"
+        ));
         list.add(new AboutTeamAdapter.Team(
                         "http://github.com/syberia-project",
                         "https://t.me/joinchat/AHkowkcfcWdzd5FpKZ3Hng",
