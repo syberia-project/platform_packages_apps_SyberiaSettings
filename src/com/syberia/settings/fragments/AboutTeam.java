@@ -160,18 +160,6 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 )
         );
         list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi 5 (gemini)",
-                        new AboutTeamAdapter.Dev(
-                                "blinoff82",
-                                "",
-                                "https://syberiaos.com/img/avatars/blinoff82.jpg",
-                                "https://forum.xda-developers.com/mi-5/development/rom-syberia-project-t3833868",
-                                "https://github.com/blinoff82",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
                         "Xiaomi Mi 5s (capricorn)",
                         new AboutTeamAdapter.Dev(
                                 "mesziman",
