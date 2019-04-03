@@ -53,6 +53,13 @@
         android:title="@string/dialer_title"
         android:fragment="com.syberia.settings.fragments.DialerSettings" />
 
+    <Preference
+        android:key="aggressive_battery"
+        android:icon="@drawable/ic_battery_plus"
+        android:title="@string/aggressive_battery_title"
+        android:summary="@string/aggressive_battery_summary"
+        android:fragment="com.syberia.settings.fragments.AggressiveBattery"/>
+
     <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
         android:key="gaming_mode_enabled"
         android:icon="@drawable/ic_gaming"
