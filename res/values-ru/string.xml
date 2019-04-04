@@ -566,7 +566,9 @@
     <string name="lockscreen_cover_filter_title">Фильтр обложки песни</string>
     <string name="lockscreen_cover_filter_none">Нет</string>
     <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
+    <string name="lockscreen_cover_filter_tint">Тонировано под цвет акцента</string>
     <string name="lockscreen_cover_filter_blur">Размытие</string>
+    <string name="lockscreen_cover_filter_grayblur">Оттенки серого и размытие</string>
 
     <!-- Lockscreen items -->
     <string name="lockscreen_clock_title">Виджет часов</string>
