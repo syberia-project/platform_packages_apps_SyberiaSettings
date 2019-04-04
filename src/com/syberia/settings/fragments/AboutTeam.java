@@ -39,12 +39,19 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.syberia.settings.fragments.common.AboutTeamAdapter;
 import com.syberia.settings.fragments.common.AboutTeamAdapter.About;
 import com.syberia.settings.fragments.common.AboutTeamAdapter.Dev;
-import com.syberia.settings.fragments.common.AboutTeamAdapter.Team;
+import com.syberia.settings.fragments.common.AboutTeamAdapter.TeamHeader;
 import com.syberia.settings.fragments.common.AboutTeamAdapter.Header;
 import com.syberia.settings.fragments.common.AboutTeamAdapter.OnClickListener;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.json.JSONObject;
+import org.json.JSONArray;
+import java.io.InputStream;
+import java.lang.Exception;
+
+import android.widget.Toast;
 
 public class AboutTeam extends SettingsPreferenceFragment {
 
@@ -85,212 +92,72 @@ public class AboutTeam extends SettingsPreferenceFragment {
         return MetricsProto.MetricsEvent.SYBERIA;
     }
 
-    private void initList() {
-        List<AboutTeamAdapter.Dev> team = new ArrayList<>();
-        team.add(new AboutTeamAdapter.Dev(
-                "DennySPb",
-                "Lead ROM Developer",
-                "https://syberiaos.com/img/avatars/DennySPb.jpg",
-                "https://forum.xda-developers.com/member.php?u=3639510",
-                "",
-                "https://t.me/SyberiaOSHelpdesk"
-        ));
-        team.add(new AboutTeamAdapter.Dev(
-                "blinoff82",
-                "Project Administrator",
-                "https://syberiaos.com/img/avatars/blinoff82.jpg",
-                "https://forum.xda-developers.com/member.php?u=4937139",
-                "",
-                "https://t.me/SyberiaOSHelpdesk"
-        ));
-        team.add(new AboutTeamAdapter.Dev(
-                "alexxxdev",
-                "ROM Developer",
-                "https://syberiaos.com/img/avatars/alexxxdev.jpg",
-                "https://forum.xda-developers.com/member.php?u=3074355",
-                "",
-                "https://t.me/SyberiaOSHelpdesk"
-        ));
-        team.add(new AboutTeamAdapter.Dev(
-                "Lane Shukhov",
-                "Designer, Site developer",
-                "https://syberiaos.com/img/avatars/rlshukhov.jpg",
-                "",
-                "",
-                "https://t.me/SyberiaOSHelpdesk"
-        ));
-        team.add(new AboutTeamAdapter.Dev(
-                "coderzstas",
-                "Back-end developer",
-                "https://syberiaos.com/img/avatars/coderzstas.jpg",
-                "https://forum.xda-developers.com/member.php?u=3297592",
-                "",
-                "https://t.me/SyberiaOSHelpdesk"
-        ));
-        list.add(new AboutTeamAdapter.Team(
-                        "http://github.com/syberia-project",
-                        "https://t.me/joinchat/AHkowkcfcWdzd5FpKZ3Hng",
-                        team
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = getActivity().getAssets().open("syberia.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            Toast.makeText(getActivity(), ex.toString(), Toast.LENGTH_LONG).show();
+            return null;
+        }
+        return json;
+    }
 
-                )
-        );
-        list.add(new AboutTeamAdapter.Header());
-        list.add(new AboutTeamAdapter.Maintainer(
-                        "OnePlus 6 (enchilada)",
-                        new AboutTeamAdapter.Dev(
-                                "DennySPb",
-                                "",
-                                "https://syberiaos.com/img/avatars/DennySPb.jpg",
-                                "",
-                                "https://github.com/DennySPB",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
-                        "OnePlus 6T (fajita)",
-                        new AboutTeamAdapter.Dev(
-                                "coderzstas",
-                                "",
-                                "https://avatars3.githubusercontent.com/u/3104406?s=460&v=4",
-                                "https://forum.xda-developers.com/oneplus-6t/development/rom-syberia-project-t3911727",
-                                "https://github.com/coderzstas",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi 5s (capricorn)",
-                        new AboutTeamAdapter.Dev(
-                                "mesziman",
-                                "",
-                                "https://avatars1.githubusercontent.com/u/4874388?s=400&v=4",
-                                "https://forum.xda-developers.com/mi-5s/development/rom-syberia-rom-1-0-t3835690",
-                                "https://github.com/mesziman",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Redmi Note 4 (mido)",
-                        new AboutTeamAdapter.Dev(
-                                "NATO666613",
-                                "",
-                                "https://avatars3.githubusercontent.com/u/7190697?s=400&v=4",
-                                "https://forum.xda-developers.com/redmi-note-4/xiaomi-redmi-note-4-snapdragon-roms-kernels-recoveries--other-development/rom-syberia-project-t3846212",
-                                "https://github.com/kondors1995",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi Mix 2 (chiron)",
-                        new AboutTeamAdapter.Dev(
-                                "AleD219",
-                                "",
-                                "https://avatars0.githubusercontent.com/u/40178945?s=400&v=4",
-                                "https://forum.xda-developers.com/mi-mix-2/development/rom-syberia-project-t3847007",
-                                "https://github.com/AleD219",
-                                ""
-                        )
-                )
-        );
-        list.add(new AboutTeamAdapter.Maintainer(
-                        "Asus ZenFone Max Pro M1 (X00TD)",
-                        new AboutTeamAdapter.Dev(
-                                "DarknessKiller",
-                                "",
-                                "https://avatars3.githubusercontent.com/u/23330152?s=460&v=4",
-                                "https://forum.xda-developers.com/asus-zenfone-max-pro-m1/development/rom-syberia-project-t3910618",
-                                "https://github.com/DarknessKiller",
-                                ""
-                        )
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Redmi 3s (land)",
-                        new AboutTeamAdapter.Dev(
-                                "Weritos666",
-                                "",
-                                "https://avatars2.githubusercontent.com/u/3286052?s=400&v=4",
-                                "https://forum.xda-developers.com/xiaomi-redmi-3s/development/9-0-syberia-os-9-0-t3837103",
-                                "https://github.com/weritos666",
-                                ""
-                        )
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Poco F1 (beryllium)",
-                        new AboutTeamAdapter.Dev(
-                                "Ethan Halsall",
-                                "",
-                                "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
-                                "https://forum.xda-developers.com/poco-f1/development/rom-syberia-project-t3912500",
-                                "https://github.com/ethan-halsall",
-                                ""
-                        )
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi 5s+ (natrium)",
-                        new AboutTeamAdapter.Dev(
-                                "cfdddd",
-                                "",
-                                "https://avatars0.githubusercontent.com/u/31411742?s=400&v=4",
-                                "https://forum.xda-developers.com/mi-5s-plus/development/rom-syberia-project-t3869145",
-                                "https://github.com/00day0",
-                                ""
-                        )
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi 8 (dipper)",
-                        new AboutTeamAdapter.Dev(
-                                "Ethan Halsall",
-                                "",
-                                "https://avatars1.githubusercontent.com/u/27292430?s=400&v=4",
-                                "https://forum.xda-developers.com/mi-8/development/9-0-rom-syberia-project-t3881271",
-                                "https://github.com/ethan-halsall",
-                                ""
-			)
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Mi A1 (tissot)",
-                        new AboutTeamAdapter.Dev(
-                                "mdeejay",
-                                "",
-                                "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
-                                "https://forum.xda-developers.com/mi-a1/development/rom-syberia-project-t3884514",
-                                "https://github.com/Tissot-Beast",
-                                ""
-			)
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Redmi Note 5 (vince)",
-                        new AboutTeamAdapter.Dev(
-                                "mdeejay",
-                                "",
-                                "https://avatars0.githubusercontent.com/u/747233?s=400&v=4",
-                                "https://forum.xda-developers.com/redmi-note-5/development/rom-syberia-project-t3884842",
-                                "https://github.com/Tissot-Beast",
-                                ""
-			)
-                )
-        );
-	list.add(new AboutTeamAdapter.Maintainer(
-                        "Xiaomi Redmi 4x (santoni)",
-                        new AboutTeamAdapter.Dev(
-                                "HarukeyUA",
-                                "",
-                                "https://avatars1.githubusercontent.com/u/12065476?s=400&v=4",
-                                "https://forum.xda-developers.com/xiaomi-redmi-4x/development/rom-syberia-project-t3890225",
-                                "https://github.com/HarukeyUA",
-                                ""
-			)
-                )
-        );
+    private void initList() {
+        try {
+            JSONObject obj = new JSONObject(loadJSONFromAsset());
+            String teamGithub = "";
+            String teamTelegram = "";
+
+            if(obj.has("team_github")) teamGithub = obj.getString("team_github");
+            if(obj.has("team_telegram")) teamTelegram = obj.getString("team_telegram");
+
+            list.add(new AboutTeamAdapter.TeamHeader(teamGithub,teamTelegram));
+
+            if(obj.has("team")){
+                list.add(new AboutTeamAdapter.Header("Team"));
+                JSONArray team = obj.getJSONArray("team");
+                for (int i = 0; i < team.length(); i++) {
+                    JSONObject dev = team.getJSONObject(i);
+                    list.add(new AboutTeamAdapter.Dev(
+                            dev.getString("name"),
+                            dev.getString("role"),
+                            dev.getString("avatar"),
+                            dev.getString("xda_link"),
+                            "",
+                            dev.getString("telegram_link")
+                    ));
+                }
+            }
+            if(obj.has("maintainers")){
+                list.add(new AboutTeamAdapter.Header("Maintainers"));
+                JSONArray maintainers = obj.getJSONArray("maintainers");
+                for (int i = 0; i < maintainers.length(); i++) {
+                    JSONObject maintainer = maintainers.getJSONObject(i);
+                    list.add(new AboutTeamAdapter.Maintainer(
+                                            maintainer.getString("device"),
+                                            new AboutTeamAdapter.Dev(
+                                                    maintainer.getString("name"),
+                                                    "",
+                                                    maintainer.getString("avatar"),
+                                                    maintainer.getString("xda_link"),
+                                                    maintainer.getString("github_link"),
+                                                    ""
+                                            )
+                                    )
+                            );
+                }
+            }
+        } catch (Exception e) {
+            Toast.makeText(getActivity(), e.toString(), Toast.LENGTH_LONG).show();
+            e.printStackTrace();
+        }
 
     }
 }
