@@ -596,6 +596,7 @@
     <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (alt)</string>
     <string name="lockscreen_clock_selection_gradient_full">Full gradient clock</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
+    <string name="lockscreen_clock_selection_text">Android Q Text Clock</string>
     
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animations</string>
