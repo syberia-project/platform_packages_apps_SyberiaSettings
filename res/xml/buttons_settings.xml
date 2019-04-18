@@ -234,5 +234,8 @@
 
     </PreferenceCategory>
 
+    <Preference
+        android:title="@string/custom_fod_icon_title"
+        android:key="custom_fingerprint_icon" />
 
 </PreferenceScreen>

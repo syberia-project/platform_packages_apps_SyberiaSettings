@@ -717,4 +717,6 @@
     <string name="aggressive_battery_saver_title">В режиме экономии батареи</string>
     <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 
+    <string name="custom_fod_icon_title">Установить иконку FOD</string>
+
 </resources>
