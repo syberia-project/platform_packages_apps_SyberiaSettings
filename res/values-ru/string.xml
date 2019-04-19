@@ -572,6 +572,12 @@
     <string name="lockdate_font_size_title">Размер шрифта даты</string>
     <string name="lockclock_font_size_title">Размер шрифта часов</string>
 
+    <!-- Lockscreen text clock align -->
+    <string name="lockscreen_clock_align_title">Выравнивание текста Андроид Q </string>
+    <string name="lockscreen_clock_align0">Слева</string>
+    <string name="lockscreen_clock_align1">По центру</string>
+    <string name="lockscreen_clock_align2">Справа</string>
+
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_title">Стиль часов</string>
     <string name="lockscreen_clock_selection_digital">По умолчанию</string>

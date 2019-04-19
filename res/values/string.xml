@@ -597,6 +597,12 @@
     <string name="lockscreen_clock_selection_gradient_full">Full gradient clock</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
     <string name="lockscreen_clock_selection_text">Android Q Text Clock</string>
+
+    <!-- Lockscreen text clock align -->
+    <string name="lockscreen_clock_align_title">Q Text Clock Alignment</string>
+    <string name="lockscreen_clock_align0">Left</string>
+    <string name="lockscreen_clock_align1">Center</string>
+    <string name="lockscreen_clock_align2">Right</string>
     
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animations</string>
