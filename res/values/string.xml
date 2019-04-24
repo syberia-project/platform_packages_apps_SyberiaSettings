@@ -43,6 +43,7 @@
     <string name="navbar_title">Navigation Bar</string>
     <string name="doubletap_gestures_title">Double tap gestures</string>
     <string name="navigation_gestures_title">Navigation gestures</string>
+    <string name="power_button_gestures_title">Power button gestures</string>
 
     <string name="general_tweaks_title">General Tweaks</string>
     <string name="animations_title">Animations</string>

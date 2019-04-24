@@ -67,8 +67,23 @@
          android:key="double_tap_sleep_gesture"
          android:title="@string/double_tap_sleep_gesture_title"
          android:summary="@string/double_tap_sleep_gesture_summary"
-        android:icon="@drawable/ic_zzz"
+         android:icon="@drawable/ic_zzz"
          android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/power_button_gestures_title"
+        android:key="power_button_gestures" >
+
+    <com.syberia.settings.preference.SystemSettingListPreference
+        android:key="torch_power_button_gesture"
+        android:title="@string/torch_power_button_gesture_title"
+        android:dialogTitle="@string/torch_power_button_gesture_title"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values"
+        android:defaultValue="0"
+        android:summary="%s" />
 
     </PreferenceCategory>
 

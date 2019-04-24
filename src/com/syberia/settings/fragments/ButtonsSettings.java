@@ -67,8 +67,6 @@ import com.android.internal.util.hwkeys.ActionUtils;
 
 public class ButtonsSettings extends ActionFragment implements OnPreferenceChangeListener{
 
-    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
-
     private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
     private static final String KEY_BUTON_BACKLIGHT_OPTIONS = "button_backlight_options_category";
@@ -85,7 +83,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
-    private ListPreference mTorchPowerButton;
     private ListPreference mVolumeKeyCursorControl;
     private SwitchPreference mHwKeyDisable;
 
@@ -179,13 +176,7 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
             mHwKeyDisable.setChecked(keysDisabled != 0);
             mHwKeyDisable.setOnPreferenceChangeListener(this);
 	}
-	mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
-        int mTorchPowerButtonValue = Settings.System.getInt(resolver,
-                    Settings.System.TORCH_POWER_BUTTON_GESTURE, 0);
-        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
-        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
-        mTorchPowerButton.setOnPreferenceChangeListener(this);
-	
+
         // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
         com.android.internal.R.integer.config_deviceHardwareKeys);
@@ -301,17 +292,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
             return true;
-        } else  if (preference == mTorchPowerButton) {
-            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
-            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
-            mTorchPowerButton.setSummary(
-                    mTorchPowerButton.getEntries()[index]);
-            Settings.System.putInt(getActivity().getContentResolver(), Settings.System.TORCH_POWER_BUTTON_GESTURE,
-                    mTorchPowerButtonValue);
-            if (mTorchPowerButtonValue == 1) {
-                //if doubletap for torch is enabled, switch off double tap for camera
-                Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,1);
-	    }
         } else if (preference == mButtonTimoutBar) {
             int buttonTimeout = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),

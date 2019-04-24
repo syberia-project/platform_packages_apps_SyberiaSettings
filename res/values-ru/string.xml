@@ -25,6 +25,7 @@
     <string name="navbar_title">Панель навигации</string>
     <string name="doubletap_gestures_title">Жесты двойного нажатия</string>
     <string name="navigation_gestures_title">Жесты навигации</string>
+    <string name="power_button_gestures_title">Жесты кнопки питания</string>
 
     <string name="general_tweaks_title">Основные настройки</string>
     <string name="animations_title">Настройка анимации</string>
