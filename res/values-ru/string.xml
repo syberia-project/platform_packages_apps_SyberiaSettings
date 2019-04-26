@@ -324,6 +324,7 @@
     <string name="battery_style_big_dotted_circle">Большой пунктирный круг</string>
     <string name="battery_style_text">Текст</string>
     <string name="battery_style_hidden">Скрыта</string>
+    <string name="battery_style_q">Стиль Андроид Q</string>
     <string name="show_battery_percent_title">Показывать процент заряда батареи</string>
     <string name="battery_style_category_title">Значок батареи</string>
     <string name="battery_percent_none">Не показывать</string>
