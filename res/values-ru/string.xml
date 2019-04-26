@@ -579,6 +579,11 @@
     <string name="lockscreen_clock_selection_analog">Аналоговые</string>
     <string name="lockscreen_clock_selection_sammy">Вертикальные</string>
     <string name="lockscreen_clock_selection_sammy_bold">Вертикальные (жирные)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Вертикальные с акцентом</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Вертикальные с акцентом (альт)</string>
+    <string name="lockscreen_clock_selection_gradient_full">С полным градиентом</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">С монохромным градиентом</string>
+    <string name="lockscreen_clock_selection_text">Текстовый стиль Андроид Q</string>
     
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Анимации</string>
