@@ -35,4 +35,8 @@
     </declare-styleable>
 
     <attr name="customPreferenceStyle" format="reference" />
+
+    <declare-styleable name="SystemSettingListPreference">
+        <attr name="dependentValue" format="string"/>
+    </declare-styleable>
 </resources>
