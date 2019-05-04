@@ -43,6 +43,7 @@
     <string name="navbar_title">Gezinme çubuğu</string>
     <string name="doubletap_gestures_title">Çift dokunma hareketleri</string>
     <string name="navigation_gestures_title">Gezinme hareketleri</string>
+    <string name="power_button_gestures_title">Güç tuşu hareketleri</string>
 
     <string name="general_tweaks_title">Genel ayarlar</string>
     <string name="animations_title">Animasyonlar</string>
@@ -63,13 +64,13 @@
 
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Arka ışık</string>
-    <string name="button_backlight_enable_title">Tuş arka ışığına izin ver</string>
+    <string name="button_backlight_enable_title">Tuş aydınlatılmasına izin ver</string>
     <string name="button_link_brightness">Ekran parlaklığına bağla</string>
-    <string name="button_link_brightness_summary">Arka ışık tuş parlaklığını mevcut ekran parlaklığı seviyesine göre ayarlar</string>
+    <string name="button_link_brightness_summary">Tuş arka aydınlatma parlaklığını ekran parlaklığı seviyesine göre ayarlar</string>
     <string name="button_manual_brightness">Parlaklık seviyesi</string>
     <string name="button_timeout_title">Arka ışık zaman aşımı</string>
-    <string name="button_backlight_on_touch_only_title">Arka ışık</string>
-    <string name="button_backlight_on_touch_only_summary">Arka ışığı sadece tuş üzerinde zaman aşımı ile etkinleştir</string>
+    <string name="button_backlight_on_touch_only_title">Dokunulduğunda aydınlat</string>
+    <string name="button_backlight_on_touch_only_summary">Tuş aydınlatma ışığı yalnızca tuşlara basıldığında değil her zaman açık kalır. Zaman aşımı yine de bu özelliği etkiler.</string>
 
     <!-- Power Menu -->
     <string name="power_menu_title">Güç menüsü</string>
@@ -132,7 +133,7 @@
     <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol et</string>
 
      <!-- Screen off animation -->
-    <string name="screen_off_animation_title">Ekran kapatma animasyonu</string>
+    <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
     <string name="screen_off_animation_default">Varsayılan</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Ölçek</string>
@@ -211,8 +212,8 @@
     <string name="battery_category_summary">Pil ayarları</string>
     <string name="battery_light_settings">Pil şarj ışığı</string>
     <string name="battery_light_enable">Etkinleştir</string>
-    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde yakıp söndür</string>
-    <string name="battery_light_low_blinking_title">Düşük pilde yakıp söndür</string>
+    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yakıp söndür</string>
+    <string name="battery_light_low_blinking_title">Düşük pilde ışığı yakıp söndür</string>
     <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
     <string name="battery_light_low_color">Düşük pil</string>
     <string name="battery_light_medium_color">Orta seviye pil</string>
@@ -298,6 +299,7 @@
     <string name="battery_style_big_dotted_circle">Büyük noktalı daire</string>
     <string name="battery_style_text">Metin</string>
     <string name="battery_style_hidden">Gizli</string>
+    <string name="battery_style_q">Q stili</string>
     <string name="show_battery_percent_title">Pil yüzdesini göster</string>
     <string name="battery_style_category_title">Pil simgesi</string>
     <string name="battery_percent_none">Gösterme</string>
@@ -305,7 +307,7 @@
     <string name="battery_percent_inside">Simge içinde göster</string>
 
     <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opaklık</string>
+    <string name="qs_panel_alpha_title">Şeffaflık</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>
@@ -492,7 +494,7 @@
     <string name="volbtn_cursor_control_on_reverse">Ses arttırma/azaltma imleci sağa/sola kaydırır</string>
 
     <!-- QS styles -->
-    <string name="qs_styles_dialog_title">Hızlı ayarlar kare stili seçin</string>
+    <string name="qs_styles_dialog_title">Kare stili seçin</string>
     
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Son uygulamalar stili</string>
@@ -720,5 +722,42 @@
 
     <!-- FOD -->
     <string name="custom_fod_icon_title">Özel fod görüntüsü ayarla</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
+    <string name="roaming_indicator_icon_summary">Dolaşım modundayken dolaşım göstergesini sinyal simgesinde görüntüle</string>
+
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Saat stili</string>
+    <string name="lockscreen_clock_selection_digital">Varsayılan</string>
+    <string name="lockscreen_clock_selection_digital_bold">Dijital (kalın)</string>
+    <string name="lockscreen_clock_selection_analog">Analog</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (kalın)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy ile vurgu renkli</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy ile vurgu renkli (alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Tam graydan saat</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Tek renkli gradyan saat</string>
+    <string name="lockscreen_clock_selection_text">Android Q metin saati</string>
+
+    <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Saat widgeti</string>
+    <string name="lockscreen_clock_summary">Kilit ekranında saat widgetini göster</string>
+    <string name="lockscreen_info_title">Saatin altında ögeler</string>
+    <string name="lockscreen_info_summary">Kilit ekranında tarihi, hava durumunu ve alarmı göster</string>
+
+    <!-- Lockscreen text clock align -->
+    <string name="lockscreen_clock_align_title">Q metin saati konumu</string>
+    <string name="lockscreen_clock_align0">Sol</string>
+    <string name="lockscreen_clock_align1">Orta</string>
+    <string name="lockscreen_clock_align2">Sağ</string>
+
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Medya kapak görüntüsü filtresi</string>
+    <string name="lockscreen_cover_filter_none">Yok</string>
+    <string name="lockscreen_cover_filter_grayscale">Gri tonlama</string>
+    <string name="lockscreen_cover_filter_tint">Vurgu renkli</string>
+    <string name="lockscreen_cover_filter_blur">Bulanık</string>
+    <string name="lockscreen_cover_filter_grayblur">Gri tonlamalı ve bulanık</string>
 
 </resources>
