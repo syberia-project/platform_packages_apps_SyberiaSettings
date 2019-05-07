@@ -328,7 +328,8 @@
     <string name="show_battery_percent_title">Показывать процент заряда батареи</string>
     <string name="battery_style_category_title">Значок батареи</string>
     <string name="battery_percent_none">Не показывать</string>
-    <string name="battery_percent_outside">Снаружи</string>
+    <string name="battery_percent_outside">Снаружи (Слева)</string>
+    <string name="battery_percent_outside_right">Снаружи (Справа)</string>
     <string name="battery_percent_inside">Внутри</string>
 
     <!-- QuickSettings haptic feedback -->

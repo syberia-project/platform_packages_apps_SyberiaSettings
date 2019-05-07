@@ -315,7 +315,8 @@
     <string name="show_battery_percent_title">Show battery percentage</string>
     <string name="battery_style_category_title">Battery icon</string>
     <string name="battery_percent_none">Don\'t show</string>
-    <string name="battery_percent_outside">Show near icon</string>
+    <string name="battery_percent_outside">Show near icon (Left)</string>
+    <string name="battery_percent_outside_right">Show near icon (Right)</string>
     <string name="battery_percent_inside">Show inside icon</string>
 
     <!-- QuickSettings Panel Transparency -->
