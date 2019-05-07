@@ -146,13 +146,15 @@
     <!-- Battery Percent -->
     <string-array name="battery_percent_entries" translatable="false">
         <item>@string/battery_percent_none</item>
+        <item>@string/battery_percent_inside</item>        
         <item>@string/battery_percent_outside</item>
-        <item>@string/battery_percent_inside</item>
+        <item>@string/battery_percent_outside_right</item>
     </string-array>
      <string-array name="battery_percent_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
     </string-array>
 
     <!-- Toast Animation -->
