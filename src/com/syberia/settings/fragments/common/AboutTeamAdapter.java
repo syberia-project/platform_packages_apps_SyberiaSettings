@@ -175,7 +175,9 @@ public class AboutTeamAdapter extends RecyclerView.Adapter<AboutTeamAdapter.Hold
         }
 
         @Override
-        void bind(final About about) { }
+        void bind(final About about) {
+            team = (TeamHeader) about;
+        }
             
     }
 
