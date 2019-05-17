@@ -760,5 +760,9 @@
     <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 
     <string name="custom_fod_icon_title">Установить иконку FOD</string>
+    
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Отключить раздражающие уведомления</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонилки и смс если они не на переднем плане</string>
 
 </resources>
