@@ -841,4 +841,8 @@
     <!-- Inactive apps -->
     <string name="inactive_apps_summary">"Configure applications activity in idle mode"</string>
 
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Charging animation</string>
+    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+
 </resources>

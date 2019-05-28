@@ -819,4 +819,7 @@
     <!-- Inactive apps -->
     <string name="inactive_apps_summary">"Настроить уровень активности приложений в режиме ожидания"</string>
 
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Анимация зарядки</string>
+    <string name="charging_animation_summary">Отображать анимацию зарядки когда устройство подключено</string>
 </resources>
