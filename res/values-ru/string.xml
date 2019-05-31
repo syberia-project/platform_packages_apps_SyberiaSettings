@@ -697,7 +697,7 @@
     <string name="qs_misc_category">Разное</string>
     <string name="file_header_select_title">Выбрать изображение из галереи</string>
     <string name="file_header_select_summary">Выбрать изображение из хранилища</string>
-    <string name="file_header_provider_title">Статическое изображение</string>
+    <string name="file_header_provider_title">Пользовательское изображение</string>
 
     <!-- Pie -->
     <string name="pa_pie_control_title">PIE</string>
