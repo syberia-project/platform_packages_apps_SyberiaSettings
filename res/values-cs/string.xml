@@ -213,6 +213,7 @@
     <string name="battery_light_full_color">Skoro plná baterie</string>
     <string name="battery_light_reallyfull_color">Plná (100) baterie</string>
 
+
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Vynutit rozšířená oznámení</string>
     <string name="force_expanded_notifications_summary">Dostupné pouze pro aplikace, které podporují rozšířené oznámení</string>
@@ -296,7 +297,8 @@
     <string name="show_battery_percent_title">Ukázat procenta baterie</string>
     <string name="battery_style_category_title">Ikona baterie</string>
     <string name="battery_percent_none">Neukazovat</string>
-    <string name="battery_percent_outside">Ukázat u ikony</string>
+    <string name="battery_percent_outside">Ukázat u ikony (Levo)</string>
+    <string name="battery_percent_outside_right">Ukázat u ikony (Pravo)</string>
     <string name="battery_percent_inside">Ukázat v ikoně</string>
 
     <!-- QuickSettings Panel Transparency -->
