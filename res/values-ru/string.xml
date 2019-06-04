@@ -267,4 +267,9 @@
     <string name="weather_icon_pack_title">Пакет значков</string>
     <string name="weather_icon_pack_info_title">Пакет значков используется в быстрых настройках и на экране блокировки</string>
 
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Стиль погоды</string>
+    <string name="lockscreen_weather_omni_style_title">Стиль Omni</string>
+    <string name="lockscreen_weather_pixel_style_title">Стиль Pixel</string>
+
 </resources>
