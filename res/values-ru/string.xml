@@ -23,6 +23,7 @@
     <string name="misc_extensions_title">Прочие настройки</string>
     <string name="misc_extensions_summary">Настройки, не вошедшие в другие разделы</string>
     <string name="navbar_title">Панель навигации</string>
+    <string name="navbar_category_summary">Настроить панель навигации AOSP или Smartbar</string>
     <string name="doubletap_gestures_title">Жесты двойного нажатия</string>
     <string name="navigation_gestures_title">Жесты навигации</string>
     <string name="power_button_gestures_title">Жесты кнопки питания</string>
@@ -34,7 +35,7 @@
     <string name="app_ops_category">Операции в приложениях</string>
     <string name="system_app_remover">Удаление системных приложений</string>
     <string name="dialer_title">Телефон</string>
-    
+
     <!-- Color picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
@@ -150,7 +151,7 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
-    
+
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
     <string name="volume_rocker_wake_summary">Нажатие на кнопки громкости будит ваше устройство</string>
@@ -188,6 +189,7 @@
     <string name="battery_category_title">Настройки батареи</string>
     <string name="battery_category_summary">Расширенные настройки батареи</string>
     <string name="battery_light_settings">Индикация батареи</string>
+    <string name="battery_light_summary">Настроить различные функции светодиода</string>
     <string name="battery_light_enable">Включена</string>
     <string name="battery_light_allow_on_dnd_title">Включить светодиод в режиме «Не беспокоить»</string>
     <string name="battery_light_low_blinking_title">Мигать светодиодом при низком уровне заряда</string>
@@ -198,6 +200,7 @@
     <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
 
     <string name="panel_notifications_title">Панель уведомлений</string>
+    <string name="notifications_category_summary">Настроить функционал панели уведомлений</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications_title">Всплывающие уведомления</string>
@@ -232,7 +235,7 @@
     <string name="heads_up_snooze_10min">10 минут</string>
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
-    
+
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Быстрый доступ</string>
     <string name="quick_pulldown_summary">%1$s угол строки состояния открывает панель быстрых настроек</string>
@@ -241,7 +244,7 @@
     <string name="quick_pulldown_left">Левый</string>
     <string name="quick_pulldown_right">Правый</string>
     <string name="quick_pulldown_always">Всегда</string>
-    
+
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Умный доступ</string>
     <string name="smart_pulldown_summary">Открыть быстрые настройки когда %1$s уведомлений</string>
@@ -250,13 +253,13 @@
     <string name="smart_pulldown_none">Нет уведомлений</string>
     <string name="smart_pulldown_dismissable">Нет отклоняемых</string>
     <string name="smart_pulldown_ongoing">Нет постоянных</string>
-    
+
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Принудительно раскрывать уведомления</string>
     <string name="force_expanded_notifications_summary">Доступно только для приложений поддерживающих данную функцию</string>
-    
+
     <string name="sound_settings_title">Настройки звука</string>
-    
+
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Шаг громкости</string>
     <string name="volume_steps_summary">Изменить количество шагов громкости</string>
@@ -268,16 +271,16 @@
     <string name="volume_steps_system_title">Количество шагов: Система</string>
     <string name="volume_steps_voice_call_title">Количество шагов: Голосовые вызовы</string>
     <string name="volume_steps_reset">Сброс</string>
-    
+
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Запустить музыкальное приложение</string>
     <string name="headset_connect_player_summary">Запустить музыкальное приложение когда подключены наушники</string>
-    
+
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Постепенное увеличение громкости звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
     <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
-    
+
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Ответ кнопками громкости</string>
     <string name="volume_answer_call_summary">Ответить на звонок нажатием кнопок громкости</string>
@@ -303,11 +306,11 @@
     <string name="fprint_sucess_vib_summary">Вибрировать при успешной авторизации отпечатком пальца</string>
     <string name="fprint_error_vib_title">Вибрация при ошибке авторизации</string>
     <string name="fprint_error_vib_summary">Вибрировать при ошибке авторизации отпечатком пальца</string>
-    
+
     <!-- Media art -->
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
-    
+
     <!-- Lockscreen visualizer -->
     <string name="lockscreen_visualizer_category">Визуализация спектра музыки</string>
     <string name="lockscreen_visualizer_enable">Включить визуализатор</string>
@@ -315,9 +318,10 @@
     <string name="lockscreen_visualizer_enable_custom">Использовать цвет</string>
     <string name="lockscreen_visualizer_enable_custom_summary">Использовать выбранный цвет вместо автоматического</string>
     <string name="lockscreen_visualizer_custom_color">Цвет визуализатора</string>
-    
+
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль значка батареи</string>
+    <string name="battery_style_summary">Настроить стиль значка батареи</string>
     <string name="battery_style_port">Вертикальный</string>
     <string name="battery_style_land">Горизонтальный</string>
     <string name="battery_style_circle">Круг</string>
@@ -350,7 +354,7 @@
     <string name="bottom_gestures_feedback_duration_title">Длительность виброотклика</string>
     <string name="unit_msec">мс</string>
     <string name="unit_px">пикс.</string>
-    
+
     <!-- Toast Animation -->
     <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
     <string name="toast_none_animation">Нет</string>
@@ -371,7 +375,7 @@
     <string name="toast_SlideRightLeft_animation">Слайд справа налево</string>
     <string name="toast_animation_test">Это тест для выбранной анимации</string>
     <string name="toast">Всплывающие уведомления</string>
-    
+
     <!-- ListView animation -->
     <string name="listview">Список</string>
     <string name="listview_animation_title">Анимация списков</string>
@@ -395,7 +399,7 @@
     <string name="listview_overshoot_interpolator">Перепрыгнуть</string>
     <string name="listview_anticipate_overshoot_interpolator">Ускорить и проскочить</string>
     <string name="listview_bounce_interpolator">Пружинить</string>
-    
+
     <!-- Option to enable/disable scrolling cache -->
     <string name="pref_scrollingcache_title">Кэш прокрутки</string>
     <string name="pref_scrollingcache_summary">Кэш прокрутки может повысить плавность прокрутки за счёт использования ОЗУ</string>
@@ -403,7 +407,7 @@
     <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
     <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
     <string name="pref_scrollingcache_force_disable">Отключить принудительно</string>
-    
+
     <!-- AOKP custom system animations -->
     <string name="system_animations">Системные анимации</string>
     <string name="system_animation_title">Системные анимации</string>
@@ -422,7 +426,7 @@
     <string name="title_animation_no_override">Предотвратить переопределения приложениями</string>
     <string name="summary_animation_no_override">Запретить приложениям переопределять переходы</string>
     <string name="animation_duration_default">По умолчанию</string>
-    
+
     <!-- Statusbar Clock -->
     <string name="status_bar_clock">Часы и дата</string>
     <string name="status_bar_clock_summary">Настройка отображения часов и даты в строке состояния</string>
@@ -454,7 +458,7 @@
 
     <!-- Notifications light -->
     <string name="notification_light_settings">Индикация уведомлений</string>
-    
+
     <!-- Other -->
     <string name="other_title">Другое</string>
 
@@ -462,7 +466,7 @@
     <string name="about_team_title">О команде &quot;Syberia&quot;</string>
     <string name="about_team_summary">Информация о команде и поддерживаемых устройствах</string>
     <string name="syberia_team_title">Команда &quot;Syberia&quot;</string>
-    
+
         <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Погода</string>
     <string name="lockscreen_weather_enabled_title">Отображать на экране блокировки</string>
@@ -484,7 +488,7 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
-    
+
     <!-- Onehand UI mode -->
     <string name="one_hand_mode_title">Включить режим одной руки</string>
     <string name="one_hand_mode_summary">Для активации сделать свайп влево или вправо на панели навигации</string>
@@ -494,7 +498,7 @@
     <string name="volume_key_cursor_control_off">Откл.</string>
     <string name="volume_key_cursor_control_on">Громкость вверх/вниз двигает курсор влево/вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Громкость вверх/вниз двигает курсор вправо/влево</string>
-    
+
     <!-- Volume key cursor control -->
     <string name="volbtn_cursor_control_title">Управление курсором клавиатуры</string>
     <string name="volbtn_cursor_control_off">Отключено</string>
@@ -506,7 +510,7 @@
 
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Стиль запущенных приложений</string>
-    
+
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Анимация Pixel</string>
     <string name="pixel_navbar_anim_summary">Включение анимации кнопки Домой</string>
@@ -542,7 +546,7 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
-    
+
     <!-- Lock Widget -->
     <string name="ls_widget">Стиль виджета</string>
 
@@ -560,7 +564,7 @@
     <string name="lock_widget_font_condensed_bold">Сжатый жирный</string>
     <string name="lock_widget_font_condensed_bold_italic">Сжатый жирный курсив</string>
     <string name="lock_widget_font_condensed_light">Сжатый легкий</string>
-    <string name="lock_widget_font_condensed_light_italic">Сжатый легкий курсив</string> 
+    <string name="lock_widget_font_condensed_light_italic">Сжатый легкий курсив</string>
     <string name="lock_widget_font_medium_normal">Средний</string>
     <string name="lock_widget_font_medium_italic">Средний курсив</string>
     <string name="lock_widget_font_black">Черный</string>
@@ -581,7 +585,7 @@
     <string name="lockscreen_info_summary">Показывать дату, будильник  на экране блокировки</string>
 
     <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Стиль шрифта часов</string> 
+    <string name="lock_clock_font_title">Стиль шрифта часов</string>
 
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Стиль шрифта даты</string>
@@ -608,7 +612,7 @@
     <string name="lockscreen_clock_selection_gradient_full">С полным градиентом</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">С монохромным градиентом</string>
     <string name="lockscreen_clock_selection_text">Текстовый стиль Андроид Q</string>
-    
+
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Анимации</string>
     <string name="qs_tile_animation_style_title">Стиль анимации плиток</string>
@@ -642,14 +646,14 @@
      <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
-    
+
     <!-- Rounded corners -->
     <string name="corners_category">Скругление углов</string>
     <string name="corner_radius">Радиус скругленного угла</string>
     <string name="content_padding">Отступ от угла</string>
     <string name="corner_fwvals">Использовать базовые значения</string>
     <string name="corner_fwvals_summary">Полезно если устройство по умолчанию имеет скругленные углы</string>
-    
+
     <string name="qs_running_services_title">Иконка запущенных сервисов</string>
     <string name="qs_running_services_summary">Показывать иконку запущенных сервисов в панели быстрых настроек</string>
     <string name="qs_edit_title">Иконка редактирования</string>
@@ -760,7 +764,7 @@
     <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 
     <string name="custom_fod_icon_title">Установить иконку FOD</string>
-    
+
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Отключить раздражающие уведомления</string>
     <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонилки и смс если они не на переднем плане</string>
