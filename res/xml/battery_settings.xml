@@ -24,11 +24,13 @@
     <Preference
         android:key="charging_light"
         android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
+	android:summary="@string/battery_light_summary"
         android:title="@string/battery_light_settings" />
-	
+
     <Preference
         android:key="battery_settings"
 	android:fragment="com.syberia.settings.fragments.StatusBarBattery"
+	android:summary="@string/battery_style_summary"
 	android:title="@string/battery_style_title" />
 
 </PreferenceScreen>

@@ -41,6 +41,7 @@
     <string name="misc_extensions_title">Misc extensions</string>
     <string name="misc_extensions_summary">Settings that are not included in other sections</string>
     <string name="navbar_title">Navigation Bar</string>
+    <string name="navbar_category_summary">Customize your AOSP or Smartbar navigation panel</string>
     <string name="doubletap_gestures_title">Double tap gestures</string>
     <string name="navigation_gestures_title">Navigation gestures</string>
     <string name="power_button_gestures_title">Power button gestures</string>
@@ -169,21 +170,21 @@
     <string name="flash_on_call_category">Pulse flash</string>
     <string name="flash_on_call_title">Pulse flash on incoming call</string>
     <string name="flash_on_call_delay_title">Flash pulse rate</string>
-   
+
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
     <string name="volume_rocker_music_controls_title">Music control</string>
     <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
-    
+
     <!-- Double-tap-to sleep -->
     <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
     <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
-    
+
     <!-- DoubleTap2Sleep -->
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
-    
+
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
@@ -202,6 +203,7 @@
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
 
     <string name="panel_notifications_title">Notifications</string>
+    <string name="notifications_category_summary">Customize various features for notification panel</string>
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
@@ -225,6 +227,7 @@
     <string name="battery_category_title">Battery settings</string>
     <string name="battery_category_summary">Battery settings</string>
     <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_summary">Customize different battery light features</string>
     <string name="battery_light_enable">Enable</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
@@ -294,7 +297,7 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
-    
+
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Volume keys answer</string>
     <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
@@ -302,9 +305,10 @@
     <!-- The home key answer -->
     <string name="home_answer_call_title">Home button answer</string>
     <string name="home_answer_call_summary">Answer the incoming call when Home button pressed</string>
-    
+
     <!-- Battery Styles -->
     <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Customize battery icon style</string>
     <string name="battery_style_port">Portrait</string>
     <string name="battery_style_land">Landscape</string>
     <string name="battery_style_circle">Circle</string>
@@ -335,11 +339,11 @@
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <string name="fprint_error_vib_title">Fingerprint error vibration</string>
     <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
-    
+
     <!-- Media art -->
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
-    
+
     <!-- Lockscreen visualizer -->
     <string name="lockscreen_visualizer_category">Visualizer</string>
     <string name="lockscreen_visualizer_enable">Enable lockscreen visualizer</string>
@@ -347,7 +351,7 @@
     <string name="lockscreen_visualizer_enable_custom">Use custom color</string>
     <string name="lockscreen_visualizer_enable_custom_summary">Use a preset color instead of the generated color</string>
     <string name="lockscreen_visualizer_custom_color">Visualizer Color</string>
-    
+
     <!-- Toast Animation -->
     <string name="toast_animation_title">Toast animation</string>
     <string name="toast_none_animation">None</string>
@@ -465,7 +469,7 @@
     <string name="bottom_gestures_feedback_duration_title">Haptic feedback duration</string>
     <string name="unit_msec">ms</string>
     <string name="unit_px">px</string>
-    
+
     <!-- Notifications light -->
     <string name="notification_light_settings">Notifications light</string>
 
@@ -498,7 +502,7 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
-    
+
     <!-- Onehand UI mode -->
     <string name="one_hand_mode_title">Enable using one-hand mode</string>
     <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
@@ -508,10 +512,10 @@
     <string name="volbtn_cursor_control_off">Disabled</string>
     <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
-    
+
     <!-- QS styles -->
     <string name="qs_styles_dialog_title">Select a QS tile style</string>
-    
+
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Recents Style</string>
     <string name="recents_pie">Pie</string>
@@ -573,7 +577,7 @@
     <string name="lock_widget_font_condensed_bold">Condensed Bold</string>
     <string name="lock_widget_font_condensed_bold_italic">Condensed Bold Italic</string>
     <string name="lock_widget_font_condensed_light">Condensed Light</string>
-    <string name="lock_widget_font_condensed_light_italic">Condensed Light Italic</string> 
+    <string name="lock_widget_font_condensed_light_italic">Condensed Light Italic</string>
     <string name="lock_widget_font_medium_normal">Medium</string>
     <string name="lock_widget_font_medium_italic">Medium Italic</string>
     <string name="lock_widget_font_black">Black</string>
@@ -594,7 +598,7 @@
     <string name="lockscreen_info_summary">Show the date, alarms and zen on the lockscreen</string>
 
     <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Clock font style</string> 
+    <string name="lock_clock_font_title">Clock font style</string>
 
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Date font style</string>
@@ -621,7 +625,7 @@
     <string name="lockscreen_clock_align0">Left</string>
     <string name="lockscreen_clock_align1">Center</string>
     <string name="lockscreen_clock_align2">Right</string>
-    
+
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animations</string>
     <string name="qs_tile_animation_style_title">Animation style</string>
@@ -655,14 +659,14 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
-    
+
     <!-- Rounded corners -->
     <string name="corners_category">Corners</string>
     <string name="corner_radius">Rounded corner radius</string>
     <string name="content_padding">Corner content padding</string>
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
-    
+
     <string name="qs_running_services_title">Running Services Icon</string>
     <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
     <string name="qs_edit_title">Edit Icon</string>
@@ -690,7 +694,7 @@
     <!-- Disable OS on lockscreen -->
     <string name="block_on_secure_keyguard_title">Disable quick settings</string>
     <string name="block_on_secure_keyguard_summary">Disables quick settings on secure lockscreen</string>
-    
+
     <!-- Pie control -->
     <string name="pa_pie_control_title">Pie Controls</string>
     <string name="pa_pie_control_summary">Pie Controls as navigation</string>
@@ -717,7 +721,7 @@
     <string name="pa_pie_gravity_right">Right</string>
     <string name="pa_pie_gravity_left">Left</string>
 
-    <!-- Edge gestures --> 
+    <!-- Edge gestures -->
     <string name="edge_gestures_title">Edge Gestures</string>
     <string name="edge_gestures_summary">Use edge gestures for navigation</string>
     <string name="edge_gestures_description">Swipe from bottom to trigger Home gesture. Keep it pressed to open recents. Swipe from left or right to go back.</string>
@@ -781,7 +785,7 @@
 
     <!-- FOD -->
     <string name="custom_fod_icon_title">Set custom FOD image</string>
-    
+
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
