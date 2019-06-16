@@ -28,12 +28,18 @@
     <string name="power_button_gestures_title">Жесты кнопки питания</string>
 
     <string name="general_tweaks_title">Основные настройки</string>
+    <string name="general_tweaks_summary">Основные системные настройки вашего устройства</string>
     <string name="animations_title">Настройка анимации</string>
+    <string name="animations_summary">Изменить системные анимации устройства</string>
     <string name="buttons_title">Настройка кнопок</string>
+    <string name="buttons_summary">Настроить действия аппаратных кнопок</string>
     <string name="recents_ui_title">Недавние приложения</string>
+    <string name="recents_ui_summary">Выбрать пакет иконок для списка недавних приложений</string>
     <string name="app_ops_category">Операции в приложениях</string>
+    <string name="app_ops_category_summary">Изменение настроек конфеденциальности для приложений</string>
     <string name="system_app_remover">Удаление системных приложений</string>
     <string name="dialer_title">Телефон</string>
+    <string name="dialer_summary">Дополнительные настройки входящих вызовов</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
@@ -258,6 +264,7 @@
     <string name="force_expanded_notifications_summary">Доступно только для приложений поддерживающих данную функцию</string>
 
     <string name="sound_settings_title">Настройки звука</string>
+    <string name="sound_setting_summary">Расширенные настройки звука и громкости</string>
 
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Шаг громкости</string>
@@ -660,7 +667,7 @@
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
-    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
+    <string name="wakelock_blocker_summary">Заблокировать системные вейклоки</string>
     <string name="wakelock_blocker_save">Сохранить</string>
     <string name="wakelock_list_header">Доступные *wakelocks*</string>
     <string name="wakelock_blocker_reload">Сбросить</string>
@@ -670,7 +677,7 @@
     <!-- Alarm blocker -->
     <string name="alarm_blocker">Блокировка *alarms*</string>
     <string name="alarm_blocker_title">Включено</string>
-    <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
+    <string name="alarm_blocker_summary">Заблокировать системные оповещения при выключенном экране</string>
     <string name="alarm_blocker_save">Сохранить</string>
     <string name="alarm_list_header">Доступные *alarms*</string>
     <string name="alarm_blocker_reload">Перезагрузить</string>
@@ -754,6 +761,7 @@
 
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Агрессивное энергосбережение</string>
+    <string name="aggressive_battery_summary">Настроить дополнительный режим энергосбережения</string>
     <string name="aggressive_battery_warning_text">Это функции энергосбережения. Включение этих режимов может создавать помехи службам, предназначенным для работы в режиме ожидания, например навигационным приложениям. Вы можете включить эти приложения в белый список в настройках батареи приложения.</string>
     <string name="aggressive_idle_title">Агрессивный режим ожидания</string>
     <string name="aggressive_idle_summary">Чаще входить в режим ожидания и реже просыпаться</string>
@@ -803,5 +811,12 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Показывать значок отключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Показывать крестик в значке уровня сети при отключенной передачи данных</string>
+    
+    <!-- Privacy and power management -->
+    <string name="privacy_power_settings_title">Конфеденциальность и энергосбережение</string>
+    <string name="privacy_power_settings_summary">Дополнительные настройки энергосбережения и защиты персональных данных</string>
+    
+    <!-- Inactive apps -->
+    <string name="inactive_apps_summary">"Настроить уровень активности приложений в режиме ожидания"</string>
 
 </resources>
