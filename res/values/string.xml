@@ -47,12 +47,18 @@
     <string name="power_button_gestures_title">Power button gestures</string>
 
     <string name="general_tweaks_title">General Tweaks</string>
+    <string name="general_tweaks_summary">Basic system settings of your device</string>
     <string name="animations_title">Animations</string>
+    <string name="animations_summary">Modify system animations</string>
     <string name="buttons_title">Buttons</string>
+    <string name="buttons_summary">Customize hardware button actions</string>
     <string name="recents_ui_title">Recents UI</string>
+    <string name="recents_ui_summary">Select icon pack for recents</string>
     <string name="app_ops_category">Privacy Guard</string>
+    <string name="app_ops_category_summary">Change privacy settings for applications</string>
     <string name="system_app_remover">System app remover</string>
     <string name="dialer_title">Dialer</string>
+    <string name="dialer_summary">Advanced incoming call settings</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -288,6 +294,7 @@
     <string name="volume_steps_reset">Reset</string>
 
     <string name="sound_settings_title">Sound settings</string>
+    <string name="sound_setting_summary">Advanced sound and volume settings</string>
 
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Launch music app</string>
@@ -775,6 +782,7 @@
 
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_battery_summary">Configure additional power saving mode</string>
     <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
     <string name="aggressive_idle_title">Aggressive Idle</string>
     <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
@@ -825,5 +833,12 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    
+    <!-- Privacy and power management -->
+    <string name="privacy_power_settings_title">Privacy and power management</string>
+    <string name="privacy_power_settings_summary">Additional settings for power saving and personal data protection</string>
+    
+    <!-- Inactive apps -->
+    <string name="inactive_apps_summary">"Configure applications activity in idle mode"</string>
 
 </resources>

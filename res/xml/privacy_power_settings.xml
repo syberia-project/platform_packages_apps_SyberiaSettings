@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018 Syberia Project
+    Date: 13.09.2018
+    Time: 21:24
+    Author: @alexxxdev <alexxxdev@ya.ru>
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/privacy_power_settings_title">
+
+    <Preference
+        android:icon="@drawable/ic_settings_appops"
+        android:key="privacy_guard_manager"
+	android:summary="@string/app_ops_category_summary"
+        android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
+        android:title="@string/app_ops_category" >
+    </Preference>
+
+    <Preference
+        android:key="wakelock_blocker"
+        android:fragment="com.syberia.settings.fragments.WakeLockBlocker"
+        android:icon="@drawable/ic_wakeblock"
+	android:summary="@string/wakelock_blocker_summary"
+        android:title="@string/wakelock_blocker_title" />
+
+    <Preference
+        android:id="@+id/alarm_blocker"
+        android:fragment="com.syberia.settings.fragments.AlarmBlocker"
+        android:icon="@drawable/ic_alarmblock"
+	android:summary="@string/alarm_blocker_summary"
+        android:title="@string/alarm_blocker" />
+
+    <Preference
+        android:key="inactive_apps"
+        android:title="@string/inactive_apps_title"
+        android:icon="@drawable/ic_inactive_apps"
+	android:summary="@string/inactive_apps_summary"
+        android:fragment="com.android.settings.fuelgauge.InactiveApps" />
+
+    <Preference
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:icon="@drawable/ic_aggressive_battery"
+	android:summary="@string/aggressive_battery_summary"
+        android:fragment="com.syberia.settings.fragments.AggressiveBattery" />
+        
+</PreferenceScreen>
