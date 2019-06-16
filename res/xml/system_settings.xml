@@ -25,29 +25,34 @@
         android:fragment="com.syberia.settings.fragments.GeneralTweaks"
         android:icon="@drawable/ic_general_tweaks"
         android:key="general_tweaks"
+	android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
 
     <Preference
         android:fragment="com.syberia.settings.fragments.AnimationsSettings"
         android:icon="@drawable/ic_animations"
         android:key="animations"
+	android:summary="@string/animations_summary"
         android:title="@string/animations_title" />
 
     <Preference
         android:fragment="com.syberia.settings.fragments.ButtonsSettings"
         android:icon="@drawable/ic_buttons"
         android:key="buttons"
+	android:summary="@string/buttons_summary"
         android:title="@string/buttons_title" />
 
     <Preference
         android:icon="@drawable/ic_recents_ui"
         android:key="recents_ui"
+	android:summary="@string/recents_ui_summary"
         android:title="@string/recents_ui_title" />
 
       <!-- Privacy Guard -->
     <Preference
         android:icon="@drawable/ic_settings_appops"
         android:key="privacy_guard_manager"
+	android:summary="@string/app_ops_category_summary"
         android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"
         android:title="@string/app_ops_category" >
     </Preference>
@@ -56,24 +61,28 @@
         android:key="wakelock_blocker"
         android:fragment="com.syberia.settings.fragments.WakeLockBlocker"
         android:icon="@drawable/ic_wakeblock"
+	android:summary="@string/wakelock_blocker_summary"
         android:title="@string/wakelock_blocker_title" />
 
     <Preference
         android:id="@+id/alarm_blocker"
         android:fragment="com.syberia.settings.fragments.AlarmBlocker"
         android:icon="@drawable/ic_alarmblock"
+	android:summary="@string/alarm_blocker_summary"
         android:title="@string/alarm_blocker" />
 
     <Preference
         android:key="inactive_apps"
         android:title="@string/inactive_apps_title"
         android:icon="@drawable/ic_inactive_apps"
+	android:summary="@string/inactive_apps_summary"
         android:fragment="com.android.settings.fuelgauge.InactiveApps" />
 
     <Preference
         android:key="aggressive_battery"
         android:title="@string/aggressive_battery_title"
         android:icon="@drawable/ic_aggressive_battery"
+	android:summary="@string/aggressive_battery_summary"
         android:fragment="com.syberia.settings.fragments.AggressiveBattery" />
 
     <Preference
@@ -84,12 +93,14 @@
     <Preference
         android:icon="@drawable/ic_sound_settings"
         android:key="sound_settings"
+	android:summary="@string/sound_settings_summary"
         android:title="@string/sound_settings_title"
         android:fragment="com.syberia.settings.fragments.SystemSoundSettings" />
 
     <Preference
         android:icon="@drawable/ic_phone_classic"
         android:key="dialer"
+	android:summary="@string/dialer_summary"
         android:title="@string/dialer_title"
         android:fragment="com.syberia.settings.fragments.DialerSettings" />
 </PreferenceScreen>
