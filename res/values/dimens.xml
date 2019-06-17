@@ -24,4 +24,6 @@
 
     <dimen name="qs_styles_layout_opacity" format="float">0.50</dimen>
 
+    <!-- ShapeViewer size -->
+    <dimen name="shape_viewer_size">100dp</dimen>
 </resources>

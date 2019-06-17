@@ -851,5 +851,8 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+    
+    <!-- System wide icon shape -->
+    <string name="system_shape">System wide icon shape</string>
 
 </resources>
