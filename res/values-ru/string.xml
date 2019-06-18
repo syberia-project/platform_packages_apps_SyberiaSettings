@@ -789,11 +789,12 @@
     <string name="gaming_mode_ringer_vibrate_title">Вибрация</string>
     <string name="gaming_mode_ringer_dnd_title">Не беспокоить</string>
     <string name="gaming_mode_ringer_silent_title">Без звука</string>
-    <string name="gaming_mode_max_media_title">Громкость медиа</string>
-    <string name="gaming_mode_max_media_summary">Максимально увеличить громкость медиа при включенном игровом режиме</string>
+    <string name="gaming_mode_notifications_title">Уведомления</string>
+    <string name="gaming_mode_notifications_off_title">Отключены</string>
+    <string name="gaming_mode_notifications_notif_title">Показывать уведомления</string>
+    <string name="gaming_mode_notifications_toast_title">Показывать тосты</string>
+    <string name="gaming_mode_notifications_all_title">Тосты и уведомления</string>
     <string name="gaming_mode_dynamic_title">Динамический игровой режим</string>
-    <string name="gaming_mode_dynamic_summary">Автоматическое включение игрового режима</string>
-    <string name="dynamic_mode_footer">Каждый раз когда вы открываете какое-либо приложение, и система обнаруживает что оно является игрой, игровой режим будет автоматически включен. После удаления приложения из недавних, все пользовательские настройки будут восстановлены. Обратите внимание, что это работает не со всеми играми.</string>
+    <string name="gaming_mode_dynamic_summary">Каждый раз когда вы открываете какое-либо приложение, и система обнаруживает что это игра, она будет автоматически добавлена в список. Обратите внимание, что это работает не со всеми играми.</string>
     <string name="dynamic_mode_footer_dialer">Некоторые функции звонилки, такие как «Ответ на вызовы через динамик», будут работать только с приложением AOSP Dialer</string>
-
 </resources>
