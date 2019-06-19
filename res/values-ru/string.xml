@@ -781,8 +781,6 @@
     <string name="gaming_mode_app_picker_title">Автоматически включить для этих приложений</string>
     <string name="add_gaming_mode_package_title">Добавить приложения для игрового режима</string>
     <string name="add_gaming_mode_package_summary">Игровой режим будет автоматически включен для выбранных приложений</string>
-    <string name="gaming_mode_speaker_title">Отвечать на звонки через динамик</string>
-    <string name="gaming_mode_speaker_summary">Направляйте входящие звонки через динамик при включенном игровом режиме</string>
     <string name="gaming_mode_headsup_title">Блокировка уведомлений</string>
     <string name="gaming_mode_headsup_summary">Блокировать все всплывающие уведомления кроме звонков</string>
     <string name="gaming_mode_hardware_keys_title">Блокировка кнопок</string>
