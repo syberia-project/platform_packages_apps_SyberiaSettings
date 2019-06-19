@@ -776,6 +776,8 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Игровой режим</string>
     <string name="gaming_mode_summary">Настройка параметров игрового режима</string>
+    <string name="gaming_mode_master_title">Включить Игровой режим</string>
+    <string name="gaming_mode_master_summary">Игровой режим будет активирован с выбранными настройками</string>
     <string name="gaming_mode_app_picker_title">Автоматически включить для этих приложений</string>
     <string name="add_gaming_mode_package_title">Добавить приложения для игрового режима</string>
     <string name="add_gaming_mode_package_summary">Игровой режим будет автоматически включен для выбранных приложений</string>
