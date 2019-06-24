@@ -536,10 +536,14 @@
     <string name="power_menu_animation_turn">Переворот</string>
     <string name="power_menu_animation_fly">Полёт</string>
     <string name="power_menu_animation_card">Карточка</string>
-    
+
     <!-- Notification guts kill app button -->
     <string name="notification_misc">Разное</string>
     <string name="notification_guts_kill_app_button_title">Кнопка принудительной остановки приложения</string>
     <string name="notification_guts_kill_app_button_summary">Показывать кнопку принудительной остановки приложения при длительном нажатии на уведомление</string>
+
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Анимация зарядки</string>
+    <string name="charging_animation_summary">Отображать анимацию зарадки во время подключения</string>
 
 </resources>
