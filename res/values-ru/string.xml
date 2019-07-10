@@ -793,6 +793,8 @@
     <string name="gaming_mode_headsup_summary">Блокировать все всплывающие уведомления кроме звонков</string>
     <string name="gaming_mode_hardware_keys_title">Блокировка кнопок</string>
     <string name="gaming_mode_hardware_keys_summary">Отключить аппаратные кнопки при включенном игровом режиме</string>
+    <string name="gaming_mode_gestures_title">Отключить жесты</string>
+    <string name="gaming_mode_gestures_summary">Отключить управление жестами при включенном игровом режиме</string>
     <string name="gaming_mode_brightness_title">Отключение автояркости</string>
     <string name="gaming_mode_brightness_summary">Блокировка яркости экрана при включенном игровом режиме</string>
     <string name="gaming_mode_ringer_title">Звонок в игровом режиме</string>
