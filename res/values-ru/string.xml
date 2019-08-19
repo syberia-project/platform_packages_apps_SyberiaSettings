@@ -820,7 +820,7 @@
     <string name="data_disabled_icon_summary">Показывать крестик в значке уровня сети при отключенной передачи данных</string>
     
     <!-- Privacy and power management -->
-    <string name="privacy_power_settings_title">Конфеденциальность и энергосбережение</string>
+    <string name="privacy_power_settings_title">Конфиденциальность и энергосбережение</string>
     <string name="privacy_power_settings_summary">Дополнительные настройки энергосбережения и защиты персональных данных</string>
     
     <!-- Inactive apps -->
