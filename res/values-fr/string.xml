@@ -23,16 +23,16 @@
     <string name="gestures_category_summary">Paramètres pour les gestes</string>
     <string name="system_category_title">Système</string>
     <string name="system_category_summary">Modifications système</string>
-    <string name="statusbar_category_title">Barre de status</string>
-    <string name="statusbar_category_summary">Modifier la barre de status</string>
+    <string name="statusbar_category_title">Barre d'état</string>
+    <string name="statusbar_category_summary">Modifier la barre d'état</string>
     <string name="panels_category_title">Panneaux</string>
-    <string name="panels_category_summary">Barre de statuts, Notifications, Paramètres rapides</string>
+    <string name="panels_category_summary">Barre d'état, Notifications, Paramètres rapides</string>
     <string name="lockscreen_category_title">Écran de verrouillage</string>
     <string name="lockscreen_category_summary">Modifier l'écran de verrouillage</string>
     <string name="systemui_tuner_title">Objets de la barre de status</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
     <string name="statusbar_clock_title">Afficher l'horloge &amp; date</string>
-    <string name="statusbar_clock_summary">Dans la barre de status</string>
+    <string name="statusbar_clock_summary">Dans la barre d'état</string>
     <string name="traffic_options_title">Indicateurs de trafic</string>
     <string name="traffic_options_summary">Afficher les informations de trafic</string>
     <string name="misc_extensions_title">Extensions diverses</string>
@@ -77,7 +77,7 @@
     <string name="button_link_brightness_summary">le bouton de rétroéclairage s'ajustera à la luminosité de l'écran</string>
     <string name="button_manual_brightness">Niveau de luminosité</string>
     <string name="button_timeout_title">rétroéclairage timeout</string>
-    <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
+    <string name="button_backlight_on_touch_only_title">Appui du bouton de rétroéclairage</string>
     <string name="button_backlight_on_touch_only_summary">Le bouton de rétroéclairage n'apparaîtra que quand les boutons seront appuyés plutôt que tout le temps. Le timeout a un impact sur ce paramètre.</string>
 
     <!-- Power Menu -->
@@ -127,122 +127,122 @@
     <string name="hardware_keys_double_tap_title">Action d'appui à deux doigts</string>
     <string name="hardware_keys_disable_title">Désactiver les clés</string>
 
-    <string name="haptic_on_action_title">Haptic on action</string>
-    <string name="haptic_on_action_summary">Haptic feedback on action instead on press</string>
+    <string name="haptic_on_action_title">Haptique lors d'une action</string>
+    <string name="haptic_on_action_summary">Réactions sur l'haptique lors d'une action au lieu d'un appui</string>
 
     <!-- About phone screen, Syberia version -->
-    <string name="syberia_version">Syberia version</string>
-    <string name="syberia_version_default">Unknown</string>
-    <string name="keywords_syberia_version">syberia version</string>
+    <string name="syberia_version">Version de Syberia</string>
+    <string name="syberia_version_default">Inconnue</string>
+    <string name="keywords_syberia_version">Version de Syberia</string>
 
     <!-- About phone screen, build date -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Date de construction</string>
     <string name="build_date_default"></string>
-    <string name="keywords_build_date">build date, build info</string>
+    <string name="keywords_build_date">Date de construction, Informations du build</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="torch_power_button_gesture_title">Torche avec le bouton power lorsque l'écran est éteint</string>
+    <string name="torch_power_button_gesture_none">Désactivé</string>
+    <string name="torch_power_button_gesture_dt">Appuyer deux fois sur le bouton power pour activer la torche (Ajoutera un délais après un appui)</string>
+    <string name="torch_power_button_gesture_lp">Appuyer longuement sur le bouton power pour activer la torche</string>
 
     <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">Prévenir des réveils accidentels</string>
+    <string name="proximity_wake_summary">Checker le capteur de proximité avant de réveiller l'écran</string>
 
      <!-- Screen off animation -->
-    <string name="screen_off_animation_title">Screen off animation</string>
-    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_title">Animation de l'extinction d'écran</string>
+    <string name="screen_off_animation_default">Défaut</string>
     <string name="screen_off_animation_crt">CRT</string>
-    <string name="screen_off_animation_scale">Scale</string>
+    <string name="screen_off_animation_scale">Adapté</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Éléments de la barre d'état</string>
 
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_title">Raccourcis de l'écran de verrouillage</string>
 
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar buttons</string>
-    <string name="navbar_visibility">Allow navigation bar</string>
+    <string name="navbar_tuner_title">Boutons de la barre de navigation</string>
+    <string name="navbar_visibility">Activer la barre de navigation</string>
 
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Controle de la luminosité</string>
+    <string name="status_bar_toggle_brightness_summary">Ajuster la luminosité en glissant sur la barre d'état</string>
 
-    <string name="flash_on_call_category">Pulse flash</string>
-    <string name="flash_on_call_title">Pulse flash on incoming call</string>
-    <string name="flash_on_call_delay_title">Flash pulse rate</string>
+    <string name="flash_on_call_category">Clignotement de la torche</string>
+    <string name="flash_on_call_title">Clignotement de la torche lors d'un appel</string>
+    <string name="flash_on_call_delay_title">Délai du clignotement de la torche</string>
 
     <!--Volume keys -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
-    <string name="volume_rocker_music_controls_title">Music control</string>
-    <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
+    <string name="volume_rocker_wake_title">Réveil avec les touches de volume</string>
+    <string name="volume_rocker_wake_summary">Appuyer sur les touches de volume réveillera le téléphone</string>
+    <string name="volume_rocker_music_controls_title">Controle de la musique</string>
+    <string name="volume_rocker_music_controls_summary">Un appui long sur les touches de volume changera la chanson lorsque l'écran est éteint</string>
 
     <!-- Double-tap-to sleep -->
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Tapper deux fois pour mettre en veille</string>
+    <string name="double_tap_sleep_gesture_summary">Tapper deux fois sur la barre d'état pour mettre en veille</string>
 
     <!-- DoubleTap2Sleep -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Tapper deux fois pour mettre en veille</string>
+    <string name="double_tap_sleep_lockscreen_summary">Tapper deux fois n'importe ou sur l'écran de verrouillage pour mettre en veille</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">Option de vibration lors des appels</string>
+    <string name="incall_vibrate_connect_title">Vibrer lors du décrochage de l'appel</string>
+    <string name="incall_vibrate_call_wait_title">Vibrer lors de l'attente des appels</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer lors du raccrochage</string>
 
     <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_state_title">Trafic réseau</string>
+    <string name="network_traffic_state_summary">Afficher l'activité internet sur la barre d'état</string>
+    <string name="network_traffic_autohide_threshold_title">Seuil de masquage automatique de l'activité internet (KB/s)</string>
+    <string name="network_traffic_hidearrow">Cacher les fléches</string>
+    <string name="network_traffic_hidearrow_summary">Cacher les fléches du trafic internet</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+    <string name="powermenu_lockscreen_title">Visibilité de l'écran de verrouillage</string>
+    <string name="powermenu_lockscreen_summary">Autoriser l'affichage et l'utilisation du menu d'alimentation sur l'écran de verrouillage</string>
 
     <string name="panel_notifications_title">Notifications</string>
-    <string name="notifications_category_summary">Customize various features for notification panel</string>
+    <string name="notifications_category_summary">Modifier certains paramètres du panneau de notification</string>
 
     <!-- Quick pull down-->
-    <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-    <string name="quick_pulldown_off">Off</string>
-    <string name="quick_pulldown_left">Left</string>
-    <string name="quick_pulldown_right">Right</string>
-    <string name="quick_pulldown_always">Always</string>
+    <string name="quick_pulldown_title">Déroulement rapide</string>
+    <string name="quick_pulldown_summary">%1$s les bords de la barre d'état déroule les paramètres rapides</string>
+    <string name="quick_pulldown_summary_always">Toujours montrer les paramètres rapides lorsque la barre d'état est déroulée</string>
+    <string name="quick_pulldown_off">Désactivé</string>
+    <string name="quick_pulldown_left">Gauche</string>
+    <string name="quick_pulldown_right">Droite</string>
+    <string name="quick_pulldown_always">Toujours</string>
 
     <!-- Smart pulldown-->
-    <string name="smart_pulldown_title">Smart pulldown</string>
-    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-    <string name="smart_pulldown_off">Off</string>
-    <string name="smart_pulldown_none">no notifications</string>
-    <string name="smart_pulldown_dismissable">no dismissable</string>
-    <string name="smart_pulldown_ongoing">no ongoing</string>
+    <string name="smart_pulldown_title">Déroulement intelligent</string>
+    <string name="smart_pulldown_summary">Ouvrir les paramètres rapide lorsqu'il n'y a %1$s notifications</string>
+    <string name="smart_pulldown_none_summary">Ouvrir les paramètres rapide lorsqu'il n'y a pas de notifications</string>
+    <string name="smart_pulldown_off">Désactivé</string>
+    <string name="smart_pulldown_none">Pas de notifications</string>
+    <string name="smart_pulldown_dismissable">pas de révocable</string>
+    <string name="smart_pulldown_ongoing">pas de nouvelles</string>
 
     <!-- Battery light -->
-    <string name="battery_category_title">Battery settings</string>
-    <string name="battery_category_summary">Battery settings</string>
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Customize different battery light features</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_category_title">Paramètres de batterie</string>
+    <string name="battery_category_summary">Paramètres de batterie</string>
+    <string name="battery_light_settings">Led lors de la charge de la batterie</string>
+    <string name="battery_light_summary">Customiser différents paramètres de la led de charge de la batterie</string>
+    <string name="battery_light_enable">Activé</string>
+    <string name="battery_light_allow_on_dnd_title">Led de batterie lors du mode ne pas déranger</string>
+    <string name="battery_light_low_blinking_title">Clignotement de la led lorsque la batterie est faible</string>
+    <string name="battery_light_cat">Couleur de la led de batterie lors de la charge</string>
+    <string name="battery_light_low_color">Batterie faible</string>
+    <string name="battery_light_medium_color">Niveau de la batterie moyen</string>
+    <string name="battery_light_full_color">Batterie quasiment chargée</string>
+    <string name="battery_light_reallyfull_color">Batterie chargée (100)</string>
 
     <!-- Force expanded notifications -->
-    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
-    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+    <string name="force_expanded_notifications_title">Forcer les notifications étendues</string>
+    <string name="force_expanded_notifications_summary">Seulement disponible pour les applications qui supportent les notifications étendues</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications_title">Heads up</string>
