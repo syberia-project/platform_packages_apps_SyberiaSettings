@@ -637,115 +637,115 @@
 
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animations</string>
-    <string name="qs_tile_animation_style_title">Animation style</string>
-    <string name="qs_tile_animation_duration_title">Animation duration</string>
-    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
-    <string name="qs_tile_animation_style_off">No animation</string>
-    <string name="qs_tile_animation_style_flip">Flip</string>
-    <string name="qs_tile_animation_style_rotate">Rotate</string>
-    <string name="qs_tile_animation_duration_low">Low</string>
-    <string name="qs_tile_animation_duration_default">Default</string>
-    <string name="qs_tile_animation_duration_fast">Fast</string>
-    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_style_title">Style d\'nimation</string>
+    <string name="qs_tile_animation_duration_title">Durée d\'animation</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolateur d\'animation</string>
+    <string name="qs_tile_animation_style_off">Aucune animation</string>
+    <string name="qs_tile_animation_style_flip">Retourner</string>
+    <string name="qs_tile_animation_style_rotate">Tourner</string>
+    <string name="qs_tile_animation_duration_low">Lent</string>
+    <string name="qs_tile_animation_duration_default">Défaut</string>
+    <string name="qs_tile_animation_duration_fast">Rapide</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linéaire</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accéléré</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Décéléré</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accéléré décéléré</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebondir</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Retardé</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipé</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipé retardé</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
     <!-- Audio Panel view  -->
-    <string name="audio_panel_view">Audio panel</string>
-    <string name="audio_panel_view_media_title">Media</string>
+    <string name="audio_panel_view">Panneau audio</string>
+    <string name="audio_panel_view_media_title">Média</string>
     <string name="audio_panel_view_notification_title">Notification</string>
-    <string name="audio_panel_view_voice_title">Voice</string>
+    <string name="audio_panel_view_voice_title">Voix</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="three_finger_gesture">GLisser pour faire une capture d\'écran</string>
+    <string name="three_finger_gesture_summary">Glisser avec trois doigts pour faire une capture d\'écran</string>
 
     <!-- Rounded corners -->
-    <string name="corners_category">Corners</string>
-    <string name="corner_radius">Rounded corner radius</string>
-    <string name="content_padding">Corner content padding</string>
-    <string name="corner_fwvals">Use framework values</string>
-    <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
+    <string name="corners_category">Coins</string>
+    <string name="corner_radius">Rayon des coins ronds</string>
+    <string name="content_padding">Réajustage des coins</string>
+    <string name="corner_fwvals">Utiliser les valeurs système</string>
+    <string name="corner_fwvals_summary">Utile pour les téléphones avec des coins ronds</string>
 
-    <string name="qs_running_services_title">Running Services Icon</string>
-    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
-    <string name="qs_edit_title">Edit Icon</string>
-    <string name="qs_edit_summary">Enable the tile edit icon in the footer</string>
+    <string name="qs_running_services_title">Icone des services démarrés</string>
+    <string name="qs_running_services_summary">Autoriser l'icone des services actifs dans le bas de zone</string>
+    <string name="qs_edit_title">Modifier l\'icone</string>
+    <string name="qs_edit_summary">Autoriser la tuile d\'édition des icones dans le bas de zone</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock Blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string>
-    <string name="wakelock_blocker_save">Save</string>
-    <string name="wakelock_list_header">Available wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
-    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_blocker_title">Bloqueur de wakelock</string>
+    <string name="wakelock_blocker_summary">Bloquer les wakelocks système</string>
+    <string name="wakelock_blocker_save">Sauvegarder</string>
+    <string name="wakelock_list_header">Wakelocks disponibles</string>
+    <string name="wakelock_blocker_reload">Recharger</string>
+    <string name="wakelock_blocker_warning_title">Agir avec précaution</string>
+    <string name="wakelock_blocker_warning">Bloquer les wakelocks peut causer des instabilités, crashs ou pertes de données.</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Alarm blocker</string>
-    <string name="alarm_blocker_title">Enable</string>
-    <string name="alarm_blocker_summary">Block alarms while screen off</string>
-    <string name="alarm_blocker_save">Save</string>
-    <string name="alarm_list_header">Available alarms</string>
-    <string name="alarm_blocker_reload">Reload</string>
-    <string name="alarm_blocker_warning_title">Proceed with caution</string>
-    <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+    <string name="alarm_blocker">Bloqueur d\'alarme</string>
+    <string name="alarm_blocker_title">Autoriser</string>
+    <string name="alarm_blocker_summary">Bloquer les alarmes lorsque l\'écran des éteint</string>
+    <string name="alarm_blocker_save">Sauvegarder</string>
+    <string name="alarm_list_header">Alarmes disponibles</string>
+    <string name="alarm_blocker_reload">Recharger</string>
+    <string name="alarm_blocker_warning_title">Agir avec précaution</string>
+    <string name="alarm_blocker_warning">Bloquer les alarmes peut causer des instabilités, crashs ou pertes de données.</string>
 
     <!-- Disable OS on lockscreen -->
-    <string name="block_on_secure_keyguard_title">Disable quick settings</string>
-    <string name="block_on_secure_keyguard_summary">Disables quick settings on secure lockscreen</string>
+    <string name="block_on_secure_keyguard_title">Désactiver les paramètres rapides</string>
+    <string name="block_on_secure_keyguard_summary">Désactiver les paramètres rapide sur l\'écran de verrouillage</string>
 
     <!-- Pie control -->
-    <string name="pa_pie_control_title">Pie Controls</string>
-    <string name="pa_pie_control_summary">Pie Controls as navigation</string>
-    <string name="pie_enable_title">Enable</string>
-    <string name="pie_enable_summary">Enable Pie controls as navigation</string>
-    <string name="pie_settings">Pie settings</string>
-    <string name="pie_settings_summary">Adjust pie to your liking</string>
-    <string name="pie_theme_mode_title">Theme</string>
-    <string name="pie_auto">Automatic</string>
-    <string name="pie_white">White</string>
-    <string name="pie_dark">Dark</string>
-    <string name="pie_battery_title">Battery indicator</string>
-    <string name="pie_battery_text">Text only</string>
-    <string name="pie_battery_circle">Circle only</string>
-    <string name="pie_battery_both">Both</string>
-    <string name="pie_status_indicator">Network indicator</string>
-    <string name="pie_status_wifi">Wifi only</string>
-    <string name="pie_status_mobile">Mobile network only</string>
-    <string name="pie_status_none">None</string>
-    <string name="pie_status_both">Both</string>
-    <string name="pa_pie_gravity_title">Pie Gravity</string>
-    <string name="pa_pie_gravity_summary">Location where the Pie will be placed</string>
-    <string name="pa_pie_gravity_bottom">Bottom</string>
-    <string name="pa_pie_gravity_right">Right</string>
-    <string name="pa_pie_gravity_left">Left</string>
+    <string name="pa_pie_control_title">Controles Pie</string>
+    <string name="pa_pie_control_summary">Navigation avec les controles Pie</string>
+    <string name="pie_enable_title">Autoriser</string>
+    <string name="pie_enable_summary">Autoriser la navigation avec les controles Pie</string>
+    <string name="pie_settings">Paramètres Pie</string>
+    <string name="pie_settings_summary">Ajuster Pie comme vous le souhaitez</string>
+    <string name="pie_theme_mode_title">Thème</string>
+    <string name="pie_auto">Automatique</string>
+    <string name="pie_white">Blanc</string>
+    <string name="pie_dark">Noir</string>
+    <string name="pie_battery_title">Indicateur de batterie</string>
+    <string name="pie_battery_text">Seulement du texte</string>
+    <string name="pie_battery_circle">Seulement un cercle</string>
+    <string name="pie_battery_both">Les deux</string>
+    <string name="pie_status_indicator">Indicateur réseau</string>
+    <string name="pie_status_wifi">Wifi seulement</string>
+    <string name="pie_status_mobile">Réseau mobile seulement</string>
+    <string name="pie_status_none">Aucun</string>
+    <string name="pie_status_both">Les deux</string>
+    <string name="pa_pie_gravity_title">Position de Pie</string>
+    <string name="pa_pie_gravity_summary">Emplacement de Pie</string>
+    <string name="pa_pie_gravity_bottom">En bas</string>
+    <string name="pa_pie_gravity_right">Droite</string>
+    <string name="pa_pie_gravity_left">Gauche</string>
 
     <!-- Edge gestures -->
-    <string name="edge_gestures_title">Edge Gestures</string>
-    <string name="edge_gestures_summary">Use edge gestures for navigation</string>
-    <string name="edge_gestures_description">Swipe from bottom to trigger Home gesture. Keep it pressed to open recents. Swipe from left or right to go back.</string>
-    <string name="edge_gestures_feedback_duration_title">Haptic feedback duration</string>
-    <string name="edge_gestures_long_press_delay_title">Delay until long press action starts</string>
-    <string name="edge_gestures_back_category_title">Back gesture</string>
-    <string name="edge_gestures_back_edges_title">Trigger back gesture from</string>
-    <string name="edge_gestures_landscape_back_edges_title">Trigger back gesture on landscape from</string>
-    <string name="edge_gestures_back_screen_percent_title">Back gesture must start below this percentage of the screen</string>
-    <string name="edge_gestures_back_screen_percent_summary">Trigger above % of screen</string>
-    <string name="edge_gestures_back_show_ui_feedback_title">Back gesture animation</string>
-    <string name="edge_gestures_back_show_ui_feedback_summary">Show animated feedback on edges when back gesture is used</string>
-    <string name="edge_gestures_back_edges_left_side">Left side</string>
-    <string name="edge_gestures_back_edges_right_side">Right side</string>
-    <string name="edge_gestures_back_edges_both_sides">Both sides</string>
+    <string name="edge_gestures_title">Gestes du bord d\'écran</string>
+    <string name="edge_gestures_summary">Utiliser les gestes de bord pour la navigation</string>
+    <string name="edge_gestures_description">Glisser depuis le bas pour activer les gestes Home. Rester appuyer pour ouvrir la page d\'applications récentes. Glisser depuis la gauche ou la droite pour revenir en arrière.</string>
+    <string name="edge_gestures_feedback_duration_title">Durée du retour haptique</string>
+    <string name="edge_gestures_long_press_delay_title">Délai pour la détection d\'un appui long</string>
+    <string name="edge_gestures_back_category_title">Gestes de retour</string>
+    <string name="edge_gestures_back_edges_title">Détecter le geste de retour depuis la</string>
+    <string name="edge_gestures_landscape_back_edges_title">En mode paysage détecter le geste de retour depuis la</string>
+    <string name="edge_gestures_back_screen_percent_title">Le geste de retour débutera à ce poucentage de l\'écran</string>
+    <string name="edge_gestures_back_screen_percent_summary">Détection au dessus de % de l\'écran</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">Animation du geste de retour</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">Afficher un retour sur les bords lorsqu\'un geste retour est réalisé</string>
+    <string name="edge_gestures_back_edges_left_side">Côté gauche</string>
+    <string name="edge_gestures_back_edges_right_side">Côté droit</string>
+    <string name="edge_gestures_back_edges_both_sides">Les deux côtés</string>
 
     <!-- Header -->
     <string name="status_bar_custom_header_title">Custom header image</string>
