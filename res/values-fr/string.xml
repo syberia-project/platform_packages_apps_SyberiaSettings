@@ -509,68 +509,68 @@
     <string name="lockscreen_weather_show_temp_summary">Afficher la température de la ville actuelle à droite de l\'image</string>
 
     <!-- Notifications while screen on -->
-    <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Les notifications font du bruit lorsque l\'écran est allumé</string>
+    <string name="notification_sound_vib_screen_on_summary">Faire du bruit et vibrer pour les notifications lorsque l\écran est allumé</string>
 
     <!-- Onehand UI mode -->
-    <string name="one_hand_mode_title">Enable using one-hand mode</string>
-    <string name="one_hand_mode_summary">Allow swiping across right or left on navbar to enable</string>
+    <string name="one_hand_mode_title">Activer l\'utilisation du mode une main</string>
+    <string name="one_hand_mode_summary">Autoriser l\'activation en glissant à droite ou à gauche de la barre de navigation</string>
 
     <!-- Volume key cursor control -->
-    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
-    <string name="volbtn_cursor_control_off">Disabled</string>
-    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="volbtn_cursor_control_title">Controle du cruseur par les touches</string>
+    <string name="volbtn_cursor_control_off">Désactivé</string>
+    <string name="volbtn_cursor_control_on">Volume Haut/bas déplace le curseur de gauche/droite</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume Haut/bas déplace le curseur de droite/gauche</string>
 
     <!-- QS styles -->
-    <string name="qs_styles_dialog_title">Select a QS tile style</string>
+    <string name="qs_styles_dialog_title">Sélectionner un style des cases de paramètre rapide</string>
 
     <!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Recents Style</string>
+    <string name="recents_component_type_title">Style applications récentes</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
 
     <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Pixel animation</string>
-    <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+    <string name="pixel_navbar_anim_title">Animation pixel</string>
+    <string name="pixel_navbar_anim_summary">Changer l\'animation du bouton home</string>
 
     <!-- Statusbar ticker -->
-    <string name="status_bar_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_title">Ticker</string>
-    <string name="status_bar_show_ticker_summary">Notification preview in status bar</string>
-    <string name="ticker_animation_mode_title">Ticker animation</string>
-    <string name="ticker_animation_mode_alpha_fade">Fade</string>
-    <string name="ticker_animation_mode_scroll">Scroll</string>
-    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <string name="status_bar_ticker_title">Bandeau</string>
+    <string name="status_bar_show_ticker_title">Bandeau</string>
+    <string name="status_bar_show_ticker_summary">Prévisualisation des notifications dans la barre d\'état</string>
+    <string name="ticker_animation_mode_title">Animation du bandeau</string>
+    <string name="ticker_animation_mode_alpha_fade">Effacement</string>
+    <string name="ticker_animation_mode_scroll">Déroulement</string>
+    <string name="ticker_tick_duration_title">Durée du bandeau</string>
 
     <!-- Recents icon packs -->
-    <string name="recents_icon_pack_title">Icon Pack</string>
-    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
-    <string name="no_iconpacks_summary">No icon packs installed</string>
-    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
-    <string name="default_iconpack_title">Default icons</string>
+    <string name="recents_icon_pack_title">Pack d\'icone</string>
+    <string name="recents_icon_pack_summary">Appliquer un pack d\'icone au panneau des applications récentes</string>
+    <string name="no_iconpacks_summary">Aucun pack d\'icone installé</string>
+    <string name="dialog_pick_iconpack_title">Choisir un pack d\'icone</string>
+    <string name="default_iconpack_title">Icones par défaut</string>
 
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon instead of LTE icon</string>
+    <string name="show_fourg_icon_title">Icone 4G</string>
+    <string name="show_fourg_icon_summary">Afficher un icone 4G à la place de l\'icone LTE</string>
 
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE/VoWiFi icon</string>
-    <string name="volte_icon_summary">Display VoLTE/VoWiFi icon</string>
+    <string name="volte_icon_title">Icone VoLTE/VoWiFi</string>
+    <string name="volte_icon_summary">Afficher l\'icone VoLTE/VoWiFi</string>
 
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Indicateur d\'itinérance</string>
+    <string name="roaming_indicator_icon_summary">Afficher l\'icone d\'itinérance dans l\'icone signal en mode itinérance</string>
 
-    <string name="navigationbar_settings_title">SmartNav Bar</string>
-    <string name="navigationbar_settings_summary">Smart Nav Bar Customizations</string>
+    <string name="navigationbar_settings_title">Barre SmartNav</string>
+    <string name="navigationbar_settings_summary">Modifications de la barre Smart Nav</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Info de charge sur l\'écran de verrouillage</string>
+    <string name="lockscreen_battery_info_summary">Afficher la température, la tension et le courant max de la batteire sur l\'écran de verrouillage pendant la charge</string>
 
     <!-- Lock Widget -->
-    <string name="ls_widget" >Widget Styles</string>
+    <string name="ls_widget" >Styles des widgets</string>
 
     <!-- Lock Widget Fonts -->
     <string name="lock_widget_font_stock">Normal (Default)</string>
