@@ -573,67 +573,67 @@
     <string name="ls_widget" >Styles des widgets</string>
 
     <!-- Lock Widget Fonts -->
-    <string name="lock_widget_font_stock">Normal (Default)</string>
-    <string name="lock_widget_font_bold">Bold</string>
-    <string name="lock_widget_font_italic">Italic</string>
-    <string name="lock_widget_font_bold_italic">Bold Italic</string>
-    <string name="lock_widget_font_light_italic">Light Italic</string>
-    <string name="lock_widget_font_thin_italic">Thin Italic</string>
-    <string name="lock_widget_font_light">Light</string>
-    <string name="lock_widget_font_thin">Thin</string>
-    <string name="lock_widget_font_condensed_normal">Condensed</string>
-    <string name="lock_widget_font_condensed_italic">Condensed Italic</string>
-    <string name="lock_widget_font_condensed_bold">Condensed Bold</string>
-    <string name="lock_widget_font_condensed_bold_italic">Condensed Bold Italic</string>
-    <string name="lock_widget_font_condensed_light">Condensed Light</string>
-    <string name="lock_widget_font_condensed_light_italic">Condensed Light Italic</string>
-    <string name="lock_widget_font_medium_normal">Medium</string>
-    <string name="lock_widget_font_medium_italic">Medium Italic</string>
-    <string name="lock_widget_font_black">Black</string>
-    <string name="lock_widget_font_black_italic">Black Italic</string>
+    <string name="lock_widget_font_stock">Normal (Défaut)</string>
+    <string name="lock_widget_font_bold">Gras</string>
+    <string name="lock_widget_font_italic">Italique</string>
+    <string name="lock_widget_font_bold_italic">Gras Italique</string>
+    <string name="lock_widget_font_light_italic">Léger Italique</string>
+    <string name="lock_widget_font_thin_italic">Fin Italique</string>
+    <string name="lock_widget_font_light">Léger</string>
+    <string name="lock_widget_font_thin">Fin</string>
+    <string name="lock_widget_font_condensed_normal">Condensé</string>
+    <string name="lock_widget_font_condensed_italic">Condensé Italique</string>
+    <string name="lock_widget_font_condensed_bold">Condensé Gras</string>
+    <string name="lock_widget_font_condensed_bold_italic">Condensé Gras Italique</string>
+    <string name="lock_widget_font_condensed_light">Condensé Léger</string>
+    <string name="lock_widget_font_condensed_light_italic">Condensé Léger Italique</string>
+    <string name="lock_widget_font_medium_normal">Moyen</string>
+    <string name="lock_widget_font_medium_italic">Moyen Italique</string>
+    <string name="lock_widget_font_black">Noir</string>
+    <string name="lock_widget_font_black_italic">Noir Italique</string>
 
     <!-- Lockscreen cover art filter -->
-    <string name="lockscreen_cover_filter_title">Media cover art filter</string>
-    <string name="lockscreen_cover_filter_none">None</string>
-    <string name="lockscreen_cover_filter_grayscale">Grayscale</string>
-    <string name="lockscreen_cover_filter_tint">Accent tinted</string>
-    <string name="lockscreen_cover_filter_blur">Blur</string>
-    <string name="lockscreen_cover_filter_grayblur">Grayscale and blurred</string>
+    <string name="lockscreen_cover_filter_title">Filtre des couvertures de média</string>
+    <string name="lockscreen_cover_filter_none">Aucun</string>
+    <string name="lockscreen_cover_filter_grayscale">Nuance de gris</string>
+    <string name="lockscreen_cover_filter_tint">Légérement nuancé</string>
+    <string name="lockscreen_cover_filter_blur">Floutage</string>
+    <string name="lockscreen_cover_filter_grayblur">Échelle de gris et flouté</string>
 
     <!-- Lockscreen items -->
-    <string name="lockscreen_clock_title">Clock widget</string>
-    <string name="lockscreen_clock_summary">Show the clock widget on the lockscreen</string>
-    <string name="lockscreen_info_title">Items underneath the clock</string>
-    <string name="lockscreen_info_summary">Show the date, alarms and zen on the lockscreen</string>
+    <string name="lockscreen_clock_title">Widget d\'horloge</string>
+    <string name="lockscreen_clock_summary">Afficher le widget d\'horloge sur l\'écran de verrouillage</string>
+    <string name="lockscreen_info_title">Éléments sous l\'horloge</string>
+    <string name="lockscreen_info_summary">Afficher la date, les alarmes and économiseur sur l\'écran de verrouillage</string>
 
     <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Clock font style</string>
+    <string name="lock_clock_font_title">Style de police de l\'horloge</string>
 
     <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Date font style</string>
+    <string name="lock_date_font_title">Style de police de la date</string>
 
     <!-- Lock Clock & Date Size -->
-    <string name="lockdate_font_size_title">Date font size</string>
-    <string name="lockclock_font_size_title">Clock font size</string>
+    <string name="lockdate_font_size_title">Taille de police de la date</string>
+    <string name="lockclock_font_size_title">Taille de police de l\'horloge</string>
 
     <!-- Lockscreen clock styles -->
-    <string name="lockscreen_clock_selection_title">Clock style</string>
-    <string name="lockscreen_clock_selection_digital">Default</string>
-    <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
-    <string name="lockscreen_clock_selection_analog">Analog</string>
-    <string name="lockscreen_clock_selection_sammy">Sammy</string>
-    <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
-    <string name="lockscreen_clock_selection_sammy_accent">Sammy with accent</string>
-    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (alt)</string>
-    <string name="lockscreen_clock_selection_gradient_full">Full gradient clock</string>
-    <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
-    <string name="lockscreen_clock_selection_text">Android Q Text Clock</string>
+    <string name="lockscreen_clock_selection_title">Style d\'horloge</string>
+    <string name="lockscreen_clock_selection_digital">Défaut</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitale (Gras)</string>
+    <string name="lockscreen_clock_selection_analog">Analogique</string>
+    <string name="lockscreen_clock_selection_sammy">Supperposé</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Supperposé (Gras)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Supperposé avec couleur</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Supperposé avec couleur (alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Horloge avec fond</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Horloge monochrome avec fond</string>
+    <string name="lockscreen_clock_selection_text">Horloge avec lettre Android Q</string>
 
     <!-- Lockscreen text clock align -->
-    <string name="lockscreen_clock_align_title">Q Text Clock Alignment</string>
-    <string name="lockscreen_clock_align0">Left</string>
-    <string name="lockscreen_clock_align1">Center</string>
-    <string name="lockscreen_clock_align2">Right</string>
+    <string name="lockscreen_clock_align_title">Alignement de l\'horloge avec lettre Android Q</string>
+    <string name="lockscreen_clock_align0">Gauche</string>
+    <string name="lockscreen_clock_align1">Centré</string>
+    <string name="lockscreen_clock_align2">Droite</string>
 
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animations</string>
