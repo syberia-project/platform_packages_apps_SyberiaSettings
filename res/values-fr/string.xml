@@ -407,106 +407,106 @@
     <string name="listview_bounce_interpolator">Rebondir</string>
 
     <!-- Option to enable/disable scrolling cache -->
-    <string name="pref_scrollingcache_title">Scrolling cache</string>
-    <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-    <string name="pref_scrollingcache_force_enable">Force enable</string>
-    <string name="pref_scrollingcache_default_enable">Default enable</string>
-    <string name="pref_scrollingcache_default_disable">Default disable</string>
-    <string name="pref_scrollingcache_force_disable">Force disable</string>
+    <string name="pref_scrollingcache_title">Cache du défilement</string>
+    <string name="pref_scrollingcache_summary">Le cache de défilement devrait améliorer les performances et utiliser plus de mémoire</string>
+    <string name="pref_scrollingcache_force_enable">Activation dorcée</string>
+    <string name="pref_scrollingcache_default_enable">Activation par défaut</string>
+    <string name="pref_scrollingcache_default_disable">Désactivation par défaut</string>
+    <string name="pref_scrollingcache_force_disable">Désactivation forcée</string>
 
     <!-- AOKP custom system animations -->
-    <string name="system_animations">System Animations</string>
-    <string name="system_animation_title">System animations</string>
-    <string name="activity_open_title">Activity open animation</string>
-    <string name="activity_close_title">Activity close animation</string>
-    <string name="task_open_title">Task open animation</string>
-    <string name="task_close_title">Task close animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Wallpaper open animation</string>
-    <string name="wallpaper_close_title">Wallpaper close animation</string>
-    <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
-    <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="title_animation_no_override">Prevent app overrides</string>
-    <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
-    <string name="animation_duration_default">Default</string>
-    <string name="task_open_behind_title">Task open behind animation</string>
+    <string name="system_animations">Animations du système</string>
+    <string name="system_animation_title">Animations du système</string>
+    <string name="activity_open_title">Animation à l\'ouverture d\'une activité</string>
+    <string name="activity_close_title">Animation à la fermeture d\'une activité</string>
+    <string name="task_open_title">Animation à l\'ouverture d\'une tâche</string>
+    <string name="task_close_title">Animation à la fermeture d\'une tâche</string>
+    <string name="task_move_to_front_title">Animation de mise à l\'avant</string>
+    <string name="task_move_to_back_title">Animation de mise en arrière</string>
+    <string name="wallpaper_open_title">Animation à l\'ouverture du fond d\'écran</string>
+    <string name="wallpaper_close_title">Animation à la fermeture du fond d\'écran</string>
+    <string name="wallpaper_intra_open_title">Animation à l\'ouverture du fond d\'écran (intra)</string>
+    <string name="wallpaper_intra_close_title">Animation à la fermeture du fond d\'écran (intra)</string>
+    <string name="animation_duration_title">Durée de l\'animation</string>
+    <string name="title_animation_no_override">Prendre le pas sur les applications</string>
+    <string name="summary_animation_no_override">Ne permet pas aux applications de prendre le pas sur les transitions</string>
+    <string name="animation_duration_default">Défaut</string>
+    <string name="task_open_behind_title">Animation à l\'ouverture d\'une tâche en fond</string>
 
      <!-- Statusbar Clock -->
-    <string name="status_bar_clock">Clock and Date</string>
-    <string name="status_bar_clock_summary">Configure statusbar clock and date appearance</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_clock">Heure et date</string>
+    <string name="status_bar_clock_summary">Configurer l'apparence de l\'heure et de la date de la barre d\'état</string>
+    <string name="status_bar_clock_title">Paramètres de l\'horloge</string>
+    <string name="status_bar_clock_show">Afficher l\'heure et la date</string>
+    <string name="status_bar_clock_style_title">Style de l\'horloge</string>
+    <string name="status_bar_clock_style_right">Droite</string>
+    <string name="status_bar_clock_style_center">Centré</string>
+    <string name="status_bar_clock_style_left">Gauche</string>
+    <string name="status_bar_am_pm_title">Style AM/PM</string>
+    <string name="status_bar_am_pm_info">Mode 24h activé</string>
     <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
+    <string name="status_bar_am_pm_small">Petit</string>
+    <string name="status_bar_am_pm_hidden">Caché (défaut)</string>
+    <string name="clock_seconds_display">Afficher les secondes</string>
     <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_display_summary">Afficher la date avant l\'heure</string>
+    <string name="clock_date_display_none">Ne pas afficher</string>
+    <string name="clock_date_display_small">Petite taille de police</string>
+    <string name="clock_date_display_normal">Taille de police normale</string>
+    <string name="clock_date_style">Style de date</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_style_lowercase">Minuscule</string>
+    <string name="clock_date_style_uppercase">Majuscule</string>
+    <string name="clock_date_format_custom">Format java customisé</string>
+    <string name="clock_date_format">Format de la date</string>
+    <string name="clock_date_string_edittext_title">Doit être un format de date ex. MM/jj/aa</string>
+    <string name="clock_date_string_edittext_summary">Entrer une valeur</string>
 
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrer au touché</string>
+    <string name="quick_settings_vibrate_summary">Vibrer au touché d\'une tuile des paramètres rapides</string>
 
     <!-- Navigation gestures -->
-    <string name="gesture_settings_title">Navigation gestures</string>
-    <string name="gesture_settings_summary">OnePlus style navigation gestures</string>
-    <string name="use_bottom_gesture_title">Enable gestures</string>
-    <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
-    <string name="gesture_swipe_length_title">Swipe trigger height</string>
-    <string name="gesture_swipe_length_summary">Height from bottom to trigger swipe</string>
-    <string name="gesture_action_timeout_title">Swipe trigger timeout</string>
-    <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
-    <string name="bottom_gestures_feedback_duration_title">Haptic feedback duration</string>
+    <string name="gesture_settings_title">Gestes de navigation</string>
+    <string name="gesture_settings_summary">Gestes de navigation Oneplus</string>
+    <string name="use_bottom_gesture_title">Activer les gestes</string>
+    <string name="gesture_settings_info">La barre de navigation doit être désactivée!\n\nGestes possibles:\n\nRetour\n- Glisser vers le haut sur le bord droit ou gauche\n\nHome\n- Glisser vers le haut au centre\n\nApplications récentes\n- Glisser au centre et maintenir\n\nDernière application\n- Petit glissement vers le haut au centre et maintenir</string>
+    <string name="gesture_swipe_length_title">Longueur de détection du glissement</string>
+    <string name="gesture_swipe_length_summary">Dimension (depuis le bas) pour activer le glissement</string>
+    <string name="gesture_action_timeout_title">Délai de détection du glissement</string>
+    <string name="gesture_action_timeout_summary">Délai avant le début de l'action</string>
+    <string name="bottom_gestures_feedback_duration_title">Durée du retour haptique</string>
     <string name="unit_msec">ms</string>
     <string name="unit_px">px</string>
 
     <!-- Notifications light -->
-    <string name="notification_light_settings">Notifications light</string>
+    <string name="notification_light_settings">Led de notification</string>
 
     <!-- Other -->
-    <string name="other_title">Other</string>
+    <string name="other_title">Autre</string>
 
     <!-- About team -->
-    <string name="about_team_title">About Syberia team</string>
-    <string name="about_team_summary">Information about the team and maintainers</string>
-    <string name="syberia_team_title">Syberia Team</string>
+    <string name="about_team_title">À propos de l\'équipe Syberia</string>
+    <string name="about_team_summary">Informations sur l\'équipe et les mainteneurs</string>
+    <string name="syberia_team_title">Équipe Syberia</string>
 
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
-    <string name="lockscreen_weather_show_city_title">Show city name</string>
-    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
-    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
-    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+    <string name="lockscreen_weather_category">Météo</string>
+    <string name="lockscreen_weather_enabled_title">Afficher sur l\'écran de verrouillage</string>
+    <string name="lockscreen_weather_enabled_summary">Afficher la météo qur l\'écran de verrouillage et pendant la veille</string>
+    <string name="lockscreen_weather_settings_title">Paramétrer les options météos</string>
+    <string name="lockscreen_weather_settings_summary">Paramétrer le pack d\'icone et le service météo</string>
+    <string name="weather_config_title">Service météo</string>
+    <string name="weather_config_summary">Paramètres des services systèmes</string>
+    <string name="header_weather_title">Affichage de météo au dessus des notifications</string>
+    <string name="header_weather_summary">Activer l\'affichage de la météo au dessus du panneau de notification</string>
+    <string name="weather_icon_pack_title">Packs d\'icones</string>
+    <string name="weather_icon_pack_note">Note\u003a Installer de nouveaux packs provenant du play store en cherchant \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Packs utilisé sur l\'écran de verrouillage et dans les paramètres rapides</string>
+    <string name="lockscreen_weather_show_city_title">Afficher le nom de la ville</string>
+    <string name="lockscreen_weather_show_city_summary">Afficher le nom de la ville actuelle à gauche de l\'image</string>
+    <string name="lockscreen_weather_show_temp_title">Afficher la température</string>
+    <string name="lockscreen_weather_show_temp_summary">Afficher la température de la ville actuelle à droite de l\'image</string>
 
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
