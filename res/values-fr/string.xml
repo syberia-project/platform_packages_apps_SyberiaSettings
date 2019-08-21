@@ -26,10 +26,10 @@
     <string name="statusbar_category_title">Barre d\'état</string>
     <string name="statusbar_category_summary">Modifier la barre d\'état</string>
     <string name="panels_category_title">Panneaux</string>
-    <string name="panels_category_summary">Barre d'état, Notifications, Paramètres rapides</string>
+    <string name="panels_category_summary">Barre d\'état, Notifications, Paramètres rapides</string>
     <string name="lockscreen_category_title">Écran de verrouillage</string>
     <string name="lockscreen_category_summary">Modifier l\'écran de verrouillage</string>
-    <string name="systemui_tuner_title">Objets de la barre de status</string>
+    <string name="systemui_tuner_title">Éléments de la barre d\'état</string>
     <string name="systemui_tuner_summary">Options de la batterie et désactivation des icones de la barre d\'état</string>
     <string name="statusbar_clock_title">Afficher l'horloge &amp; date</string>
     <string name="statusbar_clock_summary">Dans la barre d\'état</string>
@@ -39,7 +39,7 @@
     <string name="misc_extensions_summary">Paramètres ne figurant pas dans les autres sections</string>
     <string name="navbar_title">Barre de navigation</string>
     <string name="navbar_category_summary">Modififier votre barre de navigation AOSP ou smartbar</string>
-    <string name="doubletap_gestures_title">Gestes double tap</string>
+    <string name="doubletap_gestures_title">Gestes double touche</string>
     <string name="navigation_gestures_title">Gestes de navigation</string>
     <string name="power_button_gestures_title">Gestes du bouton power</string>
 
@@ -49,8 +49,8 @@
     <string name="animations_summary">Modifier les animations du système</string>
     <string name="buttons_title">Boutons</string>
     <string name="buttons_summary">Personnaliser le fonctionnement de vos boutons physiques</string>
-    <string name="recents_ui_title">Panneaux d\'applications récentes</string>
-    <string name="recents_ui_summary">Pack d'icône pour le Panneaux d'applications récentes</string>
+    <string name="recents_ui_title">Page d\'applications récentes</string>
+    <string name="recents_ui_summary">Pack d'icône pour la page d\'applications récentes</string>
     <string name="app_ops_category">Garde de vie privée</string>
     <string name="app_ops_category_summary">Modifier les paramètres de vie privée de vos applications</string>
     <string name="system_app_remover">Désinstalleur des applications systèmes</string>
@@ -58,8 +58,8 @@
     <string name="dialer_summary">Paramètres avancés des appels</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Sélection de couleurs</string>
-    <string name="press_color_to_apply">Appuyer sur l'une des couleurs ci-dessous pour l\'appliquer</string>
+    <string name="dialog_color_picker">Sélection de couleur</string>
+    <string name="press_color_to_apply">Appuyer pour appliquer l\'une des couleurs ci-dessous</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
@@ -73,12 +73,12 @@
     <!-- Button brightness -->
     <string name="button_backlight_options_category">Options de rétroéclairage</string>
     <string name="button_backlight_enable_title">Autoriser le bouton de rétroéclairage</string>
-    <string name="button_link_brightness">Lier à la luminosité de l'écran</string>
-    <string name="button_link_brightness_summary">le bouton de rétroéclairage s'ajustera à la luminosité de l\'écran</string>
+    <string name="button_link_brightness">Lier à la luminosité de l\'écran</string>
+    <string name="button_link_brightness_summary">le bouton de rétroéclairage s\'ajustera à la luminosité de l\'écran</string>
     <string name="button_manual_brightness">Niveau de luminosité</string>
     <string name="button_timeout_title">rétroéclairage timeout</string>
     <string name="button_backlight_on_touch_only_title">Appui du bouton de rétroéclairage</string>
-    <string name="button_backlight_on_touch_only_summary">Le bouton de rétroéclairage n\'apparaîtra que quand les boutons seront appuyés plutôt que tout le temps. Le timeout a un impact sur ce paramètre.</string>
+    <string name="button_backlight_on_touch_only_summary">Le bouton de rétroéclairage n\'apparaîtra que quand les boutons seront appuyés. Le timeout a un impact sur ce paramètre.</string>
 
     <!-- Power Menu -->
     <string name="power_menu_title">Menu d\'alimentation</string>
