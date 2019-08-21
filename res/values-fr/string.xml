@@ -794,59 +794,59 @@
     <string name="aggressive_battery_saver_summary">Activer automatiquement le mode batterie agressive en mode économie d\'énergie</string>
 
     <!-- FOD -->
-    <string name="custom_fod_icon_title">Set custom FOD image</string>
+    <string name="custom_fod_icon_title">Sélectionner une image FOD personnelle</string>
 
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Make heads up less annoying</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+    <string name="less_boring_heads_up_title">Notifications flotantes moins dérangeantes</string>
+    <string name="less_boring_heads_up_summary">N\'afficher que lorsque les applications messages et appels ne sont pas en fond</string>
 
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">Style météo</string>
+    <string name="lockscreen_weather_omni_style_title">Style Omni</string>
+    <string name="lockscreen_weather_pixel_style_title">Style pixel</string>
 
     <!-- Gaming mode -->
-    <string name="gaming_mode_title">Gaming Mode</string>
-    <string name="gaming_mode_summary">Customize gaming mode preferences</string>
-    <string name="gaming_mode_master_title">Enable Gaming Mode features</string>
-    <string name="gaming_mode_master_summary">Allow to customize Gaming Mode options</string>
-    <string name="gaming_mode_app_picker_title">Automatically turn on for these apps</string>
-    <string name="add_gaming_mode_package_title">Add apps for Gaming Mode</string>
-    <string name="add_gaming_mode_package_summary">Gaming mode will automatically be turned on for the selected apps.</string>
-    <string name="gaming_mode_headsup_title">Block notifications</string>
-    <string name="gaming_mode_headsup_summary">Block all headsup messages except calls.</string>
-    <string name="gaming_mode_hardware_keys_title">Lock buttons</string>
-    <string name="gaming_mode_hardware_keys_summary">Disable hardware buttons when Gaming mode is turned on.</string>
-    <string name="gaming_mode_gestures_title">Disable gestures</string>
-    <string name="gaming_mode_gestures_summary">Disable gesture navigation when Gaming mode is turned on.</string>
-    <string name="gaming_mode_brightness_title">Disable automatic brightness</string>
-    <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on.</string>
-    <string name="gaming_mode_ringer_title">Ringer in gaming mode</string>
-    <string name="gaming_mode_ringer_off_title">Do not change</string>
-    <string name="gaming_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="gaming_mode_ringer_silent_title">Silent</string>
+    <string name="gaming_mode_title">Mode jeu</string>
+    <string name="gaming_mode_summary">Modifier les préférences du mode jeu</string>
+    <string name="gaming_mode_master_title">Activer les fonctionnalités du mode jeu</string>
+    <string name="gaming_mode_master_summary">Autoriser la modification des options du mode jeu</string>
+    <string name="gaming_mode_app_picker_title">Activer automatiquement à l\'ouverture de l\'une de ces applications</string>
+    <string name="add_gaming_mode_package_title">Ajouter des applications pour le mode jeu</string>
+    <string name="add_gaming_mode_package_summary">Le mode jeu s\'activera automatiquement pour les applications sélectionnés.</string>
+    <string name="gaming_mode_headsup_title">Bloquer les notifications</string>
+    <string name="gaming_mode_headsup_summary">Bloquer toute les notifications flotantes excepté pour les appels.</string>
+    <string name="gaming_mode_hardware_keys_title">Verrouiller les boutons</string>
+    <string name="gaming_mode_hardware_keys_summary">Désactiver les boutons physique lorsque le mode jeu est actif.</string>
+    <string name="gaming_mode_gestures_title">Désactiver les gestes</string>
+    <string name="gaming_mode_gestures_summary">Désactiver les gestes lorsque le mode jeu est actif.</string>
+    <string name="gaming_mode_brightness_title">Désactiver la luminosité automatique</string>
+    <string name="gaming_mode_brightness_summary">Bloquer la luminosité de l\'écran lorsque le mode jeu est actif.</string>
+    <string name="gaming_mode_ringer_title">Sonnerie en mode jeu</string>
+    <string name="gaming_mode_ringer_off_title">Ne pas modifier</string>
+    <string name="gaming_mode_ringer_vibrate_title">Vibreur</string>
+    <string name="gaming_mode_ringer_dnd_title">Ne pas déranger</string>
+    <string name="gaming_mode_ringer_silent_title">Silencieux</string>
     <string name="gaming_mode_notifications_title">Notifications</string>
-    <string name="gaming_mode_notifications_off_title">Disabled</string>
-    <string name="gaming_mode_notifications_notif_title">Show notification</string>
-    <string name="gaming_mode_notifications_toast_title">Show toasts</string>
-    <string name="gaming_mode_notifications_all_title">Show toasts and notifications</string>
-    <string name="gaming_mode_dynamic_title">Dynamic Gaming mode</string>
-    <string name="gaming_mode_dynamic_summary">Whenever you open any app and the system finds it to be a game, it will be added in gaming list automatically. Please note that this does not work for every game app.</string>
+    <string name="gaming_mode_notifications_off_title">Désactivé</string>
+    <string name="gaming_mode_notifications_notif_title">Afficher les notifications</string>
+    <string name="gaming_mode_notifications_toast_title">Afficher les messages toasts</string>
+    <string name="gaming_mode_notifications_all_title">Afficher les notifications et les messages toasts</string>
+    <string name="gaming_mode_dynamic_title">Mode jeu dynamique</string>
+    <string name="gaming_mode_dynamic_summary">Lorsque vous ouvrez une application détectée par android comme un jeu l\'ajoutera automatiquement à la liste des jeux du mode jeu. Peut ne pas fonctionner pour toute les applications.</string>
 
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">Afficher l\'icone de données mobiles désactivées</string>
+    <string name="data_disabled_icon_summary">Afficher une croix à l\'icone signal lorsque les données sont désactivées</string>
     
     <!-- Privacy and power management -->
-    <string name="privacy_power_settings_title">Privacy and power management</string>
-    <string name="privacy_power_settings_summary">Additional settings for power saving and personal data protection</string>
+    <string name="privacy_power_settings_title">Vie privée et gestion d\'autonomie</string>
+    <string name="privacy_power_settings_summary">Paramètres supplémentaires pour améliorer l\'autonomie et protéger la vie privée</string>
     
     <!-- Inactive apps -->
-    <string name="inactive_apps_summary">"Configure applications activity in idle mode"</string>
+    <string name="inactive_apps_summary">"Configurer l\'activité des aplications en mode veille"</string>
 
     <!-- Charging animation -->
-    <string name="charging_animation_title">Charging animation</string>
-    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+    <string name="charging_animation_title">Animation de charge</string>
+    <string name="charging_animation_summary">Afficher une animation lorsque le téléphone est connecté au chargeur</string>
 
 </resources>
