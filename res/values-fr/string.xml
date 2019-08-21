@@ -748,50 +748,50 @@
     <string name="edge_gestures_back_edges_both_sides">Les deux côtés</string>
 
     <!-- Header -->
-    <string name="status_bar_custom_header_title">Custom header image</string>
-    <string name="status_bar_custom_header_summary">Choose an image to be displayed at the top of the notification panel</string>
-    <string name="qs_appearance_category">APPEARANCE</string>
-    <string name="daylight_header_pack_title">Header image pack</string>
-    <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="status_bar_custom_header_title">Image d\'en-tête personnelle</string>
+    <string name="status_bar_custom_header_summary">Choisir une image à afficher au-dessus du panneau de notification</string>
+    <string name="qs_appearance_category">APPARANCE</string>
+    <string name="daylight_header_pack_title">Pack d\'mage d\'en-tête</string>
+    <string name="status_bar_custom_header_shadow_title">Ombre sur l\'image d\'en-tête</string>
+    <string name="status_bar_custom_header_shadow_summary">Pour un meilleur affichage des images claires</string>
     <string name="static_header_provider" translatable="false">static</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="static_header_provider_title">Static</string>
-    <string name="daylight_header_provider_title">Dynamic</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_browse_summary">Click on any image to use for static mode</string>
-    <string name="custom_header_browse_summary_new">Browse all available header packages</string>
-    <string name="custom_header_pick_title">Select header image</string>
-    <string name="custom_header_pick_summary">Select an image to use for static mode</string>
-    <string name="style_enabled_summary">Custom header image is ON</string>
-    <string name="style_disabled_summary">Custom header image is OFF</string>
-    <string name="header_provider_disabled">Disabled</string>
-    <string name="custom_header_title">Header</string>
-    <string name="qs_misc_category">Misc</string>
-    <string name="file_header_select_title">Select local image</string>
-    <string name="file_header_select_summary">Select image from storage</string>
-    <string name="file_header_provider_title">Single image</string>
+    <string name="static_header_provider_title">Statique</string>
+    <string name="daylight_header_provider_title">Dynamique</string>
+    <string name="custom_header_provider_title">Fournisser d\'en-tête</string>
+    <string name="custom_header_browse_title">Rechercher les en-têtes installés</string>
+    <string name="custom_header_browse_summary">CLiquer sur n\'importe qu\'lle image pour l\'utiliser en mode statique</string>
+    <string name="custom_header_browse_summary_new">Rechercher tout les packs d\'en-tête disponibles</string>
+    <string name="custom_header_pick_title">Sélectionner une image d\'en-tête</string>
+    <string name="custom_header_pick_summary">Sélectionner une image d\'en-tête pour le mode statique</string>
+    <string name="style_enabled_summary">Image d\'en-tête personnelle activé</string>
+    <string name="style_disabled_summary">Image d\'en-tête personnelle désactivé</string>
+    <string name="header_provider_disabled">Désactivé</string>
+    <string name="custom_header_title">En-tête</string>
+    <string name="qs_misc_category">Divers</string>
+    <string name="file_header_select_title">Sélectionner une image locale</string>
+    <string name="file_header_select_summary">Sélectionner une image stockée</string>
+    <string name="file_header_provider_title">Image seule</string>
     <string name="file_header_provider" translatable="false">file</string>
 
     <!-- Screen Stabilization -->
-    <string name="screen_stabilization_title">Screen Stabilization</string>
-    <string name="screen_stabilization_enable">Enable Screen Stabilization</string>
-    <string name="screen_stabilization_enable_summary">Leave the below values as is if you don\'t understand what they mean.</string>
-    <string name="stabilization_velocity_friction_title">Velocity friction</string>
-    <string name="stabilization_position_friction_title">Position friction</string>
-    <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
+    <string name="screen_stabilization_title">Stabilisation de l\'écran</string>
+    <string name="screen_stabilization_enable">Activer la stabilisation de l\'écran</string>
+    <string name="screen_stabilization_enable_summary">Ne pas modifier les valeurs ci-dessous si vous ne savez pas à quoi elles servent.</string>
+    <string name="stabilization_velocity_friction_title">Vitesse de frottement</string>
+    <string name="stabilization_position_friction_title">Position de frottement</string>
+    <string name="stabilization_velocity_amplitude_title">Amplitude de la vitesse</string>
 
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">Configure additional power saving mode</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
+    <string name="aggressive_battery_title">Batterie agressive</string>
+    <string name="aggressive_battery_summary">Configurer plus de modes pour améliorer l\'autonomie</string>
+    <string name="aggressive_battery_warning_text">Ces éléments permettent une amélioration de l\'autonomie. Ils peuvent avoir un impact sur les services en fond, tel que les apps de navigation. Vous pouvez mettre ces apps en liste blanche dans les paramètres de batterie.</string>
+    <string name="aggressive_idle_title">Veille agressive</string>
+    <string name="aggressive_idle_summary">Le téléphone reste plus souvent en veille et se réveille moins souvent</string>
+    <string name="aggressive_standby_title">Pause agressive</string>
+    <string name="aggressive_standby_summary">Limite des les applications fonctionnant en fond</string>
+    <string name="aggressive_battery_saver_title">Activer automatiquement en mode économie d\'énergie</string>
+    <string name="aggressive_battery_saver_summary">Activer automatiquement le mode batterie agressive en mode économie d\'énergie</string>
 
     <!-- FOD -->
     <string name="custom_fod_icon_title">Set custom FOD image</string>
