@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Paramètres Syberia</string>
-    <string name="syberia_dashboard_summary">Plus de fonctionnalité ajouté au projet Syberia</string>
+    <string name="syberia_dashboard_summary">Fonctionnalités ajoutées au projet Syberia</string>
 
     <string name="gestures_category_title">Gestes</string>
     <string name="gestures_category_summary">Paramètres pour les gestes</string>
