@@ -310,10 +310,12 @@
     <string name="battery_style_big_dotted_circle">Circulo grande punteado</string>
     <string name="battery_style_text">Texto</string>
     <string name="battery_style_hidden">Oculto</string>
+    <string name="battery_style_q">Estilo Q</string>
     <string name="show_battery_percent_title">Mostrar porcentaje de batería</string>
     <string name="battery_style_category_title">Icono de batería</string>
     <string name="battery_percent_none">No mostrar</string>
     <string name="battery_percent_outside">Mostrar al lado del icono</string>
+    <string name="battery_percent_outside_right">Mostrar icono cercano (derecha)</string>
     <string name="battery_percent_inside">Mostrar en el interior del icono</string>
 
     <!-- QuickSettings Panel Transparency -->
@@ -533,6 +535,10 @@
     <string name="volte_icon_title">Icono de VoLTE/VoWiFi</string>
     <string name="volte_icon_summary">Mostrar el icono de VoLTE/VoWiFi</string>
 
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indicador de itinerancia</string>
+    <string name="roaming_indicator_icon_summary">Mostrar el indicador de itinerancia en el icono de señal cuando está en modo de itinerancia</string>
+    
     <string name="navigationbar_settings_title">Barra Inteligente</string>
     <string name="navigationbar_settings_summary">Personalizaciones de la barra inteligente</string>
 
@@ -563,6 +569,20 @@
     <string name="lock_widget_font_black">Negro</string>
     <string name="lock_widget_font_black_italic">Itálica negra</string>
 
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Filtro de caratula músical</string>
+    <string name="lockscreen_cover_filter_none">Ninguno</string>
+    <string name="lockscreen_cover_filter_grayscale">Escala de grises</string>
+    <string name="lockscreen_cover_filter_tint">Acento</string>
+    <string name="lockscreen_cover_filter_blur">Borroso</string>
+    <string name="lockscreen_cover_filter_grayblur">Escala de grises y borroso</string>
+
+    <!-- Lockscreen items -->
+    <string name="lockscreen_clock_title">Widget de reloj</string>
+    <string name="lockscreen_clock_summary">Mostrar el widget del reloj en la pantalla de bloqueo</string>
+    <string name="lockscreen_info_title">Opciones debajo del reloj</string>
+    <string name="lockscreen_info_summary">Muestra la fecha, las alarmas y el zen en la pantalla de bloqueo.</string>
+
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Estilo de fuente de reloj</string> 
 
@@ -572,6 +592,25 @@
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Tamaño de letra de fecha</string>
     <string name="lockclock_font_size_title">Tamaño de letra del reloj</string>
+    
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Estilo de reloj</string>
+    <string name="lockscreen_clock_selection_digital">Defecto</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (negrita)</string>
+    <string name="lockscreen_clock_selection_analog">Analógico</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy con acento</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy con acento (alt)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Reloj gradiente completo</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Reloj degradado monocromo</string>
+    <string name="lockscreen_clock_selection_text">Estilo texto android Q</string>
+
+    <!-- Lockscreen text clock align -->
+    <string name="lockscreen_clock_align_title">Alineación reloj de texto Q</string>
+    <string name="lockscreen_clock_align0">Izquierda</string>
+    <string name="lockscreen_clock_align1">Centro</string>
+    <string name="lockscreen_clock_align2">Derecha</string>
     
     <!-- Tiles animation/interpolator style  -->
     <string name="qs_animation_options_title">Animaciones</string>
@@ -714,9 +753,23 @@
 
     <!-- Screen Stabilization -->
     <string name="screen_stabilization_title">Estabilización de pantalla</string>
-    <string name="screen_stabilization_enable">Habilitar la estabilización de pantalla</string>
+    <string name="screen_stabilization_enable">Habilitar estabilización de pantalla</string>
     <string name="screen_stabilization_enable_summary">Deja los valores de abajo como están si no entiendes lo que significan</string>
     <string name="stabilization_velocity_friction_title">Velocidad de fricción</string>
     <string name="stabilization_position_friction_title">Posición de fricción</string>
     <string name="stabilization_velocity_amplitude_title">Amplitud de velocidad</string>
+
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Batería agresiva</string>
+    <string name="aggressive_battery_warning_text">Estas son características de ahorro de energía. Pueden interferir con los servicios destinados a ejecutarse en modo inactivo, como las aplicaciones de navegación. Puede hacer que estas aplicaciones se vean afectadas en la configuración de la batería de la aplicación.</string>
+    <string name="aggressive_idle_title">Inactivo agresivo</string>
+    <string name="aggressive_idle_summary">Pone el dispositivo en inactivo con más frecuencia y despierta menos</string>
+    <string name="aggressive_standby_title">En espera agresiva</string>
+    <string name="aggressive_standby_summary">Evita que las aplicaciones se ejecuten en segundo plano</string>
+    <string name="aggressive_battery_saver_title">Auto-habilitar en ahorro de batería </string>
+    <string name="aggressive_battery_saver_summary">Habilita la batería agresiva automáticamente cuando usas el ahorro de batería</string>
+
+    <!-- FOD -->
+    <string name="custom_fod_icon_title">Establecer imagen FOD personalizada</string>
+
 </resources>
