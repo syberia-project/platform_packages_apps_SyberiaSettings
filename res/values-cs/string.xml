@@ -759,7 +759,4 @@
     <string name="aggressive_battery_saver_title">Automaticky zapnout při režimu úspory baterie </string>
     <string name="aggressive_battery_saver_summary">Povolí agresivní baterii automaticky při spuštěném režimu úspory baterie.</string>
 
-    <!-- FOD -->
-    <string name="custom_fod_icon_title">Nastavte vlastní FOD obrázek</string>
-
 </resources>
