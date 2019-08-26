@@ -720,9 +720,6 @@
     <string name="aggressive_battery_saver_title">Pil tasarrufunda otomatik etkinleştir</string>
     <string name="aggressive_battery_saver_summary">Pil tasarrufunu kullanırken agresif pili otomatik olarak etkinleştirir</string>
 
-    <!-- FOD -->
-    <string name="custom_fod_icon_title">Özel fod görüntüsü ayarla</string>
-
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
     <string name="roaming_indicator_icon_summary">Dolaşım modundayken dolaşım göstergesini sinyal simgesinde görüntüle</string>
