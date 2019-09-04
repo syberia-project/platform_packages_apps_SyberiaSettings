@@ -23,7 +23,7 @@
     <string name="syberia_dashboard_summary">Fonctionnalités ajoutées au projet Syberia</string>
 
     <string name="gestures_category_title">Gestes</string>
-    <string name="gestures_category_summary">Paramètres pour les gestes</string>
+    <string name="gestures_category_summary">Paramètres des gestes</string>
     <string name="system_category_title">Système</string>
     <string name="system_category_summary">Modifications système</string>
     <string name="statusbar_category_title">Barre d\'état</string>
@@ -33,7 +33,7 @@
     <string name="lockscreen_category_title">Écran de verrouillage</string>
     <string name="lockscreen_category_summary">Modifier l\'écran de verrouillage</string>
     <string name="systemui_tuner_title">Éléments de la barre d\'état</string>
-    <string name="systemui_tuner_summary">Options de la batterie et désactivation des icones de la barre d\'état</string>
+    <string name="systemui_tuner_summary">Options de batterie et désactivation des icones de la barre d\'état</string>
     <string name="statusbar_clock_title">Afficher l\'horloge &amp; date</string>
     <string name="statusbar_clock_summary">Dans la barre d\'état</string>
     <string name="traffic_options_title">Indicateurs de trafic</string>
@@ -233,7 +233,7 @@
     <string name="battery_category_title">Paramètres de batterie</string>
     <string name="battery_category_summary">Paramètres de batterie</string>
     <string name="battery_light_settings">Led de charge de la batterie</string>
-    <string name="battery_light_summary">Paramétrer la led de charge de la batterie</string>
+    <string name="battery_light_summary">Paramétres de la led de charge de la batterie</string>
     <string name="battery_light_enable">Activer</string>
     <string name="battery_light_allow_on_dnd_title">Led de batterie lors du mode ne pas déranger</string>
     <string name="battery_light_low_blinking_title">Clignotement de la led lorsque la batterie est faible</string>
@@ -297,7 +297,7 @@
     <string name="sound_setting_summary">Paramètres sonores avancés</string>
 
     <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Ouvrir l\'application musicale</string>
+    <string name="headset_connect_player_title">Ouvrir l\'application de musique</string>
     <string name="headset_connect_player_disabled">Désactivé</string>
     <string name="headset_connect_player_wired">Lors de la connection des écouteurs filaires</string>
     <string name="headset_connect_player_bt_no_carkit">Lors de la connection des écouteurs bluetooth (pas voiture)</string>
@@ -520,7 +520,7 @@
     <string name="one_hand_mode_summary">Autoriser l\'activation en glissant à droite ou à gauche de la barre de navigation</string>
 
     <!-- Volume key cursor control -->
-    <string name="volbtn_cursor_control_title">Controle du cruseur par les touches</string>
+    <string name="volbtn_cursor_control_title">Controle du curseur par les touches</string>
     <string name="volbtn_cursor_control_off">Désactivé</string>
     <string name="volbtn_cursor_control_on">Volume Haut/bas déplace le curseur de gauche/droite</string>
     <string name="volbtn_cursor_control_on_reverse">Volume Haut/bas déplace le curseur de droite/gauche</string>
@@ -674,10 +674,10 @@
 
     <!-- Rounded corners -->
     <string name="corners_category">Coins</string>
-    <string name="corner_radius">Rayon des coins ronds</string>
+    <string name="corner_radius">Rayon des coins arrondis</string>
     <string name="content_padding">Réajuster les coins</string>
     <string name="corner_fwvals">Utiliser les valeurs système</string>
-    <string name="corner_fwvals_summary">Utile pour les téléphones avec des coins ronds</string>
+    <string name="corner_fwvals_summary">Utile pour les téléphones avec des coins arrondis</string>
 
     <string name="qs_running_services_title">Icone des services démarrés</string>
     <string name="qs_running_services_summary">Autoriser l\'icone des services actifs dans le bas de zone</string>
@@ -796,9 +796,6 @@
     <string name="aggressive_battery_saver_title">Activer automatiquement en mode économie d\'énergie</string>
     <string name="aggressive_battery_saver_summary">Activer automatiquement le mode batterie agressive en mode économie d\'énergie</string>
 
-    <!-- FOD -->
-    <string name="custom_fod_icon_title">Sélectionner une image FOD personnelle</string>
-
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Notifications flotantes moins dérangeantes</string>
     <string name="less_boring_heads_up_summary">N\'afficher que lorsque les applications messages et appels ne sont pas en fond</string>
@@ -839,7 +836,7 @@
 
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Afficher l\'icone de données mobiles désactivées</string>
-    <string name="data_disabled_icon_summary">Afficher une croix à l\'icone signal lorsque les données sont désactivées</string>
+    <string name="data_disabled_icon_summary">Afficher une croix à côté de l\'icone signal lorsque les données sont désactivées</string>
     
     <!-- Privacy and power management -->
     <string name="privacy_power_settings_title">Vie privée et gestion d\'autonomie</string>
