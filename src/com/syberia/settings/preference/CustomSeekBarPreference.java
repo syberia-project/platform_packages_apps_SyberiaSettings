@@ -40,6 +40,7 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     private int mDefaultValue = -1;
     private int mMax = 100;
     private String mUnits = "";
+    private String mDefaultText = "";
     private SeekBar mSeekBar;
     private TextView mTitle;
     private TextView mStatusText;
@@ -54,6 +55,7 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         mMin = attrs.getAttributeIntValue(SETTINGS_NS, "min", 0);
         mDefaultValue = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -1);
         mUnits = getAttributeStringValue(attrs, SETTINGS_NS, "units", "");
+        mDefaultText = getAttributeStringValue(attrs, SETTINGS_NS, "defaultText", "Def");
 
         Integer id = a.getResourceId(R.styleable.CustomSeekBarPreference_units, 0);
         if (id > 0) {
@@ -180,7 +182,11 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         // change accepted, store it
         mCurrentValue = newValue;
         if (mStatusText != null) {
-            mStatusText.setText(String.valueOf(newValue) + mUnits);
+            if (newValue == mDefaultValue) {
+                    mStatusText.setText(mDefaultText);
+            } else {
+                    mStatusText.setText(String.valueOf(newValue) + mUnits);
+            }
         }
         persistInt(newValue);
     }
