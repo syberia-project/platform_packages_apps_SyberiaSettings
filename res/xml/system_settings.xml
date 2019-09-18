@@ -25,6 +25,12 @@
         android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
 
+    <Preference
+        android:fragment="com.syberia.settings.fragments.ButtonsSettings"
+        android:icon="@drawable/ic_buttons"
+        android:key="buttons"
+        android:summary="@string/buttons_summary"
+        android:title="@string/buttons_title" />
 
     <Preference
         android:icon="@drawable/ic_phone_classic"

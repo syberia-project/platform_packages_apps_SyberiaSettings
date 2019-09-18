@@ -40,6 +40,9 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
 
+    <string name="buttons_title">Настройка кнопок</string>
+    <string name="buttons_summary">Настроить действия аппаратных кнопок</string>
+
     <string name="dialer_title">Телефон</string>
     <string name="dialer_summary">Дополнительные настройки входящих вызовов</string>
 
