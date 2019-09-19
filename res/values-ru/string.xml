@@ -42,4 +42,9 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+
+    <!-- Advanced reboot -->
+    <string name="advanced_reboot_title">Расширенная перезагрузка</string>
+    <string name="advanced_reboot_summary">Включить опции расширенной перезагрузки в меню кнопки питания</string>
+
 </resources>

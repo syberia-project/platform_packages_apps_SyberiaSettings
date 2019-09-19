@@ -65,4 +65,9 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
+
+    <!-- Advanced reboot -->
+    <string name="advanced_reboot_title">Advanced reboot</string>
+    <string name="advanced_reboot_summary">Enable advanced reboot options in powermenu</string>
+
 </resources>
