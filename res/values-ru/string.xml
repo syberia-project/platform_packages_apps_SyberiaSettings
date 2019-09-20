@@ -39,4 +39,8 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+
+    <string name="dialer_title">Телефон</string>
+    <string name="dialer_summary">Дополнительные настройки входящих вызовов</string>
+
 </resources>

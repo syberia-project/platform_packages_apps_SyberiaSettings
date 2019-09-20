@@ -16,21 +16,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/system_category_title">
-
-    <Preference
-        android:fragment="com.syberia.settings.fragments.GeneralTweaks"
-        android:icon="@drawable/ic_general_tweaks"
-        android:key="general_tweaks"
-        android:summary="@string/general_tweaks_summary"
-        android:title="@string/general_tweaks_title" />
-
-
-    <Preference
-        android:icon="@drawable/ic_phone_classic"
-        android:key="dialer"
-        android:summary="@string/dialer_summary"
-        android:title="@string/dialer_title"
-        android:fragment="com.syberia.settings.fragments.DialerSettings" />
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/dialer_title">
 
 </PreferenceScreen>
