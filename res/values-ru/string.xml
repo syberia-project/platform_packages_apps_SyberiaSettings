@@ -107,4 +107,8 @@
     <string name="volume_key_cursor_control_off">Выключено</string>
     <string name="volume_key_cursor_control_on">Кнопка "+" двигает курсор влево, "-" вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Кнопка "+" двигает курсор вправо, "-" влево</string>
+
+    <string name="dialer_title">Телефон</string>
+    <string name="dialer_summary">Дополнительные настройки входящих вызовов</string>
+
 </resources>

@@ -136,4 +136,8 @@
     <string name="volume_key_cursor_control_off">Disabled</string>
     <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <string name="dialer_title">Dialer</string>
+    <string name="dialer_summary">Advanced incoming call settings</string>
+
 </resources>
