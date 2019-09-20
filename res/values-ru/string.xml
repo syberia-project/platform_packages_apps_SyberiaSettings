@@ -43,10 +43,10 @@
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
 
-    <!-- Navbar tuner -->
+    <!-- Navbar options -->
     <string name="navbar_title">Панель навигации</string>
     <string name="navbar_category_summary">Настроить панель навигации</string>
-    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+    <string name="navbar_invert_layout_title">Инвертированная разметка</string>
 
     <!-- Advanced reboot -->
     <string name="advanced_reboot_title">Расширенная перезагрузка</string>
