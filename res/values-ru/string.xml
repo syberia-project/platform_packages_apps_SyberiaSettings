@@ -278,4 +278,7 @@
     <string name="screen_off_animation_crt">ЭЛТ</string>
     <string name="screen_off_animation_scale">Масштаб</string>
 
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертированная разметка</string>
+
 </resources>
