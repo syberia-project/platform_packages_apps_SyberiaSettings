@@ -33,6 +33,7 @@
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
     <string name="navbar_title">Navigation Bar</string>
+    <string name="navbar_category_summary">Customize your navigation panel</string>
 
     <string name="general_tweaks_title">General Tweaks</string>
     <string name="general_tweaks_summary">Basic system settings of your device</string>

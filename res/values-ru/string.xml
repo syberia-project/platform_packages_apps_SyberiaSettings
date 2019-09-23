@@ -20,6 +20,9 @@
     <string name="panel_notifications_title">Панель уведомлений</string>
     <string name="notifications_category_summary">Настроить функционал панели уведомлений</string>
 
+    <string name="buttons_title">Настройка кнопок</string>
+    <string name="buttons_summary">Настроить действия аппаратных кнопок</string>
+
     <!-- About team -->
     <string name="about_team_title">О команде &quot;Syberia&quot;</string>
     <string name="about_team_summary">Информация о команде и поддерживаемых устройствах</string>
@@ -41,6 +44,8 @@
     <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
 
     <!-- Navbar tuner -->
+    <string name="navbar_title">Панель навигации</string>
+    <string name="navbar_category_summary">Настроить панель навигации</string>
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
 
     <!-- Advanced reboot -->
