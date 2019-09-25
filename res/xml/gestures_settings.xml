@@ -38,7 +38,6 @@
         android:entries="@array/torch_long_press_power_timeout_entries"
         android:entryValues="@array/torch_long_press_power_timeout_values"
         android:dependency="torch_long_press_power_gesture"
-        android:persistent="false"
         android:defaultValue="0" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
