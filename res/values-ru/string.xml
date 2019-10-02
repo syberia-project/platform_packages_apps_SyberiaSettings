@@ -176,9 +176,6 @@
     <string name="fprint_error_vib_title">Вибрация при ошибке авторизации</string>
     <string name="fprint_error_vib_summary">Вибрировать при ошибке авторизации отпечатком пальца</string>
 
-    <!-- Notifications panel -->
-    <string name="notifications_footer_message">Скоро здесь будет кое-что итересное.</string>
-
     <!-- Power Menu -->
     <string name="powermenu_title">Меню кнопки питания</string>
     <string name="powermenu_summary">Настройка элементов меню кнопки питания</string>
