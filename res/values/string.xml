@@ -204,9 +204,6 @@
     <string name="fprint_error_vib_title">Fingerprint error vibration</string>
     <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
 
-    <!-- Notifications panel -->
-    <string name="notifications_footer_message">Soon there will be something interesting.</string>
-
     <!-- PowerMenu -->
     <string name="powermenu_title">Powermenu</string>
     <string name="powermenu_summary">Powermenu customization</string>

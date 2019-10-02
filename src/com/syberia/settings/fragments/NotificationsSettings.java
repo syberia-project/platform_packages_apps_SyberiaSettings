@@ -37,7 +37,6 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.notifications_settings);
-        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.notifications_footer_message);
     }
 
     @Override
