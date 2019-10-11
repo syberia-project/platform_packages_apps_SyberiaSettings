@@ -222,4 +222,7 @@
     <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
     <string name="double_tap_sleep_lockscreen_summary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести устройство в спящий режим</string>
 
+    <string name="navbar_show_title">Панель навигации</string>
+    <string name="navbar_show_summary">Эта опция также переключает видимость нижней панели при использовании навигации жестами</string>
+
 </resources>
