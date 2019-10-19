@@ -408,4 +408,9 @@
     <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_category">Music</string>
+    <string name="media_art_title">Media artwork</string>
+    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
+
 </resources>

@@ -353,4 +353,9 @@
     <string name="qs_show_brightness_slider_show_expanded">Показывать в раскрытой панели быстрых настроек</string>
     <string name="qs_show_brightness_slider_show_always">Показывать всегда</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_category">Музыка</string>
+    <string name="media_art_title">Медиа-обложка</string>
+    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+
 </resources>
