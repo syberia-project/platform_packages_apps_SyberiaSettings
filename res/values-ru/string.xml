@@ -369,4 +369,9 @@
 
     <string name="notification_light_settings">Индикация уведомлений</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_category">Музыка</string>
+    <string name="media_art_title">Медиа-обложка</string>
+    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+
 </resources>
