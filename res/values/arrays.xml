@@ -554,7 +554,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-     
+
     <!-- Adaptive Playback -->
     <string-array name="adaptive_playback_timeout_entries" translatable="false">
         <item>@string/adaptive_playback_timeout_30_secs</item>
@@ -569,6 +569,17 @@
         <item>120000</item>
         <item>300000</item>
         <item>600000</item>
+    </string-array>
+
+    <!-- Volume steps -->
+    <string-array name="volume_steps_entries" translatable="false">
+        <item>60</item>
+        <item>45</item>
+        <item>30</item>
+        <item>20</item>
+        <item>15</item>
+        <item>7</item>
+        <item>5</item>
     </string-array>
 
 </resources>

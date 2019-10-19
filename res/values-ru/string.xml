@@ -651,4 +651,16 @@
     <string name="notification_headers_title">Отображать заголовки уведомлений</string>
     <string name="notification_headers_summary">Отображать заголовки уведомлений в стиле Android R (требуется перезагрузка для применения)</string>
 
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Шаги громкости</string>
+    <string name="volume_steps_summary">Изменить количество шагов громкости</string>
+    <string name="volume_steps_alarm_title">Количество шагов: Будильник</string>
+    <string name="volume_steps_dtmf_title">Количество шагов: Тональный набор</string>
+    <string name="volume_steps_music_title">Количество шагов: Медиа</string>
+    <string name="volume_steps_notification_title">Количество шагов: Уведомления</string>
+    <string name="volume_steps_ring_title">Количество шагов: Звонок</string>
+    <string name="volume_steps_system_title">Количество шагов: Система</string>
+    <string name="volume_steps_voice_call_title">Количество шагов: Голосовые вызовы</string>
+    <string name="volume_steps_reset">Сброс</string>
+
 </resources>

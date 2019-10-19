@@ -31,6 +31,12 @@
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
 
+    <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.syberia.settings.fragments.VolumeSteps" />
+
     <ListPreference
         android:key="screen_off_animation"
         android:title="@string/screen_off_animation_title"
@@ -48,7 +54,7 @@
             android:title="@string/adb_notify"
             android:summary="@string/adb_notify_summary"
             android:defaultValue="true" />
-	    
+
     <PreferenceCategory
         android:key="aspect_ratio_category"
         android:title="@string/aspect_ratio_category_title">
