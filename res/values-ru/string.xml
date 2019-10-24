@@ -377,4 +377,7 @@
     <!-- Lock screen media blur -->
     <string name="lockscreen_media_blur_title">Уровень размытия</string>
 
+    <string name="lockscreen_visualizer_enable">Включить визуализатор</string>
+    <string name="lockscreen_visualizer_enable_summary">Показывать визуализацию музыки на экране блокировки во время воспроизведения</string>
+
 </resources>
