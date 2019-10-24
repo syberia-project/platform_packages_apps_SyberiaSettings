@@ -390,4 +390,8 @@
     <string name="gaming_mode_notifications_all_title">Тосты и уведомления</string>
     <string name="gaming_mode_dynamic_title">Динамический игровой режим</string>
     <string name="gaming_mode_dynamic_summary">Каждый раз когда вы открываете какое-либо приложение, и система обнаруживает что это игра, она будет автоматически добавлена в список. Обратите внимание, что это работает не со всеми играми.</string>
+
+    <string name="lockscreen_visualizer_enable">Включить визуализатор</string>
+    <string name="lockscreen_visualizer_enable_summary">Показывать визуализацию музыки на экране блокировки во время воспроизведения</string>
+
 </resources>

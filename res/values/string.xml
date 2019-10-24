@@ -420,6 +420,8 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Gaming Mode</string>
     <string name="gaming_mode_summary">Customize gaming mode preferences</string>
+    <string name="gaming_mode_enable_title">Enable Gaming Mode</string>
+    <string name="gaming_mode_enable_summary">Master switch for Gaming Mode</string>
     <string name="gaming_mode_app_picker_title">Automatically turn on for these apps</string>
     <string name="add_gaming_mode_package_title">Add apps for Gaming mode</string>
     <string name="add_gaming_mode_package_summary">Gaming mode will turn on automatically when these apps are opened and turn off when they are closed</string>
@@ -441,4 +443,9 @@
     <string name="gaming_mode_notifications_all_title">Show toasts and notification</string>
     <string name="gaming_mode_dynamic_title">Dynamic mode</string>
     <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
+    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
+
 </resources>
