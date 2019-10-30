@@ -19,6 +19,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/general_tweaks_title">
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false" />
+
     <com.syberia.settings.preference.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
