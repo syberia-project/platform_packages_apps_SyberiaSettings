@@ -259,5 +259,26 @@
     <!-- Show QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
     <string name="show_qs_on_secure_keyguard_summary">Показывать быстрые настройки на защищенном экране блокировки</string>
+    
+    <string name="animations_title">Анимация</string>
+    <string name="animations_summary">Изменить системные анимации</string>
+
+    <!-- AOKP custom system animations -->
+    <string name="system_animation_title">Системные анимации</string>
+    <string name="activity_open_title">Анимация открытия активити</string>
+    <string name="activity_close_title">Анимация закрытия активности</string>
+    <string name="task_open_title">Анимация открытия задачи</string>
+    <string name="task_open_behind_title">Анимация открытия фоновой задачи</string>
+    <string name="task_close_title">Анимация закрытия задачи</string>
+    <string name="task_move_to_front_title">Анимация движения вперед</string>
+    <string name="task_move_to_back_title">Анимация движения назад</string>
+    <string name="wallpaper_open_title">Анимация открытия обоев</string>
+    <string name="wallpaper_close_title">Анимация закрытия обоев</string>
+    <string name="wallpaper_intra_open_title">Внутр. анимации открытия обоев</string>
+    <string name="wallpaper_intra_close_title">Внутр. анимация закрытия обоев</string>
+    <string name="animation_duration_title">Длительность анимации</string>
+    <string name="title_animation_no_override">Предотвратить переопределения приложениями</string>
+    <string name="summary_animation_no_override">Запретить приложениям переопределять переходы</string>
+    <string name="animation_duration_default">По умолчанию</string>
 
 </resources>
