@@ -358,4 +358,7 @@
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
 
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Отключить раздражающие уведомления</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонилки и смс если они не на переднем плане</string>
 </resources>
