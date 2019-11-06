@@ -409,4 +409,7 @@
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
 
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Отключить раздражающие уведомления</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонилки и смс если они не на переднем плане</string>
 </resources>
