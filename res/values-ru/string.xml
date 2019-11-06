@@ -454,7 +454,17 @@
     <string name="qs_tile_animation_duration_low">Медленно</string>
     <string name="qs_tile_animation_duration_default">По умолчанию</string>
     <string name="qs_tile_animation_duration_fast">Быстро</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполятор анимации плиток</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейный</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорить</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедлить</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорить и замедлить</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Подпрыгнуть</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Преувеличить</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Опередить</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Опередить и преувеличить</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
 
 </resources>
