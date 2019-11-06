@@ -225,4 +225,31 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Предотвращение случайного пробуждения</string>
     <string name="pocket_judge_summary">Блокировать экран и кнопки когда устройство в кармане</string>
+
+    <!-- Battery mode -->
+    <string name="battery_percentage_title">Проценты батареи</string>
+    <string name="battery_percentage_off">Выключены</string>
+    <string name="battery_percentage_next">Включены</string>
+    <string name="battery_percentage_inside">Включены (внутри иконки)</string>
+    <string name="battery_percentage_estimate">Включены (ожидаемое время)</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
+    <string name="status_bar_battery_style_icon_landscape">Ландшафтная иконка</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг из точек</string>
+    <string name="status_bar_battery_style_square">Квадрат</string>
+    <string name="status_bar_battery_style_solid">Сплошная</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Спрятать</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Проценты батари</string>
+    <string name="status_bar_battery_percentage_default">Спрятать</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <string name="status_bar_battery_text_charging_title">Проценты батареи на зарядке</string>
+    <string name="status_bar_battery_text_charging_summary">Всегда отображать проценты во время зарядки</string>
+
 </resources>
