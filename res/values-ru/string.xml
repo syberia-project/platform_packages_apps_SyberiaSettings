@@ -412,4 +412,33 @@
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Отключить раздражающие уведомления</string>
     <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонилки и смс если они не на переднем плане</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Игровой режим</string>
+    <string name="gaming_mode_summary">Настройка параметров игрового режима</string>
+    <string name="gaming_mode_master_title">Включить Игровой режим</string>
+    <string name="gaming_mode_master_summary">Игровой режим будет активирован с выбранными настройками</string>
+    <string name="gaming_mode_app_picker_title">Автоматически включить для этих приложений</string>
+    <string name="add_gaming_mode_package_title">Добавить приложения для игрового режима</string>
+    <string name="add_gaming_mode_package_summary">Игровой режим будет автоматически включен для выбранных приложений</string>
+    <string name="gaming_mode_headsup_title">Блокировка уведомлений</string>
+    <string name="gaming_mode_headsup_summary">Блокировать все всплывающие уведомления кроме звонков</string>
+    <string name="gaming_mode_hardware_keys_title">Блокировка кнопок</string>
+    <string name="gaming_mode_hardware_keys_summary">Отключить аппаратные кнопки при включенном игровом режиме</string>
+    <string name="gaming_mode_gestures_title">Отключить жесты</string>
+    <string name="gaming_mode_gestures_summary">Отключить управление жестами при включенном игровом режиме</string>
+    <string name="gaming_mode_brightness_title">Отключение автояркости</string>
+    <string name="gaming_mode_brightness_summary">Блокировка яркости экрана при включенном игровом режиме</string>
+    <string name="gaming_mode_ringer_title">Звонок в игровом режиме</string>
+    <string name="gaming_mode_ringer_off_title">Не изменять</string>
+    <string name="gaming_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="gaming_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="gaming_mode_ringer_silent_title">Без звука</string>
+    <string name="gaming_mode_notifications_title">Уведомления</string>
+    <string name="gaming_mode_notifications_off_title">Отключены</string>
+    <string name="gaming_mode_notifications_notif_title">Показывать уведомления</string>
+    <string name="gaming_mode_notifications_toast_title">Показывать тосты</string>
+    <string name="gaming_mode_notifications_all_title">Тосты и уведомления</string>
+    <string name="gaming_mode_dynamic_title">Динамический игровой режим</string>
+    <string name="gaming_mode_dynamic_summary">Каждый раз когда вы открываете какое-либо приложение, и система обнаруживает что это игра, она будет автоматически добавлена в список. Обратите внимание, что это работает не со всеми играми.</string>
 </resources>

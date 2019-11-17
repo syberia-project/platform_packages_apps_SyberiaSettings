@@ -16,23 +16,65 @@
 
 package com.syberia.settings.fragments;
 
+import android.provider.SearchIndexableResource;
+
 import android.os.Bundle;
+import android.content.Context;
+import android.content.ContentResolver;
 import com.android.settings.R;
+
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class SystemSettings extends SettingsPreferenceFragment {
+import android.provider.Settings;
+import android.os.UserHandle;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+
+import com.syberia.settings.preference.SystemSettingMasterSwitchPreference;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.android.internal.logging.nano.MetricsProto;
+
+import com.syberia.settings.preference.SystemSettingMasterSwitchPreference;
+
+public class SystemSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener, Indexable {
+
+    private static final String GAMING_MODE_ENABLED = "gaming_mode_enabled";
+
+    private SystemSettingMasterSwitchPreference mGamingMode;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.system_settings);
-
+        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_ENABLED);
+        mGamingMode.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.GAMING_MODE_ENABLED, 0) == 1));
+        mGamingMode.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
     }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mGamingMode) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.GAMING_MODE_ENABLED, value ? 1 : 0);
+            return true;
+        }
+        return false;
+    }
+
 }
