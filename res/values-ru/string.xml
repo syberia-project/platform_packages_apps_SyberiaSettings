@@ -162,9 +162,6 @@
     <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
     <string name="double_tap_sleep_lockscreen_summary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести устройство в спящий режим</string>
 
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Аппаратные кнопки</string>
-
     <string name="allow_incall_home_title">Кнопка «Домой» при звонке</string>
     <string name="allow_incall_home_summary">Разрешить использование кнопки «Домой» при входящем звонке</string>
 

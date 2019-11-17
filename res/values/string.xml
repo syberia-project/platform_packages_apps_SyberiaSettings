@@ -189,9 +189,6 @@
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
 
-    <!-- Hardware keys -->
-    <string name="hardware_keys_category">Hardware keys</string>
-
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
     <string name="backlight_timeout_on">Enabled always</string>
