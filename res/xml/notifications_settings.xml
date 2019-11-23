@@ -65,10 +65,4 @@
         android:summary="@string/show_qs_on_secure_keyguard_summary"
         android:defaultValue="true"/>
 
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-        android:key="notification_sound_vib_screen_on"
-        android:title="@string/notification_sound_vib_screen_on_title"
-        android:summary="@string/notification_sound_vib_screen_on_summary"
-        android:defaultValue="true" />
-
 </PreferenceScreen>
