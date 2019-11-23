@@ -41,6 +41,7 @@
     <string name="buttons_summary">Customize hardware button actions</string>
 
     <string name="notifications_title">Notifications</string>
+    <string name="notifications_summary">Custom notification settings</string>
 
     <!-- About team -->
     <string name="about_team_title">About Syberia team</string>

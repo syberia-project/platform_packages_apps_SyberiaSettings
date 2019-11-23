@@ -18,6 +18,7 @@
     <string name="general_tweaks_summary">Основные системные настройки вашего устройства</string>
 
     <string name="notifications_title">Уведомления</string>
+    <string name="notifications_summary">Пользовательские настройки уведомлений</string>
 
     <string name="panel_notifications_title">Панель уведомлений</string>
     <string name="notifications_category_summary">Настроить функционал панели уведомлений</string>
