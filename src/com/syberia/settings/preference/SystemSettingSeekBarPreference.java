@@ -19,7 +19,7 @@ package com.syberia.settings.preference;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class SystemSettingSeekBarPreference extends SeekBarPreferenceCham {
+public class SystemSettingSeekBarPreference extends CustomSeekBarPreference {
 
     public SystemSettingSeekBarPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
