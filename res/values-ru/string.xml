@@ -441,4 +441,11 @@
     <string name="gaming_mode_notifications_all_title">Тосты и уведомления</string>
     <string name="gaming_mode_dynamic_title">Динамический игровой режим</string>
     <string name="gaming_mode_dynamic_summary">Каждый раз когда вы открываете какое-либо приложение, и система обнаруживает что это игра, она будет автоматически добавлена в список. Обратите внимание, что это работает не со всеми играми.</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="notification_screen_title">Экран</string>
+    <string name="pulse_ambient_light_title">Подсветка краёв экрана</string>
+    <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомления в режиме AOD</string>
+    <string name="pulse_ambient_light_color_title">Цвет подсветки</string>
+
 </resources>
