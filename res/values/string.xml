@@ -487,5 +487,6 @@
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_footer">Ambient music ticker doesn't works when Typographic clock on lockscreen enabled!</string>
 
 </resources>
