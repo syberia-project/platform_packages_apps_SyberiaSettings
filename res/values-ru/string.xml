@@ -448,4 +448,8 @@
     <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомления в режиме AOD</string>
     <string name="pulse_ambient_light_color_title">Цвет подсветки</string>
 
+    <!-- Ambient music ticker pulse -->
+    <string name="pulse_on_new_tracks_title">Музыка в режиме AOD</string>
+    <string name="pulse_on_new_tracks_summary">Отображать новый трек на AOD во время проигрывании музыки</string>
+
 </resources>
