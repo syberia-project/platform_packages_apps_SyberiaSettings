@@ -903,4 +903,31 @@
     <string name="power_menu_animation_translucent_top">Полупрозрачный (сверху)</string>
     <string name="power_menu_animation_translucent_bottom">Полупрозрачный (снизу)</string>
 
+    <!-- QS tiles animations category -->
+    <string name="qs_tile_animation_category_title">Плитки быстрых настроек</string>
+
+    <!-- Tiles animation style -->
+    <string name="qs_tile_animation_style_title">Анимация плиток</string>
+    <string name="qs_tile_animation_duration_title">Продолжительность анимации</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполятор анимации плиток</string>
+    <string name="qs_tile_animation_style_off">Отключена</string>
+    <string name="qs_tile_animation_style_flip">Переворот</string>
+    <string name="qs_tile_animation_style_rotate">Поворот</string>
+    <string name="qs_tile_animation_duration_low">Медленно</string>
+    <string name="qs_tile_animation_duration_default">По умолчанию</string>
+    <string name="qs_tile_animation_duration_fast">Быстро</string>
+    <string name="qs_tile_animation_duration_quite_fast">Очень быстро</string>
+    <string name="qs_tile_animation_duration_super_fast">Супер быстро</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейный</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорить</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедлить</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорить и замедлить</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Подпрыгнуть</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Преувеличить</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Опередить</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Опередить и преувеличить</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
+
 </resources>
