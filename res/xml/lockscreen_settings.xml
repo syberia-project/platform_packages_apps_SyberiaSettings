@@ -44,6 +44,13 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+    <!-- FOD icon picker -->
+    <Preference
+        android:key="fod_icon_picker_category"
+        android:title="@string/fod_icon_picker_title"
+        android:summary="@string/fod_icon_picker_summary"
+        android:fragment="com.syberis.settings.fragments.FODIconPickerFragment" />
+
     <PreferenceCategory
         android:key="lockscreen_weather"
         android:title="@string/lockscreen_weather_category" />
