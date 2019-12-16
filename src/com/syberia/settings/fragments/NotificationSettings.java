@@ -5,10 +5,16 @@ import com.android.internal.logging.nano.MetricsProto;
 import android.os.Bundle;
 import com.android.settings.R;
 
+import android.content.ContentResolver;
+import android.os.UserHandle;
 import android.content.res.Resources;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.settings.SettingsPreferenceFragment;
@@ -19,6 +25,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
     private Preference mChargingLeds;
     private ColorPickerPreference mEdgeLightColorPreference;
+    private ListPreference mQuickPulldown;
 
     private static final String PULSE_AMBIENT_LIGHT_COLOR = "pulse_ambient_light_color";
 
@@ -27,6 +34,8 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.syberia_notifications);
+	
+	final ContentResolver resolver = getActivity().getContentResolver();
 
         PreferenceScreen prefScreen = getPreferenceScreen();
 
@@ -50,6 +59,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         }
         mEdgeLightColorPreference.setOnPreferenceChangeListener(this);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.pulse_on_new_tracks_footer);
+
+	int qpmode = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
+        mQuickPulldown = (ListPreference) findPreference("status_bar_quick_qs_pulldown");
+        mQuickPulldown.setValue(String.valueOf(qpmode));
+        mQuickPulldown.setSummary(mQuickPulldown.getEntry());
+        mQuickPulldown.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -65,6 +81,15 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
             int intHex = ColorPickerPreference.convertToColorInt(hex);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.PULSE_AMBIENT_LIGHT_COLOR, intHex);
+            return true;
+        } else if (preference == mQuickPulldown) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, value,
+                    UserHandle.USER_CURRENT);
+            int index = mQuickPulldown.findIndexOfValue((String) newValue);
+            mQuickPulldown.setSummary(
+                    mQuickPulldown.getEntries()[index]);
             return true;
         }
         return false;
