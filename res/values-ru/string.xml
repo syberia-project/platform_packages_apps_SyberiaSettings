@@ -531,4 +531,8 @@
     <string name="volte_icon_hd">HD</string>
     <string name="volte_icon_hd2">HD CAF</string>
 
+    <!-- QS tiles haptic feedback -->
+    <string name="qs_vibrate_title">Вибрация при нажатии</string>
+    <string name="qs_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
+
 </resources>
