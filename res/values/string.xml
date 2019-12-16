@@ -574,4 +574,8 @@
     <string name="volte_icon_hd">HD Icon</string>
     <string name="volte_icon_hd2">HD CAF Icon</string>
 
+    <!-- QS tiles haptic feedback -->
+    <string name="qs_vibrate_title">Vibrate on touch</string>
+    <string name="qs_vibrate_summary">Vibrate when touching QS tiles</string>
+
 </resources>

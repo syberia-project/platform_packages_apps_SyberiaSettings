@@ -70,5 +70,11 @@
         android:title="@string/show_qs_on_secure_keyguard_title"
         android:summary="@string/show_qs_on_secure_keyguard_summary"
         android:defaultValue="true"/>
+	
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_vibrate"
+        android:title="@string/qs_vibrate_title"
+        android:summary="@string/qs_vibrate_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
