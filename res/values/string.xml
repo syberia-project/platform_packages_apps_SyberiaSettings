@@ -503,6 +503,7 @@
     <string name="listview_fold">Fold</string>
     <string name="listview_translate_left">Translate (left)</string>
     <string name="listview_translate_right">Translate (right)</string>
+
      <!-- ListView interpolator -->
     <string name="listview_interpolator_title">ListView interpolator</string>
     <string name="listview_accelerate_interpolator">Accelerate</string>
@@ -512,5 +513,11 @@
     <string name="listview_overshoot_interpolator">Overshoot</string>
     <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
     <string name="listview_bounce_interpolator">Bounce</string>
+
+    <!-- Quick QS pulldown -->
+    <string name="status_bar_quick_qs_pulldown">Quick QS pulldown</string>
+    <string name="quick_pulldown_none">Disabled</string>
+    <string name="quick_pulldown_right">Pulldown statusbar from right side</string>
+    <string name="quick_pulldown_left">Pulldown statusbar from left side</string>
 
 </resources>
