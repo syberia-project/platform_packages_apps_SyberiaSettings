@@ -467,6 +467,7 @@
     <string name="listview_fold">Сворачивание</string>
     <string name="listview_translate_left">Переход (слева)</string>
     <string name="listview_translate_right">Переход (справа)</string>
+
      <!-- ListView interpolator -->
     <string name="listview_interpolator_title">Эффекты анимации списка</string>
     <string name="listview_accelerate_interpolator">Ускорить</string>
@@ -476,5 +477,13 @@
     <string name="listview_overshoot_interpolator">Перепрыгнуть</string>
     <string name="listview_anticipate_overshoot_interpolator">Ускорить и проскочить</string>
     <string name="listview_bounce_interpolator">Пружинить</string>
+
+    <!-- Quick QS pulldown -->
+    <string name="quick_pulldown_title">Быстрый доступ</string>
+    <string name="quick_pulldown_summary">%1$s строки состояния при опускании вниз открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_summary_always">Всегда показывать быстрые настройки в строке состояния выпадающего списка</string>
+    <string name="quick_pulldown_off">Выкл.</string>
+    <string name="quick_pulldown_left">Левый край</string>
+    <string name="quick_pulldown_right">Правый край</string>
 
 </resources>
