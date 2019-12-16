@@ -525,6 +525,7 @@
     <string name="volte_switch_title">Иконка VoLTE</string>
     <string name="volte_switch_summary">Отображать иконку VoLTE в статусбаре</string>
     <string name="volte_icon_style_title">Выбор VoLTE иконки</string>
+    <string name="volte_icon_asus">VoLTE Asus</string>
     <string name="volte_icon_vo">Vo</string>
     <string name="volte_icon_volte">VoLTE</string>
     <string name="volte_icon_oos">VoLTE OOS</string>
