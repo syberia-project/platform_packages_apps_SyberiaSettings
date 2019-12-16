@@ -27,16 +27,22 @@
         android:entryValues="@array/qs_battery_mode_values"
         android:defaultValue="1" />
 
-
     <!-- Heads up -->
     <Preference
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
-	
+
     <PreferenceCategory
         android:key="notification_misc"
         android:title="@string/notification_misc">
+
+    <ListPreference
+        android:key="quick_pulldown"
+        android:title="@string/quick_pulldown_title"
+        android:entries="@array/quick_pulldown_entries"
+        android:entryValues="@array/quick_pulldown_values"
+        android:persistent="false" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="notification_guts_kill_app_button"
@@ -58,7 +64,7 @@
         android:summary="@string/qs_brightness_position_bottom_summary"
         android:defaultValue="false"
         android:dependency="qs_show_brightness" />
-	
+
     <com.syberia.settings.preference.SecureSettingSwitchPreference
         android:key="status_bar_shown_on_secure_keyguard"
         android:title="@string/show_qs_on_secure_keyguard_title"
