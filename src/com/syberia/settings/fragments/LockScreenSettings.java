@@ -18,8 +18,12 @@ package com.syberia.settings.fragments;
 
 import android.os.Bundle;
 import android.content.Context;
+import android.content.res.Resources;
 import android.provider.SearchIndexableResource;
 
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 import com.android.settings.R;
 
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -34,10 +38,20 @@ import java.util.List;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements Indexable {
 
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
+    private Preference mFODIconPicker;
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.lockscreen_settings);
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mFODIconPicker = (Preference) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPicker != null
+                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
+            prefScreen.removePreference(mFODIconPicker);
+        }
 
     }
 
