@@ -447,6 +447,8 @@
     <string name="pulse_ambient_light_title">Подсветка краёв экрана</string>
     <string name="pulse_ambient_light_summary">Подсвечивать края экрана при получении уведомления в режиме AOD</string>
     <string name="pulse_ambient_light_color_title">Цвет подсветки</string>
+    <string name="pulse_ambient_auto_color_title">Автоматически</string>
+    <string name="pulse_ambient_auto_color_summary">Устанавливать цвет исходя из основного цвета обоев</string>
 
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Музыка в режиме AOD</string>
