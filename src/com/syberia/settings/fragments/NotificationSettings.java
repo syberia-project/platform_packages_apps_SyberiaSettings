@@ -58,7 +58,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
             mEdgeLightColorPreference.setSummary(edgeLightColorHex);
         }
         mEdgeLightColorPreference.setOnPreferenceChangeListener(this);
-        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.pulse_on_new_tracks_footer);
     }
 
     @Override
