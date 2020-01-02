@@ -225,9 +225,9 @@
     <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
     <string name="double_tap_sleep_lockscreen_summary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести устройство в спящий режим</string>
 
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Предотвращение случайного пробуждения</string>
-    <string name="pocket_judge_summary">Блокировать экран и кнопки когда устройство в кармане</string>
+    <!-- Proximity check on wake -->
+    <string name="device_proxi_check_enabled_title">Предотвращение случайного пробуждения</string>
+    <string name="device_proxi_check_enabled_summary">Блокировать экран и кнопки когда устройство в кармане</string>
 
     <!-- Battery mode -->
     <string name="battery_percentage_title">Проценты батареи</string>
