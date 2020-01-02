@@ -253,9 +253,9 @@
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
 
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <!-- Proximity check on wake -->
+    <string name="proximity_wake_title">Pocket detection</string>
+    <string name="proximity_wake_summary">Block screen and button inputs when device is in pocket</string>
 
     <!-- Battery mode -->
     <string name="battery_percentage_title">Battery percentage</string>
