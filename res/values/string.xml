@@ -554,4 +554,8 @@
     <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
     <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
 
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Notification vibration</string>
+    <string name="vibrate_on_notifications_summary">Vibrate on notifications</string>
+
 </resources>
