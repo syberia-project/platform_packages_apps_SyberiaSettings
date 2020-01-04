@@ -36,6 +36,13 @@
         android:defaultValue="true" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="vibrate_on_notifications"
+        android:icon="@drawable/ic_vibrate"
+        android:title="@string/vibrate_on_notifications_title"
+        android:summary="@string/vibrate_on_notifications_summary"
+        android:defaultValue="true" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
         android:summary="@string/toast_icon_summary"
