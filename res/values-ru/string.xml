@@ -513,4 +513,8 @@
     <string name="toast_icon_title">Иконка на всплывающем уведомлении</string>
     <string name="toast_icon_summary">Отображать иконку приложения на всплывающем уведомлении</string>
 
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Вибрация при уведомлениях</string>
+    <string name="vibrate_on_notifications_summary">Вибрировать при получении уведомлений</string>
+
 </resources>
