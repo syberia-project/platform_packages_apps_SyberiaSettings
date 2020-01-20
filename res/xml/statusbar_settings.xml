@@ -26,6 +26,11 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
+    
+    <Preference
+        android:key="carrier_label"
+        android:title="@string/custom_carrier_label_title"
+        android:fragment="com.syberia.settings.fragments.CarrierLabel" />
 
      <Preference
             android:key="network_traffic"
