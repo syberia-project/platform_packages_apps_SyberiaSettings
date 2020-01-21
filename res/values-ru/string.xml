@@ -116,4 +116,8 @@
     <string name="show_fourg_title">Отображать 4G вместо LTE</string>
     <string name="show_fourg_summary">Заменить LTE индикатор в статусбаре на 4G</string>
 
+    <!-- VoLTE switch -->
+    <string name="volte_switch_title">Иконка VoLTE</string>
+    <string name="volte_switch_summary">Отображать иконку VoLTE в статусбаре</string>
+
 </resources>
