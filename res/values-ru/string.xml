@@ -517,4 +517,8 @@
     <string name="vibrate_on_notifications_title">Вибрация при уведомлениях</string>
     <string name="vibrate_on_notifications_summary">Вибрировать при получении уведомлений</string>
 
+    <!-- 4G LTE switch -->
+    <string name="show_fourg_title">Отображать 4G вместо LTE</string>
+    <string name="show_fourg_summary">Заменить LTE индикатор в статусбаре на 4G</string>
+
 </resources>

@@ -76,7 +76,13 @@
         android:summary="@string/network_traffic_hidearrow_summary"
         android:dependency="network_traffic_state"
         android:defaultValue="false" />
-	
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="show_fourg"
+        android:title="@string/show_fourg_title"
+        android:summary="@string/show_fourg_summary"
+        android:defaultValue="false" />
+
      <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="lockscreen_show_status_bar"
         android:title="@string/lockscreen_show_status_bar_title"
