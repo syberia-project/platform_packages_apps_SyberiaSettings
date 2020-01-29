@@ -578,4 +578,10 @@
     <string name="show_carrier_statusbar">Статусбар</string>
     <string name="show_carrier_enabled">Экран блокировки и статусбар</string>
 
+    <!-- QS blur -->
+    <string name="qs_blur_title">Размытие фона</string>
+    <string name="qs_blur_summary">Включить размытие фона при открытии панели быстрых настроек</string>
+    <string name="qs_blur_alpha_title">Размытие альфа</string>
+    <string name="qs_blur_intensity_title">Интенсивность размытия</string>
+
 </resources>

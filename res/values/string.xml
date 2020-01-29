@@ -616,4 +616,10 @@
     <string name="show_carrier_statusbar">Status bar</string>
     <string name="show_carrier_enabled">Both</string>
 
+    <!-- QS blur -->
+    <string name="qs_blur_title">Background blur</string>
+    <string name="qs_blur_summary">Blur the background behind quick settings</string>
+    <string name="qs_blur_alpha_title">Blur alpha</string>
+    <string name="qs_blur_intensity_title">Blur intensity</string>
+
 </resources>

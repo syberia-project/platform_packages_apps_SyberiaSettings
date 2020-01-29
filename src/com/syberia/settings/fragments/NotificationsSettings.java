@@ -35,6 +35,8 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 
+import com.syberia.settings.preference.SystemSettingMasterSwitchPreference;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +44,9 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
                                                Preference.OnPreferenceChangeListener, Indexable {
 
     private ListPreference mQuickPulldown;
+    private SystemSettingMasterSwitchPreference mQsBlur;
     private static final String QUICK_PULLDOWN = "quick_pulldown";
+    private static final String QS_BACKGROUND_BLUR = "qs_background_blur";
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -56,6 +60,12 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0);
         mQuickPulldown.setValue(String.valueOf(quickPulldownValue));
         updatePulldownSummary(quickPulldownValue);
+	
+	mQsBlur = (SystemSettingMasterSwitchPreference) findPreference(QS_BACKGROUND_BLUR);
+        int blur = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_BACKGROUND_BLUR, 0);
+        mQsBlur.setChecked(blur != 0);
+        mQsBlur.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -78,11 +88,16 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-    if (preference == mQuickPulldown) {
+        if (preference == mQuickPulldown) {
             int quickPulldownValue = Integer.valueOf((String) newValue);
             Settings.System.putInt(getContentResolver(), Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN,
                     quickPulldownValue);
             updatePulldownSummary(quickPulldownValue);
+            return true;
+        } else if (preference == mQsBlur) {
+            boolean blur = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_BACKGROUND_BLUR, blur ? 1 : 0);
             return true;
         }
         return false;
