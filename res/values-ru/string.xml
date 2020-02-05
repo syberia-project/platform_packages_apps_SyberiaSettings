@@ -220,6 +220,8 @@
     <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
     <string name="status_bar_battery_style_icon_landscape">Ландшафтная иконка</string>
     <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_big_circle">Большой круг</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Большой круг из точек</string>
     <string name="status_bar_battery_style_dotted_circle">Круг из точек</string>
     <string name="status_bar_battery_style_square">Квадрат</string>
     <string name="status_bar_battery_style_solid">Сплошной круг</string>
