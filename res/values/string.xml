@@ -489,6 +489,8 @@
     <string name="pulse_ambient_auto_color_summary">Sets edge light color to the primary color of wallpaper</string>
     <string name="pulse_ambient_light_duration_title">Duration</string>
     <string name="pulse_ambient_light_duration_summary">Sets the ambient light animation duration</string>
+    <string name="pulse_ambient_light_repeat_count_title">Edge Light Repeat count</string>
+    <string name="pulse_ambient_light_repeat_count_summary">Set max repeat count. 0 for infinite</string>
 
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>

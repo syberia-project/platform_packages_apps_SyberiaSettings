@@ -453,6 +453,8 @@
     <string name="pulse_ambient_auto_color_summary">Устанавливать цвет исходя из основного цвета обоев</string>
     <string name="pulse_ambient_light_duration_title">Длительность</string>
     <string name="pulse_ambient_light_duration_summary">Установить длительность подсветки</string>
+    <string name="pulse_ambient_light_repeat_count_title">Количество повторов</string>
+    <string name="pulse_ambient_light_repeat_count_summary">Установите значение равное нулю для бесконечного количества повторов</string>
 
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Музыка в режиме AOD</string>
