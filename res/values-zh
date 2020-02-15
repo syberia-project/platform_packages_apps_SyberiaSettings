@@ -16,76 +16,76 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Syberia Settings</string>
-    <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
+    <string name="syberia_settings_title">Syberia</string>
+    <string name="syberia_dashboard_summary">由 Syberia OS 提供的额外设置</string>
 
-    <string name="gestures_category_title">Gestures</string>
-    <string name="gestures_category_summary">Various gestures settings</string>
-    <string name="system_category_title">System</string>
-    <string name="system_category_summary">Various system extensions</string>
-    <string name="statusbar_category_title">Statusbar</string>
-    <string name="statusbar_category_summary">Customize your statusbar</string>
-    <string name="panels_category_title">Panels</string>
-    <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
-    <string name="lockscreen_category_title">Lockscreen</string>
-    <string name="lockscreen_category_summary">Customize your lockscreen</string>
+    <string name="gestures_category_title">手势</string>
+    <string name="gestures_category_summary">各种手势设置</string>
+    <string name="system_category_title">系统</string>
+    <string name="system_category_summary">系统相关拓展</string>
+    <string name="statusbar_category_title">状态栏</string>
+    <string name="statusbar_category_summary">自定义你的状态栏</string>
+    <string name="panels_category_title">面板</string>
+    <string name="panels_category_summary">状态栏、通知、快速设置面板</string>
+    <string name="lockscreen_category_title">锁屏界面</string>
+    <string name="lockscreen_category_summary">自定义你的锁屏界面</string>
 
-    <string name="systemui_tuner_title">Statusbar items</string>
-    <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
-    <string name="navbar_title">Navigation Bar</string>
-    <string name="navbar_category_summary">Customize your navigation panel</string>
+    <string name="systemui_tuner_title">状态栏图标</string>
+    <string name="systemui_tuner_summary">电池图标和状态栏图标调整</string>
+    <string name="navbar_title">导航栏</string>
+    <string name="navbar_category_summary">自定义你的导航面板</string>
 
-    <string name="general_tweaks_title">General Tweaks</string>
+    <string name="general_tweaks_title">常用设置</string>
     <string name="general_tweaks_summary">Basic system settings of your device</string>
-    <string name="buttons_title">Buttons</string>
+    <string name="buttons_title">实体按键</string>
     <string name="buttons_summary">Customize hardware button actions</string>
 
     <string name="notifications_title">Notifications</string>
     <string name="notifications_summary">Custom notification settings</string>
 
     <!-- About team -->
-    <string name="about_team_title">About Syberia team</string>
-    <string name="about_team_summary">Information about the team and maintainers</string>
-    <string name="syberia_team_title">Syberia Team</string>
+    <string name="about_team_title">关于 Syberia OS 团队</string>
+    <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息</string>
+    <string name="syberia_team_title">Syberia OS 团队</string>
 
-    <string name="panel_notifications_title">Notifications</string>
+    <string name="panel_notifications_title">通知面板</string>
     <string name="notifications_category_summary">Customize various features for notification panel</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">取色器</string>
+    <string name="press_color_to_apply">点击下面的颜色以应用</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">应用</string>
+    <string name="color_default">默认</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">状态栏项目</string>
 
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_title">锁屏快捷方式</string>
 
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">反转布局</string>
 
     <!-- Advanced reboot -->
-    <string name="advanced_reboot_title">Advanced reboot</string>
-    <string name="advanced_reboot_summary">Enable advanced reboot options in powermenu</string>
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">在电源菜单中启用高级重启选项</string>
 
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="backlight_timeout_title">按键背光灯超时选项</string>
+    <string name="backlight_timeout_on">一直开启</string>
+    <string name="backlight_timeout_3s">3 秒</string>
+    <string name="backlight_timeout_default">5 秒 (默认)</string>
+    <string name="backlight_timeout_10s">10 秒</string>
+    <string name="backlight_timeout_15s">15 秒</string>
+    <string name="backlight_timeout_20s">20 秒</string>
+    <string name="backlight_timeout_30s">30 秒</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
+    <string name="button_brightness_title">按键背光灯</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_sw_title">Enable backlight</string>
     <string name="button_backlight_on_touch_only_title">Button touch</string>
@@ -101,41 +101,40 @@
     <string name="action_value_recent_apps" translatable="false">task_recents</string>
     <string name="action_value_voice_search" translatable="false">task_voice_search</string>
     <string name="action_value_menu" translatable="false">task_menu</string>
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
+    <string name="picker_activities">活动</string>
+    <string name="select_custom_app_title">选择一个应用</string>
+    <string name="select_custom_activity_title">选择自定义操作</string>
+    <string name="profile_applist_title">应用</string>
+    <string name="choose_action_title">选择动作</string>
+    <string name="action_entry_default_action">默认设置</string>
+    <string name="action_entry_select_app">选择应用</string>
+    <string name="action_entry_custom_action">选择自定义操作</string>
+    <string name="hardware_keys_home_key_title">主页键</string>
+    <string name="hardware_keys_menu_key_title">菜单键</string>
     <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
+    <string name="hardware_keys_back_key_title">返回键</string>
+    <string name="hardware_keys_double_tap_summary">双击</string>
+    <string name="hardware_keys_single_tap_summary">单击</string>
+    <string name="hardware_keys_long_press_summary">长按</string>
+    <string name="hardware_keys_single_tap_title">单击时对应动作</string>
+    <string name="hardware_keys_long_press_title">长按时对应动作</string>
+    <string name="hardware_keys_double_tap_title">双击时对应动作</string>
     <string name="hardware_keys_category">Hardware keys</string>
-    <string name="hardware_keys_disable_title">Disable keys</string>
+    <string name="hardware_keys_disable_title">禁用实体按键</string>
 
-    <string name="haptic_on_action_title">Haptic on action</string>
-    <string name="haptic_on_action_summary">Haptic feedback on action instead on press</string>
+    <string name="haptic_on_action_title">触觉反馈</string>
+    <string name="haptic_on_action_summary">按下按键时的触觉反馈</string>
 
     <!-- Volume keys category -->
-    <string name="volume_keys_category">Volume keys</string>
+    <string name="volume_keys_category">音量键</string>
 
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">通过音量键唤醒设备</string>
+    <string name="volume_rocker_wake_summary">按下音量键时将会唤醒你的设备</string>
 
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
@@ -170,9 +169,9 @@
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 
-    <string name="flash_on_call_category">Pulse flash</string>
-    <string name="flash_on_call_title">Pulse flash on incoming call</string>
-    <string name="flash_on_call_delay_title">Flash pulse rate</string>
+    <string name="flash_on_call_category">来电闪光</string>
+    <string name="flash_on_call_title">来电闪光</string>
+    <string name="flash_on_call_delay_title">闪光频率</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -586,8 +585,8 @@
     <string name="volte_icon_miui">MIUI 11</string>
 
     <!-- QS tiles haptic feedback -->
-    <string name="qs_vibrate_title">Vibrate on touch</string>
-    <string name="qs_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="qs_vibrate_title">触摸震动</string>
+    <string name="qs_vibrate_summary">触摸QS磁贴时振动</string>
 
     <!-- Screen Stabilization -->
     <string name="screen_stabilization_title">Screen Stabilization</string>
