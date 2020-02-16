@@ -87,20 +87,20 @@
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">按键背光灯</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
+    <string name="button_brightness_sw_title">启用按键背光灯</string>
+    <string name="button_backlight_on_touch_only_title">仅触摸时点亮按键背光</string>
+    <string name="button_backlight_on_touch_only_summary">按键背光将只出现在按下按钮时, 而不是一直出现。背光超时仍然会影响此功能。</string>
 
     <!-- HW Keys customization -->
-    <string name="action_value_default_action" translatable="false">default</string>
-    <string name="action_value_select_app" translatable="false">app</string>
-    <string name="action_value_custom_action" translatable="false">custom</string>
-    <string name="action_value_back" translatable="false">task_back</string>
-    <string name="action_value_home" translatable="false">task_home</string>
-    <string name="action_value_search_assist" translatable="false">task_assist</string>
-    <string name="action_value_recent_apps" translatable="false">task_recents</string>
-    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
-    <string name="action_value_menu" translatable="false">task_menu</string>
+    <string name="action_value_default_action" translatable="false">默认设置</string>
+    <string name="action_value_select_app" translatable="false">选择一个应用</string>
+    <string name="action_value_custom_action" translatable="false">选择自定义操作</string>
+    <string name="action_value_back" translatable="false">返回键</string>
+    <string name="action_value_home" translatable="false">主页键</string>
+    <string name="action_value_search_assist" translatable="false">智能助理</string>
+    <string name="action_value_recent_apps" translatable="false">最近任务键</string>
+    <string name="action_value_voice_search" translatable="false">语音搜索</string>
+    <string name="action_value_menu" translatable="false">菜单键</string>
     <string name="picker_activities">活动</string>
     <string name="select_custom_app_title">选择一个应用</string>
     <string name="select_custom_activity_title">选择自定义操作</string>
@@ -129,8 +129,8 @@
     <string name="volume_keys_category">音量键</string>
 
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">播放控制</string>
+    <string name="volume_rocker_music_controls_summary">在屏幕关闭时通过长按音量键来更换歌曲</string>
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">通过音量键唤醒设备</string>
@@ -138,12 +138,12 @@
 
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="volume_key_cursor_control_title">键盘光标控制</string>
+    <string name="volume_key_cursor_control_off">已禁用</string>
+    <string name="volume_key_cursor_control_on">音量+/-控制光标左/右移动</string>
+    <string name="volume_key_cursor_control_on_reverse">音量键上/下控制光标右/左移动</string>
 
-    <string name="dialer_title">Dialer</string>
+    <string name="dialer_title">拨号相关</string>
     <string name="dialer_summary">Advanced incoming call settings</string>
 
     <!-- Wakeup options -->
@@ -178,7 +178,7 @@
     <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 
     <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Weather</string>
+    <string name="lockscreen_weather_category">天气</string>
     <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
     <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
     <string name="lockscreen_weather_settings_title">Setup weather options</string>
