@@ -144,7 +144,7 @@
     <string name="volume_key_cursor_control_on_reverse">音量键上/下控制光标右/左移动</string>
 
     <string name="dialer_title">拨号相关</string>
-    <string name="dialer_summary">Advanced incoming call settings</string>
+    <string name="dialer_summary">高级来电设置</string>
 
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
