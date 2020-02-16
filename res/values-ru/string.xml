@@ -561,4 +561,10 @@
     <string name="stabilization_position_friction_title">Фрикционная позиция</string>
     <string name="stabilization_velocity_amplitude_title">Амплитуда скорости</string>
 
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего оперативной памяти</string>
+
 </resources>
