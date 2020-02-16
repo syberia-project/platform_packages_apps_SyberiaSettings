@@ -147,23 +147,23 @@
     <string name="dialer_summary">高级来电设置</string>
 
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_title">充电唤醒</string>
+    <string name="wakeup_when_plugged_unplugged_summary">连接或断开电源时点亮屏幕</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Home button when ringing</string>
     <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string>
 
     <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
+    <string name="torch_long_press_power_gesture_desc">屏幕关闭时，长按电源键开启手电筒</string>
+    <string name="torch_long_press_power_timeout_title">自动关闭手电筒</string>
+    <string name="torch_long_press_power_timeout_never">从不</string>
     <string name="torch_long_press_power_timeout_1min">1 分钟</string>
     <string name="torch_long_press_power_timeout_2min">2 分钟</string>
     <string name="torch_long_press_power_timeout_5min">5 分钟</string>
@@ -174,108 +174,108 @@
     <string name="flash_on_call_delay_title">闪光频率</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
+    <string name="three_finger_gesture">屏幕滑动截屏</string>
+    <string name="three_finger_gesture_summary">三指下滑截屏</string>
 
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">天气</string>
-    <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
-    <string name="lockscreen_weather_enabled_summary">Show weather information on lockscreen and during doze</string>
-    <string name="lockscreen_weather_settings_title">Setup weather options</string>
-    <string name="lockscreen_weather_settings_summary">Setup icon pack and weather service</string>
-    <string name="weather_config_title">Weather service</string>
-    <string name="weather_config_summary">System service settings</string>
-    <string name="header_weather_title">Header view weather</string>
-    <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
-    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="lockscreen_weather_enabled_title">锁屏显示</string>
+    <string name="lockscreen_weather_enabled_summary">处于 DOZE 模式（主动显示）时显示锁屏天气信息</string>
+    <string name="lockscreen_weather_settings_title">设置天气选项</string>
+    <string name="lockscreen_weather_settings_summary">设置图标包与天气服务</string>
+    <string name="weather_config_title">天气服务</string>
+    <string name="weather_config_summary">设置天气的服务</string>
+    <string name="header_weather_title">标题视图天气</string>
+    <string name="header_weather_summary">使用通知面板标题来显示天气</string>
+    <string name="weather_icon_pack_title">天气图标包</string>
+    <string name="weather_icon_pack_note">注意\u003a 你可以安装新的图标包在 Play商店，搜索 \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">图标包用于状态栏与锁屏界面</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁定屏幕上显示充电器最大电流和电压以及电池温度</string>
 
     <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Weather style</string>
-    <string name="lockscreen_weather_omni_style_title">Omni style</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lockscreen_weather_style_title">锁屏天气样式</string>
+    <string name="lockscreen_weather_omni_style_title">Omni 样式</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel 样式</string>
 
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
-    <string name="fprint_error_vib_title">Fingerprint error vibration</string>
-    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+    <string name="fprint_sucess_vib_title">验证指纹时振动</string>
+    <string name="fprint_sucess_vib_summary">验证指纹身份成功时振动</string>
+    <string name="fprint_error_vib_title">验证指纹失败时振动</string>
+    <string name="fprint_error_vib_summary">验证指纹身份失败时振动</string>
 
     <!-- PowerMenu -->
-    <string name="powermenu_title">Powermenu</string>
-    <string name="powermenu_summary">Powermenu customization</string>
-    <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_power">Power</string>
-    <string name="powermenu_restart">Restart</string>
-    <string name="powermenu_airplane">Airplane</string>
-    <string name="powermenu_settings">Settings</string>
-    <string name="powermenu_lockdown">Lock Down</string>
-    <string name="powermenu_users">Users</string>
-    <string name="powermenu_logout">Logout</string>
-    <string name="powermenu_torch">Flashlight</string>
+    <string name="powermenu_title">电源菜单</string>
+    <string name="powermenu_summary">查看和更改电源菜单选项</string>
+    <string name="powermenu_screenshot">截图</string>
+    <string name="powermenu_power">电源</string>
+    <string name="powermenu_restart">重启</string>
+    <string name="powermenu_airplane">飞行模式</string>
+    <string name="powermenu_settings">设置</string>
+    <string name="powermenu_lockdown">锁定屏幕</string>
+    <string name="powermenu_users">用户</string>
+    <string name="powermenu_logout">注销</string>
+    <string name="powermenu_torch">手电筒</string>
 
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <string name="qs_show_brightness_title">亮度条</string>
+    <string name="qs_show_brightness_summary">在快速设置面板里面显示亮度条</string>
+    <string name="qs_brightness_position_bottom_title">在底部显示亮度条</string>
+    <string name="qs_brightness_position_bottom_summary">在快速设置面板的底部显示亮度条</string>
 
     <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_state_summary">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="network_traffic_state_title">网速指示器</string>
+    <string name="network_traffic_state_summary">在状态栏上显示当前网络速度状态</string>
+    <string name="network_traffic_autohide_threshold_title">网速指示器自动隐藏数值设定 (KB/s)</string>
+    <string name="network_traffic_hidearrow">隐藏箭头</string>
+    <string name="network_traffic_hidearrow_summary">隐藏网络流量指示器箭头</string>
 
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications">悬浮通知</string>
+    <string name="summary_heads_up_enabled">启用悬浮通知</string>
+    <string name="summary_heads_up_disabled">禁用悬浮通知</string>
+    <string name="add_heads_up_package">添加应用</string>
+    <string name="add_heads_up_stoplist_summary">允许这些应用弹出悬浮通知</string>
+    <string name="add_heads_up_blacklist_summary">阻止这些应用弹出通知</string>
+    <string name="heads_up_stoplist_title">白名单</string>
+    <string name="heads_up_blacklist_title">黑名单</string>
+    <string name="profile_choose_app">选择应用</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">是否删除这个配置？</string>
 
     <!-- Double Tap gestures -->
-    <string name="doubletap_gestures_title">Double tap gestures</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+    <string name="doubletap_gestures_title">双击手势</string>
+    <string name="double_tap_sleep_gesture_title">双击锁屏</string>
+    <string name="double_tap_sleep_gesture_summary">在状态栏处双击以锁定屏幕</string>
+    <string name="double_tap_sleep_lockscreen_title">双击锁屏</string>
+    <string name="double_tap_sleep_lockscreen_summary">在锁屏界面双击以关闭屏幕</string>
 
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时屏蔽屏幕和按钮操作</string>
 
     <!-- Battery mode -->
-    <string name="battery_percentage_title">Battery percentage</string>
-    <string name="battery_percentage_off">Disabled</string>
-    <string name="battery_percentage_next">Enabled</string>
-    <string name="battery_percentage_inside">Enabled (inside icon)</string>
+    <string name="battery_percentage_title">电量百分比</string>
+    <string name="battery_percentage_off">关闭</string>
+    <string name="battery_percentage_next">以文本方式显示</string>
+    <string name="battery_percentage_inside">电池图标内</string>
     <string name="battery_percentage_estimate">Enabled (estimate)</string>
 
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_square">Square</string>
-    <string name="status_bar_battery_style_solid">Solid</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_style_q">Q style</string>	
+    <string name="status_bar_battery_style_title">电池图标风格</string>
+    <string name="status_bar_battery_style_icon_portrait">纵向</string>
+    <string name="status_bar_battery_style_icon_landscape">横向</string>
+    <string name="status_bar_battery_style_circle">圆环</string>
+    <string name="status_bar_battery_style_dotted_circle">虚线圆环</string>
+    <string name="status_bar_battery_style_big_circle">大圆环</string>
+    <string name="status_bar_battery_style_big_dotted_circle">大虚线圆环</string>
+    <string name="status_bar_battery_style_square">矩形</string>
+    <string name="status_bar_battery_style_solid">方形</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_style_q">Q 样式</string>	
 
     <string name="status_bar_battery_style_tile_title">Override battery tile</string>
     <string name="status_bar_battery_style_tile_summary">Use same icon style as above in QS battery tile</string>
