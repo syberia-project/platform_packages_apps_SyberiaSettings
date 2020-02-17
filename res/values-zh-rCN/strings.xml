@@ -519,12 +519,12 @@
     <string name="listview_bounce_interpolator">Bounce</string>
 
     <!-- Quick QS pulldown -->
-    <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
-    <string name="quick_pulldown_off">Off</string>
-    <string name="quick_pulldown_left">Left</string>
-    <string name="quick_pulldown_right">Right</string>
+    <string name="quick_pulldown_title">快速下拉</string>
+    <string name="quick_pulldown_summary">沿状态栏边缘下拉展开快速设置面板</string>
+    <string name="quick_pulldown_summary_always">在状态栏下拉时始终展开快速设置</string>
+    <string name="quick_pulldown_off">关闭</string>
+    <string name="quick_pulldown_left">左侧</string>
+    <string name="quick_pulldown_right">右侧</string>
 
     <!-- Aggressive battery -->
     <string name="aggressive_battery_title">Aggressive Battery</string>
