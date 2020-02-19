@@ -304,7 +304,7 @@
 
     <!-- Show QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">快速设置</string>
-    <string name="show_qs_on_secure_keyguard_summary">锁屏显示快速设置/string>
+    <string name="show_qs_on_secure_keyguard_summary">锁屏显示快速设置</string>
     
     <string name="animations_title">动画</string>
     <string name="animations_summary">修改系统动画</string>
