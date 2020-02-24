@@ -643,6 +643,9 @@
     <string name="nettraf_font_size">Single Net Font size</string>
     <string name="network_traffic_statusbar">Status bar</string>
     <string name="network_traffic_header">Expanded header</string>
+    <string name="network_traffic_layout">Activity layout</string>
+    <string name="network_traffic_layout_h">Horizontal</string>
+    <string name="network_traffic_layout_v">Vertical</string>
 
     <!-- Network Traffic Location -->
     <string name="network_traffic_location_title">Traffic indicator placement</string>

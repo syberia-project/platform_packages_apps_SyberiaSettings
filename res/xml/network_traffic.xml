@@ -43,6 +43,15 @@
         android:defaultValue="0"
         android:persistent="false" />
 
+    <com.syberia.settings.preference.SystemSettingListPreference
+        android:key="network_traffic_layout"
+        android:title="@string/network_traffic_layout"
+        android:entries="@array/network_traffic_layout_entries"
+        android:entryValues="@array/network_traffic_layout_values"
+        android:dependency="network_traffic_state"
+        android:summary="%s"
+        android:defaultValue="0" />
+
     <com.syberia.settings.preference.CustomSeekBarPreference
         android:key="network_traffic_font_size"
         android:title="@string/nettraf_font_size"
