@@ -592,4 +592,8 @@
     <string name="aspect_ratio_category_title">Масштабирование устаревших приложений</string>
     <string name="aspect_ratio_apps_info">Приложения должны быть перезапущены после изменений</string>
 
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Закрыть приложение</string>
+    <string name="kill_app_longpress_back_summary">Принудительно закрыть приложение удержанием кнопки Назад</string>
+
 </resources>
