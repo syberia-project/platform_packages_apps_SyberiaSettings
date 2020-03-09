@@ -77,4 +77,11 @@
         android:summary="@string/qs_vibrate_summary"
         android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
+        android:key="qs_background_blur"
+        android:fragment="com.syberia.settings.fragments.QsBlur"
+        android:title="@string/qs_blur_title"
+        android:summary="@string/qs_blur_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

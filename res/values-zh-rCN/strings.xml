@@ -111,6 +111,7 @@
     <string name="action_entry_custom_action">选择自定义操作</string>
     <string name="hardware_keys_home_key_title">主页键</string>
     <string name="hardware_keys_menu_key_title">菜单键</string>
+    <string name="hardware_keys_assist_key_title">搜索键</string>
     <string name="hardware_keys_appswitch_key_title">概述按钮</string>
     <string name="hardware_keys_back_key_title">返回键</string>
     <string name="hardware_keys_double_tap_summary">双击</string>
@@ -488,6 +489,8 @@
     <string name="pulse_ambient_auto_color_summary">从壁纸强调色选取边缘闪光的颜色</string>
     <string name="pulse_ambient_light_duration_title">持续时间</string>
     <string name="pulse_ambient_light_duration_summary">设置闪光动画的持续时间</string>
+    <string name="pulse_ambient_light_repeat_count_title">边缘闪光重复计数</string>
+    <string name="pulse_ambient_light_repeat_count_summary">设置最大重复次数,0代表无限</string>
 
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">环境音乐提示</string>
@@ -592,7 +595,39 @@
     <string name="screen_stabilization_title">屏幕固定</string>
     <string name="screen_stabilization_enable">开启屏幕固定</string>
     <string name="screen_stabilization_enable_summary">如果您不知道下列各项表示什么，请将其保持原样</string>
-    <string name="stabilization_velocity_friction_title">Velocity friction</string>
-    <string name="stabilization_position_friction_title">Position friction</string>
-    <string name="stabilization_velocity_amplitude_title">Velocity amplitude</string>
+    <string name="stabilization_velocity_friction_title">速度摩擦</string>
+    <string name="stabilization_position_friction_title">位置摩擦</string>
+    <string name="stabilization_velocity_amplitude_title">晃动幅度</string>
+    
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">平台</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">总内存</string>
+
+    <!-- Carrier Label -->
+    <string name="carrier_options">选择显示位置</string>
+    <string name="custom_carrier_label_title">自定义运营商标签</string>
+    <string name="custom_carrier_label_explain">输入自定义标签。保留空白以使用您的网络名称</string>
+    <string name="custom_carrier_label_notset">当前未设置自定义标签</string>
+    <string name="show_carrier_title">运营商 标签</string>
+    <string name="show_carrier_disabled">禁用</string>
+    <string name="show_carrier_keyguard">锁屏</string>
+    <string name="show_carrier_statusbar">状态栏</string>
+    <string name="show_carrier_enabled">启用</string>
+
+    <!-- QS blur -->
+    <string name="qs_blur_title">背景模糊</string>
+    <string name="qs_blur_summary">在快速设置后面模糊背景</string>
+    <string name="qs_blur_alpha_title">模糊 alpha</string>
+    <string name="qs_blur_intensity_title">模糊强度</string>
+
+    <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">启用缩放</string>
+    <string name="aspect_ratio_apps_enabled_summary">允许旧版应用使用全屏显示</string>
+    <string name="aspect_ratio_apps_list_summary"></string>
+    <string name="aspect_ratio_apps_list_title">允许使用缩放的应用</string>
+    <string name="aspect_ratio_category_title">旧版应用扩展</string>
+    <string name="aspect_ratio_apps_info">更改后需要重新启动应用程序</string>
+
 </resources>

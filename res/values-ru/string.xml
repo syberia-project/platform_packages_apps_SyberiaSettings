@@ -453,6 +453,8 @@
     <string name="pulse_ambient_auto_color_summary">Устанавливать цвет исходя из основного цвета обоев</string>
     <string name="pulse_ambient_light_duration_title">Длительность</string>
     <string name="pulse_ambient_light_duration_summary">Установить длительность подсветки</string>
+    <string name="pulse_ambient_light_repeat_count_title">Количество повторов</string>
+    <string name="pulse_ambient_light_repeat_count_summary">Установите значение равное нулю для бесконечного количества повторов</string>
 
     <!-- Ambient music ticker pulse -->
     <string name="pulse_on_new_tracks_title">Музыка в режиме AOD</string>
@@ -558,5 +560,36 @@
     <string name="stabilization_velocity_friction_title">Фрикционная скорость</string>
     <string name="stabilization_position_friction_title">Фрикционная позиция</string>
     <string name="stabilization_velocity_amplitude_title">Амплитуда скорости</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего оперативной памяти</string>
+
+    <!-- Carrier Label -->
+    <string name="carrier_options">Выбрать место расположения</string>
+    <string name="custom_carrier_label_title">Название оператора</string>
+    <string name="custom_carrier_label_explain">Введите пользовательское название. Оставьте пустым чтобы использовать сетевое название</string>
+    <string name="custom_carrier_label_notset">Пользовательское название не установлено</string>
+    <string name="show_carrier_title">Место расположения</string>
+    <string name="show_carrier_disabled">Отключено</string>
+    <string name="show_carrier_keyguard">Экран блокировки</string>
+    <string name="show_carrier_statusbar">Статусбар</string>
+    <string name="show_carrier_enabled">Экран блокировки и статусбар</string>
+
+    <!-- QS blur -->
+    <string name="qs_blur_title">Размытие фона</string>
+    <string name="qs_blur_summary">Включить размытие фона при открытии панели быстрых настроек</string>
+    <string name="qs_blur_alpha_title">Размытие альфа</string>
+    <string name="qs_blur_intensity_title">Интенсивность размытия</string>
+
+    <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">Включить масштабирование</string>
+    <string name="aspect_ratio_apps_enabled_summary">Разрешить устаревшим приложениям использовать полный экран</string>
+    <string name="aspect_ratio_apps_list_summary"></string>
+    <string name="aspect_ratio_apps_list_title">Приложения использующие масштабирование</string>
+    <string name="aspect_ratio_category_title">Масштабирование устаревших приложений</string>
+    <string name="aspect_ratio_apps_info">Приложения должны быть перезапущены после изменений</string>
 
 </resources>

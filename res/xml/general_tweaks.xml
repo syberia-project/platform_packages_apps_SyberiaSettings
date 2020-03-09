@@ -48,6 +48,36 @@
             android:title="@string/adb_notify"
             android:summary="@string/adb_notify_summary"
             android:defaultValue="true" />
+	    
+    <PreferenceCategory
+        android:key="aspect_ratio_category"
+        android:title="@string/aspect_ratio_category_title">
+
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="aspect_ratio_apps_enabled"
+            android:title="@string/aspect_ratio_apps_enabled_title"
+            android:summary="@string/aspect_ratio_apps_enabled_summary"
+            android:defaultValue="false" />
+
+        <com.syberia.settings.preference.AppMultiSelectListPreference
+            android:dependency="aspect_ratio_apps_enabled"
+            android:summary="@string/aspect_ratio_apps_list_summary"
+            android:title="@string/aspect_ratio_apps_list_title"
+            android:key="aspect_ratio_apps_list"
+            android:persistent="false" />
+
+        <com.syberia.settings.preference.ScrollAppsViewPreference
+            android:dependency="aspect_ratio_apps_enabled"
+            android:key="aspect_ratio_apps_list_scroller"
+            android:persistent="false"
+            android:selectable="false" />
+
+        <Preference
+            android:dependency="aspect_ratio_apps_enabled"
+            android:persistent="false"
+            android:summary="@string/aspect_ratio_apps_info" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
             android:title="@string/screen_stabilization_title"
