@@ -623,5 +623,15 @@
     <!-- Media headsup -->
     <string name="show_media_heads_up_title">Показывать всплывающие медиа уведомления</string>
     <string name="show_media_heads_up_summary">Показывать всплывающие медиа уведомления при проигрывании нового трека, если медиа плеер свернут</string>
+    
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_summary">Ставить на паузу медиа когда звук выключен и включать назад, когда звук включен (следуя таймеру)</string>
+    <string name="adaptive_playback_timeout_title">Таймаут</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
 
 </resources>
