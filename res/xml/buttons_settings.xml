@@ -59,6 +59,19 @@
             android:summary="@string/swap_volume_buttons_summary"
             android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="adaptive_playback_enabled"
+            android:title="@string/adaptive_playback_title"
+            android:summary="@string/adaptive_playback_summary"
+            android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingListPreference
+            android:key="adaptive_playback_timeout"
+            android:title="@string/adaptive_playback_timeout_title"
+            android:entries="@array/adaptive_playback_timeout_entries"
+            android:entryValues="@array/adaptive_playback_timeout_values"
+            android:defaultValue="30000"
+            android:dependency="adaptive_playback_enabled" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -222,7 +235,7 @@
             android:key="hwkeys_button_assist_single_tap"
             android:summary="@string/hardware_keys_single_tap_summary"
             android:title="@string/hardware_keys_single_tap_title" >
-        </com.syberia.settings.preference.ActionPreference>
+         </com.syberia.settings.preference.ActionPreference>
 
         <com.syberia.settings.preference.ActionPreference
             android:key="hwkeys_button_assist_long_press"
