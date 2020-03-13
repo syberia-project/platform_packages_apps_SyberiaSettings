@@ -198,13 +198,6 @@
     <string name="qs_brightness_position_bottom_title">Регулятор яркости внизу</string>
     <string name="qs_brightness_position_bottom_summary">Показать регулятор яркости внизу панели быстрых настроек</string>
 
-    <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
-    <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
-    <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
-    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
-    <string name="network_traffic_hidearrow_summary">Скрыть стрелки активности индикатора</string>
-
     <!-- Heads up -->
     <string name="heads_up_notifications">Всплывающие уведомления</string>
     <string name="summary_heads_up_enabled">Включены</string>
@@ -595,5 +588,4 @@
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Закрыть приложение</string>
     <string name="kill_app_longpress_back_summary">Принудительно закрыть приложение удержанием кнопки Назад</string>
-
 </resources>
