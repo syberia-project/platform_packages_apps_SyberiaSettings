@@ -588,4 +588,29 @@
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Закрыть приложение</string>
     <string name="kill_app_longpress_back_summary">Принудительно закрыть приложение удержанием кнопки Назад</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Сетевой трафик</string>
+    <string name="traffic_summary">Настройки индикаторов сетевого трафика</string>
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic_state_summary">Показывать скорость передачи данных в строке состояния</string>
+    <string name="network_traffic_type">Выбрать тип активности трафика</string>
+    <string name="show_network_traffic_up">Исходящий</string>
+    <string name="show_network_traffic_down">Входящий</string>
+    <string name="show_network_traffic_all">Исходящий и входящий</string>
+    <string name="show_network_traffic_dynamic">Динамический</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
+    <string name="network_traffic_hidearrow">Скрыть стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Скрыть стрелки активности индикатора</string>
+    <string name="nettraf_font_size">Размер шрифта</string>
+    <string name="network_traffic_statusbar">Строка состояния</string>
+    <string name="network_traffic_header">Заголовок панели быстрых настроек</string>
+    <string name="network_traffic_layout">Вид разметки активности</string>
+    <string name="network_traffic_layout_h">Горизонтальный</string>
+    <string name="network_traffic_layout_v">Вертикальный</string>
+
+    <!-- Network Traffic Location -->
+    <string name="network_traffic_location_title">Расположение индикатора трафика</string>
+    <string name="network_traffic_location_summary">Включить отображение индикатора в строке состояния или заголовке панели быстрых настроек (рекомендуется для дисплеев с вырезами)</string>
+
 </resources>
