@@ -620,4 +620,8 @@
     <string name="corner_fwvals">Использовать базовые значения</string>
     <string name="corner_fwvals_summary">Полезно если устройство по умолчанию имеет скругленные углы</string>
 
+    <!-- Media headsup -->
+    <string name="show_media_heads_up_title">Показывать всплывающие медиа уведомления</string>
+    <string name="show_media_heads_up_summary">Показывать всплывающие медиа уведомления при проигрывании нового трека, если медиа плеер свернут</string>
+
 </resources>
