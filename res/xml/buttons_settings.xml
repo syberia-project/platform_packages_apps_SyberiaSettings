@@ -83,7 +83,7 @@
             settings:units=""
             android:persistent="false" />
 
-        <SwitchPreference
+    <SwitchPreference
             android:key="button_brightness_sw"
             android:title="@string/button_brightness_sw_title"
             android:persistent="false" />
@@ -101,27 +101,6 @@
             android:title="@string/button_backlight_on_touch_only_title"
             android:summary="@string/button_backlight_on_touch_only_summary"
             android:defaultValue="false" />
-
-     <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="volume_button_music_control"
-            android:summary="@string/volume_rocker_music_controls_summary"
-            android:title="@string/volume_rocker_music_controls_title"
-            android:defaultValue="false" />
-
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="volume_rocker_wake"
-            android:summary="@string/volume_rocker_wake_summary"
-            android:title="@string/volume_rocker_wake_title"
-            android:defaultValue="false" />
-
-    <com.syberia.settings.preference.SystemSettingListPreference
-            android:key="volume_key_cursor_control"
-            android:summary="%s"
-            android:title="@string/volume_key_cursor_control_title"
-            android:dialogTitle="@string/volume_key_cursor_control_title"
-            android:entries="@array/volume_key_cursor_control_entries"
-            android:entryValues="@array/volume_key_cursor_control_values"
-            android:defaultValue="0" />
 
     </PreferenceCategory>
 
