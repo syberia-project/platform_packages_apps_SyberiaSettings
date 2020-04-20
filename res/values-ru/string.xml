@@ -13,6 +13,7 @@
     <string name="panels_category_summary">Настроить панель строки состояния, уведомлений, панели быстрого доступа</string>
     <string name="lockscreen_category_title">Экран блокировки</string>
     <string name="lockscreen_category_summary">Настроить экран блокировки</string>
+    <string name="lights_category_title">Светодиод</string>
 
     <string name="general_tweaks_title">Основные настройки</string>
     <string name="general_tweaks_summary">Основные системные настройки вашего устройства</string>

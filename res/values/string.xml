@@ -31,6 +31,7 @@
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
     <string name="ui_category_title">UI Settings</string>
     <string name="ui_category_summary">UI and theme customization</string>
+    <string name="lights_category_title">Lights</string>
 
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>

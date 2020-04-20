@@ -26,18 +26,23 @@
         android:title="@string/usb_default_config_title"
         android:summary="@string/usb_default_config_summary"/>
 
-    <Preference
-        android:key="charging_light"
-        android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
-        android:title="@string/battery_light_settings" />
+    <PreferenceCategory
+        android:title="@string/lights_category_title"
+        android:key="lights_category" >
 
-    <Preference
-        android:key="notification_light"
-        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
-        android:title="@string/notification_light_settings" >
-        <extra
-            android:name="classname"
-            android:value="com.android.settings.Settings$NotificationAppListActivity" />
-    </Preference>
+        <Preference
+            android:key="charging_light"
+            android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
+            android:title="@string/battery_light_settings" />
+
+        <Preference
+            android:key="notification_light"
+            android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+            android:title="@string/notification_light_settings" >
+            <extra
+                android:name="classname"
+                android:value="com.android.settings.Settings$NotificationAppListActivity" />
+        </Preference>
+    </PreferenceCategory>
 
 </PreferenceScreen>

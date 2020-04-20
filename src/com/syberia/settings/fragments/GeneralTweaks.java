@@ -23,6 +23,8 @@ import com.android.settings.R;
 import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -36,15 +38,29 @@ import java.util.List;
 public class GeneralTweaks extends SettingsPreferenceFragment {
 
 
+    private static final String LIGHTS_CATEGORY = "lights_category";
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.general_tweaks);
+
+        PreferenceCategory mLights = (PreferenceCategory) findPreference(LIGHTS_CATEGORY);
+
+        if (!hasBatteryLights(getContext())) {
+            getPreferenceScreen().removePreference(mLights);
+        }
     }
+
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
+    }
+
+    private static boolean hasBatteryLights(Context context) {
+        return context.getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveBatteryLed);
     }
 
     /**
