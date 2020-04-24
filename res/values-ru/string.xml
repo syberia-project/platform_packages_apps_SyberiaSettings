@@ -497,6 +497,10 @@
     <string name="aggressive_battery_saver_title">В режиме экономии батареи</string> 
     <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">Блокировка сенсора в приложениях</string>
+    <string name="sensor_block_summary">Блокировать доступ к определенным датчикам в некоторых приложениях для экономии заряда батареи.</string>
+
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Ориентация</string>
     <string name="swap_volume_buttons_summary">Поменять местами кнопки громкости при повороте экрана</string>
