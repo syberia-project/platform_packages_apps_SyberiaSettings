@@ -12,7 +12,7 @@
     limitations under the License.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-	android:title="@string/notifications_title"
+    android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <Preference
@@ -28,6 +28,12 @@
         android:key="charging_light"
         android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
         android:title="@string/battery_light_settings" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="notification_headers"
+        android:title="@string/notification_headers_title"
+        android:summary="@string/notification_headers_summary"
+        android:defaultValue="false" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
@@ -75,7 +81,7 @@
             settings:interval="1"
             android:dependency="pulse_ambient_light" />
 
-	<com.syberia.settings.preference.SystemSettingSeekBarPreference
+        <com.syberia.settings.preference.SystemSettingSeekBarPreference
             android:key="pulse_ambient_light_repeat_count"
             android:title="@string/pulse_ambient_light_repeat_count_title"
             android:summary="@string/pulse_ambient_light_repeat_count_summary"
