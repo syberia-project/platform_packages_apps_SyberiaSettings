@@ -647,4 +647,8 @@
     <string name="enable_clear_all_button">Заменить «Очистить всё» на кнопку</string>
     <string name="enable_clear_all_button_summary">Отображать кнопку в стиле OxygenOS вместо текста «Очистить всё»</string>
 
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Отображать заголовки уведомлений</string>
+    <string name="notification_headers_summary">Отображать заголовки уведомлений в стиле Android R (требуется перезагрузка для применения)</string>
+
 </resources>
