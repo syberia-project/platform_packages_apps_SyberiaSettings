@@ -680,4 +680,8 @@
     <string name="notification_headers_title">Show notification headers</string>
     <string name="notification_headers_summary">Whether to show R style notification headers (Requires a device restart)</string>
 
+    <!-- QS tiles Accent color tinting -->
+    <string name="tint_qs_tiles_title">QS tiles tint</string>
+    <string name="tint_qs_tiles_summary">Tint QS tiles with color accent</string>
+
 </resources>

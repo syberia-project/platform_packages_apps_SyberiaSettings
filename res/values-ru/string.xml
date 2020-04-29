@@ -642,4 +642,8 @@
     <string name="notification_headers_title">Отображать заголовки уведомлений</string>
     <string name="notification_headers_summary">Отображать заголовки уведомлений в стиле Android R (требуется перезагрузка для применения)</string>
 
+    <!-- QS tiles Accent color tinting -->
+    <string name="tint_qs_tiles_title">Окрасить плитки в цвет акцента</string>
+    <string name="tint_qs_tiles_summary">Плитки и надписи будут окрашены цветом акцента</string>
+
 </resources>
