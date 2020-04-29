@@ -665,7 +665,7 @@
     <!-- Media headsup -->
     <string name="show_media_heads_up_title">Show media heads up</string>
     <string name="show_media_heads_up_summary">Show media heads up when a new track is played, if the player is not already in foreground</string>
-      
+
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_title">Adaptive playback</string>
     <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
@@ -675,5 +675,9 @@
     <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+
+    <!-- QS tiles Accent color tinting -->
+    <string name="tint_qs_tiles_title">QS tiles tint</string>
+    <string name="tint_qs_tiles_summary">Tint QS tiles with color accent</string>
 
 </resources>
