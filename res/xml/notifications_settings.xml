@@ -77,6 +77,12 @@
         android:summary="@string/qs_vibrate_summary"
         android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="tint_qs_tiles"
+        android:title="@string/tint_qs_tiles_title"
+        android:summary="@string/tint_qs_tiles_summary"
+        android:defaultValue="true" />
+
     <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
         android:key="qs_background_blur"
         android:fragment="com.syberia.settings.fragments.QsBlur"

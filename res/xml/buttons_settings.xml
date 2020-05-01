@@ -59,11 +59,28 @@
             android:summary="@string/swap_volume_buttons_summary"
             android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="adaptive_playback_enabled"
+            android:title="@string/adaptive_playback_title"
+            android:summary="@string/adaptive_playback_summary"
+            android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingListPreference
+            android:key="adaptive_playback_timeout"
+            android:title="@string/adaptive_playback_timeout_title"
+            android:entries="@array/adaptive_playback_timeout_entries"
+            android:entryValues="@array/adaptive_playback_timeout_values"
+            android:defaultValue="30000"
+            android:dependency="adaptive_playback_enabled" />
     </PreferenceCategory>
 
     <PreferenceCategory
             android:key="hardware_keys"
             android:title="@string/hardware_keys_category" >
+
+    <SwitchPreference
+            android:key="hardware_keys_disable"
+            android:title="@string/hardware_keys_disable_title" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="haptic_on_action_key"
@@ -79,7 +96,7 @@
             settings:units=""
             android:persistent="false" />
 
-        <SwitchPreference
+    <SwitchPreference
             android:key="button_brightness_sw"
             android:title="@string/button_brightness_sw_title"
             android:persistent="false" />
@@ -97,27 +114,6 @@
             android:title="@string/button_backlight_on_touch_only_title"
             android:summary="@string/button_backlight_on_touch_only_summary"
             android:defaultValue="false" />
-
-     <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="volume_button_music_control"
-            android:summary="@string/volume_rocker_music_controls_summary"
-            android:title="@string/volume_rocker_music_controls_title"
-            android:defaultValue="false" />
-
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="volume_rocker_wake"
-            android:summary="@string/volume_rocker_wake_summary"
-            android:title="@string/volume_rocker_wake_title"
-            android:defaultValue="false" />
-
-    <com.syberia.settings.preference.SystemSettingListPreference
-            android:key="volume_key_cursor_control"
-            android:summary="%s"
-            android:title="@string/volume_key_cursor_control_title"
-            android:dialogTitle="@string/volume_key_cursor_control_title"
-            android:entries="@array/volume_key_cursor_control_entries"
-            android:entryValues="@array/volume_key_cursor_control_values"
-            android:defaultValue="0" />
 
     </PreferenceCategory>
 
@@ -230,7 +226,7 @@
             android:key="hwkeys_button_assist_single_tap"
             android:summary="@string/hardware_keys_single_tap_summary"
             android:title="@string/hardware_keys_single_tap_title" >
-        </com.syberia.settings.preference.ActionPreference>
+         </com.syberia.settings.preference.ActionPreference>
 
         <com.syberia.settings.preference.ActionPreference
             android:key="hwkeys_button_assist_long_press"
