@@ -69,6 +69,7 @@
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_visibility">Allow navigation bar</string>
 
     <!-- Advanced reboot -->
     <string name="advanced_reboot_title">Advanced reboot</string>
