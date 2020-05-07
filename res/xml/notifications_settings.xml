@@ -96,4 +96,10 @@
         android:summary="@string/show_media_heads_up_summary"
         android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="dismiss_all_button"
+        android:title="@string/enable_clear_all_button"
+        android:summary="@string/enable_clear_all_button_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

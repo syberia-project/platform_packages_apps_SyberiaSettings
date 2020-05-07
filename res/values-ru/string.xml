@@ -643,4 +643,8 @@
     <string name="tint_qs_tiles_title">Окрасить плитки в цвет акцента</string>
     <string name="tint_qs_tiles_summary">Плитки и надписи будут окрашены цветом акцента</string>
 
+    <!-- OOS clear all button -->
+    <string name="enable_clear_all_button">Заменить «Очистить всё» на кнопку</string>
+    <string name="enable_clear_all_button_summary">Отображать кнопку в стиле OxygenOS вместо текста «Очистить всё»</string>
+
 </resources>
