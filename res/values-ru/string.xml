@@ -50,6 +50,7 @@
     <string name="navbar_title">Панель навигации</string>
     <string name="navbar_category_summary">Настроить панель навигации</string>
     <string name="navbar_invert_layout_title">Инвертированная разметка</string>
+    <string name="navbar_visibility">Включить панель навигации</string>
 
     <!-- Advanced reboot -->
     <string name="advanced_reboot_title">Расширенная перезагрузка</string>

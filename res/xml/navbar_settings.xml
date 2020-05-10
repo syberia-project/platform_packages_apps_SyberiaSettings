@@ -18,10 +18,15 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/navbar_title">
 
+    <SwitchPreference
+        android:key="navbar_visibility"
+        android:title="@string/navbar_visibility" />
+
     <com.syberia.settings.preference.SecureSettingSwitchPreference
             android:key="sysui_nav_bar_inverse"
             android:title="@string/navbar_invert_layout_title"
-            android:defaultValue="false" />
+            android:defaultValue="false"
+            android:dependency="navbar_visibility"/>
 
     <com.syberia.settings.preference.SecureSettingSwitchPreference
             android:key="kill_app_longpress_back"
