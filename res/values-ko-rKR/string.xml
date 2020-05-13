@@ -15,8 +15,8 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Syberia Settings</string>
-    <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
+    <string name="syberia_settings_title">시베리아 설정</string>
+    <string name="syberia_dashboard_summary">Syberia Project의 추가 기능</string>
     <string name="gestures_category_title">Gestures</string>
     <string name="gestures_category_summary">Various gestures settings</string>
     <string name="system_category_title">System</string>
