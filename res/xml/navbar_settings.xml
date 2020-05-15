@@ -25,8 +25,7 @@
     <com.syberia.settings.preference.SecureSettingSwitchPreference
             android:key="sysui_nav_bar_inverse"
             android:title="@string/navbar_invert_layout_title"
-            android:defaultValue="false"
-            android:dependency="navbar_visibility"/>
+            android:defaultValue="false" />
 
     <com.syberia.settings.preference.SecureSettingSwitchPreference
             android:key="kill_app_longpress_back"

@@ -32,6 +32,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.hwkeys.ActionUtils;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
+import com.android.internal.util.hwkeys.ActionUtils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -43,21 +44,27 @@ public class NavBarSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mNavbarVisibility;
     private boolean mIsNavSwitchingMode = false;
     private Handler mHandler;
-
+    private boolean needsNavbar;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.navbar_settings);
+        needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
+        final PreferenceScreen prefScreen = getPreferenceScreen();
         mNavbarVisibility = (SwitchPreference) findPreference(NAVBAR_VISIBILITY);
+        if (!needsNavbar) {
+            boolean showing = Settings.System.getInt(getContentResolver(),
+                    Settings.System.FORCE_SHOW_NAVBAR,
+                    ActionUtils.hasNavbarByDefault(getActivity()) ? 1 : 0) != 0;
+            updateBarVisibleAndUpdatePrefs(showing);
+            mNavbarVisibility.setOnPreferenceChangeListener(this);
 
-        boolean showing = Settings.System.getInt(getContentResolver(),
-                Settings.System.FORCE_SHOW_NAVBAR,
-                ActionUtils.hasNavbarByDefault(getActivity()) ? 1 : 0) != 0;
-        updateBarVisibleAndUpdatePrefs(showing);
-        mNavbarVisibility.setOnPreferenceChangeListener(this);
-
-        mHandler = new Handler();
+            mHandler = new Handler();
+        } else {
+            prefScreen.removePreference(mNavbarVisibility);
+            Settings.System.putInt(getContentResolver(), Settings.System.FORCE_SHOW_NAVBAR, 1);
+        }
     }
 
     private void updateBarVisibleAndUpdatePrefs(boolean showing) {
@@ -67,7 +74,7 @@ public class NavBarSettings extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
 
         if (preference.equals(mNavbarVisibility)) {
-            if (mIsNavSwitchingMode) {
+            if (mIsNavSwitchingMode && needsNavbar) {
                 return false;
             }
             mIsNavSwitchingMode = true;
