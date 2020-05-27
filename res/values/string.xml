@@ -43,6 +43,9 @@
     <string name="notifications_title">Notifications</string>
     <string name="notifications_summary">Custom notification settings</string>
 
+    <string name="syberia_sound_settings_title">Sound and Volume</string>
+    <string name="syberia_sound_settings_summary">Volume keys options and some other sound settings</string>
+
     <!-- About team -->
     <string name="about_team_title">About Syberia team</string>
     <string name="about_team_summary">Information about the team and maintainers</string>

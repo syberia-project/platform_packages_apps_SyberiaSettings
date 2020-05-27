@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-2020 Syberia Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/syberia_sound_settings_title">
+
+    <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.syberia.settings.fragments.VolumeSteps" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="volume_button_music_control"
+            android:summary="@string/volume_rocker_music_controls_summary"
+            android:title="@string/volume_rocker_music_controls_title"
+            android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:summary="@string/volume_rocker_wake_summary"
+            android:title="@string/volume_rocker_wake_title"
+            android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingListPreference
+            android:key="volume_key_cursor_control"
+            android:summary="%s"
+            android:title="@string/volume_key_cursor_control_title"
+            android:dialogTitle="@string/volume_key_cursor_control_title"
+            android:entries="@array/volume_key_cursor_control_entries"
+            android:entryValues="@array/volume_key_cursor_control_values"
+            android:defaultValue="0" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="swap_volume_buttons"
+            android:title="@string/swap_volume_buttons_title"
+            android:summary="@string/swap_volume_buttons_summary"
+            android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="adaptive_playback_enabled"
+            android:title="@string/adaptive_playback_title"
+            android:summary="@string/adaptive_playback_summary"
+            android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingListPreference
+            android:key="adaptive_playback_timeout"
+            android:title="@string/adaptive_playback_timeout_title"
+            android:entries="@array/adaptive_playback_timeout_entries"
+            android:entryValues="@array/adaptive_playback_timeout_values"
+            android:defaultValue="30000"
+            android:dependency="adaptive_playback_enabled" />
+
+</PreferenceScreen>

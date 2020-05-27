@@ -24,12 +24,12 @@
         android:key="general_tweaks"
         android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
-	
+
     <Preference
         android:fragment="com.syberia.settings.fragments.Animations"
         android:icon="@drawable/ic_animations"
         android:key="animations"
-	android:summary="@string/animations_summary"
+        android:summary="@string/animations_summary"
         android:title="@string/animations_title" />
 
     <Preference
@@ -38,12 +38,12 @@
         android:key="buttons"
         android:summary="@string/buttons_summary"
         android:title="@string/buttons_title" />
-	
+
     <Preference
         android:fragment="com.syberia.settings.fragments.NotificationSettings" 
         android:icon="@drawable/ic_settings_notifications"
         android:key="notifications_category"
-	android:summary="@string/notifications_summary"
+        android:summary="@string/notifications_summary"
         android:title="@string/notifications_title" />
 
     <Preference
@@ -52,6 +52,13 @@
         android:summary="@string/dialer_summary"
         android:title="@string/dialer_title"
         android:fragment="com.syberia.settings.fragments.DialerSettings" />
+
+    <Preference
+        android:icon="@drawable/ic_sound_settings"
+        android:key="syberia_sound_settings"
+        android:summary="@string/syberia_sound_settings_summary"
+        android:title="@string/syberia_sound_settings_title"
+        android:fragment="com.syberia.settings.fragments.SyberiaSoundSettings" />
 
     <Preference
         android:key="aggressive_battery"
