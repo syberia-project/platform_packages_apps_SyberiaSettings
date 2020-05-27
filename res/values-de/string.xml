@@ -37,6 +37,8 @@
     <string name="buttons_summary">Hardwaretasten anpassen</string>
     <string name="notifications_title">Benachrichtigungen</string>
     <string name="notifications_summary">Benutzerdefinierte Benachrichtigungseinstellungen</string>
+    <string name="syberia_sound_settings_title">Sound and Volume</string>
+    <string name="syberia_sound_settings_summary">Volume keys options and some other sound settings</string>
     <!-- About team -->
     <string name="about_team_title">Über Syberia Team</string>
     <string name="about_team_summary">Informationen über das Team und die Entwickler</string>
@@ -584,5 +586,19 @@
     <string name="tint_qs_tiles_summary">Schnelleinstellungsleiste einfärben</string>
     <!-- OOS clear all button -->
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
-    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <string name="enable_clear_all_button_summary">Zeige \"Alle Benachrichtigungen löschen\"-Button in Schnelleinstellungen statt \"Standardtext\" ein</string>
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Show notification headers</string>
+    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a device restart)</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_summary">Set custom volume steps for sounds</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Media</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
 </resources>
