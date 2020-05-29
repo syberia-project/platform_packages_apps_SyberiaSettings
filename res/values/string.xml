@@ -192,13 +192,13 @@
     <string name="weather_config_summary">System service settings</string>
     <string name="header_weather_title">Header view weather</string>
     <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_title">Weather icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and on lock screen</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Display adapted max charging current, voltage and battery temperature on lockscreen while charging</string>
 
     <!-- Lockscreen weather style -->
     <string name="lockscreen_weather_style_title">Weather style</string>
@@ -209,7 +209,7 @@
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <string name="fprint_error_vib_title">Fingerprint error vibration</string>
-    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+    <string name="fprint_error_vib_summary">Vibrate on fingerprint authentication error</string>
 
     <!-- PowerMenu -->
     <string name="powermenu_title">Powermenu</string>
