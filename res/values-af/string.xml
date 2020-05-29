@@ -37,6 +37,8 @@
     <string name="buttons_summary">Customize hardware button actions</string>
     <string name="notifications_title">Notifications</string>
     <string name="notifications_summary">Custom notification settings</string>
+    <string name="syberia_sound_settings_title">Sound and Volume</string>
+    <string name="syberia_sound_settings_summary">Volume keys options and some other sound settings</string>
     <!-- About team -->
     <string name="about_team_title">About Syberia team</string>
     <string name="about_team_summary">Information about the team and maintainers</string>
@@ -152,12 +154,12 @@
     <string name="weather_config_summary">System service settings</string>
     <string name="header_weather_title">Header view weather</string>
     <string name="header_weather_summary">Enable notification panel header weather display</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_title">Weather icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and on lock screen</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Display adapted max charging current, voltage and battery temperature on lockscreen while charging</string>
     <!-- Lockscreen weather style -->
     <string name="lockscreen_weather_style_title">Weather style</string>
     <string name="lockscreen_weather_omni_style_title">Omni style</string>
@@ -166,7 +168,7 @@
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <string name="fprint_error_vib_title">Fingerprint error vibration</string>
-    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+    <string name="fprint_error_vib_summary">Vibrate on fingerprint authentication error</string>
     <!-- PowerMenu -->
     <string name="powermenu_title">Powermenu</string>
     <string name="powermenu_summary">Powermenu customization</string>
@@ -585,4 +587,18 @@
     <!-- OOS clear all button -->
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Show notification headers</string>
+    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a device restart)</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_summary">Set custom volume steps for sounds</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Media</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
 </resources>
