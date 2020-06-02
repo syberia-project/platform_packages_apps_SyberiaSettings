@@ -273,7 +273,7 @@
     <string name="status_bar_battery_style_solid">Solid</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_style_q">Q style</string>	
+    <string name="status_bar_battery_style_q">Q style</string>
 
     <string name="status_bar_battery_style_tile_title">Override battery tile</string>
     <string name="status_bar_battery_style_tile_summary">Use same icon style as above in QS battery tile</string>
@@ -303,7 +303,7 @@
     <!-- Show QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
     <string name="show_qs_on_secure_keyguard_summary">Show quick settings on secure lockscreen</string>
-    
+
     <string name="animations_title">Animations</string>
     <string name="animations_summary">Modify system animations</string>
 
@@ -534,7 +534,7 @@
     <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
     <string name="aggressive_standby_title">Aggressive Standby</string>
     <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string> 
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string>
     <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
 
     <!-- Sensor block per-package -->
@@ -562,9 +562,13 @@
     <string name="fod_pressed_state_title">FOD pressed state behavior</string>
     <string name="fod_pressed_state_summary">Choose the appropriate pressed state behavior for your device</string>
     <string name="fod_pressed_state_footer">Icons/colors may vary depending on which device you are using.</string>
-    <string name="fod_pressed_state_icon">Icon (usually Cyan)</string>
-    <string name="fod_pressed_state_icon_white">Icon (White)</string>
-    <string name="fod_pressed_state_solid_color">Solid color (usually Green)</string>
+    <string name="fod_pressed_state_miui_cyan">MIUI Cyan</string>
+    <string name="fod_pressed_state_miui_white">MIUI White</string>
+    <string name="fod_pressed_state_vivo_cyan">Vivo Cyan</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow">Vivo Cyan (Shadow)</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo Cyan (Shadow alt)</string>
+    <string name="fod_pressed_state_vivo_green">Vivo Green</string>
+    <string name="fod_pressed_state_vivo_yellow_shadow">Vivo Yellow (Shadow)</string>
 
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Notification vibration</string>

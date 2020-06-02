@@ -156,7 +156,7 @@
      <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
-    
+
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Погода</string>
     <string name="lockscreen_weather_enabled_title">Показывать на экране блокировки</string>
@@ -261,7 +261,7 @@
     <!-- Show QS on lockscreen -->
     <string name="show_qs_on_secure_keyguard_title">Быстрые настройки</string>
     <string name="show_qs_on_secure_keyguard_summary">Показывать быстрые настройки на защищенном экране блокировки</string>
-    
+
     <string name="animations_title">Анимация</string>
     <string name="animations_summary">Изменить системные анимации</string>
 
@@ -498,7 +498,7 @@
     <string name="aggressive_idle_summary">Чаще входить в режим ожидания и реже просыпаться</string>
     <string name="aggressive_standby_title">Ограничение работы в фоне</string>
     <string name="aggressive_standby_summary">Ограничить работу приложений в фоновом режиме</string>
-    <string name="aggressive_battery_saver_title">В режиме экономии батареи</string> 
+    <string name="aggressive_battery_saver_title">В режиме экономии батареи</string>
     <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 
     <!-- Sensor block per-package -->
@@ -526,9 +526,13 @@
     <string name="fod_pressed_state_title">Поведение FOD при нажатии</string>
     <string name="fod_pressed_state_summary">Выберите подходящее поведение при нажатии для вашего устройства</string>
     <string name="fod_pressed_state_footer">Значки/цвета могут различаться в зависимости от того какое устройство вы используете</string>
-    <string name="fod_pressed_state_icon">Иконка (обычно голубой)</string>
-    <string name="fod_pressed_state_icon_white">Иконка (белый)</string>
-    <string name="fod_pressed_state_solid_color">Сплошной цвет (обычно зеленый)</string>
+    <string name="fod_pressed_state_miui_cyan">MIUI голубой</string>
+    <string name="fod_pressed_state_miui_white">MIUI белый</string>
+    <string name="fod_pressed_state_vivo_cyan">Vivo голубой</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow">Vivo голубой (тень)</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo голубой (тень альтернатива)</string>
+    <string name="fod_pressed_state_vivo_green">Vivo зеленый</string>
+    <string name="fod_pressed_state_vivo_yellow_shadow">Vivo желтый (тень)</string>
 
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Вибрация при уведомлениях</string>

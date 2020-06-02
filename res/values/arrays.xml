@@ -83,7 +83,7 @@
 
     <string-array name="status_bar_battery_style_entries" translatable="false">
         <item>@string/status_bar_battery_style_icon_portrait</item>
-        <!--<item>@string/status_bar_battery_style_q</item>-->	
+        <!--<item>@string/status_bar_battery_style_q</item>-->
         <item>@string/status_bar_battery_style_circle</item>
         <item>@string/status_bar_battery_style_dotted_circle</item>
         <item>@string/status_bar_battery_style_big_circle</item>
@@ -430,7 +430,7 @@
     </string-array>
 
     <string-array name="volte_icon_type_values" translatable="false">
-        <item>4</item> 
+        <item>4</item>
         <item>3</item>
         <item>5</item>
 	<item>6</item>
@@ -441,15 +441,23 @@
 
     <!-- FOD pressed state options -->
     <string-array name="fod_pressed_state_entries" translatable="false">
-        <item>@string/fod_pressed_state_icon</item>
-        <item>@string/fod_pressed_state_icon_white</item>
-        <item>@string/fod_pressed_state_solid_color</item>
+        <item>@string/fod_pressed_state_miui_cyan</item>
+        <item>@string/fod_pressed_state_miui_white</item>
+        <item>@string/fod_pressed_state_vivo_cyan</item>
+        <item>@string/fod_pressed_state_vivo_cyan_shadow</item>
+        <item>@string/fod_pressed_state_vivo_cyan_shadow_et713</item>
+        <item>@string/fod_pressed_state_vivo_green</item>
+        <item>@string/fod_pressed_state_vivo_yellow_shadow</item>
     </string-array>
 
     <string-array name="fod_pressed_state_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 
     <!-- Screen Stabilization -->
@@ -460,7 +468,7 @@
         <item>0.2x(Default)</item>
         <item>0.3x</item>
         <item>0.4x</item>
-    </string-array> 
+    </string-array>
     <string-array name="stabilization_velocity_friction_entry_values" translatable="false">
         <item>0.01</item>
         <item>0.05</item>
@@ -476,7 +484,7 @@
         <item>0.2x</item>
         <item>0.3x</item>
         <item>0.4x</item>
-    </string-array> 
+    </string-array>
     <string-array name="stabilization_position_friction_values" translatable="false">
         <item>0.01</item>
         <item>0.05</item>
@@ -493,7 +501,7 @@
         <item>1.25x</item>
         <item>1.5x</item>
         <item>2x</item>
-    </string-array> 
+    </string-array>
     <string-array name="stabilization_velocity_amplitude_values" translatable="false">
         <item>4000</item>
         <item>6000</item>
