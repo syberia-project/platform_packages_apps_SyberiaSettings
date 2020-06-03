@@ -517,19 +517,6 @@
     <string name="toast_icon_title">Иконка на всплывающем уведомлении</string>
     <string name="toast_icon_summary">Отображать иконку приложения на всплывающем уведомлении</string>
 
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Выбор иконки FOD</string>
-    <string name="fod_icon_picker_summary">Выберите вашу любимую иконку отпечатка пальца</string>
-    <string name="fod_icon_picker_footer">Чтобы добавить свою иконку, нажмите значок в верхнем левом углу и с помощью приложения OnePlus 6T FP Customizer выберите нужную иконку</string>
-
-    <!-- FOD pressed state behavior -->
-    <string name="fod_pressed_state_title">Поведение FOD при нажатии</string>
-    <string name="fod_pressed_state_summary">Выберите подходящее поведение при нажатии для вашего устройства</string>
-    <string name="fod_pressed_state_footer">Значки/цвета могут различаться в зависимости от того какое устройство вы используете</string>
-    <string name="fod_pressed_state_icon">Иконка (обычно голубой)</string>
-    <string name="fod_pressed_state_icon_white">Иконка (белый)</string>
-    <string name="fod_pressed_state_solid_color">Сплошной цвет (обычно зеленый)</string>
-
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Вибрация при уведомлениях</string>
     <string name="vibrate_on_notifications_summary">Вибрировать при получении уведомлений</string>
