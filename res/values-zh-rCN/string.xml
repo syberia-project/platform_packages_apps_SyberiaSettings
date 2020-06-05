@@ -479,9 +479,13 @@
     <string name="fod_pressed_state_title">指纹按压图标</string>
     <string name="fod_pressed_state_summary">为您的设备选择合适的按压图标</string>
     <string name="fod_pressed_state_footer">图标与颜色可能会在不同设备上存在差异</string>
-    <string name="fod_pressed_state_icon">图标 (通常为青色)</string>
-    <string name="fod_pressed_state_icon_white">图标 (白色)</string>
-    <string name="fod_pressed_state_solid_color">纯色 (通常为绿色)</string>
+    <string name="fod_pressed_state_miui_cyan">MIUI Cyan</string>
+    <string name="fod_pressed_state_miui_white">MIUI White</string>
+    <string name="fod_pressed_state_vivo_cyan">Vivo Cyan</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow">Vivo Cyan (Shadow)</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo Cyan (Shadow alt)</string>
+    <string name="fod_pressed_state_vivo_green">Vivo Green</string>
+    <string name="fod_pressed_state_vivo_yellow_shadow">Vivo Yellow (Shadow)</string>
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">通知震动</string>
     <string name="vibrate_on_notifications_summary">来通知时震动</string>
