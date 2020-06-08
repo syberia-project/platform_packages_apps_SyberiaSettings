@@ -504,6 +504,9 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Блокировка сенсора в приложениях</string>
     <string name="sensor_block_summary">Блокировать доступ к определенным датчикам в некоторых приложениях для экономии заряда батареи.</string>
+    <string name="sensor_block_app_picker_title">Блокировать сенсоры для этих приложений</string>
+    <string name="add_sensor_block_package_title">Добавить приложение для блокировки сенсора</string>
+    <string name="add_sensor_block_package_summary">Акселерометр, датчики движения и линейного ускорения будут заблокированы для выбранных приложений</string>
 
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Ориентация</string>

@@ -26,12 +26,6 @@
         android:defaultValue="true"
         android:disableDependentsState="true" />
 
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-        android:key="sensor_block"
-        android:title="@string/sensor_block_title"
-        android:summary="@string/sensor_block_summary"
-        android:defaultValue="false" />
-
     <com.syberia.settings.preference.GlobalSettingSwitchPreference
         android:key="aggressive_idle_enabled"
         android:title="@string/aggressive_idle_title"
@@ -45,4 +39,12 @@
         android:summary="@string/aggressive_standby_summary"
         android:defaultValue="false"
         android:dependency="aggressive_battery_saver" />
+
+    <!-- Sensor Block -->
+    <Preference
+        android:key="sensor_block_settings"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:fragment="com.syberia.settings.fragments.SensorBlock"/>
+
 </PreferenceScreen>
