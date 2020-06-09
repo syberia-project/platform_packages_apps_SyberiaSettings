@@ -670,4 +670,7 @@
     <string name="volume_steps_voice_call_title">Количество шагов: Голосовые вызовы</string>
     <string name="volume_steps_reset">Сброс</string>
 
+    <!-- Rington vibration -->
+    <string name="ringtone_vibration_pattern">Профиль вибрации рингтона</string>
+
 </resources>
