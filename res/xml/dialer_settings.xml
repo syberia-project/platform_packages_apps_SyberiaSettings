@@ -58,4 +58,30 @@
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
 </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="vibration_patterns"
+        android:title="@string/ringtone_vibration_pattern" >
+
+        <com.android.settingslib.widget.RadioButtonPreference
+            android:key="pattern_dzzz_dzzz"
+            android:title="@string/pattern_dzzz_dzzz" />
+
+        <com.android.settingslib.widget.RadioButtonPreference
+            android:key="pattern_dzzz_da"
+            android:title="@string/pattern_dzzz_da" />
+
+        <com.android.settingslib.widget.RadioButtonPreference
+            android:key="pattern_mm_mm_mm"
+            android:title="@string/pattern_mm_mm_mm" />
+
+        <com.android.settingslib.widget.RadioButtonPreference
+            android:key="pattern_da_da_dzzz"
+            android:title="@string/pattern_da_da_dzzz" />
+
+        <com.android.settingslib.widget.RadioButtonPreference
+            android:key="pattern_da_dzzz_da"
+            android:title="@string/pattern_da_dzzz_da" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -314,4 +314,8 @@
     <string name="profile_choose_app">Выбрать приложение</string>
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+
+    <!-- Rington vibration -->
+    <string name="ringtone_vibration_pattern">Профиль вибрации рингтона</string>
+
 </resources>
