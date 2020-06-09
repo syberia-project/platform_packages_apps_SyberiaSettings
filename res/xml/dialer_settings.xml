@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-<<<<<<< HEAD
-    Copyright © 2018-2019 Syberia Project
-=======
-    Copyright © 2018 Syberia Project
-    Date: 29.08.2018
-    Time: 21:24
-    Author: @alexxxdev <alexxxdev@ya.ru>
->>>>>>> c590666... Added features flash-call-on-waiting [3/3]
+    Copyright © 2018-2020 Syberia Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -65,5 +58,30 @@
             settings:interval="50"
             android:dependency="flash_on_call_waiting"/>
          </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="vibration_patterns"
+        android:title="@string/ringtone_vibration_pattern" >
+
+        <com.android.settings.widget.RadioButtonPreference
+            android:key="pattern_dzzz_dzzz"
+            android:title="@string/pattern_dzzz_dzzz" />
+
+        <com.android.settings.widget.RadioButtonPreference
+            android:key="pattern_dzzz_da"
+            android:title="@string/pattern_dzzz_da" />
+
+        <com.android.settings.widget.RadioButtonPreference
+            android:key="pattern_mm_mm_mm"
+            android:title="@string/pattern_mm_mm_mm" />
+
+        <com.android.settings.widget.RadioButtonPreference
+            android:key="pattern_da_da_dzzz"
+            android:title="@string/pattern_da_da_dzzz" />
+
+        <com.android.settings.widget.RadioButtonPreference
+            android:key="pattern_da_dzzz_da"
+            android:title="@string/pattern_da_dzzz_da" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
