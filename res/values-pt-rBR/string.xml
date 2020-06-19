@@ -462,6 +462,9 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">Restringir o uso dos sensores</string>
     <string name="sensor_block_summary">Bloquear o acesso de alguns aplicativos a determinados sensores para economizar bateria</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Reorientar</string>
     <string name="swap_volume_buttons_summary">Inverter botões de volume quando a tela estiver invertida</string>
@@ -479,13 +482,13 @@
     <string name="fod_pressed_state_title">Status do comportamento quando o FOD for pressionado</string>
     <string name="fod_pressed_state_summary">Escolha o status do comportamento apropriado pressionado para seu dispositivo</string>
     <string name="fod_pressed_state_footer">Ícones/cores podem variar dependendo do dispositivo que você está usando.</string>
-    <string name="fod_pressed_state_miui_cyan">MIUI Cyan</string>
-    <string name="fod_pressed_state_miui_white">MIUI White</string>
-    <string name="fod_pressed_state_vivo_cyan">Vivo Cyan</string>
-    <string name="fod_pressed_state_vivo_cyan_shadow">Vivo Cyan (Shadow)</string>
-    <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo Cyan (Shadow alt)</string>
-    <string name="fod_pressed_state_vivo_green">Vivo Green</string>
-    <string name="fod_pressed_state_vivo_yellow_shadow">Vivo Yellow (Shadow)</string>
+    <string name="fod_pressed_state_miui_cyan">Ciano MIUI</string>
+    <string name="fod_pressed_state_miui_white">Branco MIUI</string>
+    <string name="fod_pressed_state_vivo_cyan">Ciano Vivo</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow">Ciano Vivo (Sombra)</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow_et713">Ciano Vivo (Sombra Alta)</string>
+    <string name="fod_pressed_state_vivo_green">Verde Vivo</string>
+    <string name="fod_pressed_state_vivo_yellow_shadow">Amarelo Vivo (Sombra)</string>
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Vibrar ao receber notificação</string>
     <string name="vibrate_on_notifications_summary">Vibrar em todas notificações</string>
@@ -605,4 +608,6 @@
     <string name="volume_steps_system_title">Nível de volume: Sistema</string>
     <string name="volume_steps_voice_call_title">Nível de volume: Chamada de Voz</string>
     <string name="volume_steps_reset">Redefinir</string>
+    <!-- Rington vibration -->
+    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
 </resources>

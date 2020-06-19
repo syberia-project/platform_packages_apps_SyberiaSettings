@@ -462,6 +462,9 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">阻止应用使用传感器</string>
     <string name="sensor_block_summary">阻止某些应用访问一些传感器以节省电量</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">反转音量键</string>
     <string name="swap_volume_buttons_summary">当屏幕旋转时交换音量键布局</string>
@@ -605,4 +608,6 @@
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
+    <!-- Rington vibration -->
+    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
 </resources>
