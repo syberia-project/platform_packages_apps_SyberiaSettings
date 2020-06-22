@@ -24,7 +24,7 @@
         <item>@string/volte_icon_asus</item>
         <item>@string/volte_icon_hd</item>
         <item>@string/volte_icon_hd2</item>
-	<item>@string/volte_icon_miui</item>
+        <item>@string/volte_icon_miui</item>
         <item>@string/volte_icon_oos</item>
         <item>@string/volte_icon_volte</item>
         <item>@string/volte_icon_vo</item>
@@ -34,10 +34,23 @@
         <item>4</item> 
         <item>3</item>
         <item>5</item>
-	<item>6</item>
+        <item>6</item>
         <item>2</item>
         <item>1</item>
         <item>0</item>
+    </string-array>
+
+    <!-- VoWiFi Icon -->
+    <string-array name="vowifi_icon_entries" translatable="false">
+        <item>@string/vowifi_icon_disabled</item>
+        <item>@string/vowifi_icon_enabled</item>
+        <item>@string/vowifi_icon_enabled_volte_disabled</item>
+    </string-array>
+
+    <string-array name="vowifi_icon_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 
 </resources>
