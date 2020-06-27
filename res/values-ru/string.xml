@@ -140,5 +140,8 @@
     <string name="vowifi_icon_asus">Иконка Asus</string>
     <string name="vowifi_icon_oneplus">Иконка OOS</string>
     <string name="vowifi_icon_moto">Иконка Motorola</string>
+    <string name="vowifi_icon_simple1">Просто иконка 1</string>
+    <string name="vowifi_icon_simple2">Просто иконка 2</string>
+    <string name="vowifi_icon_simple3">Просто иконка 3</string>
 
 </resources>
