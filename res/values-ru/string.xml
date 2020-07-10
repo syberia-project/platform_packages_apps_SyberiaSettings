@@ -696,4 +696,8 @@
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Профиль вибрации рингтона</string>
 
+    <!-- StatusBar notification count -->
+    <string name="notif_count_title">Количество уведомлений</string>
+    <string name="notif_count_summary">Показывать количество уведомлений около значка уведомления</string>
+
 </resources>
