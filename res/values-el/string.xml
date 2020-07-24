@@ -359,6 +359,9 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Ειδοποίηση ADB</string>
     <string name="adb_notify_summary">Εμφάνιση ειδοποίησης όταν ο εντοπισμός σφαλμάτων είναι ενεργοποιημένος</string>
+    <!-- USB Configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Λήξη χρόνου</string>
     <string name="heads_up_time_out_summary">Οι αναδυόμενες ειδοποιήσεις θα εμφανίζονται για <xliff:g id="νουμερα">%d</xliff:g> δευτερόλεπτα</string>
@@ -507,22 +510,22 @@
     <string name="volte_icon_oos">Εικονίδιο VoLTE OOS</string>
     <string name="volte_icon_hd">Εικονίδιο HD</string>
     <string name="volte_icon_hd2">Εικονίδιο HD CAF</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
-    <string name="volte_icon_emui">EMUI Icon</string>
+    <string name="volte_icon_miui">Εικονίδιο MIUI 11</string>
+    <string name="volte_icon_emui">Εικονίδιο EMUI</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
-    <string name="vowifi_icon_emui">EMUI Icon</string>
-    <string name="vowifi_icon_asus">Asus Icon</string>
-    <string name="vowifi_icon_oneplus">OOS Icon</string>
-    <string name="vowifi_icon_moto">Motorola Icon</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_title">Εικονίδιο VoWiFi</string>
+    <string name="vowifi_icon_enabled">Ενεργοποιήθηκε το εικονίδιο VoWiFi</string>
+    <string name="vowifi_icon_disabled">Το εικονίδιο VoWiFi απενεργοποιήθηκε</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi αντί για εικονίδιο VoLTE</string>
+    <string name="vowifi_icon_style_title">Στυλ εικονιδίου VoWiFi</string>
+    <string name="vowifi_icon_default">Προεπιλεγμένο εικονίδιο</string>
+    <string name="vowifi_icon_emui">Εικονίδιο EMUI</string>
+    <string name="vowifi_icon_asus">Εικονίδιο Asus</string>
+    <string name="vowifi_icon_oneplus">Εικονίδιο OOS</string>
+    <string name="vowifi_icon_moto">Εικονίδιο Motorola</string>
+    <string name="vowifi_icon_simple1">Εικονίδιο Simple1</string>
+    <string name="vowifi_icon_simple2">Εικονίδιο Simple2</string>
+    <string name="vowifi_icon_simple3">Εικονίδιο Simple3</string>
     <!-- QS tiles haptic feedback -->
     <string name="qs_vibrate_title">Δόνηση κατά το άγγιγμα</string>
     <string name="qs_vibrate_summary">Δόνηση όταν αγγίζετε τα πλακίδια γρήγορων ρυθμίσεων</string>
@@ -625,4 +628,7 @@
     <string name="volume_steps_reset">Επαναφορά</string>
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Μοτίβο δόνησης ήχου κλήσης</string>
+    <!-- StatusBar notification count -->
+    <string name="notif_count_title">Notification count</string>
+    <string name="notif_count_summary">Show notification count near notfication icons</string>
 </resources>

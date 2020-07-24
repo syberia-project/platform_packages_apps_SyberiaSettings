@@ -359,6 +359,9 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB-notifikation</string>
     <string name="adb_notify_summary">Vis en notifikation, når USB eller Android-fejlsøgning er aktiveret</string>
+    <!-- USB Configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Timeout</string>
     <string name="heads_up_time_out_summary">Statusnotifikationer vises i <xliff:g id="number">%d</xliff:g> sekunder</string>
@@ -625,4 +628,7 @@
     <string name="volume_steps_reset">Nulstil</string>
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
+    <!-- StatusBar notification count -->
+    <string name="notif_count_title">Notification count</string>
+    <string name="notif_count_summary">Show notification count near notfication icons</string>
 </resources>

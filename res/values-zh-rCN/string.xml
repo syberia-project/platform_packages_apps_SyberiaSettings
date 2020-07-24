@@ -37,8 +37,8 @@
     <string name="buttons_summary">自定义按键动作</string>
     <string name="notifications_title">通知</string>
     <string name="notifications_summary">自定义通知</string>
-    <string name="syberia_sound_settings_title">Sound and Volume</string>
-    <string name="syberia_sound_settings_summary">Volume keys options and some other sound settings</string>
+    <string name="syberia_sound_settings_title">声音设置</string>
+    <string name="syberia_sound_settings_summary">其他设置</string>
     <!-- About team -->
     <string name="about_team_title">关于 Syberia OS 团队</string>
     <string name="about_team_summary">关于 Syberia OS 团队和设备维护者的信息</string>
@@ -154,7 +154,7 @@
     <string name="weather_config_summary">系统服务设置</string>
     <string name="header_weather_title">标题查看天气</string>
     <string name="header_weather_summary">启用通知面板标题天气显示</string>
-    <string name="weather_icon_pack_title">Weather icon pack</string>
+    <string name="weather_icon_pack_title">天气图标包</string>
     <string name="weather_icon_pack_note">注意\u003a 你可以安装新的图标包在 Play商店，搜索 \"Chronus icons\"</string>
     <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and on lock screen</string>
     <!-- Lockscreen battery info indicator  -->
@@ -359,6 +359,9 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB 通知</string>
     <string name="adb_notify_summary">开启Android调试时显示通知</string>
+    <!-- USB Configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">悬浮通知保持时间</string>
     <string name="heads_up_time_out_summary">悬浮通知将持续显示 <xliff:g id="number">%d</xliff:g> 秒</string>
@@ -622,7 +625,10 @@
     <string name="volume_steps_ring_title">Volume steps: Ringer</string>
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_reset">重置</string>
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
+    <!-- StatusBar notification count -->
+    <string name="notif_count_title">Notification count</string>
+    <string name="notif_count_summary">Show notification count near notfication icons</string>
 </resources>

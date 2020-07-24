@@ -359,6 +359,9 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB oznámení</string>
     <string name="adb_notify_summary">Zobrazit oznámení, když je aktivní ladění systému android</string>
+    <!-- USB Configuration -->
+    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Délka zobrazení</string>
     <string name="heads_up_time_out_summary">Plovoucí oznámení budou zobrazena po dobu <xliff:g id="number">%d</xliff:g> sekund</string>
@@ -520,9 +523,9 @@
     <string name="vowifi_icon_asus">Ikona Asus</string>
     <string name="vowifi_icon_oneplus">Ikona OOS</string>
     <string name="vowifi_icon_moto">Ikona Motorola</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_simple1">Ikona Simple1</string>
+    <string name="vowifi_icon_simple2">Ikona Simple2</string>
+    <string name="vowifi_icon_simple3">Ikona Simple3</string>
     <!-- QS tiles haptic feedback -->
     <string name="qs_vibrate_title">Vibrace při dotyku</string>
     <string name="qs_vibrate_summary">Vibrovat při dotyku QS dlaždice</string>
@@ -625,4 +628,7 @@
     <string name="volume_steps_reset">Resetovat</string>
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Vzor vibrací vyzvánění</string>
+    <!-- StatusBar notification count -->
+    <string name="notif_count_title">Notification count</string>
+    <string name="notif_count_summary">Show notification count near notfication icons</string>
 </resources>
