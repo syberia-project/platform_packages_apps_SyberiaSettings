@@ -156,10 +156,10 @@
     <string name="header_weather_summary">启用通知面板标题天气显示</string>
     <string name="weather_icon_pack_title">天气图标包</string>
     <string name="weather_icon_pack_note">注意\u003a 你可以安装新的图标包在 Play商店，搜索 \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and on lock screen</string>
+    <string name="weather_icon_pack_info_title">图标包用于状态栏与锁屏界面</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">锁屏充电信息</string>
-    <string name="lockscreen_battery_info_summary">Display adapted max charging current, voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示充电器的最大电流电压以及电池温度</string>
     <!-- Lockscreen weather style -->
     <string name="lockscreen_weather_style_title">锁屏天气样式</string>
     <string name="lockscreen_weather_omni_style_title">Omni 样式</string>
@@ -168,7 +168,7 @@
     <string name="fprint_sucess_vib_title">验证指纹时振动</string>
     <string name="fprint_sucess_vib_summary">验证指纹身份成功时振动</string>
     <string name="fprint_error_vib_title">验证指纹失败时振动</string>
-    <string name="fprint_error_vib_summary">Vibrate on fingerprint authentication error</string>
+    <string name="fprint_error_vib_summary">指纹验证失败时振动</string>
     <!-- PowerMenu -->
     <string name="powermenu_title">电源菜单</string>
     <string name="powermenu_summary">查看和更改电源菜单选项</string>
@@ -360,8 +360,8 @@
     <string name="adb_notify">ADB 通知</string>
     <string name="adb_notify_summary">开启Android调试时显示通知</string>
     <!-- USB Configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
-    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+    <string name="usb_default_config_title">USB 配置</string>
+    <string name="usb_default_config_summary">选择通过USB连接到设备时的默认行为</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">悬浮通知保持时间</string>
     <string name="heads_up_time_out_summary">悬浮通知将持续显示 <xliff:g id="number">%d</xliff:g> 秒</string>
@@ -465,9 +465,9 @@
     <!-- Sensor block per-package -->
     <string name="sensor_block_title">阻止应用使用传感器</string>
     <string name="sensor_block_summary">阻止某些应用访问一些传感器以节省电量</string>
-    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
-    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
-    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+    <string name="sensor_block_app_picker_title">禁止这些应用使用传感器</string>
+    <string name="add_sensor_block_package_title">添加将被屏蔽传感器的应用</string>
+    <string name="add_sensor_block_package_summary">禁止这些应用程序对运动传感器、加速传感器、线性加速度传感器的访问</string>
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">反转音量键</string>
     <string name="swap_volume_buttons_summary">当屏幕旋转时交换音量键布局</string>
@@ -485,13 +485,13 @@
     <string name="fod_pressed_state_title">指纹按压图标</string>
     <string name="fod_pressed_state_summary">为您的设备选择合适的按压图标</string>
     <string name="fod_pressed_state_footer">图标与颜色可能会在不同设备上存在差异</string>
-    <string name="fod_pressed_state_miui_cyan">MIUI Cyan</string>
-    <string name="fod_pressed_state_miui_white">MIUI White</string>
-    <string name="fod_pressed_state_vivo_cyan">Vivo Cyan</string>
-    <string name="fod_pressed_state_vivo_cyan_shadow">Vivo Cyan (Shadow)</string>
-    <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo Cyan (Shadow alt)</string>
-    <string name="fod_pressed_state_vivo_green">Vivo Green</string>
-    <string name="fod_pressed_state_vivo_yellow_shadow">Vivo Yellow (Shadow)</string>
+    <string name="fod_pressed_state_miui_cyan">MIUI 青色</string>
+    <string name="fod_pressed_state_miui_white">MIUI 白色</string>
+    <string name="fod_pressed_state_vivo_cyan">Vivo 青色</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow">Vivo 青色 (阴影)</string>
+    <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo 青色 (阴影遮盖)</string>
+    <string name="fod_pressed_state_vivo_green">Vivo 绿色</string>
+    <string name="fod_pressed_state_vivo_yellow_shadow">Vivo 黄色 （阴影）</string>
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">通知震动</string>
     <string name="vibrate_on_notifications_summary">来通知时震动</string>
@@ -510,22 +510,22 @@
     <string name="volte_icon_oos">VoLTE 图标(氧OS)</string>
     <string name="volte_icon_hd">VoLTE 图标(HD)</string>
     <string name="volte_icon_hd2">VoLTE 图标(CAF)</string>
-    <string name="volte_icon_miui">MIUI 11 Icon</string>
-    <string name="volte_icon_emui">EMUI Icon</string>
+    <string name="volte_icon_miui">MIUI 11 图标</string>
+    <string name="volte_icon_emui">EMUI 图标</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
-    <string name="vowifi_icon_emui">EMUI Icon</string>
-    <string name="vowifi_icon_asus">Asus Icon</string>
-    <string name="vowifi_icon_oneplus">OOS Icon</string>
-    <string name="vowifi_icon_moto">Motorola Icon</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_title">VoWiFi 图标</string>
+    <string name="vowifi_icon_enabled">启用 VoWiFi图标</string>
+    <string name="vowifi_icon_disabled">禁用 VoWiFi图标</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi而不是 VoLTE 图标</string>
+    <string name="vowifi_icon_style_title">VoWiFi 图标样式</string>
+    <string name="vowifi_icon_default">默认图标</string>
+    <string name="vowifi_icon_emui">EMUI 图标</string>
+    <string name="vowifi_icon_asus">Asus 图标</string>
+    <string name="vowifi_icon_oneplus">OOS 图标</string>
+    <string name="vowifi_icon_moto">摩托罗拉图标</string>
+    <string name="vowifi_icon_simple1">简单1图标</string>
+    <string name="vowifi_icon_simple2">简单2图标</string>
+    <string name="vowifi_icon_simple3">简单3图标</string>
     <!-- QS tiles haptic feedback -->
     <string name="qs_vibrate_title">触摸震动</string>
     <string name="qs_vibrate_summary">触摸QS磁贴时振动</string>
@@ -613,22 +613,22 @@
     <string name="enable_clear_all_button">用 clear 按钮替换清除所有</string>
     <string name="enable_clear_all_button_summary">在快速设置中显示清除所有通知按钮，而不是默认文本</string>
     <!-- R Notification headers -->
-    <string name="notification_headers_title">Show notification headers</string>
-    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a device restart)</string>
+    <string name="notification_headers_title">显示通知顶栏</string>
+    <string name="notification_headers_summary">是否显示R样式的通知标题（需要重新启动SystemUI）</string>
     <!-- Volume Steps Fragment -->
-    <string name="volume_steps_title">Volume steps</string>
-    <string name="volume_steps_summary">Set custom volume steps for sounds</string>
-    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-    <string name="volume_steps_music_title">Volume steps: Media</string>
-    <string name="volume_steps_notification_title">Volume steps: Notification</string>
-    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-    <string name="volume_steps_system_title">Volume steps: System</string>
-    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_title">音量级别</string>
+    <string name="volume_steps_summary">自定义音量级别</string>
+    <string name="volume_steps_alarm_title">音量级别: 闹钟</string>
+    <string name="volume_steps_dtmf_title">音量级别: 双音多频</string>
+    <string name="volume_steps_music_title">音量级数：媒体音量</string>
+    <string name="volume_steps_notification_title">音量级别: 通知音量</string>
+    <string name="volume_steps_ring_title">音量级别：铃声</string>
+    <string name="volume_steps_system_title">音量级别: 系统</string>
+    <string name="volume_steps_voice_call_title">音量级别：通话音量</string>
     <string name="volume_steps_reset">重置</string>
     <!-- Rington vibration -->
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
+    <string name="ringtone_vibration_pattern">响铃时振动</string>
     <!-- StatusBar notification count -->
-    <string name="notif_count_title">Notification count</string>
-    <string name="notif_count_summary">Show notification count near notfication icons</string>
+    <string name="notif_count_title">通知数量</string>
+    <string name="notif_count_summary">在通知栏上显示通知数量</string>
 </resources>
