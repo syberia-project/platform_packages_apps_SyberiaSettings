@@ -360,8 +360,8 @@
     <string name="adb_notify">Ειδοποίηση ADB</string>
     <string name="adb_notify_summary">Εμφάνιση ειδοποίησης όταν ο εντοπισμός σφαλμάτων είναι ενεργοποιημένος</string>
     <!-- USB Configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
-    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+    <string name="usb_default_config_title">Ρύθμιση παραμέτρων usb</string>
+    <string name="usb_default_config_summary">Επιλέξτε την καθορισμενη συμπεριφορά όταν η συσκευή σας συνδέεται σε usb</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Λήξη χρόνου</string>
     <string name="heads_up_time_out_summary">Οι αναδυόμενες ειδοποιήσεις θα εμφανίζονται για <xliff:g id="νουμερα">%d</xliff:g> δευτερόλεπτα</string>
@@ -629,6 +629,6 @@
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Μοτίβο δόνησης ήχου κλήσης</string>
     <!-- StatusBar notification count -->
-    <string name="notif_count_title">Notification count</string>
-    <string name="notif_count_summary">Show notification count near notfication icons</string>
+    <string name="notif_count_title">Καταμέτρηση ειδοποιήσεων</string>
+    <string name="notif_count_summary">Εμφάνιση αριθμού ειδοποιήσεων κοντά στα εικονίδια ειδοποιήσεων</string>
 </resources>

@@ -115,8 +115,8 @@
     <string name="cursor_section_header">Kurzor</string>
     <string name="volume_key_cursor_control_title">Ovládání kurzoru tlačítky hlasitosti</string>
     <string name="volume_key_cursor_control_off">Vypnuto</string>
-    <string name="volume_key_cursor_control_on">Tlačítka hlasitosti nahoru/dolu posunou kurzor vlevo/vpravo</string>
-    <string name="volume_key_cursor_control_on_reverse">Tlačítka hlasitosti nahoru/dolu posunou kurzor vpravo/vlevo</string>
+    <string name="volume_key_cursor_control_on">Tlačítka hlasitosti nahoru/dolů posunou kurzor vlevo/vpravo</string>
+    <string name="volume_key_cursor_control_on_reverse">Tlačítka hlasitosti nahoru/dolů posunou kurzor vpravo/vlevo</string>
     <string name="dialer_title">Číselník</string>
     <string name="dialer_summary">Pokročilá nastavení příchozích hovorů</string>
     <!-- Wakeup options -->
@@ -358,10 +358,10 @@
     <string name="charging_animation_summary">Zobrazí animaci při připojení zařízení ke zdroji nabíjení</string>
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB oznámení</string>
-    <string name="adb_notify_summary">Zobrazit oznámení, když je aktivní ladění systému android</string>
+    <string name="adb_notify_summary">Zobrazit oznámení, když je aktivní ladění systému Android</string>
     <!-- USB Configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
-    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+    <string name="usb_default_config_title">Konfigurace USB</string>
+    <string name="usb_default_config_summary">Vyberte výchozí chování při připojení zařízení pomocí USB</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Délka zobrazení</string>
     <string name="heads_up_time_out_summary">Plovoucí oznámení budou zobrazena po dobu <xliff:g id="number">%d</xliff:g> sekund</string>
@@ -629,6 +629,6 @@
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Vzor vibrací vyzvánění</string>
     <!-- StatusBar notification count -->
-    <string name="notif_count_title">Notification count</string>
-    <string name="notif_count_summary">Show notification count near notfication icons</string>
+    <string name="notif_count_title">Počet oznámení</string>
+    <string name="notif_count_summary">Zobrazit počet oznámení poblíž ikon oznámení</string>
 </resources>

@@ -360,8 +360,8 @@
     <string name="adb_notify">Notification d\'ADB</string>
     <string name="adb_notify_summary">Afficher une notification lorsque le débogage est activé</string>
     <!-- USB Configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
-    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+    <string name="usb_default_config_title">Configuration USB</string>
+    <string name="usb_default_config_summary">Choisir le comportement par défaut lorsque vous êtes connecté à un appareil via USB</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Durée d\'affichage</string>
     <string name="heads_up_time_out_summary">Les notifications flottantes s\'afficheront pour <xliff:g id="number">%d</xliff:g> secondes</string>
@@ -629,6 +629,6 @@
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Modèle de vibration de la sonnerie</string>
     <!-- StatusBar notification count -->
-    <string name="notif_count_title">Notification count</string>
-    <string name="notif_count_summary">Show notification count near notfication icons</string>
+    <string name="notif_count_title">Compteur de notification</string>
+    <string name="notif_count_summary">Afficher le nombre de notifications près des icônes de notation</string>
 </resources>
