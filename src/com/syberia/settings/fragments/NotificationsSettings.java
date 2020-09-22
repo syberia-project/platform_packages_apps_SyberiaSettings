@@ -23,15 +23,17 @@ import android.content.Context;
 import com.android.settings.R;
 
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class NotificationsSettings extends SettingsPreferenceFragment implements Indexable {
+@SearchIndexable
+public class NotificationsSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -52,14 +54,11 @@ public class NotificationsSettings extends SettingsPreferenceFragment implements
             new BaseSearchIndexProvider() {
 
                 @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
-                        boolean enabled) {
-                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
-
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
                     sir.xmlResId = R.xml.notifications_settings;
-                    result.add(sir);
-                    return result;
+                    return Arrays.asList(sir);
                 }
 
                 @Override

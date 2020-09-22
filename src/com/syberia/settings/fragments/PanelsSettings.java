@@ -16,13 +16,24 @@
 
 package com.syberia.settings.fragments;
 
+import android.content.Context;
 import android.os.Bundle;
+
+import android.provider.SearchIndexableResource;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+
 import com.android.internal.logging.nano.MetricsProto;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+@SearchIndexable
 public class PanelsSettings extends SettingsPreferenceFragment {
 
     @Override
@@ -35,4 +46,23 @@ public class PanelsSettings extends SettingsPreferenceFragment {
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
     }
+
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.panels_settings;
+                    return Arrays.asList(sir);
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
+
 }

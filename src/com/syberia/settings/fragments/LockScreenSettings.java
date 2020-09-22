@@ -23,16 +23,18 @@ import android.provider.SearchIndexableResource;
 import com.android.settings.R;
 
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class LockScreenSettings extends SettingsPreferenceFragment implements Indexable {
+@SearchIndexable
+public class LockScreenSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -53,14 +55,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements In
             new BaseSearchIndexProvider() {
 
                 @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
-                        boolean enabled) {
-                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
-
+                public List<SearchIndexableResource> getXmlResourcesToIndex(
+                        Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
                     sir.xmlResId = R.xml.lockscreen_settings;
-                    result.add(sir);
-                    return result;
+                    return Arrays.asList(sir);
                 }
 
                 @Override
