@@ -36,11 +36,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AboutTeamAdapter extends RecyclerView.Adapter<AboutTeamAdapter.Holder> {
-    private static final int TYPE_TEAM_HEADER = R.layout.team_header;
-    private static final int TYPE_TEAM_DEV = R.layout.team_card;
-    private static final int TYPE_HEADER = R.layout.maintainers_header;
-    private static final int TYPE_MAINTAINER = R.layout.maintainer_card;
-
     private List<About> list = new ArrayList<>();
 
     private OnClickListener listener;
@@ -53,16 +48,14 @@ public class AboutTeamAdapter extends RecyclerView.Adapter<AboutTeamAdapter.Hold
     @Override
     public Holder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(viewType, viewGroup, false);
-        switch (viewType) {
-            case TYPE_TEAM_HEADER:
+        if (viewType == R.layout.team_header) {
                 return new TeamHeaderViewHolder(view, listener);
-            case TYPE_TEAM_DEV:
+        } else if (viewType == R.layout.team_card) {
                 return new DevViewHolder(view, listener);
-            case TYPE_HEADER:
+        } else if (viewType == R.layout.maintainers_header) {
                 return new HeaderHolder(view, listener);
-            default:
+        } else
                 return new MaintainerHolder(view, listener);
-        }
     }
 
     @Override
@@ -79,13 +72,13 @@ public class AboutTeamAdapter extends RecyclerView.Adapter<AboutTeamAdapter.Hold
     public int getItemViewType(int position) {
         About item = list.get(position);
         if(item instanceof TeamHeader){
-            return TYPE_TEAM_HEADER;
+              return R.layout.team_header;
         } else if(item instanceof Dev){
-            return TYPE_TEAM_DEV;
+              return R.layout.team_card;
         } else if(item instanceof Header){
-            return TYPE_HEADER;
+              return R.layout.maintainers_header;
         } else {
-            return TYPE_MAINTAINER;
+              return R.layout.maintainer_card;
         }
     }
 

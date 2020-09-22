@@ -55,9 +55,9 @@ import android.widget.Toast;
 
 public class AboutTeam extends SettingsPreferenceFragment {
 
-	private List<AboutTeamAdapter.About> list = new ArrayList<>();
+    private List<AboutTeamAdapter.About> list = new ArrayList<>();
 
-	@Override
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
     }
