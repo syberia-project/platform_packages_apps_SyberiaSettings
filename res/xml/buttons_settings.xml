@@ -23,10 +23,10 @@
     android:title="@string/buttons_title">
 
     <PreferenceCategory
-            android:key="hardware_keys"
-            android:title="@string/hardware_keys_category" >
+            android:key="volume_keys"
+            android:title="@string/volume_keys_category" >
 
-     <com.syberia.settings.preference.SystemSettingSwitchPreference
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="volume_button_music_control"
             android:summary="@string/volume_rocker_music_controls_summary"
             android:title="@string/volume_rocker_music_controls_title"

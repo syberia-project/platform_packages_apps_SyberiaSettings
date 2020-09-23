@@ -43,6 +43,9 @@
     <string name="buttons_title">Настройка кнопок</string>
     <string name="buttons_summary">Настроить действия аппаратных кнопок</string>
 
+    <!-- Volume keys category -->
+    <string name="volume_keys_category">Клавиши громкости</string>
+
     <string name="dialer_title">Телефон</string>
     <string name="dialer_summary">Дополнительные настройки входящих вызовов</string>
 

@@ -63,6 +63,10 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
 
+
+    <!-- Volume keys category -->
+    <string name="volume_keys_category">Volume keys</string>
+
     <string name="dialer_title">Dialer</string>
     <string name="dialer_summary">Advanced incoming call settings</string>
 
