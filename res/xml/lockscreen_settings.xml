@@ -31,4 +31,10 @@
         android:summary="@string/fprint_error_vib_summary"
         android:defaultValue="true" />
 
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="lock_screen_transparent_notifications_enabled"
+        android:title="@string/transparent_lockscreen_notification_title"
+        android:summary="@string/transparent_lockscreen_notification_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
