@@ -103,7 +103,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
             json = new String(buffer, "UTF-8");
         } catch (Exception ex) {
             ex.printStackTrace();
-            Toast.makeText(getActivity(), ex.toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(getActivity(), ex.toString(), Toast.LENGTH_LONG).show();
             return null;
         }
         return json;
@@ -155,7 +155,7 @@ public class AboutTeam extends SettingsPreferenceFragment {
                 }
             }
         } catch (Exception e) {
-            Toast.makeText(getActivity(), e.toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(getActivity(), e.toString(), Toast.LENGTH_LONG).show();
             e.printStackTrace();
         }
 
