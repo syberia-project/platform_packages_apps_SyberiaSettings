@@ -112,6 +112,10 @@
     <string name="global_actions_max_columns_title">Максимальное количество элементов</string>
     <string name="global_actions_max_columns_summary">Установить максимальное количество элементов до перемещения в расширенное меню</string>
 
+    <!-- Transparent lockscreen notifications -->
+    <string name="transparent_lockscreen_notification_title">Прозрачные уведомления</string>
+    <string name="transparent_lockscreen_notification_summary">Включить уведомления на экране блокировки с полупрозрачным фоном</string>
+
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Отображать 4G вместо LTE</string>
     <string name="show_fourg_summary">Заменить LTE индикатор в статусбаре на 4G</string>
