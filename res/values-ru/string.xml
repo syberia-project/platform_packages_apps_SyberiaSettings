@@ -318,4 +318,35 @@
     <!-- Rington vibration -->
     <string name="ringtone_vibration_pattern">Профиль вибрации рингтона</string>
 
+    <!-- Statusbar net monitor -->
+    <string name="traffic_title">Сетевой трафик</string>
+    <string name="network_traffic_state_title">Сетевой трафик</string>
+    <string name="network_traffic">Сетевой трафик</string>
+    <string name="network_traffic_location">Расположение индикатора трафика</string>
+    <string name="traffic_disabled">Отключен</string>
+    <string name="traffic_statusbar">Строка состояния</string>
+    <string name="traffic_expanded_statusbar">Заголовок панели быстрых настроек</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
+    <string name="network_traffic_arrow">Показывать стрелки</string>
+    <string name="network_traffic_arrow_summary">Показывать стрелки активности индикатора</string>
+    <string name="network_traffic_type">Выбрать тип активности трафика</string>
+    <string name="show_network_traffic_combined">Комбинированный (Исходящий + Входящий)</string>
+    <string name="show_network_traffic_dynamic">Динамический</string>
+    <string name="show_network_traffic_up">Исходящий</string>
+    <string name="show_network_traffic_down">Входящий</string>
+    <string name="show_network_traffic_all">Оба</string>
+    <string name="network_traffic_layout">Вид разметки активности</string>
+    <string name="network_traffic_layout_h">Горизонтальный</string>
+    <string name="network_traffic_layout_v">Вертикальный</string>
+    <string name="nettraf_font_size">Размер шрифта</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_slider_summary">Показать регулятор яркости в панели быстрых настроек</string>
+    <string name="qs_show_auto_brightness_title">Иконка автояркости</string>
+    <string name="qs_show_auto_brightness_summary">Показать переключатель адаптивной яркости рядом с ползунком</string>
+    <string name="qs_show_brightness_slider_show_never">Никогда не показывать</string>
+    <string name="qs_show_brightness_slider_show_expanded">Показывать в раскрытой панели быстрых настроек</string>
+    <string name="qs_show_brightness_slider_show_always">Показывать всегда</string>
+
 </resources>
