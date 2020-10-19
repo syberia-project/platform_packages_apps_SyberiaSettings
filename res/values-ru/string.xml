@@ -698,4 +698,8 @@
     <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
     <string name="use_old_mobiletype_summary">Показывать тип мобильной сети над значком индикатора сигнала</string>
 
+    <!-- Quick settings on secure lockscreen -->
+    <string name="lockscreen_enable_qs_title">Быстрые настройки</string>
+    <string name="lockscreen_enable_qs_summary">Разрешить доступ к быстрым настройкам на защищенном экране блокировки</string>
+
 </resources>
