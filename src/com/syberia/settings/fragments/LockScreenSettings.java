@@ -16,9 +16,13 @@
 
 package com.syberia.settings.fragments;
 
+import android.content.ContentResolver;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.content.Context;
 import android.provider.SearchIndexableResource;
+import android.provider.Settings;
 
 import com.android.settings.R;
 
@@ -40,7 +44,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.lockscreen_settings);
+    }
 
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.LOCKSCREEN_ENABLE_QS, 1, UserHandle.USER_CURRENT);
     }
 
     @Override
