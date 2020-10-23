@@ -249,7 +249,7 @@
     <string name="power_menu_hide_on_secure_summary">Скрывать меню действий кнопки питания на заблокированном экране</string>
 
     <!-- Volume Steps Fragment -->
-    <string name="volume_steps_title">Шаги громкости</string>
+    <string name="volume_steps_fragment_title">Шаги громкости</string>
     <string name="volume_steps_summary">Изменить количество шагов громкости</string>
     <string name="volume_steps_alarm_title">Количество шагов: Будильник</string>
     <string name="volume_steps_dtmf_title">Количество шагов: Тональный набор</string>
