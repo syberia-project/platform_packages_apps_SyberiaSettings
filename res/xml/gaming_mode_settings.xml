@@ -20,21 +20,30 @@
     android:title="@string/gaming_mode_title">
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:title="@string/gaming_mode_enable_title"
+        android:summary="@string/gaming_mode_enable_summary"
+        android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_headsup_toggle"
         android:title="@string/gaming_mode_headsup_title"
         android:summary="@string/gaming_mode_headsup_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="true" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_hw_keys_toggle"
         android:title="@string/gaming_mode_hardware_keys_title"
         android:summary="@string/gaming_mode_hardware_keys_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_manual_brightness_toggle"
         android:title="@string/gaming_mode_brightness_title"
         android:summary="@string/gaming_mode_brightness_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="true" />
 
     <com.syberia.settings.preference.SystemSettingListPreference
@@ -43,6 +52,7 @@
         android:entries="@array/gaming_mode_ringer_entries"
         android:entryValues="@array/gaming_mode_ringer_values"
         android:defaultValue="0"
+        android:dependency="gaming_mode_enabled"
         android:summary="%s" />
 
     <com.syberia.settings.preference.SystemSettingListPreference
@@ -51,15 +61,18 @@
         android:entries="@array/gaming_mode_notifications_entries"
         android:entryValues="@array/gaming_mode_notifications_values"
         android:defaultValue="3"
+        android:dependency="gaming_mode_enabled"
         android:summary="%s" />
 
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
+<!--    <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="gaming_mode_dynamic_state"
         android:title="@string/gaming_mode_dynamic_title"
         android:summary="@string/gaming_mode_dynamic_summary"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
-
+-->
     <PreferenceCategory
+        android:dependency="gaming_mode_enabled"
         android:title="@string/gaming_mode_app_picker_title"
         android:key="gamingmode_applications">
         <Preference

@@ -39,8 +39,8 @@
         android:title="@string/dialer_title"
         android:fragment="com.syberia.settings.fragments.DialerSettings" />
 
-    <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
-        android:key="gaming_mode_enabled"
+    <Preference
+        android:key="gaming_mode"
         android:icon="@drawable/ic_gaming"
         android:fragment="com.syberia.settings.fragments.GamingMode"
         android:title="@string/gaming_mode_title"
