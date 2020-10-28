@@ -19,4 +19,24 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
 
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:defaultValue="true" />
+
+    <Preference
+        android:key="charging_light"
+        android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
+        android:title="@string/battery_light_settings" />
+
+    <Preference
+        android:key="notification_light"
+        android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+        android:title="@string/notification_light_settings" >
+        <extra
+            android:name="classname"
+            android:value="com.android.settings.Settings$NotificationAppListActivity" />
+    </Preference>
+
 </PreferenceScreen>
