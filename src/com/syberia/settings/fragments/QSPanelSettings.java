@@ -33,12 +33,12 @@ import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class NotificationsSettings extends SettingsPreferenceFragment {
+public class QSPanelSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.notifications_settings);
+        addPreferencesFromResource(R.xml.qs_panel_settings);
     }
 
     @Override
@@ -57,7 +57,7 @@ public class NotificationsSettings extends SettingsPreferenceFragment {
                 public List<SearchIndexableResource> getXmlResourcesToIndex(
                         Context context, boolean enabled) {
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.notifications_settings;
+                    sir.xmlResId = R.xml.qs_panel_settings;
                     return Arrays.asList(sir);
                 }
 
