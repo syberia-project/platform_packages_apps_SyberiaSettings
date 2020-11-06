@@ -16,6 +16,7 @@
 package com.syberia.settings.fragments;
 
 import android.app.Activity;
+import android.app.ActivityThread;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -103,7 +104,7 @@ public class Animations extends SettingsPreferenceFragment
     private ListPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
 
-    protected Context mContext;
+    protected Context mSysUiContext;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -111,6 +112,7 @@ public class Animations extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.animations);
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        mSysUiContext = ActivityThread.currentActivityThread().getSystemUiContext();
 
         mAnimDuration = (CustomSeekBarPreference) findPreference(ANIMATION_DURATION);
         int animdef = Settings.Global.getInt(resolver,
@@ -367,7 +369,7 @@ public class Animations extends SettingsPreferenceFragment
             int index = mToastAnimation.findIndexOfValue((String) newValue);
             Settings.Global.putString(getContentResolver(), Settings.Global.TOAST_ANIMATION, (String) newValue);
             mToastAnimation.setSummary(mToastAnimation.getEntries()[index]);
-            Toast.makeText(mContext, "Toast Test", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mSysUiContext, "Toast Test", Toast.LENGTH_SHORT).show();
             return true;
         } else if (preference == mScrollingCachePref) {
             if (newValue != null) {
