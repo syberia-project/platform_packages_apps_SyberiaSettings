@@ -491,4 +491,55 @@
     <string name="listview_anticipate_overshoot_interpolator">Ускорить и проскочить</string>
     <string name="listview_bounce_interpolator">Пружинить</string>
 
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Анимация всплывающих уведомлений</string>
+    <string name="toast_none_animation">Нет</string>
+    <string name="toast_default_animation">По умолчанию</string>
+    <string name="toast_fade_animation">Исчезание</string>
+    <string name="toast_SlideRight_animation">Слайд вправо</string>
+    <string name="toast_SlideLeft_animation">Слайд влево</string>
+    <string name="toast_Xylon_animation">Анимация Xylon</string>
+    <string name="toast_Toko_animation">Анимация Toko</string>
+    <string name="toast_Tn_animation">Анимация Tn</string>
+    <string name="toast_Honami_animation">Анимация Honami</string>
+    <string name="toast_FastFade_animation">Быстрое затухание</string>
+    <string name="toast_GrowFade_animation">Постепенное затухание</string>
+    <string name="toast_GrowFadeCenter_animation">Постепенное затухание от центра</string>
+    <string name="toast_GrowFadeBottom_animation">Возрастающее затухание вниз</string>
+    <string name="toast_Translucent_animation">Прозрачность</string>
+    <string name="toast_SlideLeftRight_animation">Слайд слева направо</string>
+    <string name="toast_SlideRightLeft_animation">Слайд справа налево</string>
+    <string name="toast_animation_test">Это тест для выбранной анимации</string>
+    <string name="toast">Всплывающие уведомления</string>
+
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Кэш прокрутки</string>
+    <string name="pref_scrollingcache_summary">Кэш прокрутки может повысить плавность прокрутки за счёт использования ОЗУ</string>
+    <string name="pref_scrollingcache_force_enable">Включить принудительно</string>
+    <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
+    <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
+    <string name="pref_scrollingcache_force_disable">Отключить принудительно</string>
+
+    <!-- Force disable transition animation -->
+    <string name="disable_transition_animations_title">Отключить анимации</string>
+    <string name="disable_transition_animations_summary">Принудительно отключить все анимации переходов</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Анимация меню питания</string>
+    <string name="power_menu_animation_summary">Изменение анмации входа/выхода в меню питания</string>
+    <string name="power_menu_animation_dialog_title">Выбор анимации</string>
+    <string name="power_menu_animation_aosp">AOSP (по умолчанию)</string>
+    <string name="power_menu_animation_bottom">Снизву</string>
+    <string name="power_menu_animation_top">Сверху</string>
+    <string name="power_menu_animation_xylon">Анимация xylon</string>
+    <string name="power_menu_animation_slide">Сдвиг</string>
+    <string name="power_menu_animation_turn">Переворот</string>
+    <string name="power_menu_animation_fly">Полёт</string>
+    <string name="power_menu_animation_card">Карточка</string>
+    
+    <!-- Notification guts kill app button -->
+    <string name="notification_misc">Разное</string>
+    <string name="notification_guts_kill_app_button_title">Кнопка принудительной остановки приложения</string>
+    <string name="notification_guts_kill_app_button_summary">Показывать кнопку принудительной остановки приложения при длительном нажатии на уведомление</string>
+
 </resources>
