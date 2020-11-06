@@ -455,8 +455,6 @@
         <item>@string/power_menu_animation_slide</item>
         <item>@string/power_menu_animation_xylon</item>
         <item>@string/power_menu_animation_card</item>
-        <item>@string/power_menu_animation_translucent_top</item>
-        <item>@string/power_menu_animation_translucent_bottom</item>
     </string-array>
 
     <string-array name="power_menu_animations_values" translatable="false">
@@ -468,7 +466,6 @@
         <item>5</item>
         <item>6</item>
         <item>7</item>
-        <item>8</item>
         <item>9</item>
      </string-array>
 
