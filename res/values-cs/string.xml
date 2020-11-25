@@ -510,6 +510,6 @@
     <string name="notification_guts_kill_app_button_title">Tlačítko „Ukončit aplikaci“</string>
     <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko „Ukončit aplikaci“ při dlouhém stisku v nabídce oznámení</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Charging animation</string>
-    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+    <string name="charging_animation_title">Animace při nabíjení</string>
+    <string name="charging_animation_summary">Zobrazí animaci při připojení zařízení ke zdroji nabíjení</string>
 </resources>

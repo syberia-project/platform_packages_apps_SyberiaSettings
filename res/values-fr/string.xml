@@ -510,6 +510,6 @@
     <string name="notification_guts_kill_app_button_title">Bouton pour tuer les apps</string>
     <string name="notification_guts_kill_app_button_summary">Afficher un bouton fermer toutes les application dans le menu lors d\'un appui long sur la notification</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Charging animation</string>
-    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+    <string name="charging_animation_title">Animation de charge</string>
+    <string name="charging_animation_summary">Affiche une animation lorsque l\'appareil est branché</string>
 </resources>
