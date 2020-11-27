@@ -26,4 +26,20 @@
         android:summary="@string/fod_icon_picker_summary"
         android:fragment="com.syberia.settings.fragments.FODIconPickerFragment" />
 
+
+    <!-- FOD recognizing animation -->
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="fod_recognizing_animation"
+        android:title="@string/fod_recog_animation"
+        android:summary="@string/fod_recog_animation_summary"
+        android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingListPreference
+        android:key="fod_recognizing_animation_list"
+        android:title="@string/fod_recog_animation_effect_title"
+        android:summary="%s"
+        android:entries="@array/fod_recog_animation_entries"
+        android:entryValues="@array/fod_recog_animation_values"
+        android:defaultValue="0"
+        android:dependency="fod_recognizing_animation" />
 </PreferenceScreen>
