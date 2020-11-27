@@ -26,7 +26,6 @@
         android:summary="@string/fod_icon_picker_summary"
         android:fragment="com.syberia.settings.fragments.FODIconPickerFragment" />
 
-
     <!-- FOD recognizing animation -->
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="fod_recognizing_animation"
@@ -42,4 +41,12 @@
         android:entryValues="@array/fod_recog_animation_values"
         android:defaultValue="0"
         android:dependency="fod_recognizing_animation" />
+
+    <!-- Screen Off FOD recognizing animation -->
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="fod_gesture"
+        android:title="@string/fod_gesture_title"
+        android:summary="@string/fod_gesture_summary"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.security.screenlock.ScreenOffFodPreferenceController" />
 </PreferenceScreen>
