@@ -16,6 +16,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/system_category_title">
 
     <Preference
@@ -24,12 +25,12 @@
         android:key="general_tweaks"
         android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
-	
+
     <Preference
         android:fragment="com.syberia.settings.fragments.Animations"
         android:icon="@drawable/ic_animations"
         android:key="animations"
-	android:summary="@string/animations_summary"
+        android:summary="@string/animations_summary"
         android:title="@string/animations_title" />
 
     <Preference
@@ -38,6 +39,14 @@
         android:key="buttons"
         android:summary="@string/buttons_summary"
         android:title="@string/buttons_title" />
+
+    <Preference
+        android:fragment="com.syberia.settings.fragments.FodTweaks"
+        android:icon="@drawable/ic_fod"
+        android:key="fod_tweaks"
+        android:summary="@string/fod_tweaks_summary"
+        android:title="@string/fod_tweaks_title"
+        settings:searchable="false" />
 
     <Preference
         android:fragment="com.syberia.settings.fragments.NotificationsSettings"
