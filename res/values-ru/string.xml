@@ -550,4 +550,30 @@
     <string name="fod_tweaks_title">Настройка FOD</string>
     <string name="fod_tweaks_summary">Дополнительные настройки подэкранного сканера отпечатка пальцев</string>
 
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Анимация</string>
+    <string name="fod_recog_animation_summary">Проигрывать анимацию во время распознания отпечатка пальца</string>
+    <string name="fod_recog_animation_effect_title">Выбор эффекта анимации</string>
+    <string name="fod_recog_animation_miui_normal">MIUI обычная</string>
+    <string name="fod_recog_animation_miui_light">Молния</string>
+    <string name="fod_recog_animation_miui_pop">Хлопок</string>
+    <string name="fod_recog_animation_miui_pulse">Пульс</string>
+    <string name="fod_recog_animation_miui_pulse_white">Пульс (белый)</string>
+    <string name="fod_recog_animation_miui_rhythm">Ритм</string>
+    <string name="fod_recog_animation_miui_star_cas">Звездный свет</string>
+    <string name="fod_recog_animation_op_cosmos">Космос</string>
+    <string name="fod_recog_animation_op_energy">Энергия</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Рябь</string>
+    <string name="fod_recog_animation_op_scanning">Сканирование</string>
+    <string name="fod_recog_animation_op_stripe">Полоса</string>
+    <string name="fod_recog_animation_op_wave">Волна</string>
+    <string name="fod_recog_animation_pureview_dna">ДНК</string>
+    <string name="fod_recog_animation_pureview_future">Будущее</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Кольцо Halo</string>
+    <string name="fod_recog_animation_pureview_molecular">Молекулы</string>
+    <string name="fod_recog_animation_rog_fusion">Фьюжн</string>
+    <string name="fod_recog_animation_rog_pulsar">Пульсар</string>
+    <string name="fod_recog_animation_rog_supernova">Супернова</string>
+
 </resources>
