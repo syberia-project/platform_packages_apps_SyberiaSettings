@@ -550,4 +550,9 @@
     <string name="fod_tweaks_title">Настройка FOD</string>
     <string name="fod_tweaks_summary">Дополнительные настройки подэкранного сканера отпечатка пальцев</string>
 
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Иконки FOD</string>
+    <string name="fod_icon_picker_summary">Выбери свою любимую иконку</string>
+    <string name="fod_icon_picker_footer">Чтобы добавить свою иконку, выбери левую верхнюю иконку и используй приложение OnePlus 6T FP Customizer</string>
+
 </resources>
