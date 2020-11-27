@@ -794,4 +794,8 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Значок Wi-Fi</string>
 
+    <!-- FOD Tweaks -->
+    <string name="fod_tweaks_title">Настройка FOD</string>
+    <string name="fod_tweaks_summary">Дополнительные настройки подэкранного сканера отпечатка пальцев</string>
+
 </resources>
