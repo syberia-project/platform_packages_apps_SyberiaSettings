@@ -31,6 +31,15 @@
         android:summary="@string/fprint_error_vib_summary"
         android:defaultValue="true" />
 
+    <com.syberia.settings.preference.SystemSettingListPreference
+        android:key="fod_recognizing_animation"
+        android:title="@string/fod_recog_animation_effect_title"
+        android:summary="%s"
+        android:entries="@array/fod_recog_animation_entries"
+        android:entryValues="@array/fod_recog_animation_values"
+        android:defaultValue="0"
+        android:dependency="fod_recognizing_animation" />
+
     <com.syberia.settings.preference.SecureSettingSwitchPreference
         android:key="lock_screen_transparent_notifications_enabled"
         android:title="@string/transparent_lockscreen_notification_title"
