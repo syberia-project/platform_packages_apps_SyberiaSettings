@@ -598,4 +598,8 @@
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
 
+    <!-- FOD Tweaks -->
+    <string name="fod_tweaks_title">FOD tweaks</string>
+    <string name="fod_tweaks_summary">FOD related customization</string>
+
 </resources>
