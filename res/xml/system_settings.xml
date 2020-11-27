@@ -40,6 +40,14 @@
         android:title="@string/buttons_title" />
 
     <Preference
+        android:fragment="com.syberia.settings.fragments.FodTweaks"
+        android:icon="@drawable/ic_fod"
+        android:key="fod_tweaks"
+        android:summary="@string/fod_tweaks_summary"
+        android:title="@string/fod_tweaks_title"
+        settings:searchable="false" />
+
+    <Preference
         android:fragment="com.syberia.settings.fragments.NotificationsSettings"
         android:icon="@drawable/ic_settings_notifications"
         android:key="notifications_category"
