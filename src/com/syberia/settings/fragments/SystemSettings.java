@@ -21,6 +21,9 @@ import android.content.Context;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference;
+
 import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
@@ -34,11 +37,24 @@ import com.android.internal.logging.nano.MetricsProto;
 @SearchIndexable
 public class SystemSettings extends SettingsPreferenceFragment {
 
+    private static final String FOD_DISABLED_BY_PROP =
+                                "ro.fingerprint.inscreen_disabled";
+
+    private static final String FOD_TWEAKS = "fod_tweaks";
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.system_settings);
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        if (!isFODdevice()) {
+            prefScreen.removePreference(findPreference(FOD_TWEAKS));
+        }
+    }
 
+    private boolean isFODdevice() {
+        return (getResources().getBoolean(
+                com.android.internal.R.bool.config_fod_tweaks));
     }
 
     @Override
