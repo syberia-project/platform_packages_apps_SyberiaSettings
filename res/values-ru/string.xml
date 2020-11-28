@@ -581,4 +581,7 @@
     <string name="fod_recog_animation_rog_pulsar">Пульсар</string>
     <string name="fod_recog_animation_rog_supernova">Супернова</string>
 
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
+    <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
 </resources>
