@@ -550,4 +550,7 @@
     <string name="fod_tweaks_title">Настройка FOD</string>
     <string name="fod_tweaks_summary">Дополнительные настройки подэкранного сканера отпечатка пальцев</string>
 
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
+    <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
 </resources>
