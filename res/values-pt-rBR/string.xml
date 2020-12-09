@@ -55,7 +55,7 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Itens da barra de status</string>
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar buttons</string>
+    <string name="navbar_tuner_title">Botões da barra de navegação</string>
     <!-- Volume keys category -->
     <string name="volume_keys_category">Teclas de volume</string>
     <string name="dialer_title">Discador</string>
@@ -82,9 +82,9 @@
     <string name="volume_rocker_wake_summary">Pressionar as teclas de volume ligará a tela do seu dispositivo</string>
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Vibração durante a autenticação da impressão digital</string>
-    <string name="fprint_sucess_vib_summary">Vibrar se a autenticação de impressão digital for reconhecida</string>
+    <string name="fprint_sucess_vib_summary">Vibrar na autenticação de impressão digital com sucesso</string>
     <string name="fprint_error_vib_title">Vibrar se a autenticação da impressão digital não for reconhecida</string>
-    <string name="fprint_error_vib_summary">Vibrate on error fingerprint authentication</string>
+    <string name="fprint_error_vib_summary">Vibrar na autenticação de impressão digital com erro</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Ligar tela quando o carregador for conectado</string>
     <string name="wakeup_when_plugged_unplugged_summary">Ligar a tela quando o carregador for conectado/desconectado.</string>
@@ -93,28 +93,28 @@
     <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
     <string name="incall_vibrate_call_wait_title">Vibrar ao receber chamada em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
-    <string name="power_button_category_title">Power Button</string>
+    <string name="power_button_category_title">Botão Liga/Desliga</string>
     <!-- Global Actions -->
-    <string name="global_actions_title">Power menu</string>
-    <string name="global_actions_summary">Select what to show when you press the power button</string>
-    <string name="global_actions_power">Power</string>
-    <string name="global_actions_restart">Restart</string>
-    <string name="global_actions_airplane">Airplane</string>
-    <string name="global_actions_settings">Settings</string>
-    <string name="global_actions_lockdown">Lock Down</string>
-    <string name="global_actions_soundpanel">Sound Panel</string>
-    <string name="global_actions_users">Users</string>
-    <string name="global_actions_screenshot">Screenshot</string>
-    <string name="global_actions_screenrecord">Screenrecord</string>
-    <string name="global_actions_flashlight">Flashlight</string>
-    <string name="global_actions_emergency">Emergency</string>
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
-    <string name="global_actions_max_columns_title">Max actions to show</string>
-    <string name="global_actions_max_columns_summary">Set how many actions to show before buttons move to overflow menu</string>
+    <string name="global_actions_title">Menu do botão liga/desliga</string>
+    <string name="global_actions_summary">Selecione o que exibir quando você pressiona o botão liga/desliga</string>
+    <string name="global_actions_power">Liga/Desliga</string>
+    <string name="global_actions_restart">Reiniciar</string>
+    <string name="global_actions_airplane">Modo avião</string>
+    <string name="global_actions_settings">Configurações</string>
+    <string name="global_actions_lockdown">Bloquear</string>
+    <string name="global_actions_soundpanel">Painel de som</string>
+    <string name="global_actions_users">Usuários</string>
+    <string name="global_actions_screenshot">Captura de tela</string>
+    <string name="global_actions_screenrecord">Gravador de tela</string>
+    <string name="global_actions_flashlight">Lanterna</string>
+    <string name="global_actions_emergency">Emergência</string>
+    <string name="global_actions_advanced_reboot_title">Habilitar reinicialização avançada</string>
+    <string name="global_actions_advanced_reboot_summary">Ao reiniciar também mostra opções para recuperação e bootloader</string>
+    <string name="global_actions_max_columns_title">Máximo de ações para mostrar</string>
+    <string name="global_actions_max_columns_summary">Definir quantas ações mostrar antes que os botões movam para o menu flutuante</string>
     <!-- Transparent lockscreen notifications -->
-    <string name="transparent_lockscreen_notification_title">Transparent notifications</string>
-    <string name="transparent_lockscreen_notification_summary">Enable lockscreen notifications with semi-transparent backgrounds</string>
+    <string name="transparent_lockscreen_notification_title">Notificações transparentes</string>
+    <string name="transparent_lockscreen_notification_summary">Habilitar notificações na tela de bloqueio com fundos semi-transparentes</string>
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Mostrar 4G em vez de LTE</string>
     <string name="show_fourg_summary">Substitui o indicador 4G por LTE na barra de status</string>
@@ -143,12 +143,12 @@
     <string name="vowifi_icon_asus">Ícone Asus</string>
     <string name="vowifi_icon_oneplus">Ícone OOS</string>
     <string name="vowifi_icon_moto">Ícone Motorola</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_simple1">Ícone Simple1</string>
+    <string name="vowifi_icon_simple2">Ícone Simple2</string>
+    <string name="vowifi_icon_simple3">Ícone Simple3</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informação de carregamento na tela de bloqueio</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_summary">Exibir corrente/tensão máxima e temperatura da bateria na tela de bloqueio durante o carregamento</string>
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
     <string name="volume_key_cursor_control_title">Controlar o cursor com as teclas de volume</string>
@@ -161,6 +161,8 @@
     <string name="double_tap_sleep_gesture_summary">Toque duas vezes na barra de status para desligar a tela</string>
     <string name="double_tap_sleep_lockscreen_title">Toque duplo para desligar</string>
     <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para desligar a tela</string>
+    <string name="doze_double_tap_title">Double tap to doze</string>
+    <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Botões físicos</string>
     <!-- Buttons backlight timeout -->
@@ -200,8 +202,8 @@
     <string name="hardware_keys_double_tap_title">Ação para toque duplo</string>
     <string name="hardware_keys_disable_title">Desativar botões físicos</string>
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Toque acidental</string>
+    <string name="anbi_summary">Evitar interação com os botões de navegação enquanto a tela estiver sendo tocada</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Porcentagem da bateria</string>
     <string name="battery_percentage_off">Desativado</string>
@@ -243,11 +245,11 @@
     <string name="allow_incall_home_title">Botão início quando estiver tocando</string>
     <string name="allow_incall_home_summary">Permitir que o botão de início seja usado quando o dispositivo estiver tocando</string>
     <!-- Power menu on lockscreen -->
-    <string name="power_menu_hide_on_secure_title">Hide on lockscreen</string>
-    <string name="power_menu_hide_on_secure_summary">Hides the global actions menu on secure lockscreen</string>
+    <string name="power_menu_hide_on_secure_title">Ocultar na tela de bloqueio</string>
+    <string name="power_menu_hide_on_secure_summary">Oculta o menu de ações globais na tela de bloqueio segura</string>
     <!-- Volume Steps Fragment -->
-    <string name="volume_steps_fragment_title">Volume steps</string>
-    <string name="volume_steps_summary">Customize volume steps</string>
+    <string name="volume_steps_fragment_title">Níveis de volume</string>
+    <string name="volume_steps_summary">Customizar os níveis de volume</string>
     <string name="volume_steps_alarm_title">Nível de volume: Alarme</string>
     <string name="volume_steps_dtmf_title">Níveis de volume: DTMF</string>
     <string name="volume_steps_music_title">Nível de volume: Mídia</string>
@@ -266,55 +268,55 @@
     <string name="weather_config_summary">Plugin de serviço do sistema</string>
     <string name="header_weather_title">Previsão do tempo no cabeçalho</string>
     <string name="header_weather_summary">Habilitar previsão do tempo no cabeçalho</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
     <string name="weather_icon_pack_note">Nota\u003a Você pode instalar novos pacotes de ícones da play store procurando por \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
+    <string name="weather_icon_pack_info_title">O pacote de ícones de condições é usado em configurações rápidas e na tela de bloqueio</string>
     <!-- Lockscreen weather style -->
     <string name="lockscreen_weather_style_title">Estilo do clima</string>
     <string name="lockscreen_weather_omni_style_title">Estilo Omni</string>
     <string name="lockscreen_weather_pixel_style_title">Estilo Pixel</string>
     <!-- Statusbar net monitor -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic">Network traffic</string>
-    <string name="network_traffic_location">Traffic indicator placement</string>
-    <string name="traffic_disabled">Disabled</string>
-    <string name="traffic_statusbar">Statusbar</string>
-    <string name="traffic_expanded_statusbar">Expanded header</string>
+    <string name="traffic_title">Indicadores de tráfego</string>
+    <string name="network_traffic_state_title">Tráfego de rede</string>
+    <string name="network_traffic">Tráfego de rede</string>
+    <string name="network_traffic_location">Posição do indicador de tráfego</string>
+    <string name="traffic_disabled">Desativado</string>
+    <string name="traffic_statusbar">Barra de status</string>
+    <string name="traffic_expanded_statusbar">Cabeçalho expandido</string>
     <string name="network_traffic_autohide_threshold_title">Limite para ocultar automaticamente a atividade de rede (KB/s)</string>
-    <string name="network_traffic_arrow">Show arrows</string>
-    <string name="network_traffic_arrow_summary">Show the network traffic indicator arrows</string>
+    <string name="network_traffic_arrow">Exibir setas</string>
+    <string name="network_traffic_arrow_summary">Mostrar as setas dos indicadores de tráfego</string>
     <string name="network_traffic_type">Selecione o tipo de atividade da rede</string>
-    <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
+    <string name="show_network_traffic_combined">Combinado (Upload + Download)</string>
     <string name="show_network_traffic_dynamic">Dinâmico</string>
     <string name="show_network_traffic_up">Upload</string>
     <string name="show_network_traffic_down">Download</string>
-    <string name="show_network_traffic_all">Both</string>
+    <string name="show_network_traffic_all">Ambos</string>
     <string name="network_traffic_layout">Layout de atividade</string>
     <string name="network_traffic_layout_h">Horizontal</string>
-    <string name="network_traffic_layout_v">Verticle</string>
-    <string name="nettraf_font_size">Single net font size</string>
+    <string name="network_traffic_layout_v">Vertical</string>
+    <string name="nettraf_font_size">Tamanho da fonte da rede</string>
     <!-- Screen off animation -->
     <string name="screen_off_animation_title">Animação ao desligar a tela</string>
     <string name="screen_off_animation_default">Padrão</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Escala</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
-    <string name="qs_show_brightness_slider_show_never">Never show</string>
-    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
-    <string name="qs_show_brightness_slider_show_always">Show always</string>
+    <string name="qs_show_brightness_slider_title">Controle de brilho</string>
+    <string name="qs_show_brightness_slider_summary">Mostrar o controle deslizante de brilho no painel das configurações rápidas</string>
+    <string name="qs_show_auto_brightness_title">Ícone de brilho automático</string>
+    <string name="qs_show_auto_brightness_summary">Mostrar alternação de brilho adaptativo perto do controle deslizante</string>
+    <string name="qs_show_brightness_slider_show_never">Nunca exibir</string>
+    <string name="qs_show_brightness_slider_show_expanded">Exibir quando expandido</string>
+    <string name="qs_show_brightness_slider_show_always">Mostrar sempre</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverter botões</string>
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Notificação ADB</string>
     <string name="adb_notify_summary">Exibir uma notificação quando a depuração do Android estiver ativada</string>
     <!-- USB Configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
-    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+    <string name="usb_default_config_title">Configuração USB</string>
+    <string name="usb_default_config_summary">Escolha o comportamento padrão quando conectado a um dispositivo via USB</string>
     <!-- Battery light -->
     <string name="battery_light_settings">Luz de carga da bateria</string>
     <string name="battery_light_enable">Habilitado</string>
@@ -350,8 +352,8 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Modo Jogo</string>
     <string name="gaming_mode_summary">Personalizar as preferências do modo jogo</string>
-    <string name="gaming_mode_enable_title">Enable Gaming Mode</string>
-    <string name="gaming_mode_enable_summary">Master switch for Gaming Mode</string>
+    <string name="gaming_mode_enable_title">Habilitar Modo de Jogo</string>
+    <string name="gaming_mode_enable_summary">Interruptor mestre para o modo de jogo</string>
     <string name="gaming_mode_app_picker_title">Ativar automaticamente para estes aplicativos</string>
     <string name="add_gaming_mode_package_title">Adicionar aplicativos para o modo jogo</string>
     <string name="add_gaming_mode_package_summary">O Modo jogo será ativado automaticamente quando estes aplicativos forem abertos e desativado quando forem fechados</string>
@@ -377,139 +379,177 @@
     <string name="lockscreen_visualizer_enable">Visualizador de música</string>
     <string name="lockscreen_visualizer_enable_summary">Mostrar barras do visualizador durante a reprodução da música</string>
     <!-- Ambient edge lighting -->
-    <string name="pulse_ambient_light_category">Screen edge lighting</string>
-    <string name="pulse_ambient_light_title">Show on new notifcation</string>
-    <string name="pulse_ambient_light_summary">Show light pulse on new notification</string>
-    <string name="ambient_notification_light_enabled_title">Show on always on</string>
-    <string name="ambient_notification_light_enabled_summary">Show light pulse on new notification using always on</string>
-    <string name="ambient_notification_light_color_title">Custom color</string>
-    <string name="ambient_notification_light_color_summary">Default color for light pulse</string>
-    <string name="ambient_notification_light_hide_aod_title">Only show light pulse</string>
-    <string name="ambient_notification_light_hide_aod_summary">Hide all other display elements from always on</string>
-    <string name="ambient_notification_light_timeout_title">Timeout for light pulse</string>
-    <string name="entry_infinite">Infinite</string>
-    <string name="entry_five_minute">5 minutes</string>
-    <string name="entry_ten_minute">10 minutes</string>
-    <string name="entry_thirty_minute">30 minutes</string>
-    <string name="entry_sixty_minute">60 minutes</string>
-    <string name="entry_fifteen_minute">15 minutes</string>
-    <string name="ambient_notification_light_color_mode_title">Light pulse color</string>
-    <string name="ambient_notification_light_color_mode_automatic">Notification color</string>
-    <string name="ambient_notification_light_color_mode_accent">System accent color</string>
-    <string name="ambient_notification_light_color_mode_custom">Custom color</string>
+    <string name="pulse_ambient_light_category">Iluminação da borda da tela</string>
+    <string name="pulse_ambient_light_title">Exibir na nova notificação</string>
+    <string name="pulse_ambient_light_summary">Iluminar as bordas laterais da tela ao receber notificações</string>
+    <string name="ambient_notification_light_enabled_title">Pulsar sempre ligado</string>
+    <string name="ambient_notification_light_enabled_summary">Mostrar Led ao usar novas notificações sempre ativa</string>
+    <string name="ambient_notification_light_color_title">Cor personalizada</string>
+    <string name="ambient_notification_light_color_summary">Cor padrão para pulso de luz</string>
+    <string name="ambient_notification_light_hide_aod_title">Mostrar apenas a pulsação de luz</string>
+    <string name="ambient_notification_light_hide_aod_summary">Ocultar todos os outros elementos do always on</string>
+    <string name="ambient_notification_light_timeout_title">Tempo limite para piscar a luz de notificação</string>
+    <string name="entry_infinite">Infinito</string>
+    <string name="entry_five_minute">5 minutos</string>
+    <string name="entry_ten_minute">10 minutos</string>
+    <string name="entry_thirty_minute">30 minutos</string>
+    <string name="entry_sixty_minute">60 minutos</string>
+    <string name="entry_fifteen_minute">15 minutos</string>
+    <string name="ambient_notification_light_color_mode_title">Cor do pulso de luz</string>
+    <string name="ambient_notification_light_color_mode_automatic">Cor da notificação</string>
+    <string name="ambient_notification_light_color_mode_accent">Cor de destaque do sistema</string>
+    <string name="ambient_notification_light_color_mode_custom">Cor personalizada</string>
     <string name="pulse_ambient_light_duration_title">Duração</string>
     <string name="pulse_ambient_light_duration_summary">Definir a duração da animação da luz ambiente</string>
     <string name="pulse_ambient_light_repeat_count_title">Contagem de repetição da luz da borda</string>
     <string name="pulse_ambient_light_repeat_count_summary">Definir contagem máxima de repetição. 0 para infinito</string>
-    <string name="animations_title">Animations</string>
-    <string name="animations_summary">Modify system animations</string>
+    <string name="animations_title">Animações</string>
+    <string name="animations_summary">Modificar animações do sistema</string>
     <!-- AOKP custom system animations -->
-    <string name="system_animation_title">System</string>
-    <string name="activity_open_title">Activity open animation</string>
-    <string name="activity_close_title">Activity close animation</string>
-    <string name="task_open_title">Task open animation</string>
-    <string name="task_open_behind_title">Task open behind animation</string>
-    <string name="task_close_title">Task close animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Wallpaper open animation</string>
-    <string name="wallpaper_close_title">Wallpaper close animation</string>
-    <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
-    <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="title_animation_no_override">Prevent app overrides</string>
-    <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
-    <string name="animation_duration_default">Default</string>
+    <string name="system_animation_title">Sistema</string>
+    <string name="activity_open_title">Animação ao abrir atividade</string>
+    <string name="activity_close_title">Animação ao fechar atividade</string>
+    <string name="task_open_title">Animação ao abrir tarefa</string>
+    <string name="task_open_behind_title">Animação ao abrir tarefa atrás</string>
+    <string name="task_close_title">Animação ao fechar tarefa</string>
+    <string name="task_move_to_front_title">Animação ao mover para frente</string>
+    <string name="task_move_to_back_title">Animação ao mover para trás</string>
+    <string name="wallpaper_open_title">Animação ao abrir papel de parede</string>
+    <string name="wallpaper_close_title">Animação ao fechar papel de parede</string>
+    <string name="wallpaper_intra_open_title">Animação de abertura do papel de parede</string>
+    <string name="wallpaper_intra_close_title">Animação de fechamento do papel de parede</string>
+    <string name="animation_duration_title">Duração da animação</string>
+    <string name="title_animation_no_override">Evitar sobreposições de app</string>
+    <string name="summary_animation_no_override">Impedir que aplicativos sobreponham transições</string>
+    <string name="animation_duration_default">Padrão</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_category">QS tile</string>
-    <string name="qs_tile_animation_style_title">QS tile animation</string>
-    <string name="qs_tile_animation_duration_title">QS tile animation duration</string>
-    <string name="qs_tile_animation_style_off">Disabled</string>
-    <string name="qs_tile_animation_style_flip">Flip</string>
-    <string name="qs_tile_animation_style_rotate">Rotate</string>
-    <string name="qs_tile_animation_duration_low">Low</string>
-    <string name="qs_tile_animation_duration_default">Default</string>
-    <string name="qs_tile_animation_duration_fast">Fast</string>
-    <string name="qs_tile_animation_interpolator_title">QS tile animation interpolator</string>
+    <string name="qs_tile_animation_category">Blocos das configurações rápidas</string>
+    <string name="qs_tile_animation_style_title">Animação do bloco das configurações rápidas</string>
+    <string name="qs_tile_animation_duration_title">Duração da animação dos blocos das configurações rápidas</string>
+    <string name="qs_tile_animation_style_off">Desativado</string>
+    <string name="qs_tile_animation_style_flip">Girar</string>
+    <string name="qs_tile_animation_style_rotate">Rotacionar</string>
+    <string name="qs_tile_animation_duration_low">Baixo</string>
+    <string name="qs_tile_animation_duration_default">Padrão</string>
+    <string name="qs_tile_animation_duration_fast">Rápido</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador de animação dos blocos das CR</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
-    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
-    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
-    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
-    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar e desacelerar</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Pular</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Ultrapassar</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Antecipar</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Antecipar e ultrapassar</string>
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- ListView animation -->
-    <string name="listview">ListView</string>
-    <string name="listview_animation_title">ListView animation</string>
-    <string name="listview_off">Default</string>
-    <string name="listview_wave_left">Wave (left)</string>
-    <string name="listview_wave_right">Wave (right)</string>
-    <string name="listview_alpha">Alpha</string>
-    <string name="listview_scale">Scale</string>
-    <string name="listview_stack_top">Stack (top)</string>
-    <string name="listview_stack_bottom">Stack (bottom)</string>
-    <string name="listview_unfold">Unfold</string>
-    <string name="listview_fold">Fold</string>
-    <string name="listview_translate_left">Translate (left)</string>
-    <string name="listview_translate_right">Translate (right)</string>
+    <string name="listview">Exibição de lista</string>
+    <string name="listview_animation_title">Animação da visualização em lista</string>
+    <string name="listview_off">Padrão</string>
+    <string name="listview_wave_left">Onda (esquerda)</string>
+    <string name="listview_wave_right">Onda (direita)</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_scale">Escala</string>
+    <string name="listview_stack_top">Pilha (topo)</string>
+    <string name="listview_stack_bottom">Pilha (inferior)</string>
+    <string name="listview_unfold">Desdobrar</string>
+    <string name="listview_fold">Dobrar</string>
+    <string name="listview_translate_left">Traduzir (esquerda)</string>
+    <string name="listview_translate_right">Traduzir (direita)</string>
     <!-- ListView interpolator -->
-    <string name="listview_interpolator_title">ListView interpolator</string>
-    <string name="listview_accelerate_interpolator">Accelerate</string>
-    <string name="listview_decelerate_interpolator">Decelerate</string>
-    <string name="listview_accelerate_decelerate_interpolator">Accelerate and decelerate</string>
-    <string name="listview_anticipate_interpolator">Anticipate</string>
-    <string name="listview_overshoot_interpolator">Overshoot</string>
-    <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
-    <string name="listview_bounce_interpolator">Bounce</string>
+    <string name="listview_interpolator_title">Interpolador da visualização em lista</string>
+    <string name="listview_accelerate_interpolator">Acelerar</string>
+    <string name="listview_decelerate_interpolator">Desacelerar</string>
+    <string name="listview_accelerate_decelerate_interpolator">Acelerar e desacelerar</string>
+    <string name="listview_anticipate_interpolator">Antecipar</string>
+    <string name="listview_overshoot_interpolator">Ultrapassar</string>
+    <string name="listview_anticipate_overshoot_interpolator">Antecipar e ultrapassar</string>
+    <string name="listview_bounce_interpolator">Pular</string>
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation_title">Power menu animation</string>
-    <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
-    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
-    <string name="power_menu_animation_aosp">AOSP (default)</string>
-    <string name="power_menu_animation_bottom">Bottom</string>
-    <string name="power_menu_animation_top">Top</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_title">Animação do menu liga/desliga</string>
+    <string name="power_menu_animation_summary">Alterar a animação de entrada/saída do menu liga/desliga</string>
+    <string name="power_menu_animation_dialog_title">Selecione a animação do menu liga/desliga</string>
+    <string name="power_menu_animation_aosp">AOSP (padrão)</string>
+    <string name="power_menu_animation_bottom">Inferior</string>
+    <string name="power_menu_animation_top">Topo</string>
+    <string name="power_menu_animation_xylon">Voar</string>
+    <string name="power_menu_animation_slide">Deslizar</string>
+    <string name="power_menu_animation_turn">Virar</string>
+    <string name="power_menu_animation_fly">Brilho</string>
     <string name="power_menu_animation_card">3D</string>
     <!-- Toast Animation -->
-    <string name="toast_animation_title">Toast animation</string>
-    <string name="toast_none_animation">None</string>
-    <string name="toast_default_animation">Default</string>
-    <string name="toast_fade_animation">Fade</string>
-    <string name="toast_SlideRight_animation">Slide right</string>
-    <string name="toast_SlideLeft_animation">Slide left</string>
+    <string name="toast_animation_title">Animação do Toast</string>
+    <string name="toast_none_animation">Nenhum</string>
+    <string name="toast_default_animation">Padrão</string>
+    <string name="toast_fade_animation">Desvanecer</string>
+    <string name="toast_SlideRight_animation">Deslizar para a direita</string>
+    <string name="toast_SlideLeft_animation">Deslizar para a esquerda</string>
     <string name="toast_Xylon_animation">Xylon</string>
     <string name="toast_Toko_animation">Toko</string>
     <string name="toast_Tn_animation">Tn</string>
     <string name="toast_Honami_animation">Honami</string>
-    <string name="toast_FastFade_animation">Fast fade</string>
-    <string name="toast_GrowFade_animation">Grow fade</string>
-    <string name="toast_GrowFadeCenter_animation">Grow fade center</string>
-    <string name="toast_GrowFadeBottom_animation">Grow fade bottom</string>
-    <string name="toast_Translucent_animation">Translucent</string>
-    <string name="toast_SlideLeftRight_animation">Slide left to right</string>
-    <string name="toast_SlideRightLeft_animation">Slide right to left</string>
+    <string name="toast_FastFade_animation">Desvanecer rapidamente</string>
+    <string name="toast_GrowFade_animation">Desvanecer crescendo</string>
+    <string name="toast_GrowFadeCenter_animation">Desvanecer crescendo para o meio</string>
+    <string name="toast_GrowFadeBottom_animation">Desvanecer crescendo para baixo</string>
+    <string name="toast_Translucent_animation">Translúcido</string>
+    <string name="toast_SlideLeftRight_animation">Deslizar da esquerda para a direita</string>
+    <string name="toast_SlideRightLeft_animation">Deslizar da direita para a esquerda</string>
     <!-- Option to enable/disable scrolling cache -->
-    <string name="pref_scrollingcache_title">Scrolling cache</string>
-    <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
-    <string name="pref_scrollingcache_force_enable">Force enable</string>
-    <string name="pref_scrollingcache_default_enable">Default enable</string>
-    <string name="pref_scrollingcache_default_disable">Default disable</string>
-    <string name="pref_scrollingcache_force_disable">Force disable</string>
+    <string name="pref_scrollingcache_title">Cache de rolagem</string>
+    <string name="pref_scrollingcache_summary">O cache de rolagem pode melhorar a performance de rolagem ao custo de memória</string>
+    <string name="pref_scrollingcache_force_enable">Forçar ativação</string>
+    <string name="pref_scrollingcache_default_enable">Ativado por padrão</string>
+    <string name="pref_scrollingcache_default_disable">Desativado por padrão</string>
+    <string name="pref_scrollingcache_force_disable">Forçar desativação</string>
     <!-- Force disable transition animation -->
-    <string name="disable_transition_animations_title">Disable transition animations</string>
-    <string name="disable_transition_animations_summary">Force disable all transition animations</string>
+    <string name="disable_transition_animations_title">Desativar animações de transição</string>
+    <string name="disable_transition_animations_summary">Forçar desabilitar todas as animações de transição</string>
     <!-- Notification guts kill app button -->
-    <string name="notification_misc">Misc</string>
-    <string name="notification_guts_kill_app_button_title">Kill app button</string>
-    <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+    <string name="notification_misc">Diversos</string>
+    <string name="notification_guts_kill_app_button_title">Botão de fechar aplicativo</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar um botão para fechar o aplicativo ao tocar e segurar em uma notificação</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Charging animation</string>
-    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+    <string name="charging_animation_title">Animação de carregamento</string>
+    <string name="charging_animation_summary">Exibir uma animação quando o dispositivo está conectado</string>
+    <!-- FOD Tweaks -->
+    <string name="fod_tweaks_title">FOD Tweaks</string>
+    <string name="fod_tweaks_summary">FOD related customization</string>
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">FOD icon picker</string>
+    <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Fingerprint animation</string>
+    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
+    <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Ripple</string>
+    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
+    <string name="fod_recog_animation_op_stripe">Stripe</string>
+    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
+    <!-- Screen off fod -->
+    <string name="fod_gesture_title">Screen off fingerprint</string>
+    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 </resources>
