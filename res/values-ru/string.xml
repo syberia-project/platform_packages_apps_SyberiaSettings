@@ -637,4 +637,8 @@
     <string name="notification_sound_vib_screen_on_title">Звук уведомлений</string>
     <string name="notification_sound_vib_screen_on_summary">Рзрешить звук уведомлений и вибрацию при включенном экране</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вибрация при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
+
 </resources>
