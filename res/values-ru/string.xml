@@ -586,4 +586,8 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
     <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
+
+    <!-- Statusbar brightness control -->
+    <string name="status_bar_brightness_control_title">Строки состояния регулировка яркости</string>
+    <string name="status_bar_brightness_control_summary">Отрегулируйте яркость, перемещаясь по строке состояния</string>
 </resources>
