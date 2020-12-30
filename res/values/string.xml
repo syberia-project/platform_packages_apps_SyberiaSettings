@@ -417,6 +417,7 @@
     <string name="lockscreen_media_category">Music</string>
     <string name="media_art_title">Media artwork</string>
     <string name="media_art_summary">Show media cover art as the lockscreen background</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Less boring heads up</string>
@@ -641,4 +642,5 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+
 </resources>

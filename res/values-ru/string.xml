@@ -362,6 +362,7 @@
     <string name="lockscreen_media_category">Музыка</string>
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+    <string name="lockscreen_media_blur_title">Уровень размытия медиа-обложки</string>
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Отключить раздражающие уведомления</string>
