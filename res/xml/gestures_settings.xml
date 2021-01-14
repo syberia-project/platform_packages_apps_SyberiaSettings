@@ -41,6 +41,12 @@
         android:persistent="false"
         android:defaultValue="0" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+         android:key="status_bar_brightness_control"
+         android:title="@string/status_bar_brightness_control_title"
+         android:summary="@string/status_bar_brightness_control_summary"
+         android:defaultValue="false"/>
+
  <PreferenceCategory
         android:title="@string/doubletap_gestures_title"
         android:key="doubleap_gestures" >
