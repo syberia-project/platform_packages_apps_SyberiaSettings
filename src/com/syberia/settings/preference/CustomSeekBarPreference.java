@@ -164,6 +164,8 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
 
     public void setValue(int value) {
         mCurrentValue = value;
+        notifyChanged();
+        //seekBar.setProgress(mCurrentValue);
     }
 
     @Override
