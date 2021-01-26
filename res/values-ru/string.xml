@@ -669,4 +669,8 @@
     <string name="wakelock_blocker_warning_title">Действовать с осторожностью</string>
     <string name="wakelock_blocker_warning">Блокировка вэйклоков может вызвать нестабильность, сбои или потерю данных</string>
 
+    <!-- Show Statusbar on Lockscreen -->
+    <string name="lockscreen_status_bar_title">Строка состояния</string>
+    <string name="lockscreen_status_bar_summary">Показывать строку состояния на экране блокировки</string>
+
 </resources>
