@@ -161,8 +161,8 @@
     <string name="double_tap_sleep_gesture_summary">Dvojí poklepání na stavový řádek uvede zařízení do režimu spánku</string>
     <string name="double_tap_sleep_lockscreen_title">Uspat dvojím poklepáním</string>
     <string name="double_tap_sleep_lockscreen_summary">Dvojí poklepáním kdekoliv na zamykací obrazovce uvede zařízení do režimu spánku</string>
-    <string name="doze_double_tap_title">Double tap to doze</string>
-    <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
+    <string name="doze_double_tap_title">Dvojitým poklepáním spustit doze</string>
+    <string name="doze_double_tap_summary">Dvojitým poklepáním spustit doze namísto probuzení</string>
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Hardwarová tlačítka</string>
     <!-- Buttons backlight timeout -->
@@ -346,6 +346,7 @@
     <string name="lockscreen_media_category">Hudba</string>
     <string name="media_art_title">Obal interpreta</string>
     <string name="media_art_summary">Zobrazit obal interpreta na pozadí zamykací obrazovky</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Méně obtěžující plovoucí oznámení</string>
     <string name="less_boring_heads_up_summary">Zobrazit plovoucí oznámení pouze pro aplikace Telefon, Zprávy nebo Budík</string>
@@ -515,41 +516,74 @@
     <string name="charging_animation_title">Animace při nabíjení</string>
     <string name="charging_animation_summary">Zobrazí animaci při připojení zařízení ke zdroji nabíjení</string>
     <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">FOD Tweaks</string>
-    <string name="fod_tweaks_summary">FOD related customization</string>
+    <string name="fod_tweaks_title">Nastavení FOD</string>
+    <string name="fod_tweaks_summary">Přizpůsobení týkající se FOD</string>
     <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">FOD icon picker</string>
-    <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
-    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
+    <string name="fod_icon_picker_title">Výběr ikony otisku prstu</string>
+    <string name="fod_icon_picker_summary">Vyberte si svou oblíbenou ikonu čtečky otisku prstu v displeji</string>
+    <string name="fod_icon_picker_footer">Chcete‑li přidat vlastní ikonu, vyberte levou horní ikonu a použijte aplikaci OnePlus 6T FP Customizer pro výběr požadované ikony.</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">Fingerprint animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation">Animace při odemknutí otiskem prstu</string>
+    <string name="fod_recog_animation_summary">Zobrazit animaci při skenování otisku prstu</string>
+    <string name="fod_recog_animation_effect_title">Vybrat efekt animace otisku prstu</string>
+    <string name="fod_recog_animation_miui_normal">MIUI - výchozí</string>
+    <string name="fod_recog_animation_miui_aod">MIUI - AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
     <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_light">Světlý</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
     <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_energy">Energy</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (bílé)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rytmus</string>
+    <string name="fod_recog_animation_miui_star_cas">Světlo hvězd</string>
+    <string name="fod_recog_animation_op_cosmos">Kosmos</string>
+    <string name="fod_recog_animation_op_energy">Energie</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Ripple</string>
-    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_ripple">Vlnka</string>
+    <string name="fod_recog_animation_op_scanning">Skenování (Cyberpunk 2077)</string>
+    <string name="fod_recog_animation_op_stripe">Proužek</string>
+    <string name="fod_recog_animation_op_wave">Vlna</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
-    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_pureview_future">Budoucnost</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Kruh Halo</string>
+    <string name="fod_recog_animation_pureview_molecular">Molekulární</string>
+    <string name="fod_recog_animation_rog_fusion">Fúze</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Otisky prstů při vypnuté obrazovce</string>
+    <string name="fod_gesture_summary">Umožňuje odemknutí zařízení, aniž by bylo nutné nejprve obrazovku probudit</string>
+    <!-- Statusbar brightness control -->
+    <string name="status_bar_brightness_control_title">Statusbar Brightness Control</string>
+    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across statusbar</string>
+    <!-- Statusbar Clock -->
+    <string name="clock_options_title">Clock options</string>
+    <string name="clock_options_summary">Customize your statusbar clock</string>
+    <string name="statusbar_clock_show">Show clock and date</string>
+    <string name="statusbar_clock_style_title">Clock style</string>
+    <string name="statusbar_clock_style_right">Right</string>
+    <string name="statusbar_clock_style_center">Center</string>
+    <string name="statusbar_clock_style_left">Left</string>
+    <string name="statusbar_am_pm_title">AM/PM style</string>
+    <string name="statusbar_am_pm_info">24-hour clock is enabled</string>
+    <string name="statusbar_am_pm_normal">Normal</string>
+    <string name="statusbar_am_pm_small">Small</string>
+    <string name="statusbar_am_pm_hidden">Hidden (default)</string>
+    <string name="clock_seconds_display">Show seconds</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_right">Right of time</string>
+    <string name="clock_date_left">Left of time</string>
+    <string name="clock_date_position">Date position</string>
 </resources>
