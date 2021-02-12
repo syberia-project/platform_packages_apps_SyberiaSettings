@@ -26,6 +26,14 @@
         android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
 
+    <!-- Sensor Block -->
+    <Preference
+        android:key="sensor_block_settings"
+        android:icon="@drawable/ic_sensor_block"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:fragment="com.syberia.settings.fragments.SensorBlock"/>
+
     <Preference
         android:fragment="com.syberia.settings.fragments.Animations"
         android:icon="@drawable/ic_animations"
