@@ -21,5 +21,10 @@
 
     <!-- Shortcut picker -->
     <dimen name="shortcut_picker_left_padding">70dip</dimen>
+
+    <!-- App list preference -->
+    <dimen name="app_list_margin_start">72dp</dimen>
+    <dimen name="app_list_margin_end">16dp</dimen>
+
 </resources>
 

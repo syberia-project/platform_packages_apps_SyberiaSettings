@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 AICP
+ * Copyright (C) 2021 AOSiP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,26 +17,35 @@
 package com.syberia.settings.preference;
 
 import android.content.Context;
+import androidx.preference.Preference;
 import android.util.AttributeSet;
 
-import com.syberia.settings.preference.SystemSettingsStore;
 import com.android.settings.R;
 
-public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
+public class AppListPreference extends Preference {
 
-    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+    public AppListPreference(Context context, AttributeSet attrs,
+                               int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+        init();
     }
 
-    public SystemSettingMasterSwitchPreference(Context context, AttributeSet attrs) {
+    public AppListPreference(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        init();
+    }
+
+    public AppListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        init();
     }
 
-    public SystemSettingMasterSwitchPreference(Context context) {
+    public AppListPreference(Context context) {
         super(context);
-        setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
+        init();
     }
 
+    private void init() {
+        setLayoutResource(R.layout.app_list_preference_view);
+    }
 }

@@ -24,7 +24,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Switch;
 
-import com.syberia.settings.R;
+import com.android.settings.R;
 
 /**
  * A custom preference that provides inline switch toggle. It has a mandatory field for title, and
