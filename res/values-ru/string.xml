@@ -633,4 +633,8 @@
     <string name="add_sensor_block_package_title">Добавить приложение для блокировки сенсора</string>
     <string name="add_sensor_block_package_summary">Акселерометр, датчики движения и линейного ускорения будут заблокированы для выбранных приложений</string>
 
+    <!-- Notification sound -->
+    <string name="notification_sound_vib_screen_on_title">Звук уведомлений</string>
+    <string name="notification_sound_vib_screen_on_summary">Рзрешить звук уведомлений и вибрацию при включенном экране</string>
+
 </resources>

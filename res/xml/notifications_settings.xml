@@ -118,6 +118,12 @@
         android:title="@string/notification_misc">
 
         <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="notification_guts_kill_app_button"
             android:title="@string/notification_guts_kill_app_button_title"
             android:summary="@string/notification_guts_kill_app_button_summary"
