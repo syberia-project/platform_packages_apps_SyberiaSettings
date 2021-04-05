@@ -50,6 +50,13 @@
         android:summary="@string/gestures_category_summary"
         android:title="@string/gestures_category_title" />
 
+    <Preference
+        android:key="gaming_category"
+        android:icon="@drawable/ic_gaming"
+        android:title="@string/gaming_title"
+        android:summary="@string/gaming_title_summary"
+        android:fragment="com.syberia.settings.fragments.GamingModeSettings" />
+
     <PreferenceScreen
         android:fragment="com.syberia.settings.fragments.UiThemingSettings"
         android:icon="@drawable/ic_uitheming"
