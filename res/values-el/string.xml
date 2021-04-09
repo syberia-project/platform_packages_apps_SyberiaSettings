@@ -221,7 +221,7 @@
     <string name="status_bar_battery_style_square">Τετράγωνο</string>
     <string name="status_bar_battery_style_solid">Συμπαγής</string>
     <string name="status_bar_battery_style_text">Κείμενο</string>
-    <string name="status_bar_battery_style_hidden">Κρυφο</string>
+    <string name="status_bar_battery_style_hidden">Κρυμμένο</string>
     <string name="status_bar_battery_style_q">Q Εμφάνιση</string>
     <string name="status_bar_battery_style_tile_title">Παράκαμψη πλακιδίων μπαταρίας</string>
     <string name="status_bar_battery_style_tile_summary">Χρησιμοποιήστε το ίδιο στυλ εικονιδίου όπως παραπάνω στο πλακίδιο μπαταρίας QS</string>
@@ -233,7 +233,7 @@
     <string name="text_charging_symbol_tilde">Κυματοειδής γραμμή</string>
     <!-- Status bar - Battery percentage -->
     <string name="status_bar_battery_percentage_title">Ποσοστό μπαταρίας</string>
-    <string name="status_bar_battery_percentage_default">Κρυφο</string>
+    <string name="status_bar_battery_percentage_default">Κρυμμένο</string>
     <string name="status_bar_battery_percentage_text_inside">Μέσα στο εικονίδιο</string>
     <string name="status_bar_battery_percentage_text_next">Δίπλα στο εικονίδιο</string>
     <string name="status_bar_battery_text_position_title">Θέση τοις εκατό μπαταρίας</string>
@@ -587,9 +587,15 @@
     <string name="clock_date_left">Αριστερά της ώρας</string>
     <string name="clock_date_position">Θέση ημερομηνίας</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
-    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
-    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
-    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+    <string name="sensor_block_title">Μπλοκάρισμα αισθητήρα ανά πακέτο</string>
+    <string name="sensor_block_summary">Αποκλεισμός πρόσβασης σε ορισμένους αισθητήρες για ορισμένες εφαρμογές για εξοικονόμηση μπαταρίας</string>
+    <string name="sensor_block_app_picker_title">Αποκλεισμός αισθητήρων για αυτές τις εφαρμογές</string>
+    <string name="add_sensor_block_package_title">Προσθέστε εφαρμογές για μπλοκαρισμα αισθητήρα</string>
+    <string name="add_sensor_block_package_summary">Σημαντικοί αισθητήρες κίνησης, επιταχυνσιόμετρο, γραμμικής επιτάχυνσης θα αποκλειστούν για αυτές τις εφαρμογές</string>
+    <!-- Notification sound -->
+    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
 </resources>
