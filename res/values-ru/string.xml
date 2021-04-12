@@ -740,5 +740,6 @@
     <string name="volume_panel_compat">Совместимый</string>
     <string name="volume_panel_oreo">Стиль Oreo</string>
     <string name="volume_panel_tiled">Плиточный</string>
+    <string name="volume_panel_miui">Стиль MIUI</string>
 
 </resources>
