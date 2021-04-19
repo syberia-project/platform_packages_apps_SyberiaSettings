@@ -33,25 +33,43 @@
         android:entryValues="@array/qs_battery_mode_values"
         android:defaultValue="1" />
 
-    <com.syberia.settings.preference.SecureSettingListPreference
-        android:key="qs_show_brightness_slider"
-        android:title="@string/qs_show_brightness_slider_title"
-        android:summary="%s"
-        android:dialogTitle="@string/qs_show_brightness_slider_title"
-        android:entries="@array/qs_show_brightness_slider_entries"
-        android:entryValues="@array/qs_show_brightness_slider_values"
-        android:defaultValue="1" />
-
-    <com.syberia.settings.preference.SecureSettingSwitchPreference
-        android:key="qs_show_auto_brightness"
-        android:title="@string/qs_show_auto_brightness_title"
-        android:summary="@string/qs_show_auto_brightness_summary"
-        android:defaultValue="true" />
-
     <!-- Heads up -->
     <Preference
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
+
+    <PreferenceCategory
+        android:key="string/qs_brightness_category"
+        android:title="@string/qs_brightness_category_title">
+
+        <com.syberia.settings.preference.SecureSettingListPreference
+            android:key="qqs_show_brightness_slider"
+            android:title="@string/qqs_brightness_slider_title"
+            android:entries="@array/qs_show_brightness_slider_entries"
+            android:entryValues="@array/qs_show_brightness_slider_values"
+            android:summary="%s"
+            android:defaultValue="2" />
+
+        <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="qs_show_brightness_slider_show_expanded"
+            android:title="@string/qs_show_brightness_slider_expanded_title"
+            android:summary="@string/qs_show_brightness_slider_expanded_summary"
+            android:defaultValue="true" />
+
+        <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="qs_brightness_position_bottom"
+            android:title="@string/qs_brightness_position_bottom_title"
+            android:summary="@string/qs_brightness_position_bottom_summary"
+            android:dependency="qs_show_brightness_slider_show_expanded"
+            android:defaultValue="false" />
+
+        <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:title="@string/qs_show_auto_brightness_title"
+            android:summary="@string/qs_show_auto_brightness_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
