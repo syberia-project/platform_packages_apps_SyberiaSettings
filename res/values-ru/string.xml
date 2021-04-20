@@ -673,4 +673,7 @@
     <string name="lockscreen_status_bar_title">Строка состояния</string>
     <string name="lockscreen_status_bar_summary">Показывать строку состояния на экране блокировки</string>
 
+    <string name="statusbar_icons_style">Цветные значки уведомлений</string>
+    <string name="statusbar_icons_style_summary">Включить цветные значки уведомлений в строке состояния (необходим перезапуск интерфейса)</string>
+
 </resources>
