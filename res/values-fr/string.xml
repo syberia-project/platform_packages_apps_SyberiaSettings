@@ -302,13 +302,18 @@
     <string name="screen_off_animation_crt">Tube cathodique</string>
     <string name="screen_off_animation_scale">Échelle</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Curseur de luminosité</string>
-    <string name="qs_show_brightness_slider_summary">Afficher un curseur de luminosité dans le volet des réglages rapides</string>
-    <string name="qs_show_auto_brightness_title">Icône de luminosité</string>
+    <string name="qs_brightness_category_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
+    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Voir le bouton pour la luminosité adaptative près du curseur</string>
-    <string name="qs_show_brightness_slider_show_never">Ne jamais afficher</string>
-    <string name="qs_show_brightness_slider_show_expanded">Afficher quand étendu</string>
-    <string name="qs_show_brightness_slider_show_always">Toujours afficher</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (Expanded QS)</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
+    <string name="qs_brightness_slider_hide">Hide</string>
+    <string name="qs_brightness_slider_bottom">Bottom</string>
+    <string name="qs_brightness_slider_top">Top</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverser la disposition</string>
     <!-- ADB debugging notifications -->

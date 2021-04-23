@@ -302,13 +302,18 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Κλίμακα</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Ρυθμιστικό φωτεινότητας</string>
-    <string name="qs_show_brightness_slider_summary">Εμφανίστε ένα ρυθμιστικό φωτεινότητας στον πίνακα γρήγορων ρυθμίσεων</string>
-    <string name="qs_show_auto_brightness_title">Εικονίδιο αυτόματης φωτεινότητας</string>
+    <string name="qs_brightness_category_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
+    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Εμφάνιση διακόπτη για προσαρμοστική φωτεινότητα δίπλα στο ρυθμιστικό</string>
-    <string name="qs_show_brightness_slider_show_never">Να μην εμφανίζεται ποτέ</string>
-    <string name="qs_show_brightness_slider_show_expanded">Εμφάνιση κατά την επέκταση</string>
-    <string name="qs_show_brightness_slider_show_always">Εμφάνιση πάντα</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (Expanded QS)</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
+    <string name="qs_brightness_slider_hide">Hide</string>
+    <string name="qs_brightness_slider_bottom">Bottom</string>
+    <string name="qs_brightness_slider_top">Top</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Αντιστροφή διάταξης</string>
     <!-- ADB debugging notifications -->

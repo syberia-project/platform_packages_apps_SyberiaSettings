@@ -302,13 +302,18 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Stupnice</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_slider_title">Posuvník jasu</string>
-    <string name="qs_show_brightness_slider_summary">Zobrazit posuvník jasu v panelu Rychlého nastavení</string>
-    <string name="qs_show_auto_brightness_title">Ikona automatického jasu</string>
+    <string name="qs_brightness_category_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
+    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
     <string name="qs_show_auto_brightness_summary">Zobrazit přepínač adaptivního jasu vedle posuvníku</string>
-    <string name="qs_show_brightness_slider_show_never">Nikdy nezobrazovat</string>
-    <string name="qs_show_brightness_slider_show_expanded">Zobrazit po rozbalení</string>
-    <string name="qs_show_brightness_slider_show_always">Zobrazit vždy</string>
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (Expanded QS)</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
+    <!-- QQS brightness slider -->
+    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
+    <string name="qs_brightness_slider_hide">Hide</string>
+    <string name="qs_brightness_slider_bottom">Bottom</string>
+    <string name="qs_brightness_slider_top">Top</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Převrátit rozložení</string>
     <!-- ADB debugging notifications -->
@@ -593,9 +598,9 @@
     <string name="add_sensor_block_package_title">Přidat aplikace, ve kterých budou blokovány senzory</string>
     <string name="add_sensor_block_package_summary">V těchto aplikacích bude zablokováno zaznamenávání významného pohybu a senzory akcelerometru a lineární akcelerace</string>
     <!-- Notification sound -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Zvukové oznámení při aktivitě</string>
+    <string name="notification_sound_vib_screen_on_summary">Přehrát zvuk a vibrovat při přijetí oznámení, když je obrazovka zapnutá</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrace při dotyku</string>
+    <string name="quick_settings_vibrate_summary">Vibrovat při dotyku QS dlaždice</string>
 </resources>
