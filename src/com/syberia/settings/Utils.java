@@ -206,6 +206,10 @@ public final class Utils {
         return false;
     }
 
+    public static boolean isCustomDoze(Context context) {
+        return isPackageInstalled(context, "com.custom.ambient.display");
+    }
+
     public static boolean hasFeatureNfc(Context context) {
         return context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_NFC);
     }

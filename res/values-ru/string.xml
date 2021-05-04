@@ -654,4 +654,6 @@
     <string name="qs_tint_off">По умолчанию</string>
     <string name="qs_tint_accent">В цвет акцента</string>
 
+    <string name="ambient_display_custom_title">Активный дисплей</string>
+
 </resources>

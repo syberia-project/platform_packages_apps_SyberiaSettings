@@ -21,6 +21,8 @@ import android.os.Bundle;
 import android.provider.SearchIndexableResource;
 
 import com.android.settings.R;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
@@ -33,6 +35,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import com.syberia.settings.Utils;
+
 @SearchIndexable
 public class GesturesSettings extends SettingsPreferenceFragment {
 
@@ -40,6 +44,12 @@ public class GesturesSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.gestures_settings);
+        PreferenceCategory preferenceCategory = (PreferenceCategory) findPreference("doubleap_gestures");
+        Preference mDozeTriggerPref = (Preference) findPreference("doze_trigger_doubletap");
+        if (Utils.isCustomDoze(getActivity().getApplicationContext())) {
+            preferenceCategory.removePreference(mDozeTriggerPref);
+        }
+
     }
 
     @Override

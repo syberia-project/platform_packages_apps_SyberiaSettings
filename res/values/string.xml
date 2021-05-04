@@ -706,4 +706,6 @@
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
 
+    <string name="ambient_display_custom_title">Ambient Display</string>
+
 </resources>
