@@ -23,13 +23,22 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import androidx.preference.Preference;
+
 public class SyberiaSettings extends SettingsPreferenceFragment {
 
+    private static final String KEY_AMBIENT_DISPLAY_CUSTOM = "ambient_display_custom";
+    private Preference mCustomDoze;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.syberia_settings);
+
+        mCustomDoze = (Preference) findPreference(KEY_AMBIENT_DISPLAY_CUSTOM);
+        if (!getResources().getBoolean(com.android.internal.R.bool.config_alt_ambient_display)) {
+            getPreferenceScreen().removePreference(mCustomDoze);
+        }
     }
 
     @Override
