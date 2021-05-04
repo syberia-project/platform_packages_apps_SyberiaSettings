@@ -649,4 +649,9 @@
     <string name="quick_settings_vibrate_title">Вибрация при касании</string>
     <string name="quick_settings_vibrate_summary">Вибрировать при нажатии на плитки быстрых настроек</string>
 
+    <string name="qs_bg_use_new_tint">Окраска плиток</string>
+    <string name="qs_bg_use_new_tint_summary">Выбор стиля окраски плиток</string>
+    <string name="qs_tint_off">По умолчанию</string>
+    <string name="qs_tint_accent">В цвет акцента</string>
+
 </resources>
