@@ -46,6 +46,18 @@
         android:summary="@string/gestures_category_summary"
         android:title="@string/gestures_category_title" />
 
+<!-- Ambient Display -->
+    <Preference
+        android:key="ambient_display_custom"
+        android:persistent="false"
+        android:title="@string/ambient_display_custom_title"
+        android:icon="@drawable/ic_settings_ambient" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.custom.ambient.display"
+            android:targetClass="com.custom.ambient.display.DozeSettings" />
+    </Preference>
+
     <PreferenceScreen
         android:fragment="com.syberia.settings.fragments.AboutTeam"
         android:icon="@drawable/ic_about_team"
