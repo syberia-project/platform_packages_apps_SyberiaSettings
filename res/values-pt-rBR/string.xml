@@ -161,8 +161,8 @@
     <string name="double_tap_sleep_gesture_summary">Toque duas vezes na barra de status para desligar a tela</string>
     <string name="double_tap_sleep_lockscreen_title">Toque duplo para desligar</string>
     <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para desligar a tela</string>
-    <string name="doze_double_tap_title">Double tap to doze</string>
-    <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
+    <string name="doze_double_tap_title">Toque duplo para desligar a tela</string>
+    <string name="doze_double_tap_summary">Toque duas vezes para dormir ao invés de acordar</string>
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Botões físicos</string>
     <!-- Buttons backlight timeout -->
@@ -302,18 +302,18 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Escala</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_category_title">Brightness slider</string>
-    <string name="qs_show_brightness_slider_expanded_title">Expanded QS brightness slider</string>
-    <string name="qs_show_brightness_slider_expanded_summary">Show brightness slider when expanded</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_brightness_category_title">Barra de brilho</string>
+    <string name="qs_show_brightness_slider_expanded_title">Controle de brilho expandido</string>
+    <string name="qs_show_brightness_slider_expanded_summary">Mostrar controle de brilho quando expandido</string>
+    <string name="qs_show_auto_brightness_title">Ícone de brilho automático</string>
     <string name="qs_show_auto_brightness_summary">Mostrar alternação de brilho adaptativo perto do controle deslizante</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (Expanded QS)</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
+    <string name="qs_brightness_position_bottom_title">Controle de brilho na parte inferior (funciona apenas com as configurações rápidas expandida)</string>
+    <string name="qs_brightness_position_bottom_summary">Mostrar a barra de brilho na parte inferior das configurações rápidas</string>
     <!-- QQS brightness slider -->
-    <string name="qqs_brightness_slider_title">QQS brightness slider</string>
-    <string name="qs_brightness_slider_hide">Hide</string>
-    <string name="qs_brightness_slider_bottom">Bottom</string>
-    <string name="qs_brightness_slider_top">Top</string>
+    <string name="qqs_brightness_slider_title">Mostrar o controle deslizante de brilho</string>
+    <string name="qs_brightness_slider_hide">Ocultar</string>
+    <string name="qs_brightness_slider_bottom">Inferior</string>
+    <string name="qs_brightness_slider_top">Topo</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverter botões</string>
     <!-- ADB debugging notifications -->
@@ -351,7 +351,7 @@
     <string name="lockscreen_media_category">Música</string>
     <string name="media_art_title">Capa do álbum</string>
     <string name="media_art_summary">Mostrar a capa do álbum como fundo da tela de bloqueio</string>
-    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="lockscreen_media_blur_title">Nível de desfoque da capa do álbum</string>
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Notificações flutuantes menos irritantes</string>
     <string name="less_boring_heads_up_summary">Mostrar notificações flutuantes apenas para chamadas, apps de mensagens e alarmes</string>
@@ -521,86 +521,93 @@
     <string name="charging_animation_title">Animação de carregamento</string>
     <string name="charging_animation_summary">Exibir uma animação quando o dispositivo está conectado</string>
     <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">FOD Tweaks</string>
-    <string name="fod_tweaks_summary">FOD related customization</string>
+    <string name="fod_tweaks_title">Ajustes FOD</string>
+    <string name="fod_tweaks_summary">Personalização relacionada ao FOD</string>
     <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">FOD icon picker</string>
-    <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
-    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
+    <string name="fod_icon_picker_title">Seletor do ícone FOD</string>
+    <string name="fod_icon_picker_summary">Escolha seu ícone de impressão digital favorito</string>
+    <string name="fod_icon_picker_footer">Para adicionar seu próprio ícone, selecione o ícone superior esquerdo e use o aplicativo OnePlus 6T FP Customizer para selecionar o ícone desejado.</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">Fingerprint animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
+    <string name="fod_recog_animation">Animação da impressão digital</string>
+    <string name="fod_recog_animation_summary">Mostra animação durante a leitura da impressão digital</string>
+    <string name="fod_recog_animation_effect_title">Selecionar animação da digital</string>
+    <string name="fod_recog_animation_miui_normal">Padrão MIUI</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Xiaomi Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Claro</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
     <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (branco)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rítimo</string>
+    <string name="fod_recog_animation_miui_star_cas">Luz Estelar</string>
     <string name="fod_recog_animation_op_cosmos">Cosmos</string>
     <string name="fod_recog_animation_op_energy">Energy</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
     <string name="fod_recog_animation_op_ripple">Ripple</string>
     <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
     <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
+    <string name="fod_recog_animation_op_wave">Onda</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_future">Futuro</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Anel de Halo</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
-    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_fusion">Fusão</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
     <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <!-- Screen off fod -->
-    <string name="fod_gesture_title">Screen off fingerprint</string>
-    <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    <string name="fod_gesture_title">Impressão digital com a tela apagada</string>
+    <string name="fod_gesture_summary">Permitir desbloqueio por impressão digital com a tela apagada</string>
     <!-- Statusbar brightness control -->
-    <string name="status_bar_brightness_control_title">Statusbar Brightness Control</string>
-    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across statusbar</string>
+    <string name="status_bar_brightness_control_title">Controle de brilho da barra de status</string>
+    <string name="status_bar_brightness_control_summary">Permite ajustar o brilho deslizando através da barra de status</string>
     <!-- Statusbar Clock -->
-    <string name="clock_options_title">Clock options</string>
-    <string name="clock_options_summary">Customize your statusbar clock</string>
-    <string name="statusbar_clock_show">Show clock and date</string>
-    <string name="statusbar_clock_style_title">Clock style</string>
-    <string name="statusbar_clock_style_right">Right</string>
-    <string name="statusbar_clock_style_center">Center</string>
-    <string name="statusbar_clock_style_left">Left</string>
-    <string name="statusbar_am_pm_title">AM/PM style</string>
-    <string name="statusbar_am_pm_info">24-hour clock is enabled</string>
+    <string name="clock_options_title">Opções do relógio</string>
+    <string name="clock_options_summary">Personalizar o relógio da barra de status</string>
+    <string name="statusbar_clock_show">Mostrar relógio e data</string>
+    <string name="statusbar_clock_style_title">Estilo do relógio</string>
+    <string name="statusbar_clock_style_right">Direita</string>
+    <string name="statusbar_clock_style_center">Centralizado</string>
+    <string name="statusbar_clock_style_left">Esquerda</string>
+    <string name="statusbar_am_pm_title">Estilo AM/MP</string>
+    <string name="statusbar_am_pm_info">O formato de 24 horas está ativo</string>
     <string name="statusbar_am_pm_normal">Normal</string>
-    <string name="statusbar_am_pm_small">Small</string>
-    <string name="statusbar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
+    <string name="statusbar_am_pm_small">Pequeno</string>
+    <string name="statusbar_am_pm_hidden">Oculto (padrão)</string>
+    <string name="clock_seconds_display">Mostrar segundos</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Mostrar data personalizada antes do relógio</string>
+    <string name="clock_date_display_none">Não mostrar</string>
+    <string name="clock_date_display_small">Tamanho da fonte pequena</string>
+    <string name="clock_date_display_normal">Tamanho da fonte normal</string>
+    <string name="clock_date_style">Estilo da data</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_style_lowercase">Minúsculas</string>
+    <string name="clock_date_style_uppercase">Maiúscula</string>
+    <string name="clock_date_format_custom">Formato java personalizado</string>
+    <string name="clock_date_format">Formato da data</string>
+    <string name="clock_date_string_edittext_title">Deve estar em formato de data, por exemplo: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Insira os caracteres</string>
+    <string name="clock_date_right">À direita do relógio</string>
+    <string name="clock_date_left">À esquerda do relógio</string>
+    <string name="clock_date_position">Posição da data</string>
     <!-- Sensor block per-package -->
-    <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
-    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
-    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
-    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
+    <string name="sensor_block_title">Restringir o uso dos sensores</string>
+    <string name="sensor_block_summary">Bloquear o acesso de alguns aplicativos a determinados sensores para economizar bateria</string>
+    <string name="sensor_block_app_picker_title">Bloquear sensores para estes aplicativos</string>
+    <string name="add_sensor_block_package_title">Adicionar aplicativos para bloqueio de sensor</string>
+    <string name="add_sensor_block_package_summary">Sensores significativos de movimento, acelerômetro e aceleração linear serão bloqueados para esses aplicativos</string>
     <!-- Notification sound -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Som de notificação se ativo</string>
+    <string name="notification_sound_vib_screen_on_summary">Reproduzir som e vibrar ao receber notificações quando a tela estiver ligada</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
+    <string name="quick_settings_vibrate_summary">Vibrar ao tocar as configurações rápidas</string>
+    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
+    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
+    <string name="qs_tint_off">Default</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
+    <string name="ambient_display_custom_title">Ambient Display</string>
 </resources>
