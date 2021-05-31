@@ -26,6 +26,12 @@
         android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
 
+    <Preference
+        android:key="sleep_mode"
+        android:icon="@drawable/ic_sleepmode"
+        android:title="@string/sleep_mode_title"
+        android:fragment="com.syberia.settings.fragments.SettingsSleepMode" />
+
     <!-- Sensor Block -->
     <Preference
         android:key="sensor_block_settings"
