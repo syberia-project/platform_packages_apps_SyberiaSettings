@@ -698,4 +698,31 @@
     <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
     <string name="use_old_mobiletype_summary">Показывать тип мобильной сети над значком индикатора сигнала</string>
 
+    <!-- Battery tweaks -->
+    <string name="battery_tweaks_title">Настройки батареи</string>
+    <string name="battery_tweaks_summary">Дополнительные настройки батареи для лучшего энергосбережения</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сна</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Восход</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается с заката до заданного времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода солнца</string>
+    <string name="sleep_mode_toggles_title">Переключатели</string>
+    <string name="sleep_mode_wifi_toggle_title">Отключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключить Wi-Fi когда режим сна включен</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Отключить Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключить Bluetooth когда режим сна включен</string>
+    <string name="sleep_mode_cellular_toggle_title">Отключить мобильный интернет</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключить мобильный интернет когда режим сна включен</string>
+    <string name="sleep_mode_location_toggle_title">Отключить геолокацию</string>
+    <string name="sleep_mode_location_toggle_summary">Отключить геолокацию когда режим сна включен</string>
+    <string name="sleep_mode_sensors_toggle_title">Отключить сенсоры</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключить сенсоры когда режим сна включен</string>
+    <string name="sleep_mode_aod_toggle_title">Отключить AOD</string>
+    <string name="sleep_mode_aod_toggle_summary">Отключить Активный дисплей когда режим сна включен</string>
+    <string name="sleep_mode_aggressive_toggle_title">Включить агрессивное энергосбережение</string>
+    <string name="sleep_mode_aggressive_toggle_summary">Включить агрессивный режим ожидания когда режим сна включен</string>
+    <string name="sleep_mode_display_text">В режиме сна можно отключить определенные службы, чтобы сэкономить заряд батареи и отключить звук на телефоне во время сна</string>
+
 </resources>
