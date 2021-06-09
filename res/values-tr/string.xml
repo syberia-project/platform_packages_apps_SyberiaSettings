@@ -603,11 +603,11 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Dokunulduğunda titret</string>
     <string name="quick_settings_vibrate_summary">Hızlı ayarlar karelerine dokunulduğunda titret</string>
-    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
-    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
-    <string name="qs_tint_off">Default</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_bg_use_new_tint">Hızlı ayarlar kare renk tonu</string>
+    <string name="qs_bg_use_new_tint_summary">Hızlı ayarlar kare renk tonu stilini seçin</string>
+    <string name="qs_tint_off">Varsayılan</string>
+    <string name="qs_tint_accent">Vurgu rengi</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="ambient_display_custom_title">Ambient Display</string>
+    <string name="ambient_display_custom_title">Ortam ekranı</string>
 </resources>
