@@ -741,5 +741,6 @@
     <string name="volume_panel_oreo">Стиль Oreo</string>
     <string name="volume_panel_tiled">Плиточный</string>
     <string name="volume_panel_miui">Стиль MIUI</string>
+    <string name="volume_panel_oos">Стиль Oxygen OS</string>
 
 </resources>
