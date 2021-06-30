@@ -364,6 +364,11 @@
     <string name="qs_show_auto_brightness_summary">Показывать переключатель адаптивной яркости рядом со слайдером</string>
     <string name="qs_brightness_position_bottom_title">Регулятор яркости внизу</string>
     <string name="qs_brightness_position_bottom_summary">Показывать регулятор яркости внизу развернутых быстрых настроек (работает только для развёрнутой панели быстрых настроек)</string>
+    <string name="slider_styles_title">Стиль регулятора яркости</string>
+    <string name="slider_rui">Стиль RUI</string>
+    <string name="aosp_string">Стиль AOSP</string>
+    <string name="oos_string">Стиль OxygenOS</string>
+    <string name="default_string">По умолчанию</string>
 
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">Регулятор яркости в свернутой панели быстрых настроек</string>
