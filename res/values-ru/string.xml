@@ -137,6 +137,7 @@
     <string name="volte_icon_emui">EMUI</string>
     <string name="volte_icon_margaritov">HD Filled</string>
     <string name="volte_icon_margaritov2">Margaritov VoLTE</string>
+    <string name="volte_icon_vivo">Vivo</string>
 
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Иконка VoWiFi</string>
