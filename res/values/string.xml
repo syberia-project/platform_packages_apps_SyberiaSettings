@@ -176,6 +176,7 @@
     <string name="vowifi_icon_simple1">Simple1 Icon</string>
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_vivo">Vivo Icon</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
