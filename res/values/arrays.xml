@@ -70,6 +70,7 @@
         <item>@string/vowifi_icon_simple1</item>
         <item>@string/vowifi_icon_simple2</item>
         <item>@string/vowifi_icon_simple3</item>
+        <item>@string/vowifi_icon_vivo</item>
     </string-array>
 
     <string-array name="vowifi_icon_style_values" translatable="false">
@@ -81,6 +82,7 @@
         <item>5</item>
         <item>6</item>
         <item>7</item>
+        <item>8</item>
     </string-array>
 
     <!--- Volume key cursor control -->
