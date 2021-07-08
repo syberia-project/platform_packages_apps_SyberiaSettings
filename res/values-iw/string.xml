@@ -15,15 +15,15 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Syberia Settings</string>
-    <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
-    <string name="gestures_category_title">Gestures</string>
+    <string name="syberia_settings_title">הגדרת Syberia</string>
+    <string name="syberia_dashboard_summary">השידרוגים הכי טובים נוספו לפרויקט Syberia</string>
+    <string name="gestures_category_title">מחוות</string>
     <string name="gestures_category_summary">Various gestures settings</string>
-    <string name="system_category_title">System</string>
+    <string name="system_category_title">מערכת</string>
     <string name="system_category_summary">Various system extensions</string>
-    <string name="statusbar_category_title">Statusbar</string>
-    <string name="statusbar_category_summary">Customize your statusbar</string>
-    <string name="panels_category_title">Panels</string>
+    <string name="statusbar_category_title">שורת המצב</string>
+    <string name="statusbar_category_summary">התאם את שורת המצב</string>
+    <string name="panels_category_title">פאנל</string>
     <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
     <string name="lockscreen_category_title">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>

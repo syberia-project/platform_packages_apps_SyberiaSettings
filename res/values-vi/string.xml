@@ -15,29 +15,29 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="syberia_settings_title">Syberia Settings</string>
-    <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
-    <string name="gestures_category_title">Gestures</string>
-    <string name="gestures_category_summary">Various gestures settings</string>
-    <string name="system_category_title">System</string>
-    <string name="system_category_summary">Various system extensions</string>
-    <string name="statusbar_category_title">Statusbar</string>
-    <string name="statusbar_category_summary">Customize your statusbar</string>
-    <string name="panels_category_title">Panels</string>
-    <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
-    <string name="lockscreen_category_title">Lockscreen</string>
-    <string name="lockscreen_category_summary">Customize your lockscreen</string>
+    <string name="syberia_settings_title">Cài đặt Syberia</string>
+    <string name="syberia_dashboard_summary">Hầu hết các tính năng bổ sung được thêm vào Dự án Syberia</string>
+    <string name="gestures_category_title">Cử chỉ</string>
+    <string name="gestures_category_summary">Quản lý thiết lập cử chỉ</string>
+    <string name="system_category_title">Hệ thống</string>
+    <string name="system_category_summary">Mở rộng hệ thống</string>
+    <string name="statusbar_category_title">Thanh trạng thái</string>
+    <string name="statusbar_category_summary">Tùy chỉnh thanh trạng thái</string>
+    <string name="panels_category_title">Bảng điều khiển</string>
+    <string name="panels_category_summary">Thanh trạng thái, thông báo, bảng cài đặt nhanh</string>
+    <string name="lockscreen_category_title">Màn hình khoá</string>
+    <string name="lockscreen_category_summary">Tuỳ chỉnh màn hình khóa</string>
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
     <string name="navbar_title">Navigation Bar</string>
     <string name="navbar_category_summary">Customize your navigation panel</string>
     <string name="general_tweaks_title">General Tweaks</string>
-    <string name="general_tweaks_summary">Basic system settings of your device</string>
+    <string name="general_tweaks_summary">Tùy chỉnh hệ thống</string>
     <string name="buttons_title">Buttons</string>
     <string name="buttons_summary">Customize hardware button actions</string>
     <!-- About team -->
-    <string name="about_team_title">About Syberia team</string>
-    <string name="about_team_summary">Information about the team and maintainers</string>
+    <string name="about_team_title">Thông tin về Syberia team</string>
+    <string name="about_team_summary">Thông tin về đội ngũ phát triển và bảo trì</string>
     <string name="syberia_team_title">Syberia Team</string>
     <string name="panel_notifications_title">Notifications</string>
     <string name="notifications_category_summary">Customize various features for notification panel</string>
@@ -48,18 +48,18 @@
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Mã Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Đặt</string>
+    <string name="color_default">Mặc định</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Biểu tượng thanh trạng thái</string>
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar buttons</string>
+    <string name="navbar_tuner_title">Nút điều hướng</string>
     <!-- Volume keys category -->
     <string name="volume_keys_category">Volume keys</string>
     <string name="dialer_title">Dialer</string>
-    <string name="dialer_summary">Advanced incoming call settings</string>
+    <string name="dialer_summary">Cài đặt cuộc gọi đến nâng cao</string>
     <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
     <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
     <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
@@ -68,9 +68,9 @@
     <string name="torch_long_press_power_timeout_2min">2 minutes</string>
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
-    <string name="flash_on_call_category">Pulse flash</string>
-    <string name="flash_on_call_title">Pulse flash on incoming call</string>
-    <string name="flash_on_call_delay_title">Flash pulse rate</string>
+    <string name="flash_on_call_category">Xung đèn flash</string>
+    <string name="flash_on_call_title">Nháy đèn flash khi cuộc gọi đến</string>
+    <string name="flash_on_call_delay_title">Tốc độ nháy đèn flash</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>

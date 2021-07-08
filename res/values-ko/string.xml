@@ -16,60 +16,60 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="syberia_settings_title">Syberia Settings</string>
-    <string name="syberia_dashboard_summary">Most extra features added into Syberia Project</string>
-    <string name="gestures_category_title">Gestures</string>
-    <string name="gestures_category_summary">Various gestures settings</string>
-    <string name="system_category_title">System</string>
-    <string name="system_category_summary">Various system extensions</string>
-    <string name="statusbar_category_title">Statusbar</string>
-    <string name="statusbar_category_summary">Customize your statusbar</string>
-    <string name="panels_category_title">Panels</string>
-    <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
-    <string name="lockscreen_category_title">Lockscreen</string>
-    <string name="lockscreen_category_summary">Customize your lockscreen</string>
-    <string name="systemui_tuner_title">Statusbar items</string>
-    <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
-    <string name="navbar_title">Navigation Bar</string>
-    <string name="navbar_category_summary">Customize your navigation panel</string>
-    <string name="general_tweaks_title">General Tweaks</string>
-    <string name="general_tweaks_summary">Basic system settings of your device</string>
-    <string name="buttons_title">Buttons</string>
-    <string name="buttons_summary">Customize hardware button actions</string>
+    <string name="syberia_dashboard_summary">Syberia Project의 추가 기능</string>
+    <string name="gestures_category_title">제스처</string>
+    <string name="gestures_category_summary">다양한 제스처 설정</string>
+    <string name="system_category_title">시스템</string>
+    <string name="system_category_summary">다양한 시스템 확장</string>
+    <string name="statusbar_category_title">상태 표시줄</string>
+    <string name="statusbar_category_summary">상태 표시줄 사용자 정의</string>
+    <string name="panels_category_title">패널</string>
+    <string name="panels_category_summary">상태바, 알림, 빠른 설정 패널</string>
+    <string name="lockscreen_category_title">잠금화면</string>
+    <string name="lockscreen_category_summary">잠금화면 사용자 정의</string>
+    <string name="systemui_tuner_title">상태 표시줄 항목</string>
+    <string name="systemui_tuner_summary">배터리 옵션 및 상태 표시 줄 아이콘 사용자 정의</string>
+    <string name="navbar_title">내비게이션 바</string>
+    <string name="navbar_category_summary">네비게이션 바 사용자 정의</string>
+    <string name="general_tweaks_title">일반 기능</string>
+    <string name="general_tweaks_summary">일반 시스템 설정</string>
+    <string name="buttons_title">버튼</string>
+    <string name="buttons_summary">물리 버튼 사용자 정의</string>
     <!-- About team -->
-    <string name="about_team_title">About Syberia team</string>
-    <string name="about_team_summary">Information about the team and maintainers</string>
+    <string name="about_team_title">Syberia team에 관하여</string>
+    <string name="about_team_summary">팀 멤버와 메인테이너 정보</string>
     <string name="syberia_team_title">Syberia Team</string>
-    <string name="panel_notifications_title">Notifications</string>
-    <string name="notifications_category_summary">Customize various features for notification panel</string>
-    <string name="notifications_title">Notifications</string>
-    <string name="notifications_summary">Custom notification settings</string>
+    <string name="panel_notifications_title">알림</string>
+    <string name="notifications_category_summary">알림 패널 설정</string>
+    <string name="notifications_title">알림</string>
+    <string name="notifications_summary">알림 설정</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">색상 선택</string>
+    <string name="press_color_to_apply">적용할 색상을 아래에서 선택하세요</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">설정</string>
+    <string name="color_default">기본값</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">상태 표시줄 항목</string>
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar buttons</string>
+    <string name="navbar_tuner_title">내비바 버튼</string>
     <!-- Volume keys category -->
-    <string name="volume_keys_category">Volume keys</string>
-    <string name="dialer_title">Dialer</string>
-    <string name="dialer_summary">Advanced incoming call settings</string>
-    <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
-    <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
-    <string name="flash_on_call_category">Pulse flash</string>
-    <string name="flash_on_call_title">Pulse flash on incoming call</string>
+    <string name="volume_keys_category">볼륨 버튼</string>
+    <string name="dialer_title">전화</string>
+    <string name="dialer_summary">고급 전화 수신 설정</string>
+    <string name="torch_long_press_power_gesture_title">화면 꺼짐 상태에서 전원 버튼으로 손전등 사용</string>
+    <string name="torch_long_press_power_gesture_desc">화면이 꺼진 상태에서 손전등을 켜려면 전원 버튼을 길게 누릅니다.</string>
+    <string name="torch_long_press_power_timeout_title">자동으로 손전등 끄기</string>
+    <string name="torch_long_press_power_timeout_never">끄지 않음</string>
+    <string name="torch_long_press_power_timeout_1min">1분</string>
+    <string name="torch_long_press_power_timeout_2min">2분</string>
+    <string name="torch_long_press_power_timeout_5min">5분</string>
+    <string name="torch_long_press_power_timeout_10min">10분</string>
+    <string name="flash_on_call_category">플래쉬 점멸</string>
+    <string name="flash_on_call_title">전화 수신 시에 플래쉬를 깜빡입니다.</string>
     <string name="flash_on_call_delay_title">Flash pulse rate</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -119,10 +119,10 @@
     <string name="show_fourg_title">Show 4G instead of LTE</string>
     <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_switch_title">VoLTE icon</string>
+    <string name="volte_switch_title">VoLTE 아이콘</string>
     <string name="volte_switch_summary">Display VoLTE icon</string>
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon</string>
+    <string name="volte_icon_title">VoLTE 아이콘</string>
+    <string name="volte_icon_summary">VoLTE 아이콘 표시</string>
     <string name="volte_icon_style_title">Select VoLTE Icon</string>
     <string name="volte_icon_asus">VoLTE Asus Icon</string>
     <string name="volte_icon_vo">Vo Only Icon</string>
@@ -138,7 +138,7 @@
     <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
     <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
     <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
+    <string name="vowifi_icon_default">기본 아이콘</string>
     <string name="vowifi_icon_emui">EMUI Icon</string>
     <string name="vowifi_icon_asus">Asus Icon</string>
     <string name="vowifi_icon_oneplus">OOS Icon</string>
@@ -147,27 +147,27 @@
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">잠금 화면에 충전 정보 표시</string>
+    <string name="lockscreen_battery_info_summary">충전 중일 때 잠금 화면에 충전기의 최대 전류-전압과 배터리의 온도를 표시합니다</string>
     <!-- Language options - Volume rocker cursor control -->
-    <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="cursor_section_header">커서</string>
+    <string name="volume_key_cursor_control_title">볼륨키로 커서 제어</string>
+    <string name="volume_key_cursor_control_off">사용 안함</string>
+    <string name="volume_key_cursor_control_on">볼륨 위/아래 버튼으로 커서를 왼쪽/오른쪽으로 이동</string>
+    <string name="volume_key_cursor_control_on_reverse">볼륨 위/아래 버튼으로 커서를 왼쪽/오른쪽으로 이동</string>
     <!-- Double Tap gestures -->
-    <string name="doubletap_gestures_title">Double tap gestures</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
-    <string name="doze_double_tap_title">Double tap to doze</string>
-    <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
+    <string name="doubletap_gestures_title">두 번 두드리기 제스처</string>
+    <string name="double_tap_sleep_gesture_title">두번 두드려 화면 끄기</string>
+    <string name="double_tap_sleep_gesture_summary">상태 표시줄을 두번 두드려 화면 끄기</string>
+    <string name="double_tap_sleep_lockscreen_title">잠금 화면 두번 두드려 화면 끄기</string>
+    <string name="double_tap_sleep_lockscreen_summary">잠금 화면에서 두번 두드려 기기의 화면을 끄기</string>
+    <string name="doze_double_tap_title">두 번 탭하여 AOD 표시</string>
+    <string name="doze_double_tap_summary">두 번 탭할경우 기기를 깨우는 대신 AOD를 켭니다.</string>
     <!-- Hardware keys -->
-    <string name="hardware_keys_category">Hardware keys</string>
+    <string name="hardware_keys_category">물리 버튼</string>
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
+    <string name="backlight_timeout_title">버튼 조명 시간 제한</string>
+    <string name="backlight_timeout_on">항상 켜짐</string>
     <string name="backlight_timeout_3s">3 sec</string>
     <string name="backlight_timeout_default">5 sec (default)</string>
     <string name="backlight_timeout_10s">10 sec</string>
@@ -175,9 +175,9 @@
     <string name="backlight_timeout_20s">20 sec</string>
     <string name="backlight_timeout_30s">30 sec</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
+    <string name="button_brightness_title">조명</string>
     <!-- Enable keys backlight-->
-    <string name="button_brightness_sw_title">Enable backlight</string>
+    <string name="button_brightness_sw_title">버튼 조명 활성화</string>
     <string name="button_backlight_on_touch_only_title">Button touch</string>
     <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
     <!-- HW Keys customization -->
@@ -211,31 +211,31 @@
     <string name="battery_percentage_inside">Enabled (inside icon)</string>
     <string name="battery_percentage_estimate">Enabled (estimate)</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_big_circle">Big circle</string>
-    <string name="status_bar_battery_style_big_dotted_circle">Big dotted circle</string>
-    <string name="status_bar_battery_style_square">Square</string>
-    <string name="status_bar_battery_style_solid">Solid</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_style_q">Q style</string>
+    <string name="status_bar_battery_style_title">배터리 표시 스타일</string>
+    <string name="status_bar_battery_style_icon_portrait">세로 아이콘</string>
+    <string name="status_bar_battery_style_icon_landscape">가로 아이콘</string>
+    <string name="status_bar_battery_style_circle">원</string>
+    <string name="status_bar_battery_style_dotted_circle">점선으로 이루어진 원</string>
+    <string name="status_bar_battery_style_big_circle">큰 원</string>
+    <string name="status_bar_battery_style_big_dotted_circle">점선으로 이루어진 큰 원</string>
+    <string name="status_bar_battery_style_square">사각형</string>
+    <string name="status_bar_battery_style_solid">채우기</string>
+    <string name="status_bar_battery_style_text">문자</string>
+    <string name="status_bar_battery_style_hidden">아이콘 숨김</string>
+    <string name="status_bar_battery_style_q">Q 스타일</string>
     <string name="status_bar_battery_style_tile_title">Override battery tile</string>
     <string name="status_bar_battery_style_tile_summary">Use same icon style as above in QS battery tile</string>
     <!-- Status bar - Battery custom charging symbol -->
     <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
     <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
-    <string name="text_charging_symbol_default">Disabled</string>
+    <string name="text_charging_symbol_default">사용 안함</string>
     <string name="text_charging_symbol_flash">Flash</string>
-    <string name="text_charging_symbol_tilde">Tilde</string>
+    <string name="text_charging_symbol_tilde">물결</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_title">배터리 잔량</string>
+    <string name="status_bar_battery_percentage_default">아이콘 숨김</string>
+    <string name="status_bar_battery_percentage_text_inside">아이콘 안에 표시</string>
+    <string name="status_bar_battery_percentage_text_next">아이콘 옆에 표시</string>
     <string name="status_bar_battery_text_position_title">Battery percent position</string>
     <string name="status_bar_battery_text_position_left">Left of the icon</string>
     <string name="status_bar_battery_text_position_right">Right of the icon</string>

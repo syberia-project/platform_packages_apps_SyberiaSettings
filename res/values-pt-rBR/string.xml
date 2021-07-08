@@ -603,11 +603,11 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar as configurações rápidas</string>
-    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
-    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
-    <string name="qs_tint_off">Default</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_bg_use_new_tint">Cores nas QS tiles</string>
+    <string name="qs_bg_use_new_tint_summary">Escolha o estilo das cores das QS</string>
+    <string name="qs_tint_off">Padrão</string>
+    <string name="qs_tint_accent">Cor de destaque</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="ambient_display_custom_title">Ambient Display</string>
+    <string name="ambient_display_custom_title">Tela Ambiente</string>
 </resources>
