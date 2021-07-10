@@ -735,9 +735,8 @@
 
     <!-- Volume Panel Plugin -->
     <string name="volume_panel">Стиль панели громкости</string>
-    <string name="volume_panel_stock">Стоковый стиль AOSP</string>
-    <string name="volume_panel_aosp">Расширенный стиль AOSP</string>
-    <string name="volume_panel_compat">Совместимый</string>
+    <string name="volume_panel_stock">Сток</string>
+    <string name="volume_panel_compact">Компактный</string>
     <string name="volume_panel_oreo">Стиль Oreo</string>
     <string name="volume_panel_tiled">Плиточный</string>
     <string name="volume_panel_miui">Стиль MIUI</string>
