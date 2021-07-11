@@ -368,6 +368,7 @@
     <string name="slider_rui">Стиль RUI</string>
     <string name="aosp_string">Стиль AOSP</string>
     <string name="oos_string">Стиль OxygenOS</string>
+    <string name="android_12_string">Стиль Android 12</string>
     <string name="default_string">По умолчанию</string>
 
     <!-- QQS brightness slider -->
