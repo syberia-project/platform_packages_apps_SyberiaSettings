@@ -45,6 +45,13 @@
         android:summary="@string/wakelock_blocker_summary"
         android:fragment="com.syberia.settings.fragments.WakeLockBlocker" />
 
+    <PreferenceScreen
+        android:key="rounded_corners"
+        android:icon="@drawable/ic_rounded_corner"
+        android:title="@string/corners_title"
+        android:summary="@string/corners_summary"
+        android:fragment="com.syberia.settings.fragments.RoundedCorners" />
+
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="charging_animation"
         android:title="@string/charging_animation_title"
