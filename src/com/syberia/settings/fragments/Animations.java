@@ -43,6 +43,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.syberia.settings.preference.CustomSeekBarPreference;
+import com.syberia.settings.fragments.RoundedCorners;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -250,6 +251,12 @@ public class Animations extends SettingsPreferenceFragment
         mListViewInterpolator.setOnPreferenceChangeListener(this);
 
     }
+
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        RoundedCorners.reset(mContext);
+    }
+        
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {

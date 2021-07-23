@@ -676,4 +676,12 @@
     <string name="statusbar_icons_style">Цветные значки уведомлений</string>
     <string name="statusbar_icons_style_summary">Выберите цвет значков уведомлений в строке сотояния (необходим перезапуск интерфейса)</string>
 
+    <!-- Rounded corners -->
+    <string name="corners_title">Cкругленные углы</string>
+    <string name="corners_summary">Настройки скругления углов</string>
+    <string name="corner_radius">Радиус скругленного угла для экрана</string>
+    <string name="content_padding">Скругление окна контента</string>
+    <string name="status_bar_padding">Скругление строки состояния</string>
+    <string name="corner_fwvals">Использовать значения по умолчанию</string>
+
 </resources>
