@@ -728,6 +728,11 @@
     <string name="statusbar_icons_style">Colored Statusbar Icons</string>
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
 
+    <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+
     <!-- Rounded corners -->
     <string name="corners_title">Rounded corners</string>
     <string name="corners_summary">Customized rounded corners</string>
@@ -735,5 +740,14 @@
     <string name="content_padding">Corner content padding</string>
     <string name="status_bar_padding">Statusbar extra padding</string>
     <string name="corner_fwvals">Use default values</string>
+
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Rounded style for system dialogs</string>
+    <string name="rounded_default">Default</string>
+    <string name="rounded_none">None</string>
+    <string name="rounded_slight">Slight</string>
+    <string name="rounded_medium">Medium</string>
+    <string name="rounded_high">High</string>
+    <string name="rounded_extreme">Extreme</string>
 
 </resources>
