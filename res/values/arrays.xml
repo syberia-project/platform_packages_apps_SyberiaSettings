@@ -20,8 +20,8 @@
 
     <!-- VoLTE Icon Type -->
     <string-array name="volte_icon_type_entries" translatable="false">
-		<item>@string/volte_icon_vivo</item>
-		<item>@string/volte_icon_margaritov2</item>
+        <item>@string/volte_icon_vivo</item>
+        <item>@string/volte_icon_margaritov2</item>
         <item>@string/volte_icon_margaritov</item>
         <item>@string/volte_icon_asus</item>
         <item>@string/volte_icon_hd</item>
@@ -34,8 +34,8 @@
     </string-array>
 
     <string-array name="volte_icon_type_values" translatable="false">
-		<item>10</item>
-		<item>9</item>
+        <item>10</item>
+        <item>9</item>
         <item>8</item>
         <item>4</item>
         <item>3</item>
@@ -71,6 +71,7 @@
         <item>@string/vowifi_icon_simple2</item>
         <item>@string/vowifi_icon_simple3</item>
         <item>@string/vowifi_icon_vivo</item>
+        <item>@string/vowifi_icon_margaritov</item>
     </string-array>
 
     <string-array name="vowifi_icon_style_values" translatable="false">
@@ -83,6 +84,7 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
+        <item>9</item>
     </string-array>
 
     <!--- Volume key cursor control -->
