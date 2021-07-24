@@ -19,13 +19,13 @@
     android:title="@string/corners_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
        android:key="sysui_rounded_fwvals"
        android:title="@string/corner_fwvals"
        android:defaultValue="true"
        android:disableDependentsState="true" />
 
-    <com.crdroid.settings.preferences.CustomSeekBarPreference
+    <com.syberia.settings.preference.CustomSeekBarPreference
         android:key="sysui_rounded_size"
         android:title="@string/corner_radius"
         android:max="60"
@@ -33,6 +33,14 @@
         settings:units="@string/unit_pixels"
         android:persistent="false"
         android:dependency="sysui_rounded_fwvals" />
+
+    <com.syberia.settings.preference.SystemSettingListPreference
+        android:key="berry_rounded_style"
+        android:title="@string/rounded_style_title"
+        android:dialogTitle="@string/rounded_style_title"
+        android:entries="@array/rounded_style_entries"
+        android:entryValues="@array/rounded_style_values"
+        android:defaultValue="0" />
 
     <!--<com.crdroid.settings.preferences.CustomSeekBarPreference
         android:key="sysui_rounded_content_padding"

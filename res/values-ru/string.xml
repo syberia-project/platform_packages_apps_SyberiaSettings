@@ -684,4 +684,13 @@
     <string name="status_bar_padding">Скругление строки состояния</string>
     <string name="corner_fwvals">Использовать значения по умолчанию</string>
 
+    <!-- Rounded styles -->
+    <string name="rounded_style_title">Скругление для системных диалогов</string>
+    <string name="rounded_default">По умолчанию</string>
+    <string name="rounded_none">Нет</string>
+    <string name="rounded_slight">Незначительное</string>
+    <string name="rounded_medium">Среднее</string>
+    <string name="rounded_high">Высокое</string>
+    <string name="rounded_extreme">Экстремальное</string>
+
 </resources>
