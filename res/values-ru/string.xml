@@ -154,6 +154,7 @@
     <string name="vowifi_icon_simple2">Просто иконка 2</string>
     <string name="vowifi_icon_simple3">Просто иконка 3</string>
     <string name="vowifi_icon_vivo">Иконка Vivo</string>
+    <string name="vowifi_icon_syberia">Иконка Syberia</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
