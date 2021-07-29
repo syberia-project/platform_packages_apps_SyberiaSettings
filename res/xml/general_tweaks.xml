@@ -21,6 +21,7 @@
 
     <com.syberia.settings.preference.SystemSettingListPreference
         android:key="screen_off_animation"
+        android:icon="@drawable/ic_animation"
         android:title="@string/screen_off_animation_title"
         android:entries="@array/screen_off_animation_entries"
         android:entryValues="@array/screen_off_animation_values"
@@ -29,18 +30,21 @@
 
     <Preference
         android:key="vol_steps"
+        android:icon="@drawable/ic_volume_steps"
         android:title="@string/volume_steps_fragment_title"
         android:summary="@string/volume_steps_summary"
         android:fragment="com.syberia.settings.fragments.VolumeStepsFragment" />
 
     <Preference
         android:key="default_usb_configuration"
+        android:icon="@drawable/ic_usb"
         android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
         android:title="@string/usb_default_config_title"
         android:summary="@string/usb_default_config_summary"/>
 
     <Preference
         android:key="wakelock_blocker"
+        android:icon="@drawable/ic_wakelock"
         android:title="@string/wakelock_blocker_title"
         android:summary="@string/wakelock_blocker_summary"
         android:fragment="com.syberia.settings.fragments.WakeLockBlocker" />
@@ -54,6 +58,7 @@
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="charging_animation"
+        android:icon="@drawable/ic_charging"
         android:title="@string/charging_animation_title"
         android:summary="@string/charging_animation_summary"
         android:defaultValue="true" />
