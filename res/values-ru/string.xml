@@ -694,4 +694,8 @@
     <string name="rounded_high">Высокое</string>
     <string name="rounded_extreme">Экстремальное</string>
 
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
+    <string name="use_old_mobiletype_summary">Показывать тип мобильной сети над значком индикатора сигнала</string>
+
 </resources>
