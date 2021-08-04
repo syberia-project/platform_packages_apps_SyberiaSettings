@@ -714,6 +714,7 @@
     <string name="lockscreen_charging_animation_drop">Капля</string>
     <string name="lockscreen_charging_animation_explosion">Взрыв</string>
     <string name="lockscreen_charging_animation_water">Вода</string>
+    <string name="lockscreen_charging_animation_magic">Магия</string>
 
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Быстрые настройки</string>

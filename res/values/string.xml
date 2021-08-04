@@ -788,5 +788,7 @@
     <string name="lockscreen_charging_animation_drop">Drop</string>
     <string name="lockscreen_charging_animation_explosion">Explosion</string>
     <string name="lockscreen_charging_animation_water">Water</string>
+    <string name="lockscreen_charging_animation_magic">Magic</string>
+    <string name="lockscreen_charging_animation_syberia">Syberia</string>
 
 </resources>
