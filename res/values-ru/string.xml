@@ -326,9 +326,6 @@
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
 
-    <!-- Rington vibration -->
-    <string name="ringtone_vibration_pattern">Профиль вибрации рингтона</string>
-
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Сетевой трафик</string>
     <string name="network_traffic_state_title">Сетевой трафик</string>
