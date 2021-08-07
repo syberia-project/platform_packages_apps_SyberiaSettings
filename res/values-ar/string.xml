@@ -88,11 +88,7 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
-    <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
     <string name="power_button_category_title">Power Button</string>
     <!-- Global Actions -->
     <string name="global_actions_title">Power menu</string>

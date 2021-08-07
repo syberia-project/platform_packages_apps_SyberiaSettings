@@ -92,12 +92,6 @@
     <string name="wakeup_when_plugged_unplugged_title">Пробуждение при зарядке</string>
     <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
 
-    <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
-    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
-    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
-    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
-
     <string name="power_button_category_title">Кнопка питания</string>
 
     <string name="global_actions_title">Меню кнопки питания</string>

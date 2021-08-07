@@ -88,11 +88,7 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Probudit při nabíjení</string>
     <string name="wakeup_when_plugged_unplugged_summary">Probudit zařízení v případě připojení/odpojení nabíječky.</string>
-    <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Možnosti vibrací během hovoru</string>
-    <string name="incall_vibrate_connect_title">Zavibrovat při spojení</string>
-    <string name="incall_vibrate_call_wait_title">Zavibrovat při dalším hovoru</string>
-    <string name="incall_vibrate_disconnect_title">Zavibrovat při odpojení</string>
+
     <string name="power_button_category_title">Tlačítko napájení</string>
     <!-- Global Actions -->
     <string name="global_actions_title">Menu napájení</string>
