@@ -692,6 +692,7 @@
     <string name="gaming_mode_notification_danmaku_summary">Отображение содержимого уведомлений в виде тикера в верхней части экрана</string>
     <string name="gaming_mode_quick_start_apps_title">Быстрый запуск приложений</string>
     <string name="gaming_mode_quick_start_apps_summary">Выберите приложения которые хотите запускать через плавающую кнопку</string>
+    <string name="gaming_mode_menu_opacity_title">Уровень непрозрачности меню</string>
 
     <string name="gaming_mode_performance">Производительность</string>
     <string name="gaming_mode_use_game_driver_title">Использовать игровой драйвер</string>
