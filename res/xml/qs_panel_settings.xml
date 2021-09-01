@@ -39,25 +39,9 @@
         android:title="@string/heads_up_notifications"
         android:fragment="com.syberia.settings.fragments.HeadsUpSettings" />
 
-    <com.syberia.settings.preference.SystemSettingListPreference
-        android:key="qs_panel_bg_use_new_tint"
-        android:title="@string/qs_bg_use_new_tint"
-        android:dialogTitle="@string/qs_bg_use_new_tint"
-        android:entries="@array/qs_tint_entries"
-        android:entryValues="@array/qs_tint_values"
-        android:summary="@string/qs_bg_use_new_tint_summary"
-        android:defaultValue="2" />
-
     <PreferenceCategory
         android:key="string/qs_brightness_category"
         android:title="@string/qs_brightness_category_title">
-
-        <com.syberia.settings.preference.SystemSettingListPreference
-            android:key="slider_style"
-            android:title="@string/slider_styles_title"
-            android:entries="@array/slider_styles_entries"
-            android:entryValues="@array/slider_styles_values"
-            android:defaultValue="0" />
 
         <com.syberia.settings.preference.SecureSettingListPreference
             android:key="qqs_show_brightness_slider"

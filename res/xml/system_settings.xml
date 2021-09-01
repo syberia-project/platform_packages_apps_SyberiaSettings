@@ -35,13 +35,6 @@
         android:fragment="com.syberia.settings.fragments.SensorBlock"/>
 
     <Preference
-        android:fragment="com.syberia.settings.fragments.Animations"
-        android:icon="@drawable/ic_animations"
-        android:key="animations"
-        android:summary="@string/animations_summary"
-        android:title="@string/animations_title" />
-
-    <Preference
         android:fragment="com.syberia.settings.fragments.ButtonsSettings"
         android:icon="@drawable/ic_buttons"
         android:key="buttons"

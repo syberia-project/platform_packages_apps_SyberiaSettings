@@ -46,6 +46,13 @@
         android:summary="@string/gestures_category_summary"
         android:title="@string/gestures_category_title" />
 
+    <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.UiThemingSettings"
+        android:icon="@drawable/ic_uitheming"
+        android:key="ui_category"
+        android:summary="@string/ui_category_summary"
+        android:title="@string/ui_category_title" />
+
 <!-- Ambient Display -->
     <Preference
         android:key="ambient_display_custom"

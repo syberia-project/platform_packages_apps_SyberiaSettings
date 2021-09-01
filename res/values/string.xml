@@ -29,6 +29,8 @@
     <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
     <string name="lockscreen_category_title">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
+    <string name="ui_category_title">UI Settings</string>
+    <string name="ui_category_summary">UI and theme customization</string>
 
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
@@ -764,5 +766,19 @@
     <!-- Quick settings on secure lockscreen -->
     <string name="lockscreen_enable_qs_title">Quick settings</string>
     <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
+
+    <!-- UI background blur toggle -->
+    <string name="ui_background_blur_title">UI background blur</string>
+    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
 
 </resources>
