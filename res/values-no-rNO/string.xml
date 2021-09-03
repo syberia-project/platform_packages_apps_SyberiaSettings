@@ -27,6 +27,8 @@
     <string name="panels_category_summary">Statusbar, Notification, Quick Settings panels</string>
     <string name="lockscreen_category_title">Lockscreen</string>
     <string name="lockscreen_category_summary">Customize your lockscreen</string>
+    <string name="ui_category_title">UI Settings</string>
+    <string name="ui_category_summary">UI and theme customization</string>
     <string name="systemui_tuner_title">Statusbar items</string>
     <string name="systemui_tuner_summary">Battery options and status bar icons to disable</string>
     <string name="navbar_title">Navigation Bar</string>
@@ -88,11 +90,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
-    <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <string name="power_button_category_title">Power Button</string>
     <!-- Global Actions -->
     <string name="global_actions_title">Power menu</string>
@@ -150,6 +147,7 @@
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
     <string name="vowifi_icon_vivo">Vivo Icon</string>
+    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
@@ -313,6 +311,12 @@
     <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
     <string name="qs_brightness_position_bottom_title">Brightness slider at bottom (Expanded QS)</string>
     <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom of expanded quick settings</string>
+    <string name="slider_styles_title">Brightness slider style</string>
+    <string name="slider_rui">RUI</string>
+    <string name="aosp_string">AOSP</string>
+    <string name="oos_string">OxygenOS</string>
+    <string name="android_12_string">Android 12</string>
+    <string name="default_string">Default</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">QQS brightness slider</string>
     <string name="qs_brightness_slider_hide">Hide</string>
@@ -349,8 +353,6 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
-    <!-- Rington vibration -->
-    <string name="ringtone_vibration_pattern">Ringtone vibration pattern</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_category">Music</string>
     <string name="media_art_title">Media artwork</string>
@@ -646,4 +648,34 @@
     <string name="rounded_medium">Medium</string>
     <string name="rounded_high">High</string>
     <string name="rounded_extreme">Extreme</string>
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Small mobile type icon</string>
+    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Lockscreen charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display a fancy animation when the device is charging</string>
+    <!-- Quick settings on secure lockscreen -->
+    <string name="lockscreen_enable_qs_title">Quick settings</string>
+    <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
+    <!-- UI background blur toggle -->
+    <string name="ui_background_blur_title">UI background blur</string>
+    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Lockscreen charging animation</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Battery</string>
+    <string name="lockscreen_charging_animation_drop">Drop</string>
+    <string name="lockscreen_charging_animation_explosion">Explosion</string>
+    <string name="lockscreen_charging_animation_water">Water</string>
+    <string name="lockscreen_charging_animation_magic">Magic</string>
+    <string name="lockscreen_charging_animation_syberia">Syberia</string>
 </resources>

@@ -27,6 +27,8 @@
     <string name="panels_category_summary">Stavový řádek, oznámení, panely QS</string>
     <string name="lockscreen_category_title">Zamykací obrazovka</string>
     <string name="lockscreen_category_summary">Přizpůsobte zamykací obrazovku</string>
+    <string name="ui_category_title">UI Settings</string>
+    <string name="ui_category_summary">UI and theme customization</string>
     <string name="systemui_tuner_title">Položky stavového řádku</string>
     <string name="systemui_tuner_summary">Možnosti baterie a zakázání ikon ve stavovém řádku</string>
     <string name="navbar_title">Navigační panel</string>
@@ -88,7 +90,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Probudit při nabíjení</string>
     <string name="wakeup_when_plugged_unplugged_summary">Probudit zařízení v případě připojení/odpojení nabíječky.</string>
-
     <string name="power_button_category_title">Tlačítko napájení</string>
     <!-- Global Actions -->
     <string name="global_actions_title">Menu napájení</string>
@@ -128,9 +129,9 @@
     <string name="volte_icon_hd2">Ikona HD CAF</string>
     <string name="volte_icon_miui">Ikona MIUI 11</string>
     <string name="volte_icon_emui">Ikona EMUI</string>
-    <string name="volte_icon_margaritov">HD Filled Icon</string>
-    <string name="volte_icon_margaritov2">Margaritov VoLTE Icon</string>
-    <string name="volte_icon_vivo">Vivo Icon</string>
+    <string name="volte_icon_margaritov">Ikona HD — vyplněná</string>
+    <string name="volte_icon_margaritov2">Ikona VoLTE – Margaritov</string>
+    <string name="volte_icon_vivo">Ikona Vivo</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Ikona VoWiFi</string>
     <string name="vowifi_icon_enabled">Ikona VoWiFi zapnuta</string>
@@ -145,7 +146,8 @@
     <string name="vowifi_icon_simple1">Ikona Simple1</string>
     <string name="vowifi_icon_simple2">Ikona Simple2</string>
     <string name="vowifi_icon_simple3">Ikona Simple3</string>
-    <string name="vowifi_icon_vivo">Vivo Icon</string>
+    <string name="vowifi_icon_vivo">Ikona Vivo</string>
+    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
     <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
@@ -309,6 +311,12 @@
     <string name="qs_show_auto_brightness_summary">Zobrazit přepínač adaptivního jasu vedle posuvníku</string>
     <string name="qs_brightness_position_bottom_title">Posuvník jasu ve spodní části QS (při rozbalených QS)</string>
     <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu v dolní části rozbaleného Rychlého nastavení</string>
+    <string name="slider_styles_title">Brightness slider style</string>
+    <string name="slider_rui">RUI</string>
+    <string name="aosp_string">AOSP</string>
+    <string name="oos_string">OxygenOS</string>
+    <string name="android_12_string">Android 12</string>
+    <string name="default_string">Default</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">Posuvník jasu QS</string>
     <string name="qs_brightness_slider_hide">Skrýt</string>
@@ -345,8 +353,6 @@
     <string name="profile_choose_app">Vybrat aplikaci</string>
     <string name="dialog_delete_title">Smazat</string>
     <string name="dialog_delete_message">Odstranit vybranou položku?</string>
-    <!-- Rington vibration -->
-    <string name="ringtone_vibration_pattern">Vzor vibrací vyzvánění</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_category">Hudba</string>
     <string name="media_art_title">Obal interpreta</string>
@@ -611,35 +617,65 @@
     <string name="qs_tint_twelve">Android 12</string>
     <string name="ambient_display_custom_title">Ambientní displej</string>
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock Blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string>
-    <string name="wakelock_blocker_save">Save</string>
-    <string name="wakelock_list_header">Available wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
-    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
-    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+    <string name="wakelock_blocker_title">Blokování wakelocků</string>
+    <string name="wakelock_blocker_summary">Blokovat systémové wakelocky</string>
+    <string name="wakelock_blocker_save">Uložit</string>
+    <string name="wakelock_list_header">Dostupné wakelocky</string>
+    <string name="wakelock_blocker_reload">Znovu načíst</string>
+    <string name="wakelock_blocker_warning_title">Postupujte s opatrností</string>
+    <string name="wakelock_blocker_warning">Blokováním wakelocků můžete způsobit nestabilitu, pády systému nebo ztrátu dat</string>
     <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Status bar</string>
-    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
-    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
-    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
+    <string name="lockscreen_status_bar_title">Stavový řádek</string>
+    <string name="lockscreen_status_bar_summary">Zobrazit stavový řádek na obrazovce uzamčení</string>
+    <string name="statusbar_icons_style">Barevné ikony stavového řádku</string>
+    <string name="statusbar_icons_style_summary">Vyberte styl ikon stavového řádku (vyžaduje restart SystemUI)</string>
     <!-- Units -->
-    <string name="unit_seconds">seconds</string>
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_seconds">sekundy</string>
+    <string name="unit_milliseconds">milisekundy</string>
     <string name="unit_pixels">dp</string>
     <!-- Rounded corners -->
-    <string name="corners_title">Rounded corners</string>
-    <string name="corners_summary">Customized rounded corners</string>
-    <string name="corner_radius">Rounded corner radius for screen</string>
-    <string name="content_padding">Corner content padding</string>
-    <string name="status_bar_padding">Statusbar extra padding</string>
-    <string name="corner_fwvals">Use default values</string>
+    <string name="corners_title">Zaoblené rohy</string>
+    <string name="corners_summary">Přizpůsobit zaoblené rohy</string>
+    <string name="corner_radius">Poloměr zaoblených rohů obrazovky</string>
+    <string name="content_padding">Odsazení obsahu rohů</string>
+    <string name="status_bar_padding">Dodatečné odsazení obsahu stavového řádku</string>
+    <string name="corner_fwvals">Použít výchozí hodnoty</string>
     <!-- Rounded styles -->
-    <string name="rounded_style_title">Rounded style for system dialogs</string>
-    <string name="rounded_default">Default</string>
-    <string name="rounded_none">None</string>
-    <string name="rounded_slight">Slight</string>
-    <string name="rounded_medium">Medium</string>
-    <string name="rounded_high">High</string>
-    <string name="rounded_extreme">Extreme</string>
+    <string name="rounded_style_title">Zaoblený styl systémových oken</string>
+    <string name="rounded_default">Výchozí</string>
+    <string name="rounded_none">Žádný</string>
+    <string name="rounded_slight">Mírný</string>
+    <string name="rounded_medium">Střední</string>
+    <string name="rounded_high">Vysoký</string>
+    <string name="rounded_extreme">Extrémní</string>
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Small mobile type icon</string>
+    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Lockscreen charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display a fancy animation when the device is charging</string>
+    <!-- Quick settings on secure lockscreen -->
+    <string name="lockscreen_enable_qs_title">Quick settings</string>
+    <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
+    <!-- UI background blur toggle -->
+    <string name="ui_background_blur_title">UI background blur</string>
+    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch style</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_oos">OxygenOS 11</string>
+    <string name="switch_android12">Android 12</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Lockscreen charging animation</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Battery</string>
+    <string name="lockscreen_charging_animation_drop">Drop</string>
+    <string name="lockscreen_charging_animation_explosion">Explosion</string>
+    <string name="lockscreen_charging_animation_water">Water</string>
+    <string name="lockscreen_charging_animation_magic">Magic</string>
+    <string name="lockscreen_charging_animation_syberia">Syberia</string>
 </resources>
