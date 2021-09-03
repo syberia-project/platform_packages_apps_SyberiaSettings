@@ -697,9 +697,10 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Маленький значок мобильной сети</string>
     <string name="use_old_mobiletype_summary">Показывать тип мобильной сети над значком индикатора сигнала</string>
-	
+
    <!-- Charging animation -->
-   <string name="lockscreen_charging_animation_title">Анимация зарядки</string>
+    <string name="lockscreen_charging_animation_title">Анимация зарядки</string>
+    <string name="lockscreen_charging_animation_summary">Показывать красивую анимацию, когда устройство заряжается</string>
     <string name="lockscreen_charging_animation_flash">Молния</string>
     <string name="lockscreen_charging_animation_battery">Батарея</string>
     <string name="lockscreen_charging_animation_drop">Капля</string>
