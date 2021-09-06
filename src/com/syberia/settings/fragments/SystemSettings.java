@@ -18,9 +18,7 @@ package com.syberia.settings.fragments;
 
 import android.os.Bundle;
 import android.content.Context;
-import android.content.ContentResolver;
 import com.android.settings.R;
-
 import com.android.settings.SettingsPreferenceFragment;
 
 import androidx.preference.PreferenceScreen;
@@ -30,13 +28,11 @@ import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import com.android.internal.logging.nano.MetricsProto;
-
-import android.provider.Settings;
-import android.os.UserHandle;
 
 @SearchIndexable
 public class SystemSettings extends SettingsPreferenceFragment {
@@ -54,13 +50,14 @@ public class SystemSettings extends SettingsPreferenceFragment {
         if (!isFODdevice()) {
             prefScreen.removePreference(findPreference(FOD_TWEAKS));
         }
+
     }
 
     private boolean isFODdevice() {
         return (getResources().getBoolean(
                 com.android.internal.R.bool.config_needCustomFODView));
     }
-    
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
