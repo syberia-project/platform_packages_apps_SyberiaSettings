@@ -361,32 +361,6 @@
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Mniej wyskakujących powiadomień</string>
     <string name="less_boring_heads_up_summary">Pokaż wyskakujące powiadomienia tylko dla dialera, wiadomości i alarmu</string>
-    <!-- Gaming mode -->
-    <string name="gaming_mode_title">Tryb gry</string>
-    <string name="gaming_mode_summary">Dostosuj ustawienia trybu gry</string>
-    <string name="gaming_mode_enable_title">Włącz tryb gry</string>
-    <string name="gaming_mode_enable_summary">Przełącznik główny dla trybu gry</string>
-    <string name="gaming_mode_app_picker_title">Włącz automatycznie dla tych aplikacji</string>
-    <string name="add_gaming_mode_package_title">Dodaj aplikacje do trybu gry</string>
-    <string name="add_gaming_mode_package_summary">Tryb grania zostanie automatycznie włączony przy uruchomieniu tych aplikacji oraz wyłączony po zakończeniu ich</string>
-    <string name="gaming_mode_headsup_title">Blokuj powiadomienia</string>
-    <string name="gaming_mode_headsup_summary">Blokuj wszystkie wyskakujące wiadomości oprócz połączeń</string>
-    <string name="gaming_mode_hardware_keys_title">Zablokuj przyciski</string>
-    <string name="gaming_mode_hardware_keys_summary">Wyłącz przyciski sprzętowe, gdy włączony jest tryb gry</string>
-    <string name="gaming_mode_brightness_title">Wyłącz automatyczną jasność</string>
-    <string name="gaming_mode_brightness_summary">Zablokuj jasność ekranu w trybie gry</string>
-    <string name="gaming_mode_ringer_title">Dzwonek w trybie gry</string>
-    <string name="gaming_mode_ringer_off_title">Bez zmian</string>
-    <string name="gaming_mode_ringer_vibrate_title">Wibracje</string>
-    <string name="gaming_mode_ringer_dnd_title">Nie przeszkadzać</string>
-    <string name="gaming_mode_ringer_silent_title">Wyciszony</string>
-    <string name="gaming_mode_notifications_title">Wskaźnik trybu gry</string>
-    <string name="gaming_mode_notifications_off_title">Wyłączony</string>
-    <string name="gaming_mode_notifications_notif_title">Pokaż powiadomienia</string>
-    <string name="gaming_mode_notifications_toast_title">Pokaż dymek powiadomienia</string>
-    <string name="gaming_mode_notifications_all_title">Pokaż dymki i powiadomienia</string>
-    <string name="gaming_mode_dynamic_title">Tryb dynamiczny</string>
-    <string name="gaming_mode_dynamic_summary">Spróbuj wykryć i dodać aplikacje gier automatycznie</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_enable">Wizualizacja muzyki</string>
     <string name="lockscreen_visualizer_enable_summary">Pokaż paski wizualizacji podczas odtwarzania muzyki</string>
@@ -675,4 +649,42 @@
     <string name="lockscreen_charging_animation_water">Water</string>
     <string name="lockscreen_charging_animation_magic">Magic</string>
     <string name="lockscreen_charging_animation_syberia">Syberia</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Gaming mode</string>
+    <string name="gaming_title_summary">Extra features for immersive gaming experience</string>
+    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Disable automatic brightness</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
+    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
+    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
+    <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
+    <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Use game driver</string>
+    <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
+    <string name="gaming_mode_change_performance_title">Performance tuning</string>
+    <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
+    <string name="gaming_mode_performance_title">Performance level</string>
+    <string name="gaming_mode_dnd">Do not distrub</string>
+    <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
+    <string name="gaming_mode_disable_ringtone_title">No ringing</string>
+    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in gaming mode</string>
+    <string name="gaming_mode_auto_answer_call_title">Answering calls automatically</string>
+    <string name="gaming_mode_auto_answer_call_summary">Answer calls automatically in the game and hands free when no headphones connected</string>
+    <string name="gaming_mode_prevent_accidental_touch">Prevent accidental touch</string>
+    <string name="gaming_mode_disable_gesture_title">Disable gestures</string>
+    <string name="gaming_mode_apps">Game list</string>
+    <string name="gaming_mode_dynamic_add_title">Dynamic mode</string>
+    <string name="gaming_mode_dynamic_add_summary">Try detecting and adding gaming apps automatically</string>
+    <string name="gaming_mode_show_danmaku_title">Show danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamic filtering notification</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automatically filter notifications such as download progress</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Danmaku size (horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Danmaku size (vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Danmaku speed (horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
+    <string name="add_package_to_title">Add application</string>
 </resources>

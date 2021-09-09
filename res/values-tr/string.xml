@@ -27,8 +27,8 @@
     <string name="panels_category_summary">Durum çubuğu, Bildirim çubuğu, Hızlı ayarlar paneli</string>
     <string name="lockscreen_category_title">Kilit ekranı</string>
     <string name="lockscreen_category_summary">Kilit ekranınızı özelleştirin</string>
-    <string name="ui_category_title">UI Settings</string>
-    <string name="ui_category_summary">UI and theme customization</string>
+    <string name="ui_category_title">Kullanıcı arayüzü ayarları</string>
+    <string name="ui_category_summary">Kullanıcı arayüzü ve tema özelleştirmeleri</string>
     <string name="systemui_tuner_title">Durum çubuğu öğeleri</string>
     <string name="systemui_tuner_summary">Pil seçenekleri ve devre dışı bırakılacak durum çubuğu simgeleri</string>
     <string name="navbar_title">Gezinme çubuğu</string>
@@ -147,7 +147,7 @@
     <string name="vowifi_icon_simple2">Simple2 Simgesi</string>
     <string name="vowifi_icon_simple3">Simple3 Simgesi</string>
     <string name="vowifi_icon_vivo">Vivo Simgesi</string>
-    <string name="vowifi_icon_margaritov">Margaritov Icon</string>
+    <string name="vowifi_icon_margaritov">Margaritov Simgesi</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
@@ -311,12 +311,12 @@
     <string name="qs_show_auto_brightness_summary">Otomatik parlaklık simgesini hızlı ayarlarda göster</string>
     <string name="qs_brightness_position_bottom_title">Parlaklık kaydırıcısı altta (Genişletilmiş hızlı ayarlarda)</string>
     <string name="qs_brightness_position_bottom_summary">Genişletilmiş hızlı ayarların altında parlaklık kaydırıcısını göster</string>
-    <string name="slider_styles_title">Brightness slider style</string>
+    <string name="slider_styles_title">Parlaklık kaydırıcı stili</string>
     <string name="slider_rui">RUI</string>
     <string name="aosp_string">AOSP</string>
     <string name="oos_string">OxygenOS</string>
     <string name="android_12_string">Android 12</string>
-    <string name="default_string">Default</string>
+    <string name="default_string">Varsayılan</string>
     <!-- QQS brightness slider -->
     <string name="qqs_brightness_slider_title">Hızlı ayarlar parlaklık kaydırıcısı</string>
     <string name="qs_brightness_slider_hide">Gizle</string>
@@ -361,32 +361,6 @@
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Daha az bildirim penceresi</string>
     <string name="less_boring_heads_up_summary">Sadece telefon, mesajlaşma ve alarm uygulamaları için bildirim pencerelerini göster</string>
-    <!-- Gaming mode -->
-    <string name="gaming_mode_title">Oyun modu</string>
-    <string name="gaming_mode_summary">Oyun modu tercihlerini özelleştirin</string>
-    <string name="gaming_mode_enable_title">Oyun modunu etkinleştir</string>
-    <string name="gaming_mode_enable_summary">Oyun modu için ana anahtar</string>
-    <string name="gaming_mode_app_picker_title">Bu uygulamalar için otomatik olarak aç</string>
-    <string name="add_gaming_mode_package_title">Oyun modu için uygulamalar ekle</string>
-    <string name="add_gaming_mode_package_summary">Bu uygulamalar açıldığında oyun modu otomatik olarak açılır ve kapatıldığında kapanır</string>
-    <string name="gaming_mode_headsup_title">Bildirimleri engelle</string>
-    <string name="gaming_mode_headsup_summary">Aramalar haricindeki tüm bildirim pencerelerini engeller</string>
-    <string name="gaming_mode_hardware_keys_title">Tuşları kilitle</string>
-    <string name="gaming_mode_hardware_keys_summary">Oyun modu açıldığında donanım tuşlarını devre dışı bırak</string>
-    <string name="gaming_mode_brightness_title">Otomatik parlaklığı devre dışı bırak</string>
-    <string name="gaming_mode_brightness_summary">Oyun modu açıldığında geçerli parlaklık seviyesini kilitle</string>
-    <string name="gaming_mode_ringer_title">Oyun modunda zil sesi</string>
-    <string name="gaming_mode_ringer_off_title">Değiştirme</string>
-    <string name="gaming_mode_ringer_vibrate_title">Titret</string>
-    <string name="gaming_mode_ringer_dnd_title">Rahatsız etmeyin</string>
-    <string name="gaming_mode_ringer_silent_title">Sessiz</string>
-    <string name="gaming_mode_notifications_title">Oyun modu göstergesi</string>
-    <string name="gaming_mode_notifications_off_title">Devre dışı</string>
-    <string name="gaming_mode_notifications_notif_title">Bildirimleri göster</string>
-    <string name="gaming_mode_notifications_toast_title">Hızlı bildirimleri göster</string>
-    <string name="gaming_mode_notifications_all_title">Uyarıları ve bildirimleri göster</string>
-    <string name="gaming_mode_dynamic_title">Dinamik mod</string>
-    <string name="gaming_mode_dynamic_summary">Oyun uygulamalarını otomatik olarak algılamayı ve eklemeyi deneyin</string>
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_enable">Müzik görselleştiricisi</string>
     <string name="lockscreen_visualizer_enable_summary">Müzik çalarken görselleştirici çubukları göster</string>
@@ -649,30 +623,68 @@
     <string name="rounded_high">Yüksek</string>
     <string name="rounded_extreme">Yüksek</string>
     <!-- Old mobile type icons -->
-    <string name="use_old_mobiletype_title">Small mobile type icon</string>
-    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <string name="use_old_mobiletype_title">Küçük mobil tipi simgesi</string>
+    <string name="use_old_mobiletype_summary">Mobil gösterge simgesini sinyal göstergesinin üstünde göster</string>
     <!-- Quick settings on secure lockscreen -->
-    <string name="lockscreen_enable_qs_title">Quick settings</string>
-    <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
+    <string name="lockscreen_enable_qs_title">Hızlı ayarlar</string>
+    <string name="lockscreen_enable_qs_summary">Güvenli kilit ekranında hızlı ayarlara erişime izin ver</string>
     <!-- UI background blur toggle -->
-    <string name="ui_background_blur_title">UI background blur</string>
-    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+    <string name="ui_background_blur_title">Sistem arayüzü arka plan bulanıklığı</string>
+    <string name="ui_background_blur_summary">Sistem arayüzü arka plan bulanıklığını etkinleştirin (GPU oluşturucu için pahalıdır)</string>
     <!-- Switch styles -->
-    <string name="switch_style_title">Switch style</string>
-    <string name="switch_default">Default</string>
-    <string name="switch_contained">Contained</string>
+    <string name="switch_style_title">Değiştirme stili</string>
+    <string name="switch_default">Varsayılan</string>
+    <string name="switch_contained">Kutu</string>
     <string name="switch_telegram">Telegram</string>
-    <string name="switch_md2">Material Design 2</string>
-    <string name="switch_retro">Retro</string>
+    <string name="switch_md2">Metaryal Tasarım 2</string>
+    <string name="switch_retro">Eski still</string>
     <string name="switch_oos">OxygenOS 11</string>
     <string name="switch_android12">Android 12</string>
     <!-- Charging animation -->
-    <string name="lockscreen_charging_animation_title">Charging animation</string>
-    <string name="lockscreen_charging_animation_flash">Flash</string>
-    <string name="lockscreen_charging_animation_battery">Battery</string>
-    <string name="lockscreen_charging_animation_drop">Drop</string>
-    <string name="lockscreen_charging_animation_explosion">Explosion</string>
-    <string name="lockscreen_charging_animation_water">Water</string>
-    <string name="lockscreen_charging_animation_magic">Magic</string>
+    <string name="lockscreen_charging_animation_title">Şarj animasyonu</string>
+    <string name="lockscreen_charging_animation_flash">Flaş</string>
+    <string name="lockscreen_charging_animation_battery">Pil</string>
+    <string name="lockscreen_charging_animation_drop">Damla</string>
+    <string name="lockscreen_charging_animation_explosion">Patlama</string>
+    <string name="lockscreen_charging_animation_water">Su</string>
+    <string name="lockscreen_charging_animation_magic">Büyü</string>
     <string name="lockscreen_charging_animation_syberia">Syberia</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Gaming mode</string>
+    <string name="gaming_title_summary">Extra features for immersive gaming experience</string>
+    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Disable automatic brightness</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
+    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
+    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
+    <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
+    <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Use game driver</string>
+    <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
+    <string name="gaming_mode_change_performance_title">Performance tuning</string>
+    <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
+    <string name="gaming_mode_performance_title">Performance level</string>
+    <string name="gaming_mode_dnd">Do not distrub</string>
+    <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
+    <string name="gaming_mode_disable_ringtone_title">No ringing</string>
+    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in gaming mode</string>
+    <string name="gaming_mode_auto_answer_call_title">Answering calls automatically</string>
+    <string name="gaming_mode_auto_answer_call_summary">Answer calls automatically in the game and hands free when no headphones connected</string>
+    <string name="gaming_mode_prevent_accidental_touch">Prevent accidental touch</string>
+    <string name="gaming_mode_disable_gesture_title">Disable gestures</string>
+    <string name="gaming_mode_apps">Game list</string>
+    <string name="gaming_mode_dynamic_add_title">Dynamic mode</string>
+    <string name="gaming_mode_dynamic_add_summary">Try detecting and adding gaming apps automatically</string>
+    <string name="gaming_mode_show_danmaku_title">Show danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamic filtering notification</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automatically filter notifications such as download progress</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Danmaku size (horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Danmaku size (vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Danmaku speed (horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
+    <string name="add_package_to_title">Add application</string>
 </resources>
