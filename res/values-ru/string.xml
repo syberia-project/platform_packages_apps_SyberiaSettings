@@ -701,6 +701,9 @@
     <string name="gaming_mode_change_performance_summary">Регулировка уровня производительности при запуске игры</string>
     <string name="gaming_mode_performance_title">Уровень производительности</string>
 
+    <string name="gaming_mode_use_menu_overlay_title">Отображать меню</string>
+    <string name="gaming_mode_use_menu_overlay_summary">Показывать полупрозрачное меню, когда игра запущена. Если этот параметр отключен, то некоторые функции игрового режима будут отключены, например уведомления Danmaku.</string>
+
     <string name="gaming_mode_dnd">Не беспокоить</string>
     <string name="gaming_mode_disable_notification_alert_title">Отключить уведомления</string>
     <string name="gaming_mode_disable_notification_alert_summary">Не разрешать всплывающие уведомления кроме входящих вызовов и сигналов будильника</string>
