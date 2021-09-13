@@ -679,6 +679,7 @@
     <string name="qs_tint_twelve">Android 12</string>
 
     <string name="ambient_display_custom_title">Ambient Display</string>
+    <string name="ambient_display_custom_title_summary">AOD advanced settings</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Wakelock Blocker</string>
