@@ -231,8 +231,9 @@
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Стиль батареи</string>
-    <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
-    <string name="status_bar_battery_style_icon_landscape">Ландшафтная иконка</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальная иконка (Налево)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Горизонтальная иконка (Направо)</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_big_circle">Большой круг</string>
     <string name="status_bar_battery_style_big_dotted_circle">Большой круг из точек</string>
