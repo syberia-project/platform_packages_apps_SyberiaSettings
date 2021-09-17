@@ -631,6 +631,7 @@
     <string name="qs_tint_accent">В цвет акцента</string>
 
     <string name="ambient_display_custom_title">Активный дисплей</string>
+    <string name="ambient_display_custom_title_summary">Расширенные настройки AOD</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Блокировка вэйклоков</string>

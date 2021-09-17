@@ -69,6 +69,7 @@
         android:key="ambient_display_custom"
         android:persistent="false"
         android:title="@string/ambient_display_custom_title"
+        android:summary="@string/ambient_display_custom_title_summary"
         android:icon="@drawable/ic_settings_ambient" >
         <intent
             android:action="android.intent.action.MAIN"
