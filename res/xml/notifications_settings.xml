@@ -39,6 +39,11 @@
             android:value="com.android.settings.Settings$NotificationAppListActivity" />
     </Preference>
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="notification_material_dismiss"
+        android:title="@string/notification_material_dismiss_button_title"
+        android:summary="@string/notification_material_dismiss_button_summary"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="pulse_ambient_light_category"
