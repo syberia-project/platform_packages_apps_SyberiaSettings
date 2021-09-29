@@ -531,7 +531,7 @@
 
     <!-- Charging animation -->
     <string name="charging_animation_title">Анимация зарядки</string>
-    <string name="charging_animation_summary">Отображать анимацию зарадки во время подключения</string>
+    <string name="charging_animation_summary">Отображать анимацию зарядки во время подключения</string>
 
     <!-- FOD Tweaks -->
     <string name="fod_tweaks_title">Настройка FOD</string>
