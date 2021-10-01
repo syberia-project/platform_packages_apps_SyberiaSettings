@@ -20,7 +20,9 @@
 
     <Preference
         android:key="syberiasettings_animation"
-        android:layout="@layout/syberiasettings_animation" />
+        android:layout="@layout/syberiasettings_animation"
+        android:clickable="false"
+        android:selectable="false" />
 
     <PreferenceScreen
         android:fragment="com.syberia.settings.fragments.SystemSettings"
