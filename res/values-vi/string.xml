@@ -590,6 +590,7 @@
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
     <string name="ambient_display_custom_title">Màn hình xem nhanh</string>
+    <string name="ambient_display_custom_title_summary">AOD advanced settings</string>
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Trình chặn Wakelock</string>
     <string name="wakelock_blocker_summary">Chặn đánh thức hệ thống</string>
@@ -660,6 +661,10 @@
     <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
     <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
     <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+    <string name="gaming_mode_use_menu_overlay_title">Show menu overlay</string>
+    <string name="gaming_mode_use_menu_overlay_summary">Show menu overlay when game is running. If this option is disabled, some game mode features will be disabled, such as Danmaku notifications</string>
+    <string name="gaming_mode_show_fpsinfo_title">Show FPS info</string>
+    <string name="gaming_mode_show_fpsinfo_summary">Show current FPS information</string>
     <string name="gaming_mode_performance">Performance</string>
     <string name="gaming_mode_use_game_driver_title">Use game driver</string>
     <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
@@ -687,4 +692,18 @@
     <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
     <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
     <string name="add_package_to_title">Add application</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
+    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+    <!-- Volume Panel Plugin -->
+    <string name="volume_panel">Volume Panel Style</string>
+    <string name="volume_panel_stock">Stock</string>
+    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+    <string name="volume_panel_miui">MIUI Compact</string>
+    <string name="volume_panel_oos">OOS</string>
+    <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
+    <!-- Volume Panel Plugin Values -->
 </resources>

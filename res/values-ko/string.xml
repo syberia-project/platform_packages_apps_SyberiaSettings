@@ -27,8 +27,8 @@
     <string name="panels_category_summary">상태 표시줄, 알림, 빠른 설정 패널</string>
     <string name="lockscreen_category_title">잠금화면</string>
     <string name="lockscreen_category_summary">잠금화면 사용자 정의</string>
-    <string name="ui_category_title">UI Settings</string>
-    <string name="ui_category_summary">UI and theme customization</string>
+    <string name="ui_category_title">UI 설정</string>
+    <string name="ui_category_summary">UI와 테마 설정</string>
     <string name="systemui_tuner_title">상태 표시줄 항목</string>
     <string name="systemui_tuner_summary">배터리 옵션 및 상태 표시 줄 아이콘 사용자 정의</string>
     <string name="navbar_title">내비게이션 바</string>
@@ -590,8 +590,9 @@
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
     <string name="ambient_display_custom_title">앰비언트 디스플레이</string>
+    <string name="ambient_display_custom_title_summary">AOD advanced settings</string>
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock Blocker</string>
+    <string name="wakelock_blocker_title">Wakelock 차단</string>
     <string name="wakelock_blocker_summary">System Wakelock 차단</string>
     <string name="wakelock_blocker_save">저장</string>
     <string name="wakelock_list_header">Available wakelocks</string>
@@ -601,7 +602,7 @@
     <!-- Show Statusbar on Lockscreen -->
     <string name="lockscreen_status_bar_title">상태 표시줄</string>
     <string name="lockscreen_status_bar_summary">잠금 화면에서 상태 표시줄을 표시합니다</string>
-    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style">상태 표시줄 아이콘에 색상 표현</string>
     <string name="statusbar_icons_style_summary">상태 표시줄 아이콘 스타일 고르기 (시스템 UI 재시작 필요)</string>
     <!-- Units -->
     <string name="unit_seconds">초</string>
@@ -610,12 +611,12 @@
     <!-- Rounded corners -->
     <string name="corners_title">둥근 모서리</string>
     <string name="corners_summary">둥근 모서리 사용자 지정</string>
-    <string name="corner_radius">Rounded corner radius for screen</string>
+    <string name="corner_radius">화면 모서리 곡률</string>
     <string name="content_padding">모서리 여백</string>
     <string name="status_bar_padding">상태 표시줄 여백 추가</string>
     <string name="corner_fwvals">기본 값 사용</string>
     <!-- Rounded styles -->
-    <string name="rounded_style_title">Rounded style for system dialogs</string>
+    <string name="rounded_style_title">둥근 스타일의 시스템 대화상자</string>
     <string name="rounded_default">기본값</string>
     <string name="rounded_none">없음</string>
     <string name="rounded_slight">약하게</string>
@@ -626,13 +627,13 @@
     <string name="use_old_mobiletype_title">Small mobile type icon</string>
     <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
     <!-- Quick settings on secure lockscreen -->
-    <string name="lockscreen_enable_qs_title">Quick settings</string>
-    <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
+    <string name="lockscreen_enable_qs_title">빠른 설정</string>
+    <string name="lockscreen_enable_qs_summary">잠금 화면에서 빠른 설정에 액세스하도록 허용</string>
     <!-- UI background blur toggle -->
-    <string name="ui_background_blur_title">UI background blur</string>
-    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
+    <string name="ui_background_blur_title">배경 흐림</string>
+    <string name="ui_background_blur_summary">배경 흐림을 켭니다. (GPU자원을 더 소모합니다.)</string>
     <!-- Switch styles -->
-    <string name="switch_style_title">Switch style</string>
+    <string name="switch_style_title">스위치 스타일</string>
     <string name="switch_default">Default</string>
     <string name="switch_contained">Contained</string>
     <string name="switch_telegram">Telegram</string>
@@ -650,24 +651,28 @@
     <string name="lockscreen_charging_animation_magic">Magic</string>
     <string name="lockscreen_charging_animation_syberia">Syberia</string>
     <!-- Gaming mode -->
-    <string name="gaming_title">Gaming mode</string>
+    <string name="gaming_title">게임 모드</string>
     <string name="gaming_title_summary">Extra features for immersive gaming experience</string>
-    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
-    <string name="gaming_mode_disable_auto_brightness_title">Disable automatic brightness</string>
-    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
+    <string name="gaming_mode_enabled_title">게임 모드 활성화</string>
+    <string name="gaming_mode_disable_auto_brightness_title">자동 밝기 해제</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">게임 모드를 켜면 자동 밝기를 해제</string>
     <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
     <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
     <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
     <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
     <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
+    <string name="gaming_mode_use_menu_overlay_title">Show menu overlay</string>
+    <string name="gaming_mode_use_menu_overlay_summary">Show menu overlay when game is running. If this option is disabled, some game mode features will be disabled, such as Danmaku notifications</string>
+    <string name="gaming_mode_show_fpsinfo_title">Show FPS info</string>
+    <string name="gaming_mode_show_fpsinfo_summary">Show current FPS information</string>
     <string name="gaming_mode_performance">Performance</string>
     <string name="gaming_mode_use_game_driver_title">Use game driver</string>
     <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
     <string name="gaming_mode_change_performance_title">Performance tuning</string>
     <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
     <string name="gaming_mode_performance_title">Performance level</string>
-    <string name="gaming_mode_dnd">Do not distrub</string>
-    <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
+    <string name="gaming_mode_dnd">방해 금지</string>
+    <string name="gaming_mode_disable_notification_alert_title">알림 사용 안 함</string>
     <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
     <string name="gaming_mode_disable_ringtone_title">No ringing</string>
     <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in gaming mode</string>
@@ -687,4 +692,18 @@
     <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
     <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
     <string name="add_package_to_title">Add application</string>
+    <!-- OOS style material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
+    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
+    <!-- Volume Panel Plugin -->
+    <string name="volume_panel">Volume Panel Style</string>
+    <string name="volume_panel_stock">Stock</string>
+    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+    <string name="volume_panel_miui">MIUI Compact</string>
+    <string name="volume_panel_oos">OOS</string>
+    <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
+    <!-- Volume Panel Plugin Values -->
 </resources>
