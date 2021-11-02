@@ -20,6 +20,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 
 import com.syberia.settings.preference.SystemSettingsStore;
+import com.android.settings.R;
 
 public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
 

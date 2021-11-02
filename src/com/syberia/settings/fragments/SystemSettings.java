@@ -21,6 +21,9 @@ import android.content.Context;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference;
+
 import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
@@ -29,16 +32,28 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import com.android.internal.util.syberia.UdfpsUtils;
+
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.syberia.SyberiaUtils;
 
 @SearchIndexable
 public class SystemSettings extends SettingsPreferenceFragment {
 
+    private static final String UDFPS_SETTINGS = "udfps_settings";
+
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
-        addPreferencesFromResource(R.xml.system_settings);
 
+        final boolean udfpsResPkgInstalled = SyberiaUtils.isPackageInstalled(getContext(),
+                "com.syberia.udfps.resources");
+
+        addPreferencesFromResource(R.xml.system_settings);
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        if (!UdfpsUtils.hasUdfpsSupport(getContext()) || !udfpsResPkgInstalled) {
+            prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
+        }
     }
 
     @Override

@@ -26,12 +26,18 @@
         android:summary="@string/statusbar_category_summary"
         android:title="@string/statusbar_category_title" />
 
-
     <Preference
-        android:fragment="com.syberia.settings.fragments.NotificationsSettings"
+        android:fragment="com.syberia.settings.fragments.QSPanelSettings"
         android:icon="@drawable/ic_notification"
         android:key="notification"
         android:summary="@string/notifications_category_summary"
         android:title="@string/panel_notifications_title" />
+
+    <Preference
+        android:fragment="com.syberia.settings.fragments.NavBarSettings"
+        android:icon="@drawable/ic_systemui_tuner_statusbaritems"
+        android:summary="@string/navbar_category_summary"
+        android:key="navbar"
+        android:title="@string/navbar_title" />
 
 </PreferenceScreen>

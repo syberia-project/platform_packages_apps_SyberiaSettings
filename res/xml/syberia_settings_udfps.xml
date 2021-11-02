@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2022 Syberia OS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/udfps_category">
+
+
+   <!--
+     <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="udfps_haptic_feedback"
+        android:title="@string/udfps_haptic_feedback_title"
+        android:summary="@string/udfps_haptic_feedback_summary"
+        android:defaultValue="true" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="screen_off_udfps"
+        android:title="@string/screen_off_udfps_title"
+        android:summary="@string/screen_off_udfps_summary"
+        android:persistent="true" /> 
+   -->
+
+    <Preference
+        android:key="udfps_icon_picker"
+        android:title="@string/udfps_icon_picker_title"
+        android:summary="@string/udfps_icon_picker_summary"
+        android:fragment="com.syberia.settings.fragments.UdfpsIconPicker" />
+
+     <Preference
+        android:key="udfps_recognizing_animation_preview"
+        android:title="@string/udfps_recog_animation_effect_title"
+        android:summary="@string/udfps_recog_animation_effect_summary"
+        android:fragment="com.syberia.settings.fragments.UdfpsAnimation" />
+
+</PreferenceScreen>

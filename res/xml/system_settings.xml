@@ -18,11 +18,40 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/system_category_title">
 
+
+    <Preference
+        android:fragment="com.syberia.settings.fragments.Udfps"
+        android:icon="@drawable/ic_fod"
+        android:key="udfps_settings"
+        android:summary="@string/udfps_settings_summary"
+        android:title="@string/udfps_settings_title" />
+
     <Preference
         android:fragment="com.syberia.settings.fragments.GeneralTweaks"
         android:icon="@drawable/ic_general_tweaks"
         android:key="general_tweaks"
         android:summary="@string/general_tweaks_summary"
         android:title="@string/general_tweaks_title" />
+
+    <Preference
+        android:fragment="com.syberia.settings.fragments.ButtonsSettings"
+        android:icon="@drawable/ic_buttons"
+        android:key="buttons"
+        android:summary="@string/buttons_summary"
+        android:title="@string/buttons_title" />
+
+    <Preference
+        android:fragment="com.syberia.settings.fragments.NotificationsSettings"
+        android:icon="@drawable/ic_settings_notifications"
+        android:key="notifications_category"
+        android:summary="@string/notifications_summary"
+        android:title="@string/notifications_title" />
+
+    <Preference
+        android:icon="@drawable/ic_phone_classic"
+        android:key="dialer"
+        android:summary="@string/dialer_summary"
+        android:title="@string/dialer_title"
+        android:fragment="com.syberia.settings.fragments.DialerSettings" />
 
 </PreferenceScreen>

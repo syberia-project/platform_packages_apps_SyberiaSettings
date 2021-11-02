@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-2019 Syberia Project
+    Copyright © 2018-2020 Syberia Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -17,7 +17,34 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/panel_notifications_title">
+    android:title="@string/notifications_title">
 
+    <PreferenceCategory
+        android:title="@string/lights_category_title"
+        android:key="lights_category" >
+
+        <Preference
+            android:key="charging_light"
+            android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
+            android:title="@string/battery_light_settings" />
+
+        <Preference
+            android:key="notification_light"
+            android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+            android:title="@string/notification_light_settings" >
+            <extra
+                android:name="classname"
+                android:value="com.android.settings.Settings$NotificationAppListActivity" />
+        </Preference>
+    </PreferenceCategory>
+
+    <!-- Pulse notifications lightning -->
+    <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
+        android:key="edge_light_enabled"
+        android:title="@string/edge_light_title"
+        android:summary="@string/edge_light_summary"
+        android:fragment="com.syberia.settings.fragments.EdgeLightningSettings"
+        android:persistent="true"
+        android:defaultValue="false" />
 
 </PreferenceScreen>

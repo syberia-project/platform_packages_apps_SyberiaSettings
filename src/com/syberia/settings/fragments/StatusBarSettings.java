@@ -18,9 +18,25 @@ package com.syberia.settings.fragments;
 
 import android.provider.SearchIndexableResource;
 
-import android.os.Bundle;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.res.Resources;
+import android.database.ContentObserver;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.SearchIndexableResource;
+import android.os.SystemProperties;
+import android.os.UserHandle;
+import android.provider.Settings;
+import android.view.View;
 import com.android.settings.R;
+
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreference;
 
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
@@ -29,17 +45,38 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import com.syberia.settings.preference.SystemSettingListPreference;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class StatusBarSettings extends SettingsPreferenceFragment {
+public class StatusBarSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
+
+    private static final String STATUS_BAR_CLOCK_STYLE = "status_bar_clock";
+
+    private SystemSettingListPreference mStatusBarClock;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.statusbar_settings);
+
+        final ContentResolver resolver = getActivity().getContentResolver();
+        final Context mContext = getActivity().getApplicationContext();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mStatusBarClock =
+                (SystemSettingListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
+
+        // Adjust status bar preferences for RTL
+        if (getResources().getConfiguration().getLayoutDirection() == View.LAYOUT_DIRECTION_RTL) {
+            mStatusBarClock.setEntries(R.array.status_bar_clock_position_entries_rtl);
+            mStatusBarClock.setEntryValues(R.array.status_bar_clock_position_values_rtl);
+        }
+
     }
 
     @Override
@@ -47,24 +84,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
         return MetricsProto.MetricsEvent.SYBERIA;
     }
 
-    /**
-     * For Search.
-     */
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        return false;
+    }
 
-                @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(
-                        Context context, boolean enabled) {
-                    final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.statusbar_settings;
-                    return Arrays.asList(sir);
-                }
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.statusbar_settings);
 
-                @Override
-                public List<String> getNonIndexableKeys(Context context) {
-                    final List<String> keys = super.getNonIndexableKeys(context);
-                    return keys;
-                }
-    };
 }

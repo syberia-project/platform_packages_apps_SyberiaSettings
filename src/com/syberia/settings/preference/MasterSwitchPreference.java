@@ -19,12 +19,11 @@ package com.syberia.settings.preference;
 import android.content.Context;
 import android.content.res.TypedArray;
 import androidx.preference.PreferenceViewHolder;
-import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Switch;
 
-import com.syberia.settings.R;
+import com.android.settings.R;
 
 /**
  * A custom preference that provides inline switch toggle. It has a mandatory field for title, and
@@ -115,32 +114,15 @@ public class MasterSwitchPreference extends TwoTargetPreference {
     }
 
     @Override
-    protected boolean persistBoolean(boolean value) {
-        if (shouldPersist()) {
-            if (value == getPersistedBoolean(!value)) {
-                // It's already there, so the same as persisting
-                return true;
-            }
-
-            Settings.System.putInt(getContext().getContentResolver(), getKey(), value ? 1 : 0);
-            return true;
-        }
-        return false;
+    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
+                : (Boolean) defaultValue);
     }
 
-    @Override
-    protected boolean getPersistedBoolean(boolean defaultReturnValue) {
-        if (!shouldPersist()) {
-            return defaultReturnValue;
-        }
-
-        return Settings.System.getInt(getContext().getContentResolver(),
-                getKey(), defaultReturnValue ? 1 : 0) != 0;
-    }
-
-    protected boolean isPersisted() {
-        // Using getString instead of getInt so we can simply check for null
-        // instead of catching an exception. (All values are stored as strings.)
-        return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
+    /**
+     * Call from outside when value might have changed.
+     */
+    public void reloadValue() {
+        setChecked(getPersistedBoolean(mChecked));
     }
 }

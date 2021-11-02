@@ -22,7 +22,7 @@ import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.syberia.settings.R;
+import com.android.settings.R;
 
 public class TwoTargetPreference extends Preference {
 

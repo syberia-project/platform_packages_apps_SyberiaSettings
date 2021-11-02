@@ -33,6 +33,20 @@
         android:title="@string/panels_category_title" />
 
     <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.GesturesSettings"
+        android:icon="@drawable/ic_gestures_page"
+        android:key="gestures_category"
+        android:summary="@string/gestures_category_summary"
+        android:title="@string/gestures_category_title" />
+
+    <PreferenceScreen
+        android:fragment="com.syberia.settings.fragments.UiThemingSettings"
+        android:icon="@drawable/ic_uitheming"
+        android:key="ui_category"
+        android:summary="@string/ui_category_summary"
+        android:title="@string/ui_category_title" />
+
+    <PreferenceScreen
         android:fragment="com.syberia.settings.fragments.LockScreenSettings"
         android:icon="@drawable/ic_lockscreen_category"
         android:key="lockscreen_category"
