@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-2021 Syberia Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/buttons_title">
+
+    <PreferenceCategory
+        android:key="power_button_category"
+        android:title="@string/power_button_category_title">
+
+        <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="global_actions"
+            android:title="@string/global_actions_title"
+            android:summary="@string/global_actions_summary"
+            android:fragment="com.syberia.settings.fragments.GlobalActionsSettings" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
