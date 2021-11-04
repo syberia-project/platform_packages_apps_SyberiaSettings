@@ -889,4 +889,13 @@
     <string name="qs_columns_portrait_title">Колонки (Вертикальная ориентация)</string>
     <string name="qs_columns_landscape_title">Колонки (Горизонтальная ориентация)</string>
 
+    <!-- Monet Engine -->
+    <string name="monet_engine_custom_color_title">Переопределение цвета</string>
+    <string name="monet_engine_custom_color_summary">Использовать собственный цвет для Monet</string>
+    <string name="monet_engine_color_override_title">Свой цвет</string>
+    <string name="monet_engine_white_luminance_user_title">Яркость</string>
+    <string name="monet_engine_accurate_shades_title">Использовать точные оттенки</string>
+    <string name="monet_engine_chroma_factor_title">Насыщенность</string>
+    <string name="monet_engine_linear_lightness_title">Переопределить яркость</string>
+
 </resources>
