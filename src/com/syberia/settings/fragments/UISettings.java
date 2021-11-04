@@ -17,8 +17,18 @@
 package com.syberia.settings.fragments;
 
 import android.os.Bundle;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.graphics.Color;
 import com.android.settings.R;
+
+import android.os.Bundle;
+import android.os.UserHandle;
+import android.provider.Settings;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 
 import android.provider.SearchIndexableResource;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -32,19 +42,50 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@SearchIndexable
-public class UISettings extends SettingsPreferenceFragment {
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
+@SearchIndexable
+public class UISettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
+
+    private ColorPickerPreference mMonetColor;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.ui_settings);
+
+        final ContentResolver resolver = getActivity().getContentResolver();
+        PreferenceScreen screen = getPreferenceScreen();
+
+        mMonetColor = (ColorPickerPreference) screen.findPreference(MONET_ENGINE_COLOR_OVERRIDE);
+        int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, Color.WHITE);
+        String hexColor = String.format("#%08x", (0xffffff & intColor));
+        mMonetColor.setNewPreviewColor(intColor);
+        mMonetColor.setSummary(hexColor);
+        mMonetColor.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mMonetColor) {
+            String hex = ColorPickerPreference.convertToARGB(Integer
+                .parseInt(String.valueOf(newValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.Secure.putInt(resolver,
+                MONET_ENGINE_COLOR_OVERRIDE, intHex);
+            return true;
+        }
+        return false;
     }
 
     /**
