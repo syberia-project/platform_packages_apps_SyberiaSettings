@@ -26,4 +26,10 @@
         android:title="@string/usb_default_config_title"
         android:summary="@string/usb_default_config_summary"/>
 
+    <com.syberia.settings.preference.GlobalSettingSwitchPreference
+            android:key="show_cpu_overlay"
+            android:title="@string/show_cpu_info"
+            android:summary="@string/show_cpu_info_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>

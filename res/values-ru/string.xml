@@ -777,4 +777,7 @@
     <string name="quick_qs_brightness_slider_title">Регулятор яркости в свернутой панели быстрых настроек</string>
     <string name="quick_qs_brightness_slider_summary">Показать регулятор яркости в свернутой панели быстрых настроек</string>
 
+    <string name="show_cpu_info">Показать информацию о процессоре</string>
+    <string name="show_cpu_info_summary">Показать текущую информацию о процессоре</string>
+
 </resources>
