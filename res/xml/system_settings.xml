@@ -32,4 +32,11 @@
         android:summary="@string/buttons_summary"
         android:title="@string/buttons_title" />
 
+    <Preference
+        android:icon="@drawable/ic_phone_classic"
+        android:key="dialer"
+        android:summary="@string/dialer_summary"
+        android:title="@string/dialer_title"
+        android:fragment="com.syberia.settings.fragments.DialerSettings" />
+
 </PreferenceScreen>
