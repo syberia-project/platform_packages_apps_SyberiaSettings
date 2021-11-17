@@ -755,4 +755,13 @@
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
     <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
 
+    <!-- Monet Engine -->
+    <string name="monet_engine_custom_color_title">Пользовательский цвет</string>
+    <string name="monet_engine_custom_color_summary">Использовать собственный цвет для Monet вместо цветов обоев</string>
+    <string name="monet_engine_color_override_title">Пользовательский цвет</string>
+    <string name="monet_engine_white_luminance_user_title">Яркость</string>
+    <string name="monet_engine_accurate_shades_title">Использовать точные оттенки</string>
+    <string name="monet_engine_chroma_factor_title">Насыщенность</string>
+    <string name="monet_engine_linear_lightness_title">Переопределить яркость</string>
+
 </resources>
