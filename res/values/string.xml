@@ -771,8 +771,6 @@
     <string name="gaming_mode_show_fpsinfo_summary">Show current FPS information</string>
 
     <string name="gaming_mode_performance">Performance</string>
-    <string name="gaming_mode_use_game_driver_title">Use game driver</string>
-    <string name="gaming_mode_use_game_driver_summary">Use specific drivers for games</string>
     <string name="gaming_mode_change_performance_title">Performance tuning</string>
     <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
     <string name="gaming_mode_performance_title">Performance level</string>

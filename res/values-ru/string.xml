@@ -704,8 +704,6 @@
     <string name="gaming_mode_show_fpsinfo_summary">Отображать текущий FPS</string>
 
     <string name="gaming_mode_performance">Производительность</string>
-    <string name="gaming_mode_use_game_driver_title">Использовать игровой драйвер</string>
-    <string name="gaming_mode_use_game_driver_summary">Использование специальных игровых драйверов</string>
     <string name="gaming_mode_change_performance_title">Настройки производительности</string>
     <string name="gaming_mode_change_performance_summary">Регулировка уровня производительности при запуске игры</string>
     <string name="gaming_mode_performance_title">Уровень производительности</string>

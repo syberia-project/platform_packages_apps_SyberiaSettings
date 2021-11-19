@@ -666,8 +666,6 @@
     <string name="gaming_mode_show_fpsinfo_title">Show FPS info</string>
     <string name="gaming_mode_show_fpsinfo_summary">Show current FPS information</string>
     <string name="gaming_mode_performance">Výkon</string>
-    <string name="gaming_mode_use_game_driver_title">Použít herní ovladač</string>
-    <string name="gaming_mode_use_game_driver_summary">Použít specifické ovladače pro hry</string>
     <string name="gaming_mode_change_performance_title">Ladění výkonu</string>
     <string name="gaming_mode_change_performance_summary">Upravit úroveň výkonu při spuštění hry</string>
     <string name="gaming_mode_performance_title">Úroveň výkonu</string>
