@@ -18,10 +18,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/ui_category_title">
 
+    <ListPreference
+        android:key="android.theme.customization.font"
+        android:title="@string/theme_font_title"/>
+
+   <ListPreference
+        android:key="android.theme.customization.icon_pack"
+        android:title="@string/theme_icon_pack_title"/>
+
     <PreferenceCategory
         android:key="monel_category"
         android:title="Monet">
-
 
     <com.syberia.settings.preference.SecureSettingSwitchPreference
         android:key="monet_engine_custom_color"

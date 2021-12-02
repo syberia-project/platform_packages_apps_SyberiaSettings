@@ -782,4 +782,8 @@
     <string name="lockscreen_power_menu_disabled_title">Скрыть на экране блокировки</string>
     <string name="lockscreen_power_menu_disabled_summary">Скрывать меню действий кнопки питания на заблокированном экране</string>
 
+    <!-- Theming -->
+    <string name="theme_font_title">Шрифты</string>
+    <string name="theme_icon_pack_title">Набор значков</string>
+
 </resources>

@@ -859,4 +859,8 @@
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
 
+    <!-- Theming -->
+    <string name="theme_font_title">Fonts</string>
+    <string name="theme_icon_pack_title">Icon pack</string>
+
 </resources>
