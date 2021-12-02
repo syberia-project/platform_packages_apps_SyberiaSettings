@@ -21,7 +21,6 @@
 
     <Preference
         android:key="default_usb_configuration"
-        android:icon="@drawable/ic_usb"
         android:fragment="com.android.settings.connecteddevice.usb.UsbDefaultFragment"
         android:title="@string/usb_default_config_title"
         android:summary="@string/usb_default_config_summary"/>
