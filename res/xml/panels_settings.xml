@@ -27,7 +27,7 @@
         android:title="@string/statusbar_category_title" />
 
     <Preference
-        android:fragment="com.syberia.settings.fragments.NotificationsSettings"
+        android:fragment="com.syberia.settings.fragments.QSPanelSettings"
         android:icon="@drawable/ic_notification"
         android:key="notification"
         android:summary="@string/notifications_category_summary"

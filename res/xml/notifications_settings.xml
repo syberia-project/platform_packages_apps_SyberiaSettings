@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-2019 Syberia Project
+    Copyright © 2018-2020 Syberia Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -17,51 +17,110 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/panel_notifications_title">
+    android:title="@string/notifications_title">
 
-    <com.syberia.settings.preference.SecureSettingSwitchPreference
-        android:key="quick_settings_vibrate"
-        android:title="@string/quick_settings_vibrate_title"
-        android:summary="@string/quick_settings_vibrate_summary"
-        android:defaultValue="false"/>
+    <PreferenceCategory
+        android:title="@string/lights_category_title"
+        android:key="lights_category" >
 
-        <PreferenceCategory
-            android:key="quick_settings_brighness_category"
-            android:title="@string/qs_brightness_slider_category">
+        <Preference
+            android:key="charging_light"
+            android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
+            android:title="@string/battery_light_settings" />
 
-            <com.syberia.settings.preference.SecureSettingSwitchPreference
-                android:key="qs_show_brightness"
-                android:title="@string/qs_brightness_slider_title"
-                android:summary="@string/qs_brightness_slider_summary"
-                android:defaultValue="true"/>
+        <Preference
+            android:key="notification_light"
+            android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
+            android:title="@string/notification_light_settings" >
+            <extra
+                android:name="classname"
+                android:value="com.android.settings.Settings$NotificationAppListActivity" />
+        </Preference>
+    </PreferenceCategory>
 
-            <com.syberia.settings.preference.SecureSettingSwitchPreference
-                android:key="sysui_qqs_brightness_slider"
-                android:title="@string/quick_qs_brightness_slider_title"
-                android:summary="@string/quick_qs_brightness_slider_summary"
-                android:dependency="qs_show_brightness"
-                android:defaultValue="false"/>
+    <PreferenceCategory
+        android:key="pulse_ambient_light_category"
+        android:title="@string/pulse_ambient_light_category" >
 
-            <com.syberia.settings.preference.SecureSettingSwitchPreference
-                android:key="qs_show_auto_brightness_button"
-                android:title="@string/brightness_icon_title"
-                android:summary="@string/brightness_icon_summary"
-                android:defaultValue="true"
-                android:dependency="qs_show_brightness"/>
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="pulse_ambient_light"
+            android:title="@string/pulse_ambient_light_title"
+            android:summary="@string/pulse_ambient_light_summary"
+            android:defaultValue="false" />
 
-            <com.syberia.settings.preference.SecureSettingSwitchPreference
-                android:key="qs_brightness_position_bottom"
-                android:title="@string/qs_brightness_position_bottom_title"
-                android:summary="@string/qs_brightness_position_bottom_summary"
-                android:defaultValue="false"
-                android:dependency="qs_show_brightness" />
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="ambient_notification_light_enabled"
+            android:title="@string/ambient_notification_light_enabled_title"
+            android:summary="@string/ambient_notification_light_enabled_summary"
+            android:defaultValue="false" />
 
-        </PreferenceCategory>
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="ambient_notification_light_hide_aod"
+            android:title="@string/ambient_notification_light_hide_aod_title"
+            android:summary="@string/ambient_notification_light_hide_aod_summary"
+            android:defaultValue="false"
+            android:dependency="ambient_notification_light_enabled"/>
 
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-        android:key="notification_sound_vib_screen_on"
-        android:title="@string/notification_sound_vib_screen_on_title"
-        android:summary="@string/notification_sound_vib_screen_on_summary"
-        android:defaultValue="true" />
+        <com.syberia.settings.preference.SystemSettingListPreference
+            android:key="ambient_notification_light_timeout"
+            android:dialogTitle="@string/ambient_notification_light_timeout_title"
+            android:title="@string/ambient_notification_light_timeout_title"
+            android:entries="@array/ambient_notification_light_timeout_entries"
+            android:entryValues="@array/ambient_notification_light_timeout_values"
+            android:defaultValue="0"
+            android:dependency="ambient_notification_light_enabled"
+            android:summary="%s" />
+
+        <ListPreference
+            android:key="ambient_notification_light_color_mode"
+            android:title="@string/ambient_notification_light_color_mode_title"
+            android:persistent="false"
+            android:entries="@array/ambient_notification_light_color_mode_entries"
+            android:entryValues="@array/ambient_notification_light_color_mode_values"
+            android:defaultValue="2" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            android:key="ambient_notification_light_color"
+            android:summary="@string/ambient_notification_light_color_summary"
+            android:title="@string/ambient_notification_light_color_title"
+            ledPreview="true"
+            settings:defaultColorValue="0xFF3980FF" />
+
+        <com.syberia.settings.preference.SystemSettingSeekBarPreference
+            android:key="ambient_light_duration"
+            android:title="@string/pulse_ambient_light_duration_title"
+            android:summary="@string/pulse_ambient_light_duration_summary"
+            android:persistent="false"
+            android:defaultValue="2"
+            android:max="10"
+            settings:min="1"
+            settings:units="sec"
+            settings:interval="1"
+            android:dependency="pulse_ambient_light" />
+
+        <com.syberia.settings.preference.SystemSettingSeekBarPreference
+            android:key="ambient_light_repeat_count"
+            android:title="@string/pulse_ambient_light_repeat_count_title"
+            android:summary="@string/pulse_ambient_light_repeat_count_summary"
+            android:persistent="false"
+            android:defaultValue="0"
+            android:max="10"
+            settings:min="0"
+            settings:interval="1"
+            android:dependency="pulse_ambient_light" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="notification_misc"
+        android:title="@string/notification_misc">
+
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

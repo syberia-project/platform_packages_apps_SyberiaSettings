@@ -33,6 +33,13 @@
         android:title="@string/buttons_title" />
 
     <Preference
+        android:fragment="com.syberia.settings.fragments.NotificationsSettings"
+        android:icon="@drawable/ic_settings_notifications"
+        android:key="notifications_category"
+        android:summary="@string/notifications_summary"
+        android:title="@string/notifications_title" />
+
+    <Preference
         android:icon="@drawable/ic_phone_classic"
         android:key="dialer"
         android:summary="@string/dialer_summary"
