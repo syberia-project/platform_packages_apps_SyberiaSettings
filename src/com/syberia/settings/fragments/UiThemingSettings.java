@@ -122,6 +122,8 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
                 "android.theme.customization.signal_icon"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.wifi_icon"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.switch"));
         return controllers;
     }
 

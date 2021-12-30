@@ -732,16 +732,6 @@
     <string name="ui_background_blur_title">UI background blur</string>
     <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
 
-    <!-- Switch styles -->
-    <string name="switch_style_title">Switch style</string>
-    <string name="switch_default">Default</string>
-    <string name="switch_contained">Contained</string>
-    <string name="switch_telegram">Telegram</string>
-    <string name="switch_md2">Material Design 2</string>
-    <string name="switch_retro">Retro</string>
-    <string name="switch_oos">OxygenOS 11</string>
-    <string name="switch_android12">Android 12</string>
-
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Charging animation</string>
     <string name="lockscreen_charging_animation_flash">Flash</string>
@@ -868,5 +858,7 @@
     <string name="theme_customization_icon_signal_bar_title">Signal</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Wi-Fi</string>
+    <!-- Custom Switch -->
+    <string name="theme_customization_switch_style_title">Switch style</string>
 
 </resources>

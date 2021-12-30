@@ -793,5 +793,7 @@
     <string name="theme_customization_icon_signal_bar_title">Значок уровня сигнала</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Значок Wi-Fi</string>
+    <!-- Custom Switch -->
+    <string name="theme_customization_switch_style_title">Стиль переключателей</string>
 
 </resources>
