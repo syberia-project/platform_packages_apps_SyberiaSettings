@@ -41,6 +41,24 @@
         android:title="@string/theme_customization_icon_wifi_bar_title"/>
 
     <PreferenceCategory
+        android:title="@string/lock_screen_custom_clock_face_category">
+
+        <ListPreference
+            android:key="lock_screen_custom_clock_face"
+            android:summary="%s"
+            android:title="@string/lock_screen_custom_clock_face_title"
+            android:entries="@array/lock_screen_custom_clock_face_entries"
+            android:entryValues="@array/lock_screen_custom_clock_face_values" />
+
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_small_clock"
+            android:title="@string/lockscreen_small_clock_title"
+            android:summary="@string/lockscreen_small_clock_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="monel_category"
         android:title="Monet">
 
