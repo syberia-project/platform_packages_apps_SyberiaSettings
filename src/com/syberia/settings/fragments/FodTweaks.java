@@ -29,8 +29,11 @@ import com.android.internal.util.custom.fod.FodUtils;
 public class FodTweaks extends SettingsPreferenceFragment {
 
     private static final String SCREEN_OFF_FOD_KEY = "screen_off_fod";
+    private static final String UDFPS_HAPTIC_FEEDBACK = "udfps_haptic_feedback";
 
     Preference mFODPref;
+    private SystemSettingSwitchPreference mFODScreenOff;
+    private SystemSettingSwitchPreference mUdfpsHapticFeedback;
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -38,8 +41,10 @@ public class FodTweaks extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.fod_tweaks);
 
 	mFODPref = findPreference(SCREEN_OFF_FOD_KEY);
+        mUdfpsHapticFeedback = (SystemSettingSwitchPreference) findPreference(UDFPS_HAPTIC_FEEDBACK);
         if (!FodUtils.hasFodSupport(getContext())) {
-            removePreference(SCREEN_OFF_FOD_KEY);
+           prefScreen.removePreference(mFODScreenOff);
+           prefScreen.removePreference(mUdfpsHapticFeedback);
         }
     }
 
