@@ -792,4 +792,11 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Значок Wi-Fi</string>
 
+    <!-- Qs Column Settings -->
+    <string name="qs_columns_cat">Настройка колонок</string>
+    <string name="qs_columns_portrait_title">Кол-во в портретном режиме</string>
+    <string name="qs_columns_landscape_title">Кол-во в альбомном режиме</string>
+    <string name="qs_tile_vertical_layout_title">Вертикальная разметка</string>
+    <string name="qs_tile_vertical_layout_summary">Вкл/выкл вертикальную разметку плитки</string>
+
 </resources>
