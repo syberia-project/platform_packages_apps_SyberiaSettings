@@ -58,4 +58,31 @@
 
         </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="qs_columns_cat"
+        android:title="@string/qs_columns_cat">
+
+        <com.syberia.settings.preference.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_portrait_title"
+            android:max="5"
+            android:min="2"
+            android:defaultValue="2"
+            settings:units="" />
+
+        <com.syberia.settings.preference.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns_landscape"
+            android:title="@string/qs_columns_landscape_title"
+            android:max="7"
+            android:min="3"
+            android:defaultValue="4"
+            settings:units="" />
+
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:title="@string/qs_tile_vertical_layout_title"
+            android:summary="@string/qs_tile_vertical_layout_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
