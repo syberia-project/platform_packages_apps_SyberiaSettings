@@ -800,5 +800,8 @@
     <string name="volume_panel_on_left_title">Панель громкости слева</string>
     <string name="volume_panel_on_left_summary">Отображать панель громкости на левой стороне экрана</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Чёрная тема</string>
+    <string name="system_black_theme_summary">Принудительно использовать чёрный цвет фона</string>
 
 </resources>
