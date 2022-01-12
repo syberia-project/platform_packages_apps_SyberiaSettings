@@ -883,4 +883,8 @@
     <string name="udfps_haptic_feedback_title">FOD haptic feedback</string>
     <string name="udfps_haptic_feedback_summary">Vibrate when touching FOD icon</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+
 </resources>
