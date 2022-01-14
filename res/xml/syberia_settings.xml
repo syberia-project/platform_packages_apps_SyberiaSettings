@@ -60,4 +60,11 @@
         android:summary="@string/about_team_summary"
         android:title="@string/about_team_title" />
 
+    <!-- Gaming mode -->
+    <Preference
+        android:key="gaming_category"
+        android:title="@string/gaming_title"
+        android:fragment="com.android.settings.preferences.game.GamingModeSettings"
+        android:icon="@drawable/ic_settings_gaming"/>
+
 </PreferenceScreen>
