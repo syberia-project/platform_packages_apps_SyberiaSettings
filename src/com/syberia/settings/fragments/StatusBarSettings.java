@@ -16,9 +16,13 @@
 
 package com.syberia.settings.fragments;
 
+import android.content.ContentResolver;
+import android.content.Intent;
 import android.provider.SearchIndexableResource;
+import android.provider.Settings;
 
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.content.Context;
 import com.android.settings.R;
 
@@ -40,6 +44,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.statusbar_settings);
+    }
+
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.System.putIntForUser(resolver,
+                Settings.System.STATUSBAR_COLORED_ICONS, 0, UserHandle.USER_CURRENT);
     }
 
     @Override

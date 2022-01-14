@@ -808,4 +808,8 @@
     <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
     <string name="enable_fingerprint_ripple_effect_summary">Показать эффект волны при разблокировке с помощью отпечатка пальца</string>
 
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Цветные значки уведомлений</string>
+    <string name="statusbar_colored_icons_summary">Включить цветные значки уведомлений в строке состояния</string>
+
 </resources>

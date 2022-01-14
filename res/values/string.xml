@@ -900,4 +900,9 @@
     <!-- UDFPS icon picker -->
     <string name="udfps_icon_picker_title">UDFPS icon picker</string>
     <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+
+    <!-- Statusbar colored icons -->
+    <string name="statusbar_colored_icons_title">Colored icons</string>
+    <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in statusbar</string>
+
 </resources>
