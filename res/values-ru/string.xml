@@ -792,4 +792,8 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Значок Wi-Fi</string>
 
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Принудительное включение малых часов</string>
+    <string name="lockscreen_small_clock_summary">Отображать малые часы даже если нет уведомлений</string>
+
 </resources>
