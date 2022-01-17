@@ -62,6 +62,13 @@
             android:entryValues="@array/volume_key_cursor_control_values"
             android:defaultValue="0" />
 
+    <!-- Volume panel to left -->
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        android:summary="@string/volume_panel_on_left_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -796,4 +796,9 @@
     <string name="lockscreen_small_clock_title">Принудительное включение малых часов</string>
     <string name="lockscreen_small_clock_summary">Отображать малые часы даже если нет уведомлений</string>
 
+    <!-- Left volume panel -->
+    <string name="volume_panel_on_left_title">Панель громкости слева</string>
+    <string name="volume_panel_on_left_summary">Отображать панель громкости на левой стороне экрана</string>
+
+
 </resources>
