@@ -67,6 +67,7 @@
         android:fragment="com.syberia.settings.fragments.QuickStartAppSettings"
         android:dependency="gaming_mode_enabled" />
 
+<!--
     <com.syberia.settings.preference.SystemSettingSeekBarPreference
         android:key="gaming_mode_menu_opacity"
         android:title="@string/gaming_mode_menu_opacity_title"
@@ -74,6 +75,7 @@
         settings:min="0"
         android:defaultValue="75"
         android:dependency="gaming_mode_enabled" />
+-->
 
     <PreferenceCategory
         android:key="performance_category"
