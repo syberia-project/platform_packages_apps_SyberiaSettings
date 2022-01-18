@@ -45,7 +45,7 @@ public class GamingModeSettings extends SettingsPreferenceFragment implements On
     private SwitchPreference mShowFPS;
     private Preference mDanmaku;
     private Preference mQapps;
-    private SystemSettingSeekBarPreference mOpacity;
+//    private SystemSettingSeekBarPreference mOpacity;
 
     private boolean performance_supported;
     private boolean mFpsInfoSupported;
@@ -76,7 +76,7 @@ public class GamingModeSettings extends SettingsPreferenceFragment implements On
         mShowFPS = (SwitchPreference) findPreference("gaming_mode_fps_info");
         mDanmaku = (Preference) findPreference("gaming_mode_notification_danmaku");
         mQapps = (Preference) findPreference("gaming_mode_quick_start_apps");
-        mOpacity = (SystemSettingSeekBarPreference) findPreference("gaming_mode_menu_opacity");
+//        mOpacity = (SystemSettingSeekBarPreference) findPreference("gaming_mode_menu_opacity");
 
         boolean fpsEnabled = Settings.System.getInt(getContentResolver(),
                             Settings.System.GAMING_MODE_SHOW_FPSINFO, 0) == 1;
@@ -95,7 +95,7 @@ public class GamingModeSettings extends SettingsPreferenceFragment implements On
 
         mDanmaku.setEnabled(menuEnabled);
         mQapps.setEnabled(menuEnabled);
-        mOpacity.setEnabled(menuEnabled);
+//        mOpacity.setEnabled(menuEnabled);
 
         mGamingPrefList = (PackageListPreference) findPreference("gaming_mode_app_list");
         mGamingPrefList.setRemovedListKey(Settings.System.GAMING_MODE_REMOVED_APP_LIST);
@@ -110,7 +110,7 @@ public class GamingModeSettings extends SettingsPreferenceFragment implements On
                     value ? 1 : 0);
             mDanmaku.setEnabled(value);
             mQapps.setEnabled(value);
-            mOpacity.setEnabled(value);
+//            mOpacity.setEnabled(value);
 //            if (mFpsInfoSupported)
 //                mShowFPS.setEnabled(value);
             return true;
