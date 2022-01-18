@@ -24,12 +24,23 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import com.android.internal.util.custom.fod.FodUtils;
+
 public class FodTweaks extends SettingsPreferenceFragment {
+
+    private static final String SCREEN_OFF_FOD_KEY = "screen_off_fod";
+
+    Preference mFODPref;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.fod_tweaks);
+
+	mFODPref = findPreference(SCREEN_OFF_FOD_KEY);
+        if (!FodUtils.hasFodSupport(getContext())) {
+            removePreference(SCREEN_OFF_FOD_KEY);
+        }
     }
 
     @Override
