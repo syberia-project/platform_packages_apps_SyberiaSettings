@@ -873,4 +873,7 @@
     <string name="fod_tweaks_title">FOD Tweaks</string>
     <string name="fod_tweaks_summary">FOD related customization</string>
 
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Screen off FOD</string>
+    <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
 </resources>
