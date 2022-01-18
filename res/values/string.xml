@@ -868,4 +868,8 @@
     <string name="theme_customization_icon_signal_bar_title">Signal</string>
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Wi-Fi</string>
+
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Screen off FOD</string>
+    <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
 </resources>
