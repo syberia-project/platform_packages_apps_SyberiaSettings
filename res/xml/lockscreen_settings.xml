@@ -28,6 +28,12 @@
             android:title="@string/lock_screen_custom_clock_face_title"
             android:entries="@array/lock_screen_custom_clock_face_entries"
             android:entryValues="@array/lock_screen_custom_clock_face_values" />
+
+        <com.syberia.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_small_clock"
+            android:title="@string/force_lockscreen_small"
+            android:summary="@string/force_lockscreen_small_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
