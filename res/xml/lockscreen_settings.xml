@@ -19,6 +19,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/lockscreen_category_title">
 
+    <PreferenceCategory
+        android:title="@string/lock_screen_custom_clock_face_category">
+
+        <ListPreference
+            android:key="lock_screen_custom_clock_face"
+            android:summary="%s"
+            android:title="@string/lock_screen_custom_clock_face_title"
+            android:entries="@array/lock_screen_custom_clock_face_entries"
+            android:entryValues="@array/lock_screen_custom_clock_face_values" />
+    </PreferenceCategory>
+
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="fingerprint_success_vib"
         android:title="@string/fprint_sucess_vib_title"

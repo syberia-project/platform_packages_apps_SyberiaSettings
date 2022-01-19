@@ -869,4 +869,11 @@
     <!-- Custom Wi-Fi bar icons -->
     <string name="theme_customization_icon_wifi_bar_title">Wi-Fi</string>
 
+    <!-- Lockscreen Clocks -->
+    <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
+    <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
+    <string name="lock_screen_custom_clock_face_default">Default</string>
+    <string name="lock_screen_custom_clock_face_sfunny">Sfuny</string>
+    <string name="lock_screen_custom_clock_face_oos">OOS</string>
+    <string name="lock_screen_custom_clock_face_clockertino">Clockertino</string>
 </resources>
