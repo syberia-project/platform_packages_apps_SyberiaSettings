@@ -39,7 +39,7 @@ import com.android.internal.logging.nano.MetricsProto;
 @SearchIndexable
 public class SystemSettings extends SettingsPreferenceFragment {
 
-    private static final String FOD_TWEAKS = "fod_tweaks";
+    private static final String UDFPS_SETTINGS = "udfps_settings";
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -47,7 +47,7 @@ public class SystemSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.system_settings);
         final PreferenceScreen prefScreen = getPreferenceScreen();
         if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
-            prefScreen.removePreference(findPreference(FOD_TWEAKS));
+            prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
         }
     }
 
