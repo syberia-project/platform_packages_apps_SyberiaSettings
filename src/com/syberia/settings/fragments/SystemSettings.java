@@ -21,7 +21,9 @@ import android.content.Context;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import androidx.preference.ListPreference;
 import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference;
 
 import android.provider.SearchIndexableResource;
@@ -39,15 +41,17 @@ import com.android.internal.logging.nano.MetricsProto;
 @SearchIndexable
 public class SystemSettings extends SettingsPreferenceFragment {
 
-    private static final String FOD_TWEAKS = "fod_tweaks";
+    private static final String UDFPS_CATEGORY = "udfps_category";
+    private PreferenceCategory mUdfpsCategory;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.system_settings);
-        final PreferenceScreen prefScreen = getPreferenceScreen();
+        mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+        final PreferenceScreen prefSet = getPreferenceScreen();
         if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
-            prefScreen.removePreference(findPreference(FOD_TWEAKS));
+            prefSet.removePreference(mUdfpsCategory);
         }
     }
 
