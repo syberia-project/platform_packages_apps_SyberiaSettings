@@ -20,14 +20,14 @@
     android:title="@string/fod_tweaks_title">
 
     <!-- Screen Off FOD -->
-    <com.syberia.settings.preferences.SystemSettingSwitchPreference
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="screen_off_fod"
         android:title="@string/screen_off_fod_title"
         android:summary="@string/screen_off_fod_summary"
         android:persistent="true" />
 
     <!-- Udfps Haptic Feedback -->
-   <com.syberia.settings.preferences.SystemSettingSwitchPreference
+   <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="udfps_haptic_feedback"
         android:title="@string/udfps_haptic_feedback_title"
         android:summary="@string/udfps_haptic_feedback_summary"
