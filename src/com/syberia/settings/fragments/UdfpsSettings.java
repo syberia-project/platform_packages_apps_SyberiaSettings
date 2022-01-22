@@ -54,7 +54,6 @@ public class UdfpsSettings extends SettingsPreferenceFragment implements
 
     private static final String UDFPS_CUSTOMIZATION = "udfps_customization";
     private static final String UDFPS_SCREEN_OFF = "screen_off_fod";
-    private static final String UDFPS_HAPTIC_FEEDBACK = "udfps_haptic_feedback";
 
     private static final int REQUEST_PICK_IMAGE = 0;
 

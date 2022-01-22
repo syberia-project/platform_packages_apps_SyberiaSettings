@@ -879,10 +879,6 @@
     <string name="screen_off_udfps_title">Screen off UDFPS</string>
     <string name="screen_off_udfps_summary">Keep UDFPS enabled when the screen is off</string>
 
-    <!-- UDFPS Haptic Feedback -->
-    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
-    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
-
     <!-- Lockscreen Clocks -->
     <string name="lock_screen_custom_clock_face_category">Lockscreen Clock</string>
     <string name="lock_screen_custom_clock_face_title">Lockscreen clock style</string>
