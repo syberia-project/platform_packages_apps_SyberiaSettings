@@ -103,4 +103,9 @@
          android:summary="%s"
          android:defaultValue="0"/>
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+         android:key="enable_location_privacy_indicator"
+         android:title="@string/location_privacy_indicator_title"
+         android:summary="@string/location_privacy_indicator_summary"
+         android:defaultValue="false" />
 </PreferenceScreen>
