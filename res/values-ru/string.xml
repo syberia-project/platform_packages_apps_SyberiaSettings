@@ -804,4 +804,8 @@
     <string name="system_black_theme_title">Чёрная тема</string>
     <string name="system_black_theme_summary">Принудительно использовать чёрный цвет фона</string>
 
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Показать эффект волны при разблокировке с помощью отпечатка пальца</string>
+
 </resources>
