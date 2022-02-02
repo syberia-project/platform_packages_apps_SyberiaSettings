@@ -800,8 +800,5 @@
     <string name="volume_panel_on_left_title">Панель громкости слева</string>
     <string name="volume_panel_on_left_summary">Отображать панель громкости на левой стороне экрана</string>
 
-    <!-- Lockscreen Clocks -->
-    <string name="lock_screen_custom_clock_face_category">Часы на экране блокировки</string>
-    <string name="lock_screen_custom_clock_face_title">Стиль часов</string>
-    <string name="lock_screen_custom_clock_face_default">По-умолчанию</string>
+
 </resources>
