@@ -35,11 +35,12 @@
         android:title="@string/global_actions_screenrecord"
         android:defaultValue="false" />
 
+<!--
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="global_actions_airplane"
         android:title="@string/global_actions_airplane"
         android:defaultValue="false" />
-
+-->
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="global_actions_settings"
         android:title="@string/global_actions_settings"
