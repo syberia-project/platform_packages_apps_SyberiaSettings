@@ -39,7 +39,7 @@
         android:summary="@string/gestures_category_summary"
         android:title="@string/gestures_category_title" />
 
-    <Preference
+    <PreferenceScreen
         android:key="gaming_category"
         android:icon="@drawable/ic_gaming"
         android:title="@string/gaming_title"
