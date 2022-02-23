@@ -25,6 +25,12 @@
         android:summary="@string/quick_settings_vibrate_summary"
         android:defaultValue="false"/>
 
+       <com.syberia.settings.preference.SecureSettingSwitchPreference
+            android:key="status_bar_notif_count"
+            android:title="@string/status_bar_notif_count_title"
+            android:summary="@string/status_bar_notif_count_summary"
+            android:defaultValue="false" />
+
         <PreferenceCategory
             android:key="quick_settings_brighness_category"
             android:title="@string/qs_brightness_slider_category">
