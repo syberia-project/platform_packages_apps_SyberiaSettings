@@ -905,4 +905,8 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Show notifications count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
+    <!-- Location Privacy Indicator -->
+    <string name="location_privacy_title"> Show Location Privacy Indicator</string>
+    <string name="location_privacy_summary">Enable - Disable location privacy indicator in qs and sb</string>
 </resources>
