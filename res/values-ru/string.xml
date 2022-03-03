@@ -903,4 +903,8 @@
     <string name="doze_double_tap_title">Черно-белый экран</string>
     <string name="doze_double_tap_summary">Черно-белый экран вместо экрана блокировки</string>
 
+    <!-- Screen off UDFPS -->
+    <string name="screen_off_udfps_title">Отпечаток при выключенном экране</string>
+    <string name="screen_off_udfps_summary">Оставлять включенным сканер отпечатков при вылюченном экране</string>
+
 </resources>
