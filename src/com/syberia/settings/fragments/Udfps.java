@@ -51,6 +51,9 @@ public class Udfps extends SettingsPreferenceFragment implements
     private static final int REQUEST_PICK_IMAGE = 0;
 
     private PreferenceCategory mUdfpsCustomization;
+    private static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
+
+    private Preference mScreenOffUdfps;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -58,7 +61,17 @@ public class Udfps extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.syberia_settings_udfps);
 
         final PreferenceScreen prefSet = getPreferenceScreen();
+
         Resources resources = getResources();
+
+        mScreenOffUdfps = (Preference) prefSet.findPreference(SCREEN_OFF_UDFPS_ENABLED);
+
+        boolean mScreenOffUdfpsAvailable = resources.getBoolean(
+                com.android.internal.R.bool.config_supportScreenOffUdfps);
+
+        if (!mScreenOffUdfpsAvailable)
+            prefSet.removePreference(mScreenOffUdfps);
+
     }
 
     @Override
