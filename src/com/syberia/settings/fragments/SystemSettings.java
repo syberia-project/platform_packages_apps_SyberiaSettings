@@ -32,7 +32,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/* Uncomment me afrer USDPS changes in fwb will be ported
 import com.android.internal.util.custom.udfps.UdfpsUtils;
+*/
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -46,9 +48,12 @@ public class SystemSettings extends SettingsPreferenceFragment {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.system_settings);
         final PreferenceScreen prefScreen = getPreferenceScreen();
+/* Uncomment me afrer USDPS changes in fwb will be ported
         if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
             prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
         }
+*/
+            prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
     }
 
     @Override

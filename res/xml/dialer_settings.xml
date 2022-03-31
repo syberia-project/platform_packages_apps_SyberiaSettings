@@ -23,20 +23,27 @@
         android:key="flash_on_call_options"
         android:title="@string/flash_on_call_category" >
 
-         <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="flash_on_call_waiting"
-            android:title="@string/flash_on_call_title"
+         <com.syberia.settings.preference.SystemSettingListPreference
+            android:key="flashlight_on_call"
+            android:title="@string/flashlight_on_call_title"
+            android:entries="@array/flashlight_on_call_entries"
+            android:entryValues="@array/flashlight_on_call_values"
+            android:defaultValue="0" />
+
+        <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="flashlight_on_call_ignore_dnd"
+            android:title="@string/flashlight_on_call_ignore_dnd_title"
+            android:summary="@string/flashlight_on_call_ignore_dnd_summary"
             android:defaultValue="false" />
 
          <com.syberia.settings.preference.CustomSeekBarPreference
-            android:key="flash_on_call_waiting_delay"
-            android:max="1000"
-            android:persistent="false"
-            android:title="@string/flash_on_call_delay_title"
-            settings:min="50"
-            settings:units="ms"
-            settings:interval="50"
-            android:dependency="flash_on_call_waiting"/>
+            android:key="flashlight_on_call_rate"
+            android:title="@string/flashlight_on_call_rate_title"
+            android:summary="@string/flashlight_on_call_rate_summary"
+            android:max="5"
+            settings:min="1"
+            settings:defaultValue="1"
+            settings:units="Hz" />
          </PreferenceCategory>
 
 </PreferenceScreen>

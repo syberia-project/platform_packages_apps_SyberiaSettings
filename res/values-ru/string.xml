@@ -67,10 +67,6 @@
     <string name="torch_long_press_power_timeout_5min">5 минут</string>
     <string name="torch_long_press_power_timeout_10min">10 минут</string>
 
-    <string name="flash_on_call_category">Пульсация фонариком</string>
-    <string name="flash_on_call_title">Пульсация фонариком при входящем вызове</string>
-    <string name="flash_on_call_delay_title">Частота пульсации фонарика</string>
-
      <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
@@ -757,14 +753,14 @@
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
     <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
 
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Пользовательский цвет</string>
-    <string name="monet_engine_custom_color_summary">Использовать собственный цвет для Monet вместо цветов обоев</string>
-    <string name="monet_engine_color_override_title">Пользовательский цвет</string>
-    <string name="monet_engine_white_luminance_user_title">Яркость</string>
-    <string name="monet_engine_accurate_shades_title">Использовать точные оттенки</string>
-    <string name="monet_engine_chroma_factor_title">Насыщенность</string>
-    <string name="monet_engine_linear_lightness_title">Переопределить яркость</string>
+    <!-- Monet engine -->
+    <string name="accurate_shades_title">Использовать точные оттенки</string>
+    <string name="use_wallpaper_color_title">Использовать цвет из обоев</string>
+    <string name="color_override_title">Пользовательский цвет</string>
+    <string name="color_override_summary">Использовать собственный цвет для Monet</string>
+    <string name="chroma_factor_title">Насыщенность</string>
+    <string name="linear_lightness_title">Переопределить яркость</string>
+    <string name="white_luminance_title">Яркость</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Регулятор яркости</string>
@@ -808,5 +804,29 @@
     <!-- Fingerprint Ripple Effect -->
     <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
     <string name="enable_fingerprint_ripple_effect_summary">Показать эффект волны при разблокировке с помощью отпечатка пальца</string>
+
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flash_on_call_category">Пульсация фонариком</string>
+    <string name="flash_on_call_title">Пульсация фонариком при входящем вызове</string>
+    <string name="flash_on_call_delay_title">Пульсация фонариком при входящем вызове</string>
+    <string name="flashlight_on_call_title">Пульсация фонариком при входящем вызове</string>
+    <string name="flashlight_on_call_disabled">Отключено</string>
+    <string name="flashlight_on_call_ringer">При включенном звонке</string>
+    <string name="flashlight_on_call_no_ringer">При выключенном звуке</string>
+    <string name="flashlight_on_call_silent">В тихом режиме (без вибрации и звука)</string>
+    <string name="flashlight_on_call_always">Всегда</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Игнорировать не беспокоить</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Пульсировать фонариком в режиме не беспокоить</string>
+    <string name="flashlight_on_call_rate_title">Частота</string>
+    <string name="flashlight_on_call_rate_summary">Частота пульсации фонариком</string>
+
+    <!-- Battery estimate -->
+    <string name="battery_estimate_title">Ожидаемое время</string>
+    <string name="battery_estimate_summary">Отображение расчетного оставшегося времени работы от батареи, если возможно</string>
+
+    <!-- QS battery -->
+    <string name="qs_use_status_bar_battery_style">Стиль батареи в статусбаре</string>
+    <string name="status_bar_battery_percent_text_next_right">Справа от иконки)</string> 
+    <string name="status_bar_battery_percent_text_next_left">Слева от иконки</string> 
 
 </resources>

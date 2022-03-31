@@ -40,6 +40,8 @@ import com.syberia.settings.Utils;
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.syberia.settings.preference.CustomSeekBarPreference;
+import com.syberia.settings.preference.SystemSettingListPreference;
+import com.syberia.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -48,8 +50,13 @@ import java.util.List;
 @SearchIndexable
 public class DialerSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
-    private static final String FLASH_ON_CALL_WAITING_DELAY = "flash_on_call_waiting_delay";
-    private CustomSeekBarPreference mFlashOnCallWaitingDelay;
+    private static final String PREF_FLASH_ON_CALL = "flashlight_on_call";
+    private static final String PREF_FLASH_ON_CALL_DND = "flashlight_on_call_ignore_dnd";
+    private static final String PREF_FLASH_ON_CALL_RATE = "flashlight_on_call_rate";
+
+    private SystemSettingListPreference mFlashOnCall;
+    private SystemSettingSwitchPreference mFlashOnCallIgnoreDND;
+    private CustomSeekBarPreference mFlashOnCallRate;
 
     @Override
     public void onCreate(Bundle bundle) {
@@ -58,16 +65,42 @@ public class DialerSettings extends SettingsPreferenceFragment implements OnPref
         addPreferencesFromResource(R.xml.dialer_settings);
         final ContentResolver resolver = getActivity().getContentResolver();
 
-        mFlashOnCallWaitingDelay = (CustomSeekBarPreference) findPreference(FLASH_ON_CALL_WAITING_DELAY);
-        mFlashOnCallWaitingDelay.setValue(Settings.System.getInt(resolver, Settings.System.FLASH_ON_CALLWAITING_DELAY, 200));
-        mFlashOnCallWaitingDelay.setOnPreferenceChangeListener(this);
+        mFlashOnCallRate = (CustomSeekBarPreference)
+                findPreference(PREF_FLASH_ON_CALL_RATE);
+        int value = Settings.System.getInt(resolver,
+                Settings.System.FLASHLIGHT_ON_CALL_RATE, 1);
+        mFlashOnCallRate.setValue(value);
+        mFlashOnCallRate.setOnPreferenceChangeListener(this);
+
+        mFlashOnCallIgnoreDND = (SystemSettingSwitchPreference)
+                findPreference(PREF_FLASH_ON_CALL_DND);
+        value = Settings.System.getInt(resolver,
+                Settings.System.FLASHLIGHT_ON_CALL, 0);
+        mFlashOnCallIgnoreDND.setVisible(value > 1);
+        mFlashOnCallRate.setVisible(value != 0);
+
+        mFlashOnCall = (SystemSettingListPreference)
+                findPreference(PREF_FLASH_ON_CALL);
+        mFlashOnCall.setSummary(mFlashOnCall.getEntries()[value]);
+        mFlashOnCall.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mFlashOnCallWaitingDelay) {
-            int val = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(), Settings.System.FLASH_ON_CALLWAITING_DELAY, val);
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mFlashOnCall) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.System.putInt(resolver,
+                    Settings.System.FLASHLIGHT_ON_CALL, value);
+            mFlashOnCall.setSummary(mFlashOnCall.getEntries()[value]);
+            mFlashOnCallIgnoreDND.setVisible(value > 1);
+            mFlashOnCallRate.setVisible(value != 0);
+            return true;
+        } else if (preference == mFlashOnCallRate) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.FLASHLIGHT_ON_CALL_RATE, value);
             return true;
         }
     return false;

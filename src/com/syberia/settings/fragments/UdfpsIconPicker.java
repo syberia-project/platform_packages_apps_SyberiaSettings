@@ -147,6 +147,7 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
             holder.image.setPadding(20,20,20,20);
 
             holder.name.setVisibility(View.GONE);
+/* Uncomment me afrer USDPS changes in fwb will be ported
 
             if (position == Settings.System.getInt(context.getContentResolver(),
                 Settings.System.UDFPS_ICON, 0)) {
@@ -155,6 +156,7 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
                     mSelectedIcon = iconRes;
                 }
             }
+*/
             holder.itemView.setActivated(iconRes == mSelectedIcon);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -162,8 +164,10 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
                     updateActivatedStatus(mSelectedIcon, false);
                     updateActivatedStatus(iconRes, true);
                     mSelectedIcon = iconRes;
+/* Uncomment me afrer USDPS changes in fwb will be ported
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.UDFPS_ICON, position);
+*/
                 }
             });
         }

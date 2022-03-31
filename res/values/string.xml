@@ -86,9 +86,18 @@
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 
+    <!-- Blink flashlight for incoming calls -->
     <string name="flash_on_call_category">Pulse flash</string>
-    <string name="flash_on_call_title">Pulse flash on incoming call</string>
-    <string name="flash_on_call_delay_title">Flash pulse rate</string>
+    <string name="flashlight_on_call_title">Blink Flashlight for incoming call</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_ringer">When ringing</string>
+    <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
+    <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
+    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
+    <string name="flashlight_on_call_rate_title">Rate</string>
+    <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
@@ -290,10 +299,21 @@
     <string name="status_bar_battery_percentage_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Outside</string>
+    <string name="status_bar_battery_percent_text_next_right">Next to the icon (right)</string> 
+    <string name="status_bar_battery_percent_text_next_left">Next to the icon (left)</string> 
     <string name="status_bar_battery_text_position_title">Battery percent position</string>
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+
+    <!-- QS battery -->
+    <string name="qs_battery_location_title">Battery location</string>
+    <string name="qs_battery_location_qs_panel">QS Panel</string>
+    <string name="qs_battery_location_qs_statusbar">Quick Statusbar</string>
+    <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
+
+    <!-- Battery estimate -->
+    <string name="battery_estimate_title">Battery estimate</string>
+    <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Home button when ringing</string>
@@ -729,20 +749,6 @@
     <string name="lockscreen_enable_qs_title">Quick settings</string>
     <string name="lockscreen_enable_qs_summary">Allow accessing quick settings on secure lockscreen</string>
 
-    <!-- UI background blur toggle -->
-    <string name="ui_background_blur_title">UI background blur</string>
-    <string name="ui_background_blur_summary">Enable UI background blur (expensive for GPU renderer)</string>
-
-    <!-- Switch styles -->
-    <string name="switch_style_title">Switch style</string>
-    <string name="switch_default">Default</string>
-    <string name="switch_contained">Contained</string>
-    <string name="switch_telegram">Telegram</string>
-    <string name="switch_md2">Material Design 2</string>
-    <string name="switch_retro">Retro</string>
-    <string name="switch_oos">OxygenOS 11</string>
-    <string name="switch_android12">Android 12</string>
-
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">Charging animation</string>
     <string name="lockscreen_charging_animation_flash">Flash</string>
@@ -753,93 +759,22 @@
     <string name="lockscreen_charging_animation_magic">Magic</string>
     <string name="lockscreen_charging_animation_syberia">Syberia</string>
 
-    <!-- Gaming mode -->
-    <string name="gaming_title">Gaming mode</string>
-    <string name="gaming_title_summary">Extra features for immersive gaming experience</string>
-    <string name="gaming_mode_enabled_title">Enable gaming mode</string>
-    <string name="gaming_mode_disable_auto_brightness_title">Disable automatic brightness</string>
-    <string name="gaming_mode_disable_auto_brightness_summary">Disable auto brightness when entering game mode</string>
-    <string name="gaming_mode_notification_danmaku_title">Notification Danmaku</string>
-    <string name="gaming_mode_notification_danmaku_summary">Display the notification content in the form of danmaku in the game</string>
-    <string name="gaming_mode_quick_start_apps_title">Quick Start Apps</string>
-    <string name="gaming_mode_quick_start_apps_summary">Choose the application that you want to launch with a floating ball</string>
-    <string name="gaming_mode_menu_opacity_title">Menu opacity level</string>
-
-    <string name="gaming_mode_use_menu_overlay_title">Show menu overlay</string>
-    <string name="gaming_mode_use_menu_overlay_summary">Show menu overlay when game is running. If this option is disabled, some game mode features will be disabled, such as Danmaku notifications</string>
-
-    <string name="gaming_mode_show_fpsinfo_title">Show FPS info</string>
-    <string name="gaming_mode_show_fpsinfo_summary">Show current FPS information</string>
-
-    <string name="gaming_mode_performance">Performance</string>
-    <string name="gaming_mode_change_performance_title">Performance tuning</string>
-    <string name="gaming_mode_change_performance_summary">Adjust performance level when starting game</string>
-    <string name="gaming_mode_performance_title">Performance level</string>
-
-    <string name="gaming_mode_dnd">Do not distrub</string>
-    <string name="gaming_mode_disable_notification_alert_title">Disable notification alert</string>
-    <string name="gaming_mode_disable_notification_alert_summary">Do not allow floating notification and conversation bubbles other than incoming calls and alarms</string>
-    <string name="gaming_mode_disable_ringtone_title">No ringing</string>
-    <string name="gaming_mode_disable_ringtone_summary">Turn off the ringing of incoming calls and notifications in gaming mode</string>
-    <string name="gaming_mode_auto_answer_call_title">Answering calls automatically</string>
-    <string name="gaming_mode_auto_answer_call_summary">Answer calls automatically in the game and hands free when no headphones connected</string>
-
-    <string name="gaming_mode_prevent_accidental_touch">Prevent accidental touch</string>
-    <string name="gaming_mode_disable_gesture_title">Disable gestures</string>
-
-    <string name="gaming_mode_apps">Game list</string>
-    <string name="gaming_mode_dynamic_add_title">Dynamic mode</string>
-    <string name="gaming_mode_dynamic_add_summary">Try detecting and adding gaming apps automatically</string>
-
-    <string name="gaming_mode_show_danmaku_title">Show danmaku</string>
-    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamic filtering notification</string>
-    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automatically filter notifications such as download progress</string>
-    <string name="gaming_mode_danmaku_size_horizontal_title">Danmaku size (horizontal)</string>
-    <string name="gaming_mode_danmaku_size_vertical_title">Danmaku size (vertical)</string>
-    <string name="gaming_mode_danmaku_speed_horizontal_title">Danmaku speed (horizontal)</string>
-    <string name="gaming_mode_danmaku_speed_vertical_title">Danmaku speed (vertical)</string>
-    <string name="gaming_mode_danmaku_blacklist">Blacklist</string>
-    <string name="add_package_to_title">Add application</string>
-
-    <!-- OOS style material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_button_title">Material dimiss button</string>
-    <string name="notification_material_dismiss_button_summary">Replace clear all notification text with floating button</string>
-
-    <!-- Volume Panel Plugin -->
-    <string name="volume_panel">Volume Panel Style</string>
-    <string name="volume_panel_stock">Stock</string>
-    <string name="volume_panel_compact">Compact</string>
-    <string name="volume_panel_oreo">Oreo</string>
-    <string name="volume_panel_tiled">Tiled</string>
-    <string name="volume_panel_miui">MIUI Compact</string>
-    <string name="volume_panel_oos">OOS</string>
-    <string name="volume_panel_p404">P404</string>
-    <string name="volume_panel_ssos">ShapeShift</string>
-
-    <!-- Volume Panel Plugin Values -->
-    <string name="volume_panel_stock_val" translatable="false">com.android.systemui.volume</string>
-    <string name="volume_panel_compact_val" translatable="false">co.potatoproject.plugin.volume.compact</string>
-    <string name="volume_panel_oreo_val" translatable="false">co.potatoproject.plugin.volume.oreo</string>
-    <string name="volume_panel_tiled_val" translatable="false">co.potatoproject.plugin.volume.tiled</string>
-    <string name="volume_panel_miui_val" translatable="false">co.potatoproject.plugin.volume.miui</string>
-    <string name="volume_panel_oos_val" translatable="false">co.potatoproject.plugin.volume.oos</string>
-    <string name="volume_panel_p404_val" translatable="false">co.potatoproject.plugin.volume.p404</string>
-    <string name="volume_panel_ssos_val" translatable="false">co.potatoproject.plugin.volume.ssos</string>
-
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
 
-    <!-- Monet Engine -->
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">Brightness scale</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Colorfulness</string>
-    <string name="monet_engine_linear_lightness_title">Use custom brightness scale</string>
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Monet engine</string>
+    <string name="monet_engine_settings_summary">Adjust accent color, colorfulness and brightness</string>
+    <string name="accurate_shades_title">Use accurate shades</string>
+    <string name="use_wallpaper_color_title">Use wallpaper color</string>
+    <string name="color_override_title">Accent color picker</string>
+    <string name="color_override_summary">Choose a custom accent color to override the colors chosen by monet engine</string>
+    <string name="chroma_factor_title">Colorfulness</string>
+    <string name="linear_lightness_title">Use a custom lightness scale</string>
+    <string name="white_luminance_title">Brightness</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_category">Brightness slider</string>
@@ -851,10 +786,6 @@
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Adaptive brightness button</string>
     <string name="brightness_icon_summary">Show adaptive brightness button</string>
-
-    <!-- Quick QS Panel brightness slider -->
-    <string name="quick_qs_brightness_slider_title">Show brightness slider in Quick QS Panel</string>
-    <string name="quick_qs_brightness_slider_summary">Show a brightness slider in the quick qs panel</string>
 
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
@@ -901,5 +832,9 @@
     <!-- UDFPS icon picker -->
     <string name="udfps_icon_picker_title">UDFPS icon picker</string>
     <string name="udfps_icon_picker_summary">Choose your favorite fingerprint icon</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_title">Gaming mode</string>
+    <string name="gaming_title_summary">Extra features for immersive gaming experience</string>
 
 </resources>

@@ -131,8 +131,10 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
         final SettingsActivity activity = (SettingsActivity) getActivity();
         final SettingsMainSwitchBar switchBar = activity.getSwitchBar();
         mSwitch = switchBar.getSwitch();
+/* Uncomment me afrer USDPS changes in fwb will be ported
         mEnabled = Settings.System.getInt(getActivity().getContentResolver(),
                        Settings.System.UDFPS_ANIM, 0) == 1;
+*/
         mSwitch.setChecked(mEnabled);
         setEnabled(mEnabled);
         switchBar.setTitle(getActivity().getString(R.string.udfps_recog_animation));
@@ -142,8 +144,10 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
     @Override
     public void onSwitchChanged(Switch switchView, boolean isChecked) {
+/* Uncomment me afrer USDPS changes in fwb will be ported
         Settings.System.putInt(getActivity().getContentResolver(),
                 Settings.System.UDFPS_ANIM, isChecked ? 1 : 0);
+*/
         setEnabled(isChecked);
     }
 
@@ -193,6 +197,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
             holder.name.setText(mTitles[position]);
 
+/* Uncomment me afrer USDPS changes in fwb will be ported
             if (position == Settings.System.getInt(context.getContentResolver(),
                 Settings.System.UDFPS_ANIM_STYLE, 0)) {
                 mAppliedAnim = animName;
@@ -200,7 +205,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
                     mSelectedAnim = animName;
                 }
             }
-
+*/
             holder.itemView.setActivated(animName == mSelectedAnim);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -212,9 +217,11 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
                     animation = (AnimationDrawable) holder.image.getBackground();
                     animation.setOneShot(true);
                     animation.start();
+/* Uncomment me afrer USDPS changes in fwb will be ported
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.UDFPS_ANIM_STYLE, position);
-                }
+*/
+                 }
             });
 
             holder.itemView.setEnabled(mEnabled);

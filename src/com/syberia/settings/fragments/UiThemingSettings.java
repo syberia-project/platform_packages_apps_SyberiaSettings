@@ -59,6 +59,7 @@ import android.provider.Settings;
 import android.os.UserHandle;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.syberia.settings.preference.CustomSeekBarPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class UiThemingSettings extends DashboardFragment implements OnPreferenceChangeListener {
@@ -69,9 +70,13 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
     private IOverlayManager mOverlayManager;
     private IOverlayManager mOverlayService;
 
-    private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
+    private static final String WALLPAPER_KEY = "monet_engine_use_wallpaper_color";
+    private static final String COLOR_KEY = "monet_engine_color_override";
+    private static final String CHROMA_KEY = "monet_engine_chroma_factor";
 
-    private ColorPickerPreference mMonetColor;
+    SwitchPreference mUseWall;
+    ColorPickerPreference mColorOvr;
+    CustomSeekBarPreference mChroma;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -82,12 +87,21 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
         mOverlayService = IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 
-        mMonetColor = (ColorPickerPreference) screen.findPreference(MONET_ENGINE_COLOR_OVERRIDE);
-        int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, Color.WHITE);
-        String hexColor = String.format("#%08x", (0xffffff & intColor));
-        mMonetColor.setNewPreviewColor(intColor);
-        mMonetColor.setSummary(hexColor);
-        mMonetColor.setOnPreferenceChangeListener(this);
+        mUseWall = findPreference(WALLPAPER_KEY);
+        mColorOvr = findPreference(COLOR_KEY);
+        String color = Settings.Secure.getString(resolver, COLOR_KEY);
+        boolean useWall = color == null || color.isEmpty();
+        mUseWall.setChecked(useWall);
+        mColorOvr.setEnabled(!useWall);
+        if (!useWall) mColorOvr.setNewPreviewColor(
+                ColorPickerPreference.convertToColorInt(color));
+        mUseWall.setOnPreferenceChangeListener(this);
+        mColorOvr.setOnPreferenceChangeListener(this);
+
+        mChroma = findPreference(CHROMA_KEY);
+        float chroma = Settings.Secure.getFloat(resolver, CHROMA_KEY, 1) * 100;
+        mChroma.setValue(Math.round(chroma));
+        mChroma.setOnPreferenceChangeListener(this);
 
     }
 
@@ -127,14 +141,20 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mMonetColor) {
-            String hex = ColorPickerPreference.convertToARGB(Integer
-                .parseInt(String.valueOf(newValue)));
-            preference.setSummary(hex);
-            int intHex = ColorPickerPreference.convertToColorInt(hex);
-            Settings.Secure.putInt(resolver,
-                MONET_ENGINE_COLOR_OVERRIDE, intHex);
+        final ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mUseWall) {
+            boolean value = (Boolean) newValue;
+            mColorOvr.setEnabled(!value);
+            if (value) Settings.Secure.putString(resolver, COLOR_KEY, "");
+            return true;
+        } else if (preference == mColorOvr) {
+            int value = (Integer) newValue;
+            Settings.Secure.putString(resolver, COLOR_KEY,
+                    ColorPickerPreference.convertToRGB(value));
+            return true;
+        } else if (preference == mChroma) {
+            int value = (Integer) newValue;
+            Settings.Secure.putFloat(resolver, CHROMA_KEY, value / 100f);
             return true;
         }
         return false;
