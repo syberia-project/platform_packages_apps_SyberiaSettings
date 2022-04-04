@@ -1,22 +1,19 @@
 /*
  * Copyright (C) 2017-2022 The Project-Xtended
- * Copyright (C) 2019-2022 The Syberia OS Project
+ * Copyright (C) 2019-2022 Syberia OS
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 2 of the License, or
- * (at your option) any later version.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
  *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU General Public License for more details.
+ *      http://www.apache.org/licenses/LICENSE-2.0
  *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
-
 package com.syberia.settings.fragments;
 
 import android.app.Activity;
@@ -45,26 +42,23 @@ import com.android.internal.util.syberia.SyberiaUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
-import com.syberia.settings.preference.SystemSettingListPreference;
-import com.syberia.settings.preference.SystemSettingSwitchPreference;
-
-public class UdfpsSettings extends SettingsPreferenceFragment implements
+@SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
+public class Udfps extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String UDFPS_CUSTOMIZATION = "udfps_customization";
-    private static final String UDFPS_SCREEN_OFF = "screen_off_fod";
-    private static final String UDFPS_HAPTIC_FEEDBACK = "udfps_haptic_feedback";
 
     private static final int REQUEST_PICK_IMAGE = 0;
 
     private PreferenceCategory mUdfpsCustomization;
-    private SystemSettingSwitchPreference mUdfpsScreenOff;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.udfps_settings);
+        addPreferencesFromResource(R.xml.syberia_settings_udfps);
 
         final PreferenceScreen prefSet = getPreferenceScreen();
         Resources resources = getResources();
@@ -87,4 +81,10 @@ public class UdfpsSettings extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
     }
+
+    /**
+     * For Search.
+     */
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.syberia_settings_udfps);
 }

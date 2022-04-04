@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2021 AospExtended ROM Project
+ * Copyright (C) 2019-2022 Syberia OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,56 +14,55 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.syberia.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.res.Resources;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.net.Uri;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.text.TextUtils;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Gravity;
+import android.view.ViewGroup.LayoutParams;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.text.TextUtils;
-import androidx.preference.PreferenceViewHolder;
-import android.view.ViewGroup.LayoutParams;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
-import android.net.Uri;
-import androidx.core.content.res.ResourcesCompat;
-import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.PreferenceScreen;
-
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settings.R;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settingslib.search.Indexable;
-import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Arrays;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.Indexable;
 
-import org.json.JSONObject;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.json.JSONException;
+import org.json.JSONObject;
 
 public class UdfpsIconPicker extends SettingsPreferenceFragment {
 
@@ -147,7 +147,6 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
             holder.image.setPadding(20,20,20,20);
 
             holder.name.setVisibility(View.GONE);
-/* Uncomment me afrer USDPS changes in fwb will be ported
 
             if (position == Settings.System.getInt(context.getContentResolver(),
                 Settings.System.UDFPS_ICON, 0)) {
@@ -156,7 +155,6 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
                     mSelectedIcon = iconRes;
                 }
             }
-*/
             holder.itemView.setActivated(iconRes == mSelectedIcon);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -164,10 +162,8 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
                     updateActivatedStatus(mSelectedIcon, false);
                     updateActivatedStatus(iconRes, true);
                     mSelectedIcon = iconRes;
-/* Uncomment me afrer USDPS changes in fwb will be ported
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.UDFPS_ICON, position);
-*/
                 }
             });
         }

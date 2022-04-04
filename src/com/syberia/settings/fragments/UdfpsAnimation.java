@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2021 AospExtended ROM Project
+ * Copyright (C) 2019-2022 Syberia OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,61 +14,59 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.syberia.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
-import android.content.res.Resources;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+import android.text.TextUtils;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Gravity;
+import android.view.ViewGroup.LayoutParams;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.FrameLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.text.TextUtils;
-import androidx.preference.PreferenceViewHolder;
-import android.view.ViewGroup.LayoutParams;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
-import android.net.Uri;
-import androidx.core.content.res.ResourcesCompat;
-import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.PreferenceScreen;
-
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settings.R;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settingslib.search.Indexable;
-import com.android.settings.SettingsPreferenceFragment;
-
-import android.widget.Switch;
-import com.android.settings.SettingsActivity;
-import com.android.settings.widget.SettingsMainSwitchBar;
-import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
 import com.bumptech.glide.Glide;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Arrays;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.settings.R;
+import com.android.settings.SettingsActivity;
+import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.widget.SettingsMainSwitchBar;
+import com.android.settingslib.search.Indexable;
+import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-import org.json.JSONObject;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.json.JSONException;
+import org.json.JSONObject;
 
 public class UdfpsAnimation extends SettingsPreferenceFragment implements
         OnMainSwitchChangeListener {
@@ -85,6 +84,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
     private String[] mTitles;
 
     private boolean mEnabled;
+    private UdfpsAnimAdapter mUdfpsAnimAdapter;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -119,8 +119,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
         mRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(), 3);
         mRecyclerView.setLayoutManager(gridLayoutManager);
-        UdfpsAnimAdapter mUdfpsAnimAdapter = new UdfpsAnimAdapter(getActivity());
-        mRecyclerView.setAdapter(mUdfpsAnimAdapter);
+        mUdfpsAnimAdapter = new UdfpsAnimAdapter(getActivity());
 
         return view;
     }
@@ -131,10 +130,8 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
         final SettingsActivity activity = (SettingsActivity) getActivity();
         final SettingsMainSwitchBar switchBar = activity.getSwitchBar();
         mSwitch = switchBar.getSwitch();
-/* Uncomment me afrer USDPS changes in fwb will be ported
         mEnabled = Settings.System.getInt(getActivity().getContentResolver(),
                        Settings.System.UDFPS_ANIM, 0) == 1;
-*/
         mSwitch.setChecked(mEnabled);
         setEnabled(mEnabled);
         switchBar.setTitle(getActivity().getString(R.string.udfps_recog_animation));
@@ -144,19 +141,17 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
     @Override
     public void onSwitchChanged(Switch switchView, boolean isChecked) {
-/* Uncomment me afrer USDPS changes in fwb will be ported
         Settings.System.putInt(getActivity().getContentResolver(),
                 Settings.System.UDFPS_ANIM, isChecked ? 1 : 0);
-*/
+        mSwitch.setChecked(isChecked);
         setEnabled(isChecked);
     }
 
     public void setEnabled(boolean enabled) {
-        for (int i = 0; i < mRecyclerView.getChildCount(); ++i) {
-            RecyclerView.ViewHolder holder = mRecyclerView.getChildViewHolder(mRecyclerView.getChildAt(i));
-            holder.itemView.setEnabled(enabled);
-            holder.itemView.findViewById(R.id.option_thumbnail).setAlpha(enabled ? 1f : 0.5f);
-            holder.itemView.findViewById(R.id.option_label).setAlpha(enabled ? 1f : 0.5f);
+        if (enabled) {
+            mRecyclerView.setAdapter(mUdfpsAnimAdapter);
+        } else {
+            mRecyclerView.setAdapter(null);
         }
     }
 
@@ -197,7 +192,6 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
             holder.name.setText(mTitles[position]);
 
-/* Uncomment me afrer USDPS changes in fwb will be ported
             if (position == Settings.System.getInt(context.getContentResolver(),
                 Settings.System.UDFPS_ANIM_STYLE, 0)) {
                 mAppliedAnim = animName;
@@ -205,7 +199,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
                     mSelectedAnim = animName;
                 }
             }
-*/
+
             holder.itemView.setActivated(animName == mSelectedAnim);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -217,16 +211,10 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
                     animation = (AnimationDrawable) holder.image.getBackground();
                     animation.setOneShot(true);
                     animation.start();
-/* Uncomment me afrer USDPS changes in fwb will be ported
                     Settings.System.putInt(getActivity().getContentResolver(),
                             Settings.System.UDFPS_ANIM_STYLE, position);
-*/
-                 }
+                }
             });
-
-            holder.itemView.setEnabled(mEnabled);
-            holder.itemView.findViewById(R.id.option_thumbnail).setAlpha(mEnabled ? 1f : 0.5f);
-            holder.itemView.findViewById(R.id.option_label).setAlpha(mEnabled ? 1f : 0.5f);
         }
 
         @Override
@@ -267,5 +255,4 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
         }
         return null;
     }
-
 }
