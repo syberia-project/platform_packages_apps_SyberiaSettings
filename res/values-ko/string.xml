@@ -500,44 +500,6 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">충전 애니메이션</string>
     <string name="charging_animation_summary">장치가 충전기에 연결될 때 애니메이션 표시</string>
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">온 스크린 지문인식 설정</string>
-    <string name="fod_tweaks_summary">온 스크린 지문인식 사용자 정의</string>
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">온 스크린 지문인식 아이콘 선택</string>
-    <string name="fod_icon_picker_summary">좋아하는 지문인식 아이콘을 선택하세요</string>
-    <string name="fod_icon_picker_footer">나만의 아이콘을 추가하려면 왼쪽 상단 아이콘을 선택하고 OnePlus 6T FP Customizer 앱을 사용하여 원하는 아이콘을 선택하세요.</string>
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">지문인식 애니메이션</string>
-    <string name="fod_recog_animation_summary">지문을 스캔하는 동안 애니메이션을 보여줍니다</string>
-    <string name="fod_recog_animation_effect_title">지문 애니메이션 효과 선택</string>
-    <string name="fod_recog_animation_miui_normal">MIUI 기본값</string>
-    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_energy">Energy</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Ripple</string>
-    <string name="fod_recog_animation_op_scanning">Scanning (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Stripe</string>
-    <string name="fod_recog_animation_op_wave">Wave</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
-    <string name="fod_recog_animation_rog_fusion">Fusion</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
-    <string name="fod_recog_animation_rog_supernova">Supernova</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">꺼진 화면에서 지문인식</string>
-    <string name="fod_gesture_summary">화면을 켜지 않고 잠금해제 허용</string>
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">상태 표시줄 밝기 제어</string>
     <string name="status_bar_brightness_control_summary">상태 표시줄을 밀어 화면 밝기 조절</string>

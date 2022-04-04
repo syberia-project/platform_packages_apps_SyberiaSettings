@@ -500,44 +500,6 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Hiệu ứng sạc</string>
     <string name="charging_animation_summary">Hiển thị hình động khi thiết bị được cắm</string>
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">Hiệu chỉnh FOD</string>
-    <string name="fod_tweaks_summary">Các tùy chỉnh FOD liên quan</string>
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Chọn biểu tượng FOD</string>
-    <string name="fod_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
-    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng OnePlus 6T tuỳ biến FP để chọn biểu tượng bạn mong muốn.</string>
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">Hiệu ứng khi xác nhận vân tay</string>
-    <string name="fod_recog_animation_summary">Hiển thị hiệu ứng khi đang quét vân tay của bạn</string>
-    <string name="fod_recog_animation_effect_title">Chọn hiệu ứng khi xác thực vân tay</string>
-    <string name="fod_recog_animation_miui_normal">MIUI mặc định</string>
-    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Sáng</string>
-    <string name="fod_recog_animation_miui_pop">Nhạc trẻ</string>
-    <string name="fod_recog_animation_miui_pulse">Xung</string>
-    <string name="fod_recog_animation_miui_pulse_white">Xung (trắng)</string>
-    <string name="fod_recog_animation_miui_rhythm">Nhịp</string>
-    <string name="fod_recog_animation_miui_star_cas">Ánh sao</string>
-    <string name="fod_recog_animation_op_cosmos">Vũ trụ</string>
-    <string name="fod_recog_animation_op_energy">Năng lượng</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Gợn sóng</string>
-    <string name="fod_recog_animation_op_scanning">Quét (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Sọc</string>
-    <string name="fod_recog_animation_op_wave">Sóng</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Tương lai</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
-    <string name="fod_recog_animation_rog_fusion">Fusion</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
-    <string name="fod_recog_animation_rog_supernova">Supernova</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Vân tay khi màn hình tắt</string>
-    <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình</string>
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Thanh trượt độ sáng màn hình trên thanh trạng thái</string>
     <string name="status_bar_brightness_control_summary">Điều chỉnh độ sáng bằng cách trượt trên thanh trạng thái</string>

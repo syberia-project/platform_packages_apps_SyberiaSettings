@@ -500,44 +500,6 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Charging animation</string>
     <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">FOD Tweaks</string>
-    <string name="fod_tweaks_summary">FOD related customization</string>
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">FOD icon picker</string>
-    <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
-    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">Fingerprint animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Select fingerprint animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string>
-    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Light</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
-    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
-    <string name="fod_recog_animation_op_cosmos">Kosmos</string>
-    <string name="fod_recog_animation_op_energy">Energy</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Plusk</string>
-    <string name="fod_recog_animation_op_scanning">Skanowanie (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Pasek</string>
-    <string name="fod_recog_animation_op_wave">Fala</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Przyszłość</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Pierścień aureoli</string>
-    <string name="fod_recog_animation_pureview_molecular">Molekularny</string>
-    <string name="fod_recog_animation_rog_fusion">Fuzja</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsacyjny</string>
-    <string name="fod_recog_animation_rog_supernova">Supernowa</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Odcisk palca na wyłączonym ekranie</string>
-    <string name="fod_gesture_summary">Umożliwia odblokowanie urządzenia bez konieczności wcześniejszego wybudzania ekranu</string>
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Kontrola jasności paskiem stanu</string>
     <string name="status_bar_brightness_control_summary">Dostosuj jasność, przeciągając palcem po pasku stanu</string>

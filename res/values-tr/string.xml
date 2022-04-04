@@ -500,44 +500,6 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Şarj animasyonu</string>
     <string name="charging_animation_summary">Cihaz şarja takıldığında bir animasyon göster</string>
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">FOD ayarları</string>
-    <string name="fod_tweaks_summary">FOD ile ilgili özelleştirmeler</string>
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">FOD simge seçici</string>
-    <string name="fod_icon_picker_summary">En sevdiğiniz parmak izi simgesini seçin</string>
-    <string name="fod_icon_picker_footer">Kendi simgenizi eklemek için sol üst simgeyi seçin ve OnePlus 6T FP özelleştirici uygulamasını kullanarak istediğiniz simgeyi seçin.</string>
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">Parmak izi animasyonu</string>
-    <string name="fod_recog_animation_summary">Parmak izi okunurken bir animasyon göster</string>
-    <string name="fod_recog_animation_effect_title">Parmak izi animasyon efektini seçin</string>
-    <string name="fod_recog_animation_miui_normal">MIUI varsayılanı</string>
-    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Açık</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Nabız</string>
-    <string name="fod_recog_animation_miui_pulse_white">Nabız (Beyaz)</string>
-    <string name="fod_recog_animation_miui_rhythm">Ritim</string>
-    <string name="fod_recog_animation_miui_star_cas">Yıldız ışığı</string>
-    <string name="fod_recog_animation_op_cosmos">Evren</string>
-    <string name="fod_recog_animation_op_energy">Enerji</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Ripple</string>
-    <string name="fod_recog_animation_op_scanning">Tarama (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Şerit</string>
-    <string name="fod_recog_animation_op_wave">Dalgalı</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Gelecek</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo halkası</string>
-    <string name="fod_recog_animation_pureview_molecular">Moleküler</string>
-    <string name="fod_recog_animation_rog_fusion">Füzyon</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
-    <string name="fod_recog_animation_rog_supernova">Süpernova</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
-    <string name="fod_gesture_summary">Ekranı uyandırma zorunda kalmadan cihazın kilidini açmaya izin verir</string>
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Durum çubuğu parlaklık kontrolü</string>
     <string name="status_bar_brightness_control_summary">Durum çubuğunun üzerinde kaydırarak parlaklığı ayarla</string>

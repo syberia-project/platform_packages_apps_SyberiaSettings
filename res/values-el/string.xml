@@ -500,44 +500,6 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Εφέ φόρτισης</string>
     <string name="charging_animation_summary">Εμφάνιση ενός εφέ όταν η συσκευή είναι συνδεδεμένη</string>
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">FOD Mικροαλλαγες</string>
-    <string name="fod_tweaks_summary">Προσαρμογή σχετική με FOD</string>
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Εργαλείο επιλογής εικονιδίων FOD</string>
-    <string name="fod_icon_picker_summary">Επιλέξτε το αγαπημένο σας εικονίδιο δακτυλικών αποτυπωμάτων</string>
-    <string name="fod_icon_picker_footer">Για να προσθέσετε το δικό σας εικονίδιο, επιλέξτε το επάνω αριστερό εικονίδιο και χρησιμοποιήστε την εφαρμογή OnePlus 6T FP Customizer για να επιλέξετε το εικονίδιο που θέλετε.</string>
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">Εφέ δακτυλικού αποτυπώματος</string>
-    <string name="fod_recog_animation_summary">Εμφανίζει μια κινούμενη εικόνα ενώ διαβάζετε το δάχτυλό σας</string>
-    <string name="fod_recog_animation_effect_title">Επιλέξτε εφέ κίνησης δακτυλικών αποτυπωμάτων</string>
-    <string name="fod_recog_animation_miui_normal">MIUI προεπιλογή</string>
-    <string name="fod_recog_animation_miui_aod">Οθόνη συνεχούς λειτουργίας MIUI</string>
-    <string name="fod_recog_animation_miui_aurora">Αυγή (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Αυγή (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Φωτεινό</string>
-    <string name="fod_recog_animation_miui_pop">Ποπ</string>
-    <string name="fod_recog_animation_miui_pulse">Παλμός</string>
-    <string name="fod_recog_animation_miui_pulse_white">Παλμός (Λευκός)</string>
-    <string name="fod_recog_animation_miui_rhythm">Ρυθμός</string>
-    <string name="fod_recog_animation_miui_star_cas">Αστροφεγγιά</string>
-    <string name="fod_recog_animation_op_cosmos">Κόσμος</string>
-    <string name="fod_recog_animation_op_energy">Ενέργεια</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Κυματισμός</string>
-    <string name="fod_recog_animation_op_scanning">Σάρωση (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Λωρίδα</string>
-    <string name="fod_recog_animation_op_wave">Κύμα</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Μελλοντικός</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Δαχτυλίδι φωτοστέφανο</string>
-    <string name="fod_recog_animation_pureview_molecular">Μοριακό</string>
-    <string name="fod_recog_animation_rog_fusion">Σύντηξη</string>
-    <string name="fod_recog_animation_rog_pulsar">Πάλσαρ</string>
-    <string name="fod_recog_animation_rog_supernova">Σουπερνόβα</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Απενεργοποιήστε το δακτυλικό αποτύπωμα</string>
-    <string name="fod_gesture_summary">Επιτρέπει το ξεκλείδωμα της συσκευής χωρίς να χρειάζεται να ξυπνήσετε πρώτα την οθόνη</string>
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Έλεγχος φωτεινότητας γραμμής κατάστασης</string>
     <string name="status_bar_brightness_control_summary">Ρυθμίστε τη φωτεινότητα σύροντας στη γραμμή κατάστασης</string>

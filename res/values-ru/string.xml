@@ -534,45 +534,6 @@
     <string name="charging_animation_title">Анимация зарядки</string>
     <string name="charging_animation_summary">Отображать анимацию зарядки во время подключения</string>
 
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">Настройка FOD</string>
-    <string name="fod_tweaks_summary">Дополнительные настройки подэкранного сканера отпечатка пальцев</string>
-
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Иконки FOD</string>
-    <string name="fod_icon_picker_summary">Выбери свою любимую иконку</string>
-    <string name="fod_icon_picker_footer">Чтобы добавить свою иконку, выбери левую верхнюю иконку и используй приложение OnePlus 6T FP Customizer</string>
-
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">Анимация</string>
-    <string name="fod_recog_animation_summary">Проигрывать анимацию во время распознания отпечатка пальца</string>
-    <string name="fod_recog_animation_effect_title">Выбор эффекта анимации</string>
-    <string name="fod_recog_animation_miui_normal">MIUI обычная</string>
-    <string name="fod_recog_animation_miui_light">Молния</string>
-    <string name="fod_recog_animation_miui_pop">Хлопок</string>
-    <string name="fod_recog_animation_miui_pulse">Пульс</string>
-    <string name="fod_recog_animation_miui_pulse_white">Пульс (белый)</string>
-    <string name="fod_recog_animation_miui_rhythm">Ритм</string>
-    <string name="fod_recog_animation_miui_star_cas">Звездный свет</string>
-    <string name="fod_recog_animation_op_cosmos">Космос</string>
-    <string name="fod_recog_animation_op_energy">Энергия</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Рябь</string>
-    <string name="fod_recog_animation_op_scanning">Сканирование (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Полоса</string>
-    <string name="fod_recog_animation_op_wave">Волна</string>
-    <string name="fod_recog_animation_pureview_dna">ДНК</string>
-    <string name="fod_recog_animation_pureview_future">Будущее</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Кольцо Halo</string>
-    <string name="fod_recog_animation_pureview_molecular">Молекулы</string>
-    <string name="fod_recog_animation_rog_fusion">Фьюжн</string>
-    <string name="fod_recog_animation_rog_pulsar">Пульсар</string>
-    <string name="fod_recog_animation_rog_supernova">Супернова</string>
-
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Отпечаток при выключенном экране</string>
-    <string name="fod_gesture_summary">Разрешить разблокировку устройства без включения экрана</string>
-
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Регулировка яркости</string>
     <string name="status_bar_brightness_control_summary">Отрегулируйте яркость, перемещаясь по строке состояния</string>

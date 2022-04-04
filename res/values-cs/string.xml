@@ -500,44 +500,6 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Animace při nabíjení</string>
     <string name="charging_animation_summary">Zobrazí animaci při připojení zařízení ke zdroji nabíjení</string>
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">Nastavení FOD</string>
-    <string name="fod_tweaks_summary">Přizpůsobení týkající se FOD</string>
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Výběr ikony otisku prstu</string>
-    <string name="fod_icon_picker_summary">Vyberte si svou oblíbenou ikonu čtečky otisku prstu v displeji</string>
-    <string name="fod_icon_picker_footer">Chcete‑li přidat vlastní ikonu, vyberte levou horní ikonu a použijte aplikaci OnePlus 6T FP Customizer pro výběr požadované ikony.</string>
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">Animace při odemknutí otiskem prstu</string>
-    <string name="fod_recog_animation_summary">Zobrazit animaci při skenování otisku prstu</string>
-    <string name="fod_recog_animation_effect_title">Vybrat efekt animace otisku prstu</string>
-    <string name="fod_recog_animation_miui_normal">MIUI - výchozí</string>
-    <string name="fod_recog_animation_miui_aod">MIUI - AOD</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Světlý</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (bílé)</string>
-    <string name="fod_recog_animation_miui_rhythm">Rytmus</string>
-    <string name="fod_recog_animation_miui_star_cas">Světlo hvězd</string>
-    <string name="fod_recog_animation_op_cosmos">Kosmos</string>
-    <string name="fod_recog_animation_op_energy">Energie</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Vlnka</string>
-    <string name="fod_recog_animation_op_scanning">Skenování (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Proužek</string>
-    <string name="fod_recog_animation_op_wave">Vlna</string>
-    <string name="fod_recog_animation_pureview_dna">DNA</string>
-    <string name="fod_recog_animation_pureview_future">Budoucnost</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Kruh Halo</string>
-    <string name="fod_recog_animation_pureview_molecular">Molekulární</string>
-    <string name="fod_recog_animation_rog_fusion">Fúze</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
-    <string name="fod_recog_animation_rog_supernova">Supernova</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Otisky prstů při vypnuté obrazovce</string>
-    <string name="fod_gesture_summary">Umožňuje odemknutí zařízení, aniž by bylo nutné nejprve obrazovku probudit</string>
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Ovládání jasu ve stavovém řádku</string>
     <string name="status_bar_brightness_control_summary">Umožňuje nastavit jas tažením prstu na stavovém řádku</string>

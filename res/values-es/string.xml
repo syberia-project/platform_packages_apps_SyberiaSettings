@@ -500,44 +500,6 @@
     <!-- Charging animation -->
     <string name="charging_animation_title">Animación de carga</string>
     <string name="charging_animation_summary">Mostrar una animación cuando el dispositivo es enchufado</string>
-    <!-- FOD Tweaks -->
-    <string name="fod_tweaks_title">Ajustes FOD</string>
-    <string name="fod_tweaks_summary">Personalización relacionada con FOD</string>
-    <!-- FOD icon picker -->
-    <string name="fod_icon_picker_title">Selector de iconos FOD</string>
-    <string name="fod_icon_picker_summary">Elige tu icono de sensor de huellas favorito</string>
-    <string name="fod_icon_picker_footer">Para añadir tu propio icono, selecciona el icono superior izquierdo y usa la aplicación Personalizador OnePlus 6T FP para seleccionar el icono deseado.</string>
-    <!-- FOD animations -->
-    <string name="fod_recog_animation">Animación de huella dactilar</string>
-    <string name="fod_recog_animation_summary">Muestra una animación mientras se lee tu huella</string>
-    <string name="fod_recog_animation_effect_title">Seleccionar efecto de animación de huella dactilar</string>
-    <string name="fod_recog_animation_miui_normal">MIUI por defecto</string>
-    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
-    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
-    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
-    <string name="fod_recog_animation_miui_light">Luz</string>
-    <string name="fod_recog_animation_miui_pop">Pop</string>
-    <string name="fod_recog_animation_miui_pulse">Pulso</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulso (blanco)</string>
-    <string name="fod_recog_animation_miui_rhythm">Ritmo</string>
-    <string name="fod_recog_animation_miui_star_cas">Luz estelar</string>
-    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
-    <string name="fod_recog_animation_op_energy">Energia</string>
-    <string name="fod_recog_animation_op_mclaren">McLaren</string>
-    <string name="fod_recog_animation_op_ripple">Ondas</string>
-    <string name="fod_recog_animation_op_scanning">Escaneando (Cyberpunk 2077)</string>
-    <string name="fod_recog_animation_op_stripe">Raya</string>
-    <string name="fod_recog_animation_op_wave">Ola</string>
-    <string name="fod_recog_animation_pureview_dna">ADN</string>
-    <string name="fod_recog_animation_pureview_future">Futuro</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Anillo de halo</string>
-    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
-    <string name="fod_recog_animation_rog_fusion">Fusión</string>
-    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
-    <string name="fod_recog_animation_rog_supernova">Supernova</string>
-    <!-- Screen off fod -->
-    <string name="fod_gesture_title">Huella dactilar con pantalla apagada</string>
-    <string name="fod_gesture_summary">Permite desbloquear el dispositivo sin tener que encender la pantalla primero</string>
     <!-- Statusbar brightness control -->
     <string name="status_bar_brightness_control_title">Control de brillo en la barra de estado</string>
     <string name="status_bar_brightness_control_summary">Ajustar brillo de la pantalla mediante el deslizamiento por la barra de estado</string>
