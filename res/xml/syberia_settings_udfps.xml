@@ -8,7 +8,9 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/udfps_category">
 
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
+
+   <!--
+     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="udfps_haptic_feedback"
         android:title="@string/udfps_haptic_feedback_title"
         android:summary="@string/udfps_haptic_feedback_summary"
@@ -18,7 +20,8 @@
         android:key="screen_off_udfps"
         android:title="@string/screen_off_udfps_title"
         android:summary="@string/screen_off_udfps_summary"
-        android:persistent="true" />
+        android:persistent="true" /> 
+   -->
 
     <Preference
         android:key="udfps_icon_picker"
