@@ -790,4 +790,10 @@
     <string name="status_bar_battery_percent_text_next_right">Справа от иконки)</string> 
     <string name="status_bar_battery_percent_text_next_left">Слева от иконки</string> 
 
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
+
 </resources>
