@@ -43,11 +43,11 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
-   <com.syberia.settings.preference.SystemSettingSwitchPreference
-        android:key="lockscreen_small_clock"
-        android:title="@string/lockscreen_small_clock_title"
-        android:summary="@string/lockscreen_small_clock_summary"
-        android:defaultValue="false" />
+   <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="lockscreen_use_double_line_clock"
+        android:title="@string/lockscreen_double_line_clock_setting_toggle"
+        android:summary="@string/lockscreen_double_line_clock_summary"
+        android:defaultValue="true" />
 
     <PreferenceCategory
         android:key="lockscreen_media_category"
