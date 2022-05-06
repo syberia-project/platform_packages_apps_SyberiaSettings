@@ -230,6 +230,15 @@
     <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка</string>
     <string name="status_bar_battery_style_icon_landscape">Горизонтальная иконка (Налево)</string>
     <string name="status_bar_battery_style_icon_rlandscape">Горизонтальная иконка (Направо)</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Горизонтальная иконка (Направо) стиль А</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Горизонтальная иконка (Налево) стиль А</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Горизонтальная иконка (Направо) стиль B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Горизонтальная иконка (Налево) стиль B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Вертикальная Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Горизонтальная Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Вертикальная IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Горизонтальная Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Горизонтальная Capsule</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_big_circle">Большой круг</string>
     <string name="status_bar_battery_style_big_dotted_circle">Большой круг из точек</string>
