@@ -787,7 +787,7 @@
 
     <!-- QS battery -->
     <string name="qs_use_status_bar_battery_style">Стиль батареи в статусбаре</string>
-    <string name="status_bar_battery_percent_text_next_right">Справа от иконки)</string> 
+    <string name="status_bar_battery_percent_text_next_right">Справа от иконки</string> 
     <string name="status_bar_battery_percent_text_next_left">Слева от иконки</string> 
 
     <!-- Incall vibrate options -->
