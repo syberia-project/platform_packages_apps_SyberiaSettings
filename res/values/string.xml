@@ -773,8 +773,8 @@
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 
     <!-- Gaming mode -->
-    <string name="gaming_title">Gaming mode</string>
-    <string name="gaming_title_summary">Extra features for immersive gaming experience</string>
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 
     <!-- UDFPS settings -->
     <string name="udfps_category">UDFPS</string>
