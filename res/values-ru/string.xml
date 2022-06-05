@@ -761,4 +761,12 @@
     <string name="roaming_indicator_icon_title">Иконка роуминга</string>
     <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга</string>
 
+    <!-- Media artwork -->
+    <string name="media_category">Проигрыватель в уведомлениях</string>
+    <string name="artwork_media_background_title">Фон проигрывателя</string>
+    <string name="artwork_media_background_summary">Использовать обложку альбома в качестве фона проигрывателя</string>
+    <string name="artwork_media_background_enable_blur_title">Размытость фона</string>
+    <string name="artwork_media_background_blur_radius_title">Уровень размытости фона</string>
+    <string name="artwork_media_background_alpha_title">Прозрачность</string>
+
 </resources>
