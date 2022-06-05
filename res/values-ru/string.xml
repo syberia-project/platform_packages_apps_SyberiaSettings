@@ -757,4 +757,8 @@
     <string name="data_disabled_icon_title">Иконка отключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Отображать крест рядом со шкалой уровня сигнала, когда передача данных отключена</string>
 
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Иконка роуминга</string>
+    <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга</string>
+
 </resources>
