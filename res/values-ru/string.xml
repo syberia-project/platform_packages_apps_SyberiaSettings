@@ -774,4 +774,10 @@
     <string name="reticker_colored_title">Цвет фона из приложения</string>
     <string name="reticker_colored_summary">Заменить цвет фона reTicker на основой цвет из приложения</string>
 
+    <!-- Material dismiss all button for notifications -->
+    <string name="notification_material_dismiss_title">Кнопка очистки всех уведомленийn</string>
+    <string name="notification_material_dismiss_summary">Заменить текстовую кнопку очистки на плавающую кнопку в стиле Material</string>
+    <string name="notification_material_dismiss_style_title">Стиль кнопки</string>
+    <string name="notification_material_dismiss_bgstyle_title">Фон кнопки</string>
+
 </resources>
