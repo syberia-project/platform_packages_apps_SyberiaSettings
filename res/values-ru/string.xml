@@ -769,4 +769,9 @@
     <string name="artwork_media_background_blur_radius_title">Уровень размытости фона</string>
     <string name="artwork_media_background_alpha_title">Прозрачность</string>
 
+    <!-- reTicker -->
+    <string name="reticker_summary">Замена уведомлений на бегущую строку. \nБолее тонкое и незаметное чем стандартное уведомление</string>
+    <string name="reticker_colored_title">Цвет фона из приложения</string>
+    <string name="reticker_colored_summary">Заменить цвет фона reTicker на основой цвет из приложения</string>
+
 </resources>

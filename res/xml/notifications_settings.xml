@@ -38,6 +38,19 @@
         </Preference>
     </PreferenceCategory>
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:key="reticker_status"
+            android:title="@string/reticker_title"
+            android:summary="@string/reticker_summary"
+            android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="reticker_colored"
+            android:title="@string/reticker_colored_title"
+            android:summary="@string/reticker_colored_summary"
+            android:defaultValue="false" />
+
     <!-- Pulse notifications lightning -->
     <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
         android:key="pulse_ambient_light"
