@@ -753,4 +753,8 @@
     <string name="udfps_icon_picker_title">Выбор иконки</string>
     <string name="udfps_icon_picker_summary">Выбор иконки для сканера отпечатков</string>
 
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Иконка отключенной передачи данных</string>
+    <string name="data_disabled_icon_summary">Отображать крест рядом со шкалой уровня сигнала, когда передача данных отключена</string>
+
 </resources>
