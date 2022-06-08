@@ -35,6 +35,7 @@ import java.util.List;
 import com.android.internal.util.syberia.udfps.UdfpsUtils;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.util.syberia.SyberiaUtils;
 
 @SearchIndexable
 public class SystemSettings extends SettingsPreferenceFragment {
@@ -44,9 +45,13 @@ public class SystemSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
+
+        final boolean udfpsResPkgInstalled = SyberiaUtils.isPackageInstalled(getContext(),
+                "com.syberia.udfps.resources");
+
         addPreferencesFromResource(R.xml.system_settings);
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
+        if (!UdfpsUtils.hasUdfpsSupport(getContext()) || !udfpsResPkgInstalled) {
             prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
         }
     }

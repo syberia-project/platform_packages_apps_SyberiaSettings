@@ -38,7 +38,6 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.syberia.SyberiaUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -48,8 +47,6 @@ import com.android.settingslib.search.SearchIndexable;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class Udfps extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-
-    private static final String UDFPS_CUSTOMIZATION = "udfps_customization";
 
     private static final int REQUEST_PICK_IMAGE = 0;
 
@@ -62,13 +59,6 @@ public class Udfps extends SettingsPreferenceFragment implements
 
         final PreferenceScreen prefSet = getPreferenceScreen();
         Resources resources = getResources();
-
-        final boolean udfpsResPkgInstalled = SyberiaUtils.isPackageInstalled(getContext(),
-                "com.syberia.udfps.resources");
-	mUdfpsCustomization = (PreferenceCategory) findPreference(UDFPS_CUSTOMIZATION);
-        if (!udfpsResPkgInstalled) {
-            prefSet.removePreference(mUdfpsCustomization);
-        }
     }
 
     @Override
