@@ -745,4 +745,17 @@
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
 
+    <!-- UDFPS settings -->
+    <string name="udfps_category">Сканер отпечатков пальца</string>
+    <string name="udfps_recog_animation">Анимация</string>
+    <string name="udfps_recog_animation_summary">Анимация распознавания отпечатка пальца</string>
+    <string name="udfps_recog_animation_effect_title">Своя анимация</string>
+    <string name="udfps_recog_animation_effect_summary">Выбор эффекта анимации</string>
+    <string name="udfps_settings_title">Сканер отпечатков пальца</string>
+    <string name="udfps_settings_summary">Визуальные эффекты для подэкранного сканера отпечатков пальца</string>
+
+    <!-- UDFPS icon picker -->
+    <string name="udfps_icon_picker_title">Выбор иконки</string>
+    <string name="udfps_icon_picker_summary">Выбор иконки для сканера отпечатков</string>
+
 </resources>
