@@ -22,11 +22,14 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.content.Context;
 import com.android.settings.R;
+import android.content.ContentResolver;
 
 import com.android.settings.development.OverlayCategoryPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
@@ -36,16 +39,40 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.syberia.settings.preference.SystemSettingListPreference;
+import com.syberia.settings.preference.SecureSettingMasterSwitchPreference;
 
 @SearchIndexable
-public class QSPanelSettings extends SettingsPreferenceFragment{
+public class QSPanelSettings extends SettingsPreferenceFragment implements
+	Preference.OnPreferenceChangeListener {
 
+	private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
+	private SecureSettingMasterSwitchPreference mBrightnessSlider;
 
     @Override
-    public void onCreate(Bundle bundle) {
-        super.onCreate(bundle);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
         addPreferencesFromResource(R.xml.qs_panel_settings);
         PreferenceScreen prefSet = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        mBrightnessSlider = (SecureSettingMasterSwitchPreference)
+                findPreference(BRIGHTNESS_SLIDER);
+        mBrightnessSlider.setOnPreferenceChangeListener(this);
+        boolean enabled = Settings.Secure.getInt(resolver,
+                BRIGHTNESS_SLIDER, 1) == 1;
+        mBrightnessSlider.setChecked(enabled);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mBrightnessSlider) {
+            Boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(resolver,
+                    BRIGHTNESS_SLIDER, value ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 
     @Override

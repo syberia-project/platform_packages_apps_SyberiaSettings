@@ -349,8 +349,8 @@
     <string name="nettraf_font_size">Размер шрифта</string>
 
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_category_title">Параметры регулятора яркости</string>
-    <string name="qs_show_brightness_slider_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_summary">Видимость и другие настройки регулятора яркости</string>
     <string name="qs_show_brightness_slider_summary">Показать регулятор яркости в панели быстрых настроек</string>
     <string name="qs_show_brightness_slider_expanded_title">Регулятор яркости в развернутых быстрых настройках</string>
     <string name="qs_show_brightness_slider_expanded_summary">Показать регулятор яркости в раскрытой панели быстрых настроек</string>
@@ -363,11 +363,6 @@
     <string name="android_12_string">Стиль Android 12</string>
     <string name="default_string">По умолчанию</string>
 
-    <!-- QQS brightness slider -->
-    <string name="qqs_brightness_slider_title">Регулятор яркости в свернутой панели быстрых настроек</string>
-    <string name="qs_brightness_slider_hide">Спрятать</string>
-    <string name="qs_brightness_slider_bottom">Снизу</string>
-    <string name="qs_brightness_slider_top">Сверху</string>
 
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_category">Музыка</string>
