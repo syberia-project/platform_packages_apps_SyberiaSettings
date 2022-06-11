@@ -784,4 +784,8 @@
     <string name="notification_material_dismiss_style_title">Стиль кнопки</string>
     <string name="notification_material_dismiss_bgstyle_title">Фон кнопки</string>
 
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Сводка использования данных</string>
+    <string name="qs_footer_datausage_summary">Отображение сводки об использовании данных в нижнем колонтитуле быстрых настроек</string>
+
 </resources>
