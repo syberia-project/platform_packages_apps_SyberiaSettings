@@ -788,4 +788,16 @@
     <string name="qs_footer_datausage_title">Сводка использования данных</string>
     <string name="qs_footer_datausage_summary">Отображение сводки об использовании данных в нижнем колонтитуле быстрых настроек</string>
 
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Разметка плиток</string>
+    <string name="qs_tile_layout_title">Вертикальная</string>
+    <string name="qs_tile_layout_summary">Включить вертикальную разметку. По умолчанию - горизонтальная</string>
+
+    <!-- QS rows and columns -->
+    <string name="qs_columns_portrait_title">Количество плиток в портретном режиме</string>
+
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Спрятать названия</string>
+    <string name="qs_tile_title_visibility_summary">Переключатель отображения названий плиток</string>
+
 </resources>
