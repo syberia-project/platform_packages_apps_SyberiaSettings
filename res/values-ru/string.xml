@@ -880,4 +880,13 @@
     <string name="reticker_colored_title">Цвет фона из приложения</string>
     <string name="reticker_colored_summary">Заменить цвет фона reTicker на основой цвет из приложения</string>
 
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Разметка плиток</string>
+    <string name="qs_tile_label_hide_title">Скрыть подпись</string>
+    <string name="qs_tile_label_hide_summary">Отображать только иконку плитки</string>
+    <string name="qs_tile_layout_title">Вертикальная разметка</string>
+    <string name="qs_tile_layout_summary">Отображать подпись под иконкой, а не рядом</string>
+    <string name="qs_columns_portrait_title">Колонки (Вертикальная ориентация)</string>
+    <string name="qs_columns_landscape_title">Колонки (Горизонтальная ориентация)</string>
+
 </resources>
