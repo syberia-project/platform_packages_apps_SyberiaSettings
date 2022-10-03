@@ -35,7 +35,7 @@
 
     <Preference
         android:fragment="com.syberia.settings.fragments.ButtonsSettings"
-        android:icon="@drawable/ic_buttons"
+        android:icon="@drawable/ic_buttons_settings"
         android:key="buttons"
         android:summary="@string/buttons_summary"
         android:title="@string/buttons_title" />
