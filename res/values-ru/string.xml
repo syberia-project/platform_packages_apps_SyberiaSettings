@@ -875,4 +875,9 @@
     <string name="game_space_title">Игровое пространство</string>
     <string name="game_space_summary">Улучшите свой игровой опыт</string>
 
+    <!-- reTicker -->
+    <string name="reticker_summary">Замена уведомлений на бегущую строку. \nБолее тонкое и незаметное чем стандартное уведомление</string>
+    <string name="reticker_colored_title">Цвет фона из приложения</string>
+    <string name="reticker_colored_summary">Заменить цвет фона reTicker на основой цвет из приложения</string>
+
 </resources>
