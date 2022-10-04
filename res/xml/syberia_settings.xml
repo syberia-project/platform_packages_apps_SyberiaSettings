@@ -40,6 +40,17 @@
         android:title="@string/gestures_category_title" />
 
     <PreferenceScreen
+        android:key="gaming_category"
+        android:icon="@drawable/ic_gaming"
+        android:title="@string/game_space_title"
+        android:summary="@string/game_space_summary" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="io.chaldeaprjkt.gamespace"
+                android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:fragment="com.syberia.settings.fragments.UiThemingSettings"
         android:icon="@drawable/ic_uitheming"
         android:key="ui_category"
