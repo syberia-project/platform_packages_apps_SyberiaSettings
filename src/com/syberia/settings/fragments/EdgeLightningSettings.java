@@ -93,16 +93,15 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
             return true;
         } else if (preference == mColorPref) {
             int accentColor = getAccentColor();
-            String hex = ColorPickerPreference.convertToARGB(
+            String hex = ColorPickerPreference.convertToRGB(
                     Integer.valueOf(String.valueOf(newValue)));
-            if (hex.equals(String.format("#%08x", (0xFFFFFFFF & accentColor)))) {
+            if (hex.equals(String.format("#%08x", (0xFFFFFF & accentColor)))) {
                 preference.setSummary(R.string.default_string);
             } else {
-                preference.setSummary(hex);
+                preference.setSummary(hex.toUpperCase());
             }
-            int color = ColorPickerPreference.convertToColorInt(hex);
-            Settings.System.putIntForUser(resolver,
-                    KEY_COLOR, color, UserHandle.USER_CURRENT);
+            Settings.System.putStringForUser(resolver,
+                    KEY_COLOR, hex.toUpperCase(), UserHandle.USER_CURRENT);
             return true;
         }
         return false;
