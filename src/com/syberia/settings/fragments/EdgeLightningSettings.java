@@ -17,9 +17,11 @@ package com.syberia.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.text.TextUtils;
 import android.util.TypedValue;
 
 import androidx.preference.ListPreference;
@@ -51,23 +53,27 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.settings_edge_lightning);
         final ContentResolver resolver = getContentResolver();
-        final int accentColor = getAccentColor();
-
+        final String accentColor = String.format("#%06X", (0xFFFFFF & getAccentColor()));
         mColorPref = (ColorPickerPreference) findPreference(KEY_COLOR);
-        int value = Settings.System.getIntForUser(resolver,
-                KEY_COLOR, accentColor, UserHandle.USER_CURRENT);
-        mColorPref.setDefaultColor(accentColor);
-        String colorHex = String.format("#%08x", (0xFFFFFFFF & value));
-        if (value == accentColor) {
+        String colorHex = Settings.System.getStringForUser(resolver,
+                KEY_COLOR, UserHandle.USER_CURRENT);
+
+        // check for empty string on first boot
+        if (TextUtils.isEmpty(colorHex)) {
+            colorHex = accentColor;
+        }
+
+        mColorPref.setDefaultColor(getAccentColor());
+        if (colorHex.toUpperCase().equals(accentColor.toUpperCase())) {
             mColorPref.setSummary(R.string.default_string);
         } else {
             mColorPref.setSummary(colorHex);
         }
-        mColorPref.setNewPreviewColor(value);
+        mColorPref.setNewPreviewColor(Color.parseColor(colorHex));
         mColorPref.setOnPreferenceChangeListener(this);
 
         mColorModePref = (SystemSettingListPreference) findPreference(KEY_COLOR_MODE);
-        value = Settings.System.getIntForUser(resolver,
+        int value = Settings.System.getIntForUser(resolver,
                 KEY_COLOR_MODE, 0, UserHandle.USER_CURRENT);
         mColorModePref.setValue(Integer.toString(value));
         mColorModePref.setSummary(mColorModePref.getEntry());
@@ -95,7 +101,7 @@ public class EdgeLightningSettings extends SettingsPreferenceFragment implements
             int accentColor = getAccentColor();
             String hex = ColorPickerPreference.convertToRGB(
                     Integer.valueOf(String.valueOf(newValue)));
-            if (hex.equals(String.format("#%08x", (0xFFFFFF & accentColor)))) {
+            if (hex.equals(String.format("#%06x", (0xFFFFFF & accentColor)))) {
                 preference.setSummary(R.string.default_string);
             } else {
                 preference.setSummary(hex.toUpperCase());

@@ -786,7 +786,7 @@
     <string name="edge_light_title">Подсветка краёв экрана</string>
     <string name="edge_light_summary">Показывать свечение при новом уведомлении</string>
     <string name="edge_light_always_trigger_on_pulse_title">Включенно всегда</string>
-    <string name="edge_light_always_trigger_on_pulse_summary">Отображать свечение при включении AOS вне зависимости от наличия уведомления</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Отображать свечение при включении AOD вне зависимости от наличия уведомления</string>
     <string name="edge_light_repeat_animation_title">Повторение анимации</string>
     <string name="edge_light_repeat_animation_summary_on">Повторять до выключения экрана</string>
     <string name="edge_light_repeat_animation_summary_off">Отображать только один раз</string>
