@@ -51,6 +51,12 @@
             android:summary="@string/reticker_colored_summary"
             android:defaultValue="false" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
+
     <!-- Pulse notifications lightning -->
     <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
         android:key="edge_light_enabled"
