@@ -941,4 +941,8 @@
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 
+    <!-- GamesPropsUtils -->
+    <string name="games_device_spoof_title">Unlock higher FPS in games</string>
+    <string name="games_device_spoof_summary">Spoof device as a high-end model in certain games, to unlock higher FPS</string>
+
 </resources>

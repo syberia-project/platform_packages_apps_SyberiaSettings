@@ -25,6 +25,13 @@
         android:title="@string/usb_default_config_title"
         android:summary="@string/usb_default_config_summary"/>
 
+
+    <com.syberia.settings.preference.SecureSettingSwitchPreference
+        android:key="games_device_spoof"
+        android:title="@string/games_device_spoof_title"
+        android:summary="@string/games_device_spoof_summary"
+        android:defaultValue="false"/>
+
     <PreferenceCategory
         android:title="@string/lights_category_title"
         android:key="lights_category" >

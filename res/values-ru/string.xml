@@ -907,4 +907,8 @@
     <string name="screen_off_udfps_title">Отпечаток при выключенном экране</string>
     <string name="screen_off_udfps_summary">Оставлять включенным сканер отпечатков при вылюченном экране</string>
 
+    <!-- GamesPropsUtils -->
+    <string name="games_device_spoof_title">Разблокировать более высокий FPS в играх</string>
+    <string name="games_device_spoof_summary">Изменяет модель телефона для некоторых игр чтобы разблокировать более выскокий FPS</string>
+
 </resources>
