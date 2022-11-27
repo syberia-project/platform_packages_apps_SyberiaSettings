@@ -941,4 +941,8 @@
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
 
+    <!-- Ambient Wake gesture -->
+    <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
+    <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures (Google devices)</string>
+
 </resources>

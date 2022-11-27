@@ -41,6 +41,12 @@
         android:entryValues="@array/torch_power_button_gesture_values"
         android:defaultValue="0" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="ambient_wake_gestures"
+        android:title="@string/ambient_wake_gestures_title"
+        android:summary="@string/ambient_wake_gestures_summary"
+        android:defaultValue="false" />
+
  <PreferenceCategory
         android:title="@string/doubletap_gestures_title"
         android:key="doubleap_gestures" >

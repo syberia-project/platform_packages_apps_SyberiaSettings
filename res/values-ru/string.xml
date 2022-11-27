@@ -902,4 +902,8 @@
     <string name="monet_engine_chroma_factor_title">Насыщенность</string>
     <string name="monet_engine_linear_lightness_title">Переопределить яркость</string>
 
+    <!-- Ambient Wake gesture -->
+    <string name="ambient_wake_gestures_title">Черно-белый экран</string>
+    <string name="ambient_wake_gestures_summary">Черно-белый экран вместо экрана блокировки</string>
+
 </resources>
