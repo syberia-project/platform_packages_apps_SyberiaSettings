@@ -52,6 +52,12 @@
         android:defaultValue="false" />
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="doze_trigger_doubletap"
+        android:title="@string/doze_double_tap_title"
+        android:summary="@string/doze_double_tap_summary"
+        android:defaultValue="false" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
          android:key="double_tap_sleep_gesture"
          android:title="@string/double_tap_sleep_gesture_title"
          android:summary="@string/double_tap_sleep_gesture_summary"
