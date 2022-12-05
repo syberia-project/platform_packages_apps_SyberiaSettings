@@ -170,8 +170,6 @@
     <string name="double_tap_sleep_gesture_summary">Дважды нажмите в любом месте на строке состояния, чтобы перевести устройство в спящий режим</string>
     <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
     <string name="double_tap_sleep_lockscreen_summary">Дважды нажмите в любом месте на экране блокировки, чтобы перевести устройство в спящий режим</string>
-    <string name="doze_double_tap_title">Двойное нажатие для проверки</string>
-    <string name="doze_double_tap_summary">Включить AOD для проверки уведомлений</string>
 
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Аппаратные кнопки</string>
@@ -902,8 +900,7 @@
     <string name="monet_engine_chroma_factor_title">Насыщенность</string>
     <string name="monet_engine_linear_lightness_title">Переопределить яркость</string>
 
-    <!-- Ambient Wake gesture -->
-    <string name="ambient_wake_gestures_title">Черно-белый экран</string>
-    <string name="ambient_wake_gestures_summary">Черно-белый экран вместо экрана блокировки</string>
+    <string name="doze_double_tap_title">Черно-белый экран</string>
+    <string name="doze_double_tap_summary">Черно-белый экран вместо экрана блокировки</string>
 
 </resources>
