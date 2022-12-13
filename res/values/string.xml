@@ -945,4 +945,8 @@
     <string name="games_device_spoof_title">Unlock higher FPS in games</string>
     <string name="games_device_spoof_summary">Spoof device as a high-end model in certain games, to unlock higher FPS</string>
 
+    <!-- Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel</string>
+
 </resources>

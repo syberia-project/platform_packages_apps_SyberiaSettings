@@ -39,6 +39,17 @@
         android:summary="@string/gestures_category_summary"
         android:title="@string/gestures_category_title" />
 
+    <!-- Parallel space -->
+    <PreferenceScreen
+        android:key="parallel_space"
+        android:icon="@drawable/ic_parallel_space"
+        android:title="@string/laboratory_parallel_space_title"
+        android:summary="@string/laboratory_parallel_space_summary">
+        <intent
+            android:targetPackage="ink.kscope.parallelspace"
+            android:targetClass="ink.kscope.parallelspace.MainActivity" />
+    </PreferenceScreen>
+
     <PreferenceScreen
         android:key="gaming_category"
         android:icon="@drawable/ic_gaming"
