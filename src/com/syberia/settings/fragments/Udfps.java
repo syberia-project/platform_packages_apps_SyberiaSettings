@@ -67,7 +67,7 @@ public class Udfps extends SettingsPreferenceFragment implements
         mScreenOffUdfps = (Preference) prefSet.findPreference(SCREEN_OFF_UDFPS_ENABLED);
 
         boolean mScreenOffUdfpsAvailable = resources.getBoolean(
-                com.android.internal.R.bool.config_supportScreenOffUdfps);
+                com.android.internal.R.bool.config_supportsScreenOffUdfps);
 
         if (!mScreenOffUdfpsAvailable)
             prefSet.removePreference(mScreenOffUdfps);
