@@ -583,10 +583,10 @@
     <string name="status_bar_clock_summary">Настройка отображения часов и даты в строке состояния</string>
     <string name="status_bar_clock_title">Настройки часов</string>
     <string name="statusbar_clock_show">Показать часы и дату</string>
-    <string name="statusbar_clock_style_title">Стиль часов</string>
-    <string name="statusbar_clock_style_right">Справа</string>
-    <string name="statusbar_clock_style_center">По центру</string>
-    <string name="statusbar_clock_style_left">Слева</string>
+    <string name="statusbar_clock_position_title">Стиль часов</string>
+    <string name="statusbar_clock_position_right">Справа</string>
+    <string name="statusbar_clock_position_center">По центру</string>
+    <string name="statusbar_clock_position_left">Слева</string>
     <string name="status_bar_clock_seconds_title">Показывать секунды</string>
     <string name="status_bar_clock_seconds_summary">Включить отображение секунд в часах строки состояния</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
