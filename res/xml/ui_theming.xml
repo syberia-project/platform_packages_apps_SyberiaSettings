@@ -98,7 +98,6 @@
 
        </PreferenceCategory>
 
-<!--
     <PreferenceCategory
         android:key="monel_category"
         android:title="Monet">
@@ -148,5 +147,5 @@
         android:defaultValue="false" />
 
     </PreferenceCategory>
--->
+
 </PreferenceScreen>

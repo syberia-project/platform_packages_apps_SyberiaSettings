@@ -66,13 +66,13 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
 
     private static final String TAG = "UiThemingSettings";
 
-//    private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
+    private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
 
-//    private ColorPickerPreference mMonetColor;
+    private ColorPickerPreference mMonetColor;
 
-//    private Handler mHandler;
-//    private IOverlayManager mOverlayManager;
-//    private IOverlayManager mOverlayService;
+    private Handler mHandler;
+    private IOverlayManager mOverlayManager;
+    private IOverlayManager mOverlayService;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -80,7 +80,6 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
         final PreferenceScreen screen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
-/*
         mMonetColor = (ColorPickerPreference) screen.findPreference(MONET_ENGINE_COLOR_OVERRIDE);
         int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, Color.WHITE);
         String hexColor = String.format("#%08x", (0xffffff & intColor));
@@ -90,7 +89,6 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
 
         mOverlayService = IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
-*/
     }
 
     @Override
@@ -110,7 +108,6 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-/*
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mMonetColor) {
             String hex = ColorPickerPreference.convertToARGB(Integer
@@ -121,7 +118,6 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
                 MONET_ENGINE_COLOR_OVERRIDE, intHex);
             return true;
         }
-*/
         return false;
     }
 
