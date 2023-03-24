@@ -130,10 +130,10 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
         final SettingsActivity activity = (SettingsActivity) getActivity();
         final SettingsMainSwitchBar switchBar = activity.getSwitchBar();
         mSwitch = switchBar.getSwitch();
-        mEnabled = Settings.System.getInt(getActivity().getContentResolver(),
-                       Settings.System.UDFPS_ANIM, 0) == 1;
+//        mEnabled = Settings.System.getInt(getActivity().getContentResolver(),
+//                       Settings.System.UDFPS_ANIM, 0) == 1;
         mSwitch.setChecked(mEnabled);
-        setEnabled(mEnabled);
+//        setEnabled(mEnabled);
         switchBar.setTitle(getActivity().getString(R.string.udfps_recog_animation));
         switchBar.addOnSwitchChangeListener(this);
         switchBar.show();
@@ -141,8 +141,8 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
     @Override
     public void onSwitchChanged(Switch switchView, boolean isChecked) {
-        Settings.System.putInt(getActivity().getContentResolver(),
-                Settings.System.UDFPS_ANIM, isChecked ? 1 : 0);
+//        Settings.System.putInt(getActivity().getContentResolver(),
+//                Settings.System.UDFPS_ANIM, isChecked ? 1 : 0);
         mSwitch.setChecked(isChecked);
         setEnabled(isChecked);
     }
@@ -192,13 +192,13 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
             holder.name.setText(mTitles[position]);
 
-            if (position == Settings.System.getInt(context.getContentResolver(),
-                Settings.System.UDFPS_ANIM_STYLE, 0)) {
-                mAppliedAnim = animName;
-                if (mSelectedAnim == null) {
-                    mSelectedAnim = animName;
-                }
-            }
+//            if (position == Settings.System.getInt(context.getContentResolver(),
+//                Settings.System.UDFPS_ANIM_STYLE, 0)) {
+//                mAppliedAnim = animName;
+//                if (mSelectedAnim == null) {
+//                    mSelectedAnim = animName;
+//                }
+//            }
 
             holder.itemView.setActivated(animName == mSelectedAnim);
             holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -211,8 +211,8 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
                     animation = (AnimationDrawable) holder.image.getBackground();
                     animation.setOneShot(true);
                     animation.start();
-                    Settings.System.putInt(getActivity().getContentResolver(),
-                            Settings.System.UDFPS_ANIM_STYLE, position);
+//                    Settings.System.putInt(getActivity().getContentResolver(),
+//                            Settings.System.UDFPS_ANIM_STYLE, position);
                 }
             });
         }
