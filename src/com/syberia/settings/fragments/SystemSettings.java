@@ -51,7 +51,7 @@ public class SystemSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.system_settings);
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        if (!UdfpsUtils.hasUdfpsSupport(getContext()) /*|| !udfpsResPkgInstalled*/) {
+        if (!UdfpsUtils.hasUdfpsSupport(getContext()) || !udfpsResPkgInstalled) {
             prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
         }
     }
