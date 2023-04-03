@@ -43,18 +43,11 @@
             android:defaultValue="-1" />
 
         <com.syberia.settings.preference.SystemSettingListPreference
-            android:key="qs_battery_location"
-            android:title="@string/qs_battery_location_title"
-            android:entries="@array/qs_battery_location_entries"
-            android:entryValues="@array/qs_battery_location_values"
-            android:defaultValue="0" />
-
-        <com.syberia.settings.preference.SystemSettingListPreference
             android:key="qs_show_battery_percent"
             android:title="@string/status_bar_battery_percent_title"
             android:entries="@array/status_bar_battery_percent_entries"
             android:entryValues="@array/status_bar_battery_percent_values"
-            android:defaultValue="2" />
+            android:defaultValue="1" />
 
         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="qs_show_battery_estimate"
