@@ -67,8 +67,10 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
     private static final String TAG = "UiThemingSettings";
 
     private String MONET_ENGINE_COLOR_OVERRIDE = "monet_engine_color_override";
+    private String MONET_ENGINE_BGCOLOR_OVERRIDE = "monet_engine_bgcolor_override";
 
     private ColorPickerPreference mMonetColor;
+    private ColorPickerPreference mMonetBgColor;
 
     private Handler mHandler;
     private IOverlayManager mOverlayManager;
@@ -81,11 +83,18 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
         ContentResolver resolver = getActivity().getContentResolver();
 
         mMonetColor = (ColorPickerPreference) screen.findPreference(MONET_ENGINE_COLOR_OVERRIDE);
-        int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, Color.WHITE);
+        int intColor = Settings.Secure.getInt(resolver, MONET_ENGINE_COLOR_OVERRIDE, 0xFF1B6EF3);
         String hexColor = String.format("#%08x", (0xffffff & intColor));
         mMonetColor.setNewPreviewColor(intColor);
         mMonetColor.setSummary(hexColor);
         mMonetColor.setOnPreferenceChangeListener(this);
+
+        mMonetBgColor = (ColorPickerPreference) screen.findPreference(MONET_ENGINE_BGCOLOR_OVERRIDE);
+        int intBgColor = Settings.Secure.getInt(resolver, MONET_ENGINE_BGCOLOR_OVERRIDE, 0xFF1B6EF3);
+        String hexBgColor = String.format("#%08x", (0xffffff & intColor));
+        mMonetBgColor.setNewPreviewColor(intBgColor);
+        mMonetBgColor.setSummary(hexBgColor);
+        mMonetBgColor.setOnPreferenceChangeListener(this);
 
         mOverlayService = IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
@@ -116,6 +125,15 @@ public class UiThemingSettings extends DashboardFragment implements OnPreference
             int intHex = ColorPickerPreference.convertToColorInt(hex);
             Settings.Secure.putInt(resolver,
                 MONET_ENGINE_COLOR_OVERRIDE, intHex);
+            return true;
+        }
+        if (preference == mMonetBgColor) {
+            String hexbg = ColorPickerPreference.convertToARGB(Integer
+                .parseInt(String.valueOf(newValue)));
+            preference.setSummary(hexbg);
+            int intBgHex = ColorPickerPreference.convertToColorInt(hexbg);
+            Settings.Secure.putInt(resolver,
+                MONET_ENGINE_BGCOLOR_OVERRIDE, intBgHex);
             return true;
         }
         return false;
