@@ -278,6 +278,8 @@
     <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
     <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
     <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">Landscape iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">Landscape iOS 16</string>
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
     <string name="status_bar_battery_style_big_circle">Big circle</string>

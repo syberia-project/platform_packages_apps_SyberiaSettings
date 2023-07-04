@@ -229,6 +229,8 @@
     <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
     <string name="status_bar_battery_style_icon_landscape">Горизонтальная иконка (влево)</string>
     <string name="status_bar_battery_style_icon_rlandscape">Горизонтальная иконка (вправо)</string>
+    <string name="status_bar_battery_style_icon_landscape_ios15">iOS 15</string>
+    <string name="status_bar_battery_style_icon_landscape_ios16">iOS 16</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_big_circle">Большой круг</string>
     <string name="status_bar_battery_style_big_dotted_circle">Большой круг из точек</string>
