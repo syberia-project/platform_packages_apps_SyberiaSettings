@@ -28,8 +28,7 @@
     <SwitchPreference
         android:key="redact_notifications"
         android:title="@string/app_lock_notifications_title"
-        android:summary="@string/app_lock_notifications_summary"
-        android:dependency="main_switch" />
+        android:summary="@string/app_lock_notifications_summary" />
 
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/app_lock_footer_text"

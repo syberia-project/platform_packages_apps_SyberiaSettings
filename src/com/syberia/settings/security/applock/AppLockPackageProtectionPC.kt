@@ -45,9 +45,9 @@ class AppLockPackageProtectionPC(
     init {
         coroutineScope.launch {
             isProtected = withContext(Dispatchers.Default) {
-                appLockManager.packageData.any {
+                appLockManager.packageData.find {
                     it.packageName == packageName
-                }
+                }?.shouldProtectApp == true
             }
             preference?.let {
                 updateState(it)
@@ -62,11 +62,7 @@ class AppLockPackageProtectionPC(
     override fun setChecked(checked: Boolean): Boolean {
         isProtected = checked
         coroutineScope.launch(Dispatchers.Default) {
-            if (isProtected) {
-                appLockManager.addPackage(packageName)
-            } else {
-                appLockManager.removePackage(packageName)
-            }
+            appLockManager.setShouldProtectApp(packageName, isProtected)
         }
         return true
     }
