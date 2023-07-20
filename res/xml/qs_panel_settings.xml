@@ -48,12 +48,12 @@
             android:entries="@array/status_bar_battery_percent_entries"
             android:entryValues="@array/status_bar_battery_percent_values"
             android:defaultValue="1" />
-
+<!--
         <com.syberia.settings.preference.SystemSettingSwitchPreference
             android:key="qs_show_battery_estimate"
             android:title="@string/battery_estimate_title"
             android:summary="@string/battery_estimate_summary" />
-
+-->
     </PreferenceCategory>
 
 
