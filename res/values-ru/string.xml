@@ -895,6 +895,8 @@
     <!-- GamesPropsUtils -->
     <string name="games_device_spoof_title">Разблокировать более высокий FPS в играх</string>
     <string name="games_device_spoof_summary">Изменяет модель телефона для некоторых игр чтобы разблокировать более выскокий FPS</string>
+    <string name="photos_spoof_title">Безлимитное «Google Фото»</string>
+    <string name="photos_spoof_summary">Маскировка устройства под Pixel XL для «Google Фото», чтобы предоставить неограниченное хранилище для резервного копирования фотографий</string>
 
     <!-- Parallel space -->
     <string name="laboratory_parallel_space_title">Параллельное пространство</string>
