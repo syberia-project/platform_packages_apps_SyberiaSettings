@@ -26,10 +26,16 @@
         android:summary="@string/usb_default_config_summary"/>
 
 
-    <com.syberia.settings.preference.SecureSettingSwitchPreference
-        android:key="games_device_spoof"
+    <com.syberia.settings.preference.SystemPropertySwitchPreference
+        android:key="persist.sys.pixelprops.games"
         android:title="@string/games_device_spoof_title"
         android:summary="@string/games_device_spoof_summary"
+        android:defaultValue="false"/>
+
+    <com.syberia.settings.preference.SystemPropertySwitchPreference
+        android:key="persist.sys.pixelprops.gphotos"
+        android:title="@string/photos_spoof_title"
+        android:summary="@string/photos_spoof_summary"
         android:defaultValue="false"/>
 
     <PreferenceCategory
