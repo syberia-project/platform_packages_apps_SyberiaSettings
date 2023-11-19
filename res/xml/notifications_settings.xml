@@ -25,6 +25,12 @@
         android:summary="@string/notification_sound_vib_screen_on_summary"
         android:defaultValue="true" />
 
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="island_notification"
+        android:title="@string/island_notification_title"
+        android:summary="@string/island_notification_summary"
+        android:defaultValue="false" />
+
     <!-- Pulse notifications lightning -->
     <com.syberia.settings.preference.SystemSettingMasterSwitchPreference
         android:key="edge_light_enabled"
