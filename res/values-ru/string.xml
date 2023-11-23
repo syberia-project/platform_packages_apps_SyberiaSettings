@@ -138,9 +138,7 @@
 
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Иконка VoWiFi</string>
-    <string name="vowifi_icon_enabled">VoWiFi иконка включена</string>
-    <string name="vowifi_icon_disabled">VoWiFi иконка выключена</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо иконки VoLTE</string>
+    <string name="vowifi_icon_summary">Отображать иконку VoWiFi если доступно</string>
     <string name="vowifi_icon_style_title">Стиль VoWiFi иконки</string>
     <string name="vowifi_icon_default">Иконка по-умолчанию</string>
     <string name="vowifi_icon_emui">Иконка EMUI</string>

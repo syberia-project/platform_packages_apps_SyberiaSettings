@@ -70,7 +70,7 @@
         android:defaultValue="false" />
 
     </PreferenceCategory>
-
+<!--
     <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >
@@ -204,5 +204,5 @@
         </com.syberia.settings.preference.ActionPreference>
 
     </PreferenceCategory>
-
+-->
 </PreferenceScreen>

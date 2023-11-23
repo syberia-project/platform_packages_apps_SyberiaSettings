@@ -32,7 +32,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.android.internal.util.syberia.UdfpsUtils;
+//import com.android.internal.util.syberia.UdfpsUtils;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.syberia.SyberiaUtils;
@@ -51,9 +51,9 @@ public class SystemSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.system_settings);
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        if (!UdfpsUtils.hasUdfpsSupport(getContext()) || !udfpsResPkgInstalled) {
-            prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
-        }
+//        if (!UdfpsUtils.hasUdfpsSupport(getContext()) || !udfpsResPkgInstalled) {
+//            prefScreen.removePreference(findPreference(UDFPS_SETTINGS));
+//        }
     }
 
     @Override

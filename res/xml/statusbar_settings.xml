@@ -69,11 +69,13 @@
         android:summary="@string/status_bar_battery_text_charging_summary"
         android:defaultValue="true" />
 
+<!--
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="show_fourg_icon"
         android:title="@string/show_fourg_title"
         android:summary="@string/show_fourg_summary"
         android:defaultValue="false" />
+-->
 
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="show_volte_icon"
@@ -90,13 +92,11 @@
          android:defaultValue="0"
          android:dependency="show_volte_icon"/>
 
-    <com.syberia.settings.preference.SystemSettingListPreference
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
          android:key="vowifi_icon"
          android:title="@string/vowifi_icon_title"
-         android:entries="@array/vowifi_icon_entries"
-         android:entryValues="@array/vowifi_icon_values"
-         android:summary="%s"
-         android:defaultValue="0"/>
+         android:summary="@string/vowifi_icon_summary"
+         android:defaultValue="true"/>
 
     <com.syberia.settings.preference.SystemSettingListPreference
          android:key="vowifi_icon_style"
@@ -104,6 +104,7 @@
          android:entries="@array/vowifi_icon_style_entries"
          android:entryValues="@array/vowifi_icon_style_values"
          android:summary="%s"
-         android:defaultValue="0"/>
+         android:defaultValue="0"
+         android:dependency="vowifi_icon"/>
 
 </PreferenceScreen>

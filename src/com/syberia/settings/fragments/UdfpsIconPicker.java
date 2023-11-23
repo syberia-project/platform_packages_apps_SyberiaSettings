@@ -13,7 +13,6 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
 package com.syberia.settings.fragments;
 
 import android.content.ContentResolver;
@@ -209,3 +208,4 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
         return null;
     }
 }
+ */

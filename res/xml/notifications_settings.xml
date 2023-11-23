@@ -19,38 +19,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notifications_title">
 
-    <PreferenceCategory
-        android:title="@string/lights_category_title"
-        android:key="lights_category" >
-
-        <Preference
-            android:key="charging_light"
-            android:fragment="com.syberia.settings.fragments.BatteryLightSettings"
-            android:title="@string/battery_light_settings" />
-
-        <Preference
-            android:key="notification_light"
-            android:fragment="com.android.settings.applications.manageapplications.ManageApplications"
-            android:title="@string/notification_light_settings" >
-            <extra
-                android:name="classname"
-                android:value="com.android.settings.Settings$NotificationAppListActivity" />
-        </Preference>
-    </PreferenceCategory>
-
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:key="reticker_status"
-            android:title="@string/reticker_title"
-            android:summary="@string/reticker_summary"
-            android:defaultValue="false" />
-
-    <com.syberia.settings.preference.SystemSettingSwitchPreference
-            android:dependency="reticker_status"
-            android:key="reticker_colored"
-            android:title="@string/reticker_colored_title"
-            android:summary="@string/reticker_colored_summary"
-            android:defaultValue="false" />
-
     <com.syberia.settings.preference.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"

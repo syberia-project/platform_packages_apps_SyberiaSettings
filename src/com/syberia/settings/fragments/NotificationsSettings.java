@@ -39,26 +39,16 @@ import java.util.List;
 @SearchIndexable
 public class NotificationsSettings extends SettingsPreferenceFragment {
 
-    private static final String LIGHTS_CATEGORY = "lights_category";
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         addPreferencesFromResource(R.xml.notifications_settings);
-
-        PreferenceCategory mLights = (PreferenceCategory) findPreference(LIGHTS_CATEGORY);
-        if (!hasBatteryLights(getContext()))
-            getPreferenceScreen().removePreference(mLights);
     }
 
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SYBERIA;
-    }
-
-    private static boolean hasBatteryLights(Context context) {
-        return context.getResources().getBoolean(
-                com.android.internal.R.bool.config_intrusiveBatteryLed);
     }
 
     /**
