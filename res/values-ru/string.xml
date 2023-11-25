@@ -865,6 +865,13 @@
     <string name="island_notification_title">Уведомление в iOS стиле</string>
     <string name="island_notification_summary">Отображение всплывающего уведомления в стиле динамического острова iOS</string>
 
+    <!-- Island Notification -->
+    <string name="island_notification_title">Уведомления в стиле «Динамический остров»</string>
+    <string name="island_notification_summary">Отображать всплывающие уведомления при включенном экране в стиле динамического острова</string>
+    <string name="island_notification_footer_text">
+        Уведомления в стиле iOS, преобразуют всплывающие Андроид уведомления в компактные.\n\nЭлементы управления Островом включают в себя следующие функции:\n1. Нажатие на уведомление для ответа на входящий звонок.\n2. Долгое нажатие на уведомление для отклонения звонка.\n3. Долгое нажатие на уведомление для детального просмотра уведомления.
+    </string>
+
     <!-- QS tiles layout  -->
     <string name="qs_layout_category_title">Разметка плиток</string>
     <string name="qs_tile_label_hide_title">Скрыть подпись</string>
