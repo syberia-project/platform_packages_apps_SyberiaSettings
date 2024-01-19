@@ -42,14 +42,19 @@ import java.util.List;
 
 import com.syberia.settings.preference.SystemSettingListPreference;
 import com.syberia.settings.preference.SecureSettingMasterSwitchPreference;
+import com.android.internal.util.syberia.ThemeUtils;
 
 @SearchIndexable
 public class QSPanelSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String QUICK_PULLDOWN = "status_bar_quick_qs_pulldown";
+    private static final String KEY_QS_UI_STYLE  = "qs_tile_ui_style";
 
     private ListPreference mQuickPulldown;
+    private ListPreference mQsUI;
+
+    private static ThemeUtils mThemeUtils;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -57,6 +62,7 @@ public class QSPanelSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.qs_panel_settings);
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+        mThemeUtils = new ThemeUtils(getActivity());
 
         int qpmode = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
@@ -64,6 +70,15 @@ public class QSPanelSettings extends SettingsPreferenceFragment implements
         mQuickPulldown.setValue(String.valueOf(qpmode));
         mQuickPulldown.setSummary(mQuickPulldown.getEntry());
         mQuickPulldown.setOnPreferenceChangeListener(this);
+
+        String isA11Style = Integer.toString(Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_UI_STYLE , 0, UserHandle.USER_CURRENT));
+
+        mQsUI = (ListPreference) findPreference(KEY_QS_UI_STYLE);
+        int index = mQsUI.findIndexOfValue(isA11Style);
+        mQsUI.setValue(isA11Style);
+        mQsUI.setSummary(mQsUI.getEntries()[index]);
+        mQsUI.setOnPreferenceChangeListener(this);
 
     }
 
@@ -79,8 +94,39 @@ public class QSPanelSettings extends SettingsPreferenceFragment implements
             mQuickPulldown.setSummary(
                     mQuickPulldown.getEntries()[index]);
             return true;
+        } else if (preference == mQsUI) {
+            int value = Integer.parseInt((String) newValue);
+            int index = mQsUI.findIndexOfValue((String) newValue);
+            mQsUI.setValue((String) newValue);
+            mQsUI.setSummary(mQsUI.getEntries()[index]);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_TILE_UI_STYLE, value, UserHandle.USER_CURRENT);
+            updateQsStyle(getActivity());
+            return true;
         }
         return false;
+    }
+
+    private static void updateQsStyle(Context context) {
+        ContentResolver resolver = context.getContentResolver();
+
+        boolean isA11Style = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_UI_STYLE , 0, UserHandle.USER_CURRENT) != 0;
+
+        String qsUIStyleCategory = "android.theme.customization.qs_ui";
+        String overlayThemeTarget  = "com.android.systemui";
+        String overlayThemePackage  = "com.android.system.qs.ui.A11";
+
+        if (mThemeUtils == null) {
+            mThemeUtils = new ThemeUtils(context);
+        }
+
+        // reset all overlays before applying
+        mThemeUtils.setOverlayEnabled(qsUIStyleCategory, overlayThemeTarget, overlayThemeTarget);
+
+        if (isA11Style) {
+            mThemeUtils.setOverlayEnabled(qsUIStyleCategory, overlayThemePackage, overlayThemeTarget);
+        }
     }
 
     @Override

@@ -938,4 +938,10 @@
     <string name="qs_transparency_title">Прозрачность панели</string>
     <string name="qs_transparency_summary">Установить уровень прозрачности панели быстрых настроек</string>
 
+    <!-- QS Tiles Style -->
+    <string name="qs_tile_ui_style_title">Стиль плиток</string>
+    <string name="qs_tile_ui_style_a11_circle">Круг</string>
+    <string name="qs_tile_ui_style_a11_square">Квадрат</string>
+    <string name="qs_tile_ui_style_a11_mix">Круг и квадрат</string>
+
 </resources>
