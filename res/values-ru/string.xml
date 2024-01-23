@@ -814,7 +814,13 @@
 
     <!-- App lock -->
     <string name="app_lock_title">Блокировка приложений</string>
-    <string name="app_lock_summary">Приложенение будет требовать аутентификацию для запуска</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> приложение защищено</item>
+        <item quantity="two"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> приложения защищено</item>
+        <item quantity="few"><xliff:g example="4" id="Number of applications">%1$d</xliff:g> приложения защищено</item>
+        <item quantity="many"><xliff:g example="5" id="Number of applications">%1$d</xliff:g> приложений защищено</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> приложений защищено</item>
+    </plurals>
     <string name="app_lock_authentication_dialog_title">Разблокировка</string>
     <string name="enable_debugging">Включить отладку</string>
     <string name="disable_debugging">Выключить отладку</string>

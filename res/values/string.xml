@@ -853,7 +853,10 @@
 
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
-    <string name="app_lock_summary">Apps will require fingerprint authentication to launch</string>
+    <plurals name="app_lock_summary">
+        <item quantity="one"><xliff:g example="1" id="Number of applications">%1$d</xliff:g> application is protected</item>
+        <item quantity="other"><xliff:g example="10" id="Number of applications">%1$d</xliff:g> applications are protected</item>
+    </plurals>
     <string name="app_lock_authentication_dialog_title">Unlock</string>
     <string name="enable_debugging">Enable debugging</string>
     <string name="disable_debugging">Disable debugging</string>
@@ -869,6 +872,8 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
     <string name="enable_protection">Enable protection</string>
     <string name="search_apps">Search apps</string>
     <string name="search">Search</string>
