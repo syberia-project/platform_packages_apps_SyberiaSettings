@@ -18,10 +18,10 @@ package com.syberia.settings.preference;
 
 import android.content.Context;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import android.util.AttributeSet;
 
-public class GlobalSettingSwitchPreference extends SwitchPreference {
+public class GlobalSettingSwitchPreference extends SwitchPreferenceCompat {
     public GlobalSettingSwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }

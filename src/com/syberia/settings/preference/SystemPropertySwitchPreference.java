@@ -21,9 +21,9 @@ package com.syberia.settings.preference;
 import android.content.Context;
 import android.util.AttributeSet;
 
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
-public class SystemPropertySwitchPreference extends SwitchPreference {
+public class SystemPropertySwitchPreference extends SwitchPreferenceCompat {
 
     public SystemPropertySwitchPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
