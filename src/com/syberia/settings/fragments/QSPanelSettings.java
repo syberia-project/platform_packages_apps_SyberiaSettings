@@ -41,7 +41,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.syberia.settings.preference.SystemSettingListPreference;
-import com.syberia.settings.preference.SecureSettingMasterSwitchPreference;
 import com.android.internal.util.syberia.ThemeUtils;
 
 @SearchIndexable
